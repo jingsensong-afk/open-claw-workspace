@@ -1,0 +1,17 @@
+Scanning Binance Futures funding rates...
+
+=== Top Negative Funding Rates ===
+
+Rank  Coin      Rate
+ 1    ENJUSDT     -0.5861%
+ 2    THEUSDT     -0.5130%
+ 3    HUMAUSDT    -0.4543%
+ 4    ROBOUSDT    -0.3384%
+ 5    SAHARAUSDT  -0.2779%
+ 6    HOOKUSDT    -0.2662%
+ 7    ICNTUSDT    -0.2087%
+ 8    ATHUSDT     -0.1866%
+ 9    KITEUSDT    -0.1745%
+10    SIRENUSDT   -0.1474%
+11    LRCUSDT     -0.1396%
+12    PIXELUSDT   -0.1371%

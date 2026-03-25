@@ -1,0 +1,12 @@
+{
+  "market_id": "654412",
+  "name": "Will the Fed decrease interest rates by 50+ bps after the March 2026 meeting?",
+  "slug": "will-the-fed-decrease-interest-rates-by-50-bps-after-the-march-2026-meeting",
+  "yes_price": 0.0025,
+  "no_price": 0.9975,
+  "pair_cost": 1.0,
+  "volume": 121220554.15461108,
+  "liquidity": 4728303.04425,
+  "end_date": "2026-03-18T00:00:00Z",
+  "last_check": "2026-03-11T11:11:50.206854Z"
+}

@@ -1,0 +1,11 @@
+Hyperliquid movers (perps, by |24h %|)
+- REZ: +21.34% | mark 0.003924 | 24h vol 2,192,630
+- BLAST: +11.86% | mark 0.000547 | 24h vol 127,569
+- ZRO: +11.11% | mark 2.1837 | 24h vol 5,665,102
+- CELO: +11.07% | mark 0.082325 | 24h vol 236,086
+- CFX: +10.43% | mark 0.063115 | 24h vol 938,212
+- NEO: +8.36% | mark 2.7938 | 24h vol 1,886,582
+- GAS: +8.20% | mark 1.6557 | 24h vol 429,452
+- MON: +7.91% | mark 0.024224 | 24h vol 4,117,968
+- ME: +7.44% | mark 0.12313 | 24h vol 90,646
+- S: +6.57% | mark 0.048039 | 24h vol 1,141,324

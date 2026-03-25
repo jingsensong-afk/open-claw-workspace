@@ -1,0 +1,47 @@
+{
+  "^spx": {
+    "symbol": "^SPX",
+    "date": "2026-03-20",
+    "time": "23:00:00",
+    "open": 6594.66,
+    "high": 6594.66,
+    "low": 6473.52,
+    "close": 6506.48,
+    "volume": 7029201178
+  },
+  "^ndq": {
+    "symbol": "^NDQ",
+    "date": "2026-03-20",
+    "time": "23:00:00",
+    "open": 21989.33,
+    "high": 21997.09,
+    "low": 21522.75,
+    "close": 21647.61,
+    "volume": 8159909967
+  },
+  "^dji": {
+    "symbol": "^DJI",
+    "date": "2026-03-20",
+    "time": "23:00:00",
+    "open": 45975.65,
+    "high": 46068.31,
+    "low": 45369.39,
+    "close": 45577.47,
+    "volume": 944132642
+  },
+  "^vix": {
+    "symbol": "^VIX"
+  },
+  "^usd": {
+    "symbol": "^USD"
+  },
+  "xauusd": {
+    "error": "Expecting value: line 1 column 139 (char 138)"
+  },
+  "cl.f": {
+    "error": "Expecting value: line 1 column 130 (char 129)"
+  },
+  "^tnx": {
+    "symbol": "^TNX"
+  }
+}

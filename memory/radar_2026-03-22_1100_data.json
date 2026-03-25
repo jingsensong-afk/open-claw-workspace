@@ -1,0 +1,341 @@
+{
+  "ts": "2026-03-22T11:01:17.602430+08:00",
+  "binance_ticker": {
+    "BTCUSDT": {
+      "lastPrice": "69239.61000000",
+      "priceChangePercent": "-2.086",
+      "quoteVolume": "1114112465.35156820",
+      "volume": "15910.77472000",
+      "highPrice": "71100.94000000",
+      "lowPrice": "68228.50000000"
+    },
+    "ETHUSDT": {
+      "lastPrice": "2102.13000000",
+      "priceChangePercent": "-2.397",
+      "quoteVolume": "451498476.03126000",
+      "volume": "213911.55760000",
+      "highPrice": "2168.27000000",
+      "lowPrice": "2050.12000000"
+    },
+    "SOLUSDT": {
+      "lastPrice": "88.09000000",
+      "priceChangePercent": "-2.545",
+      "quoteVolume": "146773124.05864000",
+      "volume": "1653174.68300000",
+      "highPrice": "90.81000000",
+      "lowPrice": "86.26000000"
+    }
+  },
+  "binance_funding": {
+    "BTCUSDT": {
+      "markPrice": "69198.80684783",
+      "indexPrice": "69241.62108696",
+      "lastFundingRate": "-0.00006937",
+      "nextFundingTime": 1774166400000
+    },
+    "ETHUSDT": {
+      "markPrice": "2100.89444961",
+      "indexPrice": "2102.09000000",
+      "lastFundingRate": "-0.00010067",
+      "nextFundingTime": 1774166400000
+    },
+    "SOLUSDT": {
+      "markPrice": "88.02402024",
+      "indexPrice": "88.08621592",
+      "lastFundingRate": "-0.00018324",
+      "nextFundingTime": 1774166400000
+    }
+  },
+  "binance_oi": {
+    "BTCUSDT": {
+      "symbol": "BTCUSDT",
+      "openInterest": "87316.600",
+      "time": 1774148472532
+    },
+    "ETHUSDT": {
+      "symbol": "ETHUSDT",
+      "openInterest": "2164157.399",
+      "time": 1774148470600
+    },
+    "SOLUSDT": {
+      "symbol": "SOLUSDT",
+      "openInterest": "8360506.75",
+      "time": 1774148472345
+    }
+  },
+  "binance_lsr": {
+    "BTCUSDT": [
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5962",
+        "longShortRatio": "1.4765",
+        "shortAccount": "0.4038",
+        "timestamp": 1774134000000
+      },
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.6105",
+        "longShortRatio": "1.5674",
+        "shortAccount": "0.3895",
+        "timestamp": 1774137600000
+      },
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.6215",
+        "longShortRatio": "1.6420",
+        "shortAccount": "0.3785",
+        "timestamp": 1774141200000
+      },
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.6253",
+        "longShortRatio": "1.6688",
+        "shortAccount": "0.3747",
+        "timestamp": 1774144800000
+      },
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.6274",
+        "longShortRatio": "1.6838",
+        "shortAccount": "0.3726",
+        "timestamp": 1774148400000
+      }
+    ],
+    "ETHUSDT": [
+      {
+        "symbol": "ETHUSDT",
+        "longAccount": "0.6625",
+        "longShortRatio": "1.9630",
+        "shortAccount": "0.3375",
+        "timestamp": 1774130400000
+      },
+      {
+        "symbol": "ETHUSDT",
+        "longAccount": "0.6628",
+        "longShortRatio": "1.9656",
+        "shortAccount": "0.3372",
+        "timestamp": 1774134000000
+      },
+      {
+        "symbol": "ETHUSDT",
+        "longAccount": "0.6848",
+        "longShortRatio": "2.1726",
+        "shortAccount": "0.3152",
+        "timestamp": 1774137600000
+      },
+      {
+        "symbol": "ETHUSDT",
+        "longAccount": "0.6780",
+        "longShortRatio": "2.1056",
+        "shortAccount": "0.3220",
+        "timestamp": 1774141200000
+      },
+      {
+        "symbol": "ETHUSDT",
+        "longAccount": "0.6752",
+        "longShortRatio": "2.0788",
+        "shortAccount": "0.3248",
+        "timestamp": 1774144800000
+      }
+    ],
+    "SOLUSDT": [
+      {
+        "symbol": "SOLUSDT",
+        "longAccount": "0.6855",
+        "longShortRatio": "2.1797",
+        "shortAccount": "0.3145",
+        "timestamp": 1774134000000
+      },
+      {
+        "symbol": "SOLUSDT",
+        "longAccount": "0.6953",
+        "longShortRatio": "2.2819",
+        "shortAccount": "0.3047",
+        "timestamp": 1774137600000
+      },
+      {
+        "symbol": "SOLUSDT",
+        "longAccount": "0.7028",
+        "longShortRatio": "2.3647",
+        "shortAccount": "0.2972",
+        "timestamp": 1774141200000
+      },
+      {
+        "symbol": "SOLUSDT",
+        "longAccount": "0.7052",
+        "longShortRatio": "2.3921",
+        "shortAccount": "0.2948",
+        "timestamp": 1774144800000
+      },
+      {
+        "symbol": "SOLUSDT",
+        "longAccount": "0.7041",
+        "longShortRatio": "2.3795",
+        "shortAccount": "0.2959",
+        "timestamp": 1774148400000
+      }
+    ]
+  },
+  "fear_greed": {
+    "name": "Fear and Greed Index",
+    "data": [
+      {
+        "value": "10",
+        "value_classification": "Extreme Fear",
+        "timestamp": "1774137600",
+        "time_until_update": "75522"
+      },
+      {
+        "value": "12",
+        "value_classification": "Extreme Fear",
+        "timestamp": "1774051200"
+      }
+    ],
+    "metadata": {
+      "error": null
+    }
+  },
+  "cross_market": {
+    "gold": {
+      "Symbol": "XAUUSD",
+      "Date": "2026-03-20",
+      "Time": "22:00:32",
+      "Open": "4636.58",
+      "High": "4735.66",
+      "Low": "4478.84",
+      "Close": "4493.95",
+      "Volume": ""
+    },
+    "wti": {
+      "Symbol": "CL.F",
+      "Date": "2026-03-20",
+      "Time": "23:00:00",
+      "Open": "94.46",
+      "High": "98.75",
+      "Low": "92.47",
+      "Close": "98.23",
+      "Volume": ""
+    },
+    "dxy": {
+      "Symbol": "DX.F",
+      "Date": "2026-03-20",
+      "Time": "23:00:00",
+      "Open": "99.1",
+      "High": "99.615",
+      "Low": "99.055",
+      "Close": "99.459",
+      "Volume": "23949"
+    },
+    "us10y": {
+      "Symbol": "10USYT.B",
+      "Date": "N/D",
+      "Time": "N/D",
+      "Open": "N/D",
+      "High": "N/D",
+      "Low": "N/D",
+      "Close": "N/D",
+      "Volume": "N/D"
+    },
+    "qqq": {
+      "Symbol": "QQQ.US",
+      "Date": "2026-03-20",
+      "Time": "21:00:19",
+      "Open": "591.06",
+      "High": "591.17",
+      "Low": "578.54",
+      "Close": "582.06",
+      "Volume": "91964677"
+    },
+    "spy": {
+      "Symbol": "SPY.US",
+      "Date": "2026-03-20",
+      "Time": "21:00:21",
+      "Open": "656.51",
+      "High": "656.69",
+      "Low": "644.72",
+      "Close": "648.57",
+      "Volume": "163617522"
+    }
+  },
+  "news": {
+    "coindesk": [
+      {
+        "title": "Bitcoin options signal extreme fear as downside protection premium hits new all-time high, says VanEck",
+        "pubDate": "Sat, 21 Mar 2026 18:54:23 +0000",
+        "link": "https://www.coindesk.com/markets/2026/03/21/bitcoin-options-signal-extreme-fear-as-downside-protection-premium-hits-new-all-time-high-says-vaneck"
+      },
+      {
+        "title": "Crypto firms cut hundreds of jobs in weeks, blaming weak markets, strong AI",
+        "pubDate": "Sat, 21 Mar 2026 18:00:00 +0000",
+        "link": "https://www.coindesk.com/business/2026/03/21/crypto-firms-cut-hundreds-of-jobs-in-weeks-blaming-markets-and-ai-in-equal-measure"
+      },
+      {
+        "title": "How DeFi is quietly rebuilding the fixed-income stack for institutional capital",
+        "pubDate": "Sat, 21 Mar 2026 17:30:00 +0000",
+        "link": "https://www.coindesk.com/opinion/2026/03/21/how-defi-is-quietly-rebuilding-the-fixed-income-stack-for-institutional-capital"
+      },
+      {
+        "title": "Grayscale wants to bring the world's hottest crypto trading frenzy to your brokerage account",
+        "pubDate": "Sat, 21 Mar 2026 17:27:20 +0000",
+        "link": "https://www.coindesk.com/business/2026/03/21/grayscale-wants-to-bring-the-world-s-hottest-crypto-trading-frenzy-to-your-brokerage-account"
+      },
+      {
+        "title": "The 5-cent contract that debunked a wartime death conspiracy",
+        "pubDate": "Sat, 21 Mar 2026 16:00:00 +0000",
+        "link": "https://www.coindesk.com/business/2026/03/21/the-5-cent-contract-that-debunked-a-wartime-death-conspiracy"
+      },
+      {
+        "title": "Strategy set for second-biggest bitcoin buying quarter despite BTC price slide",
+        "pubDate": "Sat, 21 Mar 2026 14:00:00 +0000",
+        "link": "https://www.coindesk.com/markets/2026/03/21/strategy-set-for-second-biggest-bitcoin-buying-quarter-despite-btc-price-slide"
+      }
+    ],
+    "theblock": {
+      "error": "not well-formed (invalid token): line 1, column 766"
+    },
+    "cointelegraph": [
+      {
+        "title": "CFTC staff clarify expectations on using crypto as collateral",
+        "pubDate": "Sun, 22 Mar 2026 01:08:12 +0000",
+        "link": "https://cointelegraph.com/news/cftc-staff-clarify-expectations-crypto-collateral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "title": "Here’s what happened in crypto today",
+        "pubDate": "Sat, 21 Mar 2026 22:37:26 +0000",
+        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "title": "Brazil's finance minister shelves crypto tax policy due to election: Report",
+        "pubDate": "Sat, 21 Mar 2026 22:22:03 +0000",
+        "link": "https://cointelegraph.com/news/brazil-finance-minister-shelves-crypto-tax?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "title": "SEC crypto guidance puts the 'final nail' in the Gensler era: Analyst",
+        "pubDate": "Sat, 21 Mar 2026 17:41:54 +0000",
+        "link": "https://cointelegraph.com/news/sec-crypto-guidance-final-nail-gensler-era?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "title": "Bitcoin options signal fear even as BTC ETF outflows remain relatively low",
+        "pubDate": "Sat, 21 Mar 2026 17:18:44 +0000",
+        "link": "https://cointelegraph.com/news/bitcoin-options-signal-fear-even-as-btc-etf-outflows-remain-relatively-low?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "title": "Ethereum eyes 25% rally as richest ETH whales return to 'profitable state'",
+        "pubDate": "Sat, 21 Mar 2026 16:22:38 +0000",
+        "link": "https://cointelegraph.com/news/ethereum-25-rally-richest-eth-whale-return-profitable?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      }
+    ],
+    "reuters_world": {
+      "error": "HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /Reuters/worldNews (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7cbc28ac3860>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
+    }
+  },
+  "polymarket": {
+    "bitcoin": [],
+    "ethereum": [],
+    "taiwan": [],
+    "fed": [],
+    "trump": [],
+    "war": [],
+    "recession": []
+  }
+}

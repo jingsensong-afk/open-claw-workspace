@@ -1,0 +1,8 @@
+Hyperliquid SOL (perp)
+- mark: 91.341 | mid: 91.3405 | oracle: 91.395
+- 24h: +3.51% (prev 88.24)
+- funding: -0.0007%
+- OI: 3,226,206.76
+- 24h notional: 215,086,239
+- premium: -0.0591%
+- impact: buy 91.34 | sell 91.341

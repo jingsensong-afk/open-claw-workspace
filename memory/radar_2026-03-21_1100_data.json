@@ -1,0 +1,419 @@
+{
+  "ts": "2026-03-21T11:00:54.333005",
+  "sources": {
+    "binance_24h": {
+      "BTCUSDT": {
+        "lastPrice": 70744.49,
+        "priceChangePercent": 0.466,
+        "quoteVolume": 1221764965.4404247
+      },
+      "ETHUSDT": {
+        "lastPrice": 2154.85,
+        "priceChangePercent": 0.485,
+        "quoteVolume": 592531514.782894
+      },
+      "SOLUSDT": {
+        "lastPrice": 90.46,
+        "priceChangePercent": 1.299,
+        "quoteVolume": 183031519.46251
+      }
+    },
+    "binance_funding": {
+      "BTCUSDT": {
+        "symbol": "BTCUSDT",
+        "fundingTime": 1774051200000,
+        "fundingRate": "-0.00001493",
+        "markPrice": "70475.05032609"
+      },
+      "ETHUSDT": {
+        "symbol": "ETHUSDT",
+        "fundingTime": 1774051200000,
+        "fundingRate": "0.00002359",
+        "markPrice": "2145.21475969"
+      },
+      "SOLUSDT": {
+        "symbol": "SOLUSDT",
+        "fundingTime": 1774051200000,
+        "fundingRate": "0.00002431",
+        "markPrice": "89.81000000"
+      }
+    },
+    "binance_longshort": {
+      "BTCUSDT": [
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.6105",
+          "longShortRatio": "1.5674",
+          "shortAccount": "0.3895",
+          "timestamp": 1774044000000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.6078",
+          "longShortRatio": "1.5497",
+          "shortAccount": "0.3922",
+          "timestamp": 1774047600000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.6059",
+          "longShortRatio": "1.5374",
+          "shortAccount": "0.3941",
+          "timestamp": 1774051200000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.6046",
+          "longShortRatio": "1.5291",
+          "shortAccount": "0.3954",
+          "timestamp": 1774054800000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.6015",
+          "longShortRatio": "1.5094",
+          "shortAccount": "0.3985",
+          "timestamp": 1774058400000
+        }
+      ],
+      "ETHUSDT": [
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6667",
+          "longShortRatio": "2.0003",
+          "shortAccount": "0.3333",
+          "timestamp": 1774044000000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6624",
+          "longShortRatio": "1.9621",
+          "shortAccount": "0.3376",
+          "timestamp": 1774047600000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6645",
+          "longShortRatio": "1.9806",
+          "shortAccount": "0.3355",
+          "timestamp": 1774051200000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6647",
+          "longShortRatio": "1.9824",
+          "shortAccount": "0.3353",
+          "timestamp": 1774054800000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6619",
+          "longShortRatio": "1.9577",
+          "shortAccount": "0.3381",
+          "timestamp": 1774058400000
+        }
+      ],
+      "SOLUSDT": [
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6799",
+          "longShortRatio": "2.1240",
+          "shortAccount": "0.3201",
+          "timestamp": 1774044000000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6772",
+          "longShortRatio": "2.0979",
+          "shortAccount": "0.3228",
+          "timestamp": 1774047600000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6753",
+          "longShortRatio": "2.0798",
+          "shortAccount": "0.3247",
+          "timestamp": 1774051200000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6741",
+          "longShortRatio": "2.0684",
+          "shortAccount": "0.3259",
+          "timestamp": 1774054800000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6730",
+          "longShortRatio": "2.0581",
+          "shortAccount": "0.3270",
+          "timestamp": 1774058400000
+        }
+      ]
+    },
+    "hyperliquid_ctx": {
+      "BTC": {
+        "funding": "0.0000120638",
+        "openInterest": "26505.58518",
+        "prevDayPx": "70401.0",
+        "dayNtlVlm": "2422590991.419239521",
+        "premium": "-0.0004806061",
+        "oraclePx": "70744.0",
+        "markPx": "70709.0",
+        "midPx": "70709.5",
+        "impactPxs": [
+          "70709.0",
+          "70710.0"
+        ],
+        "dayBaseVlm": "34499.00422"
+      },
+      "ETH": {
+        "funding": "0.0000125",
+        "openInterest": "568682.9445999999",
+        "prevDayPx": "2143.9",
+        "dayNtlVlm": "965706327.9921196699",
+        "premium": "-0.0004641017",
+        "oraclePx": "2154.7",
+        "markPx": "2153.7",
+        "midPx": "2153.65",
+        "impactPxs": [
+          "2153.6",
+          "2153.7"
+        ],
+        "dayBaseVlm": "451228.4435999998"
+      },
+      "SOL": {
+        "funding": "0.0000125",
+        "openInterest": "3585169.3800000004",
+        "prevDayPx": "89.265",
+        "dayNtlVlm": "150351820.0959499776",
+        "premium": "-0.0003758775",
+        "oraclePx": "90.455",
+        "markPx": "90.418",
+        "midPx": "90.4205",
+        "impactPxs": [
+          "90.42",
+          "90.421"
+        ],
+        "dayBaseVlm": "1685638.4100000006"
+      }
+    },
+    "fear_greed": {
+      "value": "12",
+      "value_classification": "Extreme Fear",
+      "timestamp": "1774051200",
+      "time_until_update": "75545"
+    },
+    "polymarket_markets": [
+      {
+        "question": "Russia-Ukraine Ceasefire before GTA VI?",
+        "volume": "1392824.7453939961",
+        "liquidity": "43521.0684",
+        "endDate": "2026-07-31T12:00:00Z"
+      },
+      {
+        "question": "Trump out as President before GTA VI?",
+        "volume": "546360.3313910087",
+        "liquidity": "56483.9134",
+        "endDate": "2026-07-31T12:00:00Z"
+      },
+      {
+        "question": "Will China invades Taiwan before GTA VI?",
+        "volume": "1499624.309607017",
+        "liquidity": "69245.3629",
+        "endDate": "2026-07-31T12:00:00Z"
+      },
+      {
+        "question": "Will bitcoin hit $1m before GTA VI?",
+        "volume": "3694513.2747666733",
+        "liquidity": "402756.47903",
+        "endDate": "2026-07-31T12:00:00Z"
+      },
+      {
+        "question": "Will OpenAI launch a new consumer hardware product by March 31, 2026?",
+        "volume": "151425.3634670002",
+        "liquidity": "5815.49708",
+        "endDate": null
+      },
+      {
+        "question": "Will Ukraine qualify for the 2026 FIFA World Cup?",
+        "volume": "144897.5821020003",
+        "liquidity": "2050.388",
+        "endDate": "2026-04-12T00:00:00Z"
+      }
+    ],
+    "rss_headlines": [
+      {
+        "source": "coindesk",
+        "title": "Sam Bankman-Fried's past political cash gives AI PAC fuel for bashing NY candidate Bores",
+        "pubDate": "Fri, 20 Mar 2026 20:03:00 +0000",
+        "link": "https://www.coindesk.com/policy/2026/03/20/sam-bankman-fried-s-past-political-cash-gives-ai-pac-fuel-for-bashing-ny-candidate-bores"
+      },
+      {
+        "source": "coindesk",
+        "title": "Senators say they've reached compromise on yield to advance crypto market bill",
+        "pubDate": "Fri, 20 Mar 2026 19:27:20 +0000",
+        "link": "https://www.coindesk.com/policy/2026/03/20/crypto-clarity-act-may-be-cleared-to-move-after-senators-agree-on-stablecoin-yield"
+      },
+      {
+        "source": "coindesk",
+        "title": "Kalshi gets temporary Nevada ban in dispute over sports betting",
+        "pubDate": "Fri, 20 Mar 2026 18:45:29 +0000",
+        "link": "https://www.coindesk.com/policy/2026/03/20/kalshi-gets-temporary-nevada-ban-in-dispute-over-sports-betting"
+      },
+      {
+        "source": "coindesk",
+        "title": "Nasdaq winning SEC approval to move stocks onchain shows how Wall Street is taking charge of crypto tech",
+        "pubDate": "Fri, 20 Mar 2026 17:04:22 +0000",
+        "link": "https://www.coindesk.com/business/2026/03/19/nasdaq-winning-sec-approval-to-move-stocks-onchain-shows-how-wall-street-is-taking-charge-of-crypto-tech"
+      },
+      {
+        "source": "coindesk",
+        "title": "Bitcoin's latest fear unlocked as rate hike bets rise and bond markets crumble",
+        "pubDate": "Fri, 20 Mar 2026 14:51:48 +0000",
+        "link": "https://www.coindesk.com/markets/2026/03/20/bitcoin-s-latest-fear-unlocked-as-rate-hikes-bets-rise-and-bond-markets-crumble"
+      },
+      {
+        "source": "coindesk",
+        "title": "Why CoinDesk PitchFest matters heading into Miami",
+        "pubDate": "Fri, 20 Mar 2026 14:30:00 +0000",
+        "link": "https://www.coindesk.com/opinion/2026/03/20/why-coindesk-pitchfest-matters-heading-into-miami"
+      },
+      {
+        "source": "coindesk",
+        "title": "Crypto wallet maker Ledger taps former Circle exec as CFO to help lead IPO push",
+        "pubDate": "Fri, 20 Mar 2026 13:57:14 +0000",
+        "link": "https://www.coindesk.com/business/2026/03/20/crypto-wallet-maker-ledger-taps-a-former-circle-exec-as-cfo-to-help-lead-its-push-into-the-public-markets"
+      },
+      {
+        "source": "coindesk",
+        "title": "Kalshi valuation doubles to $22 billion in latest funding round: Bloomberg",
+        "pubDate": "Fri, 20 Mar 2026 13:25:59 +0000",
+        "link": "https://www.coindesk.com/business/2026/03/20/kalshi-valuation-doubles-to-usd22-billion-in-latest-funding-round-bloomberg"
+      },
+      {
+        "source": "cointelegraph",
+        "title": "Gold sees biggest weekly fall in 43 years as Iran war rages on",
+        "pubDate": "Sat, 21 Mar 2026 02:53:02 +0000",
+        "link": "https://cointelegraph.com/news/gold-sees-biggest-weekly-fall-in-43-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "cointelegraph",
+        "title": "Grayscale files S-1 for Hyperliquid ETF, joining Bitwise, 21Shares",
+        "pubDate": "Sat, 21 Mar 2026 00:36:00 +0000",
+        "link": "https://cointelegraph.com/news/grayscale-files-sec-papers-for-hyperliquid-etf-joining-bitwise-21shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "cointelegraph",
+        "title": "Rumors emerge of a CLARITY Act deal between White House and lawmakers",
+        "pubDate": "Fri, 20 Mar 2026 21:31:14 +0000",
+        "link": "https://cointelegraph.com/news/clarity-act-deal-white-house-lawmakers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "cointelegraph",
+        "title": "Bitcoin price aims to hold $70K amid rising inflation concerns",
+        "pubDate": "Fri, 20 Mar 2026 20:56:20 +0000",
+        "link": "https://cointelegraph.com/news/bitcoin-price-aims-to-hold-70k-amid-rising-inflation-concerns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "cointelegraph",
+        "title": "Google Threat Intel flags 'Ghostblade' crypto-stealing malware",
+        "pubDate": "Fri, 20 Mar 2026 20:10:00 +0000",
+        "link": "https://cointelegraph.com/news/google-ghostblade-crypto-stealing-malware?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "cointelegraph",
+        "title": "Crypto Biz: Institutions aren’t waiting for the bottom",
+        "pubDate": "Fri, 20 Mar 2026 20:00:00 +0000",
+        "link": "https://cointelegraph.com/news/crypto-biz-institutional-crypto-demand-stablecoins-abra-spac-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "cointelegraph",
+        "title": "Ledger hires ex-Circle exec as CFO, opens NYC office to expand US business",
+        "pubDate": "Fri, 20 Mar 2026 19:56:52 +0000",
+        "link": "https://cointelegraph.com/news/ledger-hires-ex-circle-executive-opens-nyc-office?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      },
+      {
+        "source": "cointelegraph",
+        "title": "Here’s what happened in crypto today",
+        "pubDate": "Fri, 20 Mar 2026 19:30:45 +0000",
+        "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+      }
+    ],
+    "stooq": {
+      "SPY": {
+        "Symbol": "SPY.US",
+        "Date": "2026-03-20",
+        "Time": "21:00:21",
+        "Open": "656.51",
+        "High": "656.69",
+        "Low": "644.72",
+        "Close": "648.57",
+        "Volume": "163617522"
+      },
+      "QQQ": {
+        "Symbol": "QQQ.US",
+        "Date": "2026-03-20",
+        "Time": "21:00:19",
+        "Open": "591.06",
+        "High": "591.17",
+        "Low": "578.54",
+        "Close": "582.06",
+        "Volume": "91964677"
+      },
+      "GOLD": {
+        "Symbol": "XAUUSD",
+        "Date": "2026-03-20",
+        "Time": "22:00:32",
+        "Open": "4636.58",
+        "High": "4735.66",
+        "Low": "4478.84",
+        "Close": "4493.95",
+        "Volume": ""
+      },
+      "OIL": {
+        "Symbol": "CL.F",
+        "Date": "2026-03-20",
+        "Time": "23:41:20",
+        "Open": "93.74",
+        "High": "98.75",
+        "Low": "92.49",
+        "Close": "94.74",
+        "Volume": ""
+      },
+      "DXY": {
+        "Symbol": "DX.F",
+        "Date": "2026-03-20",
+        "Time": "23:00:00",
+        "Open": "99.1",
+        "High": "99.615",
+        "Low": "99.055",
+        "Close": "99.459",
+        "Volume": "23949"
+      },
+      "US10Y": {
+        "Symbol": "10USY.B",
+        "Date": "N/D",
+        "Time": "N/D",
+        "Open": "N/D",
+        "High": "N/D",
+        "Low": "N/D",
+        "Close": "N/D",
+        "Volume": "N/D"
+      },
+      "CNH": {
+        "Symbol": "USDCNH",
+        "Date": "N/D",
+        "Time": "N/D",
+        "Open": "N/D",
+        "High": "N/D",
+        "Low": "N/D",
+        "Close": "N/D",
+        "Volume": "N/D"
+      }
+    }
+  },
+  "notes": [
+    "rss_theblock_err:not well-formed (invalid token): line 1, column 766"
+  ]
+}

@@ -1,0 +1,46 @@
+🔍 Polymarket Wallet Xray
+Inspired by @thejayden's trading analysis framework
+
+/root/.openclaw/workspace/skills/polymarket-wallet-xray/wallet_xray.py:67: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  created_at = datetime.utcfromtimestamp(ts).isoformat() + "Z" if ts else ""
+📊 Analyzing 176 trades from Polymarket...
+/root/.openclaw/workspace/skills/polymarket-wallet-xray/wallet_xray.py:582: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "analysis_timestamp": datetime.utcnow().isoformat(),
+   ⚠️  4 sells/redeems had no matching buy (outside fetch window)
+{
+  "wallet": "0x7845bc5e15bc9c41be5ac0725e68a16ec02b51b5",
+  "total_trades": 176,
+  "total_period_hours": 1516.8,
+  "analysis_timestamp": "2026-03-16T03:03:54.314307",
+  "profitability": {
+    "time_profitable_pct": 100.0,
+    "win_rate_pct": 40.4,
+    "avg_profit_per_win": 14.6119,
+    "avg_loss_per_loss": -5.7768,
+    "realized_pnl_usd": 127.43,
+    "total_trades": 176
+  },
+  "entry_quality": {
+    "avg_price_spread_bps": 8203.4,
+    "quality_rating": "C",
+    "assessment": "Wide spread across entries. Chasing prices."
+  },
+  "behavior": {
+    "is_bot_detected": false,
+    "trading_intensity": "low",
+    "avg_seconds_between_trades": 33915.5,
+    "price_chasing": "low",
+    "accumulation_signal": "growing"
+  },
+  "edge_detection": {
+    "hedge_check_combined_avg": 0.7596,
+    "has_arbitrage_edge": true,
+    "assessment": "Found arbitrage edge! Combined avg $0.76 < $1.00"
+  },
+  "risk_profile": {
+    "max_drawdown_pct": 7.1,
+    "volatility": "high",
+    "max_position_concentration": 0.08
+  },
+  "recommendation": "Good trader. \u2705 Strong Time Profitable (>80%); \u26a0\ufe0f Weak entry quality; \u2705 Human trader (not bot) Safe to copytrade with 10-25% of capital."
+}

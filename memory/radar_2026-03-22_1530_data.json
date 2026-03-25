@@ -1,0 +1,295 @@
+{
+  "timestamp": "2026-03-22T15:31:13+08:00",
+  "sources": {
+    "binance_24hr": {
+      "BTCUSDT": {
+        "last": 69176.55,
+        "chgPct": -2.352,
+        "quoteVol": 1073961362.0127518
+      },
+      "ETHUSDT": {
+        "last": 2110.42,
+        "chgPct": -2.255,
+        "quoteVol": 500271469.681474
+      },
+      "SOLUSDT": {
+        "last": 88.22,
+        "chgPct": -2.347,
+        "quoteVol": 163165560.13528
+      },
+      "BNBUSDT": {
+        "last": 634.16,
+        "chgPct": -1.546,
+        "quoteVol": 51198851.56092
+      },
+      "XRPUSDT": {
+        "last": 1.4117,
+        "chgPct": -2.574,
+        "quoteVol": 99579423.38305
+      },
+      "DOGEUSDT": {
+        "last": 0.09187,
+        "chgPct": -2.917,
+        "quoteVol": 58089039.8691
+      },
+      "SUIUSDT": {
+        "last": 0.9364,
+        "chgPct": -3.164,
+        "quoteVol": 21568423.28969
+      }
+    },
+    "binance_funding": {
+      "BTCUSDT": {
+        "mark": 69143,
+        "funding": -0.00004084
+      },
+      "ETHUSDT": {
+        "mark": 2109.57,
+        "funding": 2.1e-7
+      },
+      "SOLUSDT": {
+        "mark": 88.18,
+        "funding": -0.00014371
+      },
+      "BNBUSDT": {
+        "mark": 633.93,
+        "funding": 0
+      },
+      "XRPUSDT": {
+        "mark": 1.41097958,
+        "funding": -0.00003978
+      },
+      "DOGEUSDT": {
+        "mark": 0.09182,
+        "funding": -0.00004354
+      },
+      "SUIUSDT": {
+        "mark": 0.9361,
+        "funding": -0.0000264
+      },
+      "1000PEPEUSDT": {
+        "mark": 0.00333655,
+        "funding": -0.00043408
+      }
+    },
+    "binance_oi": {
+      "BTCUSDT": 87860.15,
+      "ETHUSDT": 2179813.226,
+      "SOLUSDT": 8481866.3,
+      "XRPUSDT": 228745406.6,
+      "DOGEUSDT": 1813319642
+    },
+    "binance_longshort": {
+      "BTCUSDT": {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.6189",
+        "longShortRatio": "1.6240",
+        "shortAccount": "0.3811",
+        "timestamp": 1774164600000
+      },
+      "ETHUSDT": {
+        "symbol": "ETHUSDT",
+        "longAccount": "0.6535",
+        "longShortRatio": "1.8860",
+        "shortAccount": "0.3465",
+        "timestamp": 1774164600000
+      },
+      "SOLUSDT": {
+        "symbol": "SOLUSDT",
+        "longAccount": "0.6898",
+        "longShortRatio": "2.2237",
+        "shortAccount": "0.3102",
+        "timestamp": 1774164600000
+      }
+    },
+    "binance_depth": {
+      "BTCUSDT": {
+        "mid": 69176.545,
+        "bidNotional_0_5pct": 11296693.539667211,
+        "askNotional_0_5pct": 11630802.935008392,
+        "imbalance": -0.014572432524860197
+      },
+      "ETHUSDT": {
+        "mid": 2110.415,
+        "bidNotional_0_5pct": 5814688.8247509925,
+        "askNotional_0_5pct": 6539213.678559001,
+        "imbalance": -0.05864744793103924
+      },
+      "SOLUSDT": {
+        "mid": 88.225,
+        "bidNotional_0_5pct": 2470632.9286100003,
+        "askNotional_0_5pct": 3268223.894609999,
+        "imbalance": -0.13898080934392096
+      }
+    },
+    "fear_greed": {
+      "value": 10,
+      "class": "Extreme Fear",
+      "ts": "1774137600"
+    },
+    "coindesk_rss": [
+      {
+        "title": "XRP falls 3% as breakdown below $1.44 and bitcoin weakness caps recovery",
+        "pubDate": "Sun, 22 Mar 2026 06:47:52 +0000"
+      },
+      {
+        "title": "Bitcoin miners are losing $19,000 on every BTC produced as difficulty drops 7.8%",
+        "pubDate": "Sun, 22 Mar 2026 06:26:48 +0000"
+      },
+      {
+        "title": "Bitcoin drops below $69,200 as Trump gives 48-hour ultimatum on Iran power plants",
+        "pubDate": "Sun, 22 Mar 2026 06:00:08 +0000"
+      },
+      {
+        "title": "Bitcoin options signal extreme fear as downside protection premium hits new all-time high, says VanEck",
+        "pubDate": "Sat, 21 Mar 2026 18:54:23 +0000"
+      },
+      {
+        "title": "Crypto firms cut hundreds of jobs in weeks, blaming weak markets, strong AI",
+        "pubDate": "Sat, 21 Mar 2026 18:00:00 +0000"
+      },
+      {
+        "title": "How DeFi is quietly rebuilding the fixed-income stack for institutional capital",
+        "pubDate": "Sat, 21 Mar 2026 17:30:00 +0000"
+      },
+      {
+        "title": "Grayscale wants to bring the world's hottest crypto trading frenzy to your brokerage account",
+        "pubDate": "Sat, 21 Mar 2026 17:27:20 +0000"
+      },
+      {
+        "title": "The 5-cent contract that debunked a wartime death conspiracy",
+        "pubDate": "Sat, 21 Mar 2026 16:00:00 +0000"
+      }
+    ],
+    "cointelegraph_rss": [
+      {
+        "title": "Resolv Labs’ stablecoin depegs as attacker mints millions of tokens",
+        "pubDate": "Sun, 22 Mar 2026 05:47:02 +0000"
+      },
+      {
+        "title": "Nevada judge temporarily blocks Kalshi from operating in the state",
+        "pubDate": "Sun, 22 Mar 2026 03:33:13 +0000"
+      },
+      {
+        "title": "CFTC staff clarify expectations on using crypto as collateral",
+        "pubDate": "Sun, 22 Mar 2026 01:08:12 +0000"
+      },
+      {
+        "title": "Here’s what happened in crypto today",
+        "pubDate": "Sat, 21 Mar 2026 22:37:26 +0000"
+      },
+      {
+        "title": "Brazil's finance minister shelves crypto tax policy due to election: Report",
+        "pubDate": "Sat, 21 Mar 2026 22:22:03 +0000"
+      },
+      {
+        "title": "SEC crypto guidance puts the 'final nail' in the Gensler era: Analyst",
+        "pubDate": "Sat, 21 Mar 2026 17:41:54 +0000"
+      },
+      {
+        "title": "Bitcoin options signal fear even as BTC ETF outflows remain relatively low",
+        "pubDate": "Sat, 21 Mar 2026 17:18:44 +0000"
+      },
+      {
+        "title": "Ethereum eyes 25% rally as richest ETH whales return to 'profitable state'",
+        "pubDate": "Sat, 21 Mar 2026 16:22:38 +0000"
+      }
+    ],
+    "polymarket_sample": [
+      {
+        "question": "Trump out as President before GTA VI?",
+        "endDate": "2026-07-31T12:00:00Z",
+        "volume": "548172.4698480087",
+        "liquidity": "49483.6706",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0.525\", \"0.475\"]"
+      },
+      {
+        "question": "Will China invades Taiwan before GTA VI?",
+        "endDate": "2026-07-31T12:00:00Z",
+        "volume": "1501243.2749940176",
+        "liquidity": "58821.4177",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0.515\", \"0.485\"]"
+      },
+      {
+        "question": "Will bitcoin hit $1m before GTA VI?",
+        "endDate": "2026-07-31T12:00:00Z",
+        "volume": "3709659.478875678",
+        "liquidity": "403370.50476",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0.4865\", \"0.5135\"]"
+      },
+      {
+        "question": "Will OpenAI launch a new consumer hardware product by March 31, 2026?",
+        "volume": "152650.5684660002",
+        "liquidity": "7757.79687",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0.0065\", \"0.9935\"]"
+      },
+      {
+        "question": "Will Donald Trump win the 2028 US Presidential Election?",
+        "endDate": "2028-11-07T00:00:00Z",
+        "volume": "6092218.576765144",
+        "liquidity": "426229.28341",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0.0255\", \"0.9745\"]"
+      },
+      {
+        "question": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
+        "endDate": "2028-11-07T00:00:00Z",
+        "volume": "7894470.516710946",
+        "liquidity": "979307.74297",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0.0085\", \"0.9915\"]"
+      },
+      {
+        "question": "Will Ivanka Trump win the 2028 US Presidential Election?",
+        "endDate": "2028-11-07T00:00:00Z",
+        "volume": "3820693.0612169756",
+        "liquidity": "415264.71333",
+        "outcomes": "[\"Yes\", \"No\"]",
+        "outcomePrices": "[\"0.0125\", \"0.9875\"]"
+      }
+    ],
+    "stooq": {
+      "SPX": {
+        "symbol": "^SPX",
+        "date": "2026-03-20",
+        "time": "23:00:00",
+        "close": "6506.48"
+      },
+      "NDQ": {
+        "symbol": "^NDQ",
+        "date": "2026-03-20",
+        "time": "23:00:00",
+        "close": "21647.61"
+      },
+      "DJI": {
+        "symbol": "^DJI",
+        "date": "2026-03-20",
+        "time": "23:00:00",
+        "close": "45577.47"
+      },
+      "DXY": {
+        "symbol": "DX-Y.NYBOT",
+        "date": "N/D",
+        "time": "N/D",
+        "close": "N/D"
+      },
+      "GOLD": {
+        "symbol": "XAUUSD",
+        "date": "2026-03-20",
+        "time": "22:00:32",
+        "close": "4493.95"
+      },
+      "WTI": {
+        "symbol": "CL.F",
+        "date": "2026-03-20",
+        "time": "23:00:00",
+        "close": "98.23"
+      }
+    }
+  },
+  "notes": []
+}

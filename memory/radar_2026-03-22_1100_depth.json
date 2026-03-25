@@ -1,0 +1,65 @@
+{
+  "BTCUSDT": {
+    "mid": 69190.445,
+    "best_bid": [
+      69190.44,
+      1.68959
+    ],
+    "best_ask": [
+      69190.45,
+      0.86295
+    ],
+    "max_bid_wall_1pct": [
+      69061.34,
+      9.10568
+    ],
+    "max_ask_wall_1pct": [
+      69307.42,
+      9.10752
+    ],
+    "bid_notional_1pct": 12672118.1321845,
+    "ask_notional_1pct": 13937948.0851071
+  },
+  "ETHUSDT": {
+    "mid": 2100.495,
+    "best_bid": [
+      2100.49,
+      12.5581
+    ],
+    "best_ask": [
+      2100.5,
+      36.5678
+    ],
+    "max_bid_wall_1pct": [
+      2095.74,
+      124.5449
+    ],
+    "max_ask_wall_1pct": [
+      2108.57,
+      121.7888
+    ],
+    "bid_notional_1pct": 7811510.85257,
+    "ask_notional_1pct": 6844859.26494
+  },
+  "SOLUSDT": {
+    "mid": 88.005,
+    "best_bid": [
+      88.0,
+      16585.537
+    ],
+    "best_ask": [
+      88.01,
+      786.143
+    ],
+    "max_bid_wall_1pct": [
+      88.0,
+      16585.537
+    ],
+    "max_ask_wall_1pct": [
+      88.53,
+      3979.651
+    ],
+    "bid_notional_1pct": 5400136.81627,
+    "ask_notional_1pct": 5541515.65838
+  }
+}

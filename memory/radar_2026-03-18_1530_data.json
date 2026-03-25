@@ -1,0 +1,258 @@
+{
+  "generated_at": "2026-03-18T07:31:07.231593Z",
+  "sources": {
+    "binance_24h": {
+      "BTCUSDT": {
+        "symbol": "BTCUSDT",
+        "priceChange": "-588.50",
+        "priceChangePercent": "-0.791",
+        "weightedAvgPrice": "74085.83",
+        "lastPrice": "73768.60",
+        "lastQty": "0.002",
+        "openPrice": "74357.10",
+        "highPrice": "74856.20",
+        "lowPrice": "73330.30",
+        "volume": "157274.115",
+        "quoteVolume": "11651783486.61",
+        "openTime": 1773732600000,
+        "closeTime": 1773819059511,
+        "firstId": 7447940123,
+        "lastId": 7452119382,
+        "count": 4174090
+      },
+      "ETHUSDT": {
+        "symbol": "ETHUSDT",
+        "priceChange": "-17.96",
+        "priceChangePercent": "-0.770",
+        "weightedAvgPrice": "2326.18",
+        "lastPrice": "2315.37",
+        "lastQty": "0.011",
+        "openPrice": "2333.33",
+        "highPrice": "2356.66",
+        "lowPrice": "2301.04",
+        "volume": "4081271.707",
+        "quoteVolume": "9493790351.45",
+        "openTime": 1773732660000,
+        "closeTime": 1773819063345,
+        "firstId": 7799059907,
+        "lastId": 7805819096,
+        "count": 6746011
+      },
+      "SOLUSDT": {
+        "symbol": "SOLUSDT",
+        "priceChange": "-0.5700",
+        "priceChangePercent": "-0.603",
+        "weightedAvgPrice": "94.3688",
+        "lastPrice": "93.8900",
+        "lastQty": "0.15",
+        "openPrice": "94.4600",
+        "highPrice": "95.6300",
+        "lowPrice": "93.1000",
+        "volume": "18670211.90",
+        "quoteVolume": "1761886321.2696",
+        "openTime": 1773732660000,
+        "closeTime": 1773819061699,
+        "firstId": 3232142438,
+        "lastId": 3233885746,
+        "count": 1734504
+      }
+    },
+    "funding": {
+      "BTCUSDT": {
+        "symbol": "BTCUSDT",
+        "markPrice": "73768.50000000",
+        "indexPrice": "73815.21565217",
+        "estimatedSettlePrice": "73894.23694121",
+        "lastFundingRate": "-0.00004338",
+        "interestRate": "0.00010000",
+        "nextFundingTime": 1773820800000,
+        "time": 1773819067000
+      },
+      "ETHUSDT": {
+        "symbol": "ETHUSDT",
+        "markPrice": "2315.37000000",
+        "indexPrice": "2316.50767442",
+        "estimatedSettlePrice": "2318.68091337",
+        "lastFundingRate": "0.00001286",
+        "interestRate": "0.00010000",
+        "nextFundingTime": 1773820800000,
+        "time": 1773819067000
+      },
+      "SOLUSDT": {
+        "symbol": "SOLUSDT",
+        "markPrice": "93.88740890",
+        "indexPrice": "93.94467890",
+        "estimatedSettlePrice": "94.07387116",
+        "lastFundingRate": "-0.00004868",
+        "interestRate": "0.00010000",
+        "nextFundingTime": 1773820800000,
+        "time": 1773819067000
+      }
+    },
+    "oi": {
+      "BTCUSDT": {
+        "symbol": "BTCUSDT",
+        "openInterest": "93499.903",
+        "time": 1773819061880
+      },
+      "ETHUSDT": {
+        "symbol": "ETHUSDT",
+        "openInterest": "2409541.263",
+        "time": 1773819062455
+      },
+      "SOLUSDT": {
+        "symbol": "SOLUSDT",
+        "openInterest": "9915251.46",
+        "time": 1773819059310
+      }
+    },
+    "lsr": {
+      "BTCUSDT": [
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.4784",
+          "longShortRatio": "0.9172",
+          "shortAccount": "0.5216",
+          "timestamp": 1773802800000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.4729",
+          "longShortRatio": "0.8972",
+          "shortAccount": "0.5271",
+          "timestamp": 1773806400000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.4682",
+          "longShortRatio": "0.8804",
+          "shortAccount": "0.5318",
+          "timestamp": 1773810000000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.4722",
+          "longShortRatio": "0.8947",
+          "shortAccount": "0.5278",
+          "timestamp": 1773813600000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.4779",
+          "longShortRatio": "0.9153",
+          "shortAccount": "0.5221",
+          "timestamp": 1773817200000
+        }
+      ],
+      "ETHUSDT": [
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.5010",
+          "longShortRatio": "1.0040",
+          "shortAccount": "0.4990",
+          "timestamp": 1773802800000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.4924",
+          "longShortRatio": "0.9701",
+          "shortAccount": "0.5076",
+          "timestamp": 1773806400000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.4949",
+          "longShortRatio": "0.9798",
+          "shortAccount": "0.5051",
+          "timestamp": 1773810000000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.5074",
+          "longShortRatio": "1.0300",
+          "shortAccount": "0.4926",
+          "timestamp": 1773813600000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.5134",
+          "longShortRatio": "1.0551",
+          "shortAccount": "0.4866",
+          "timestamp": 1773817200000
+        }
+      ],
+      "SOLUSDT": [
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6078",
+          "longShortRatio": "1.5497",
+          "shortAccount": "0.3922",
+          "timestamp": 1773802800000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6058",
+          "longShortRatio": "1.5368",
+          "shortAccount": "0.3942",
+          "timestamp": 1773806400000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6155",
+          "longShortRatio": "1.6008",
+          "shortAccount": "0.3845",
+          "timestamp": 1773810000000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6181",
+          "longShortRatio": "1.6185",
+          "shortAccount": "0.3819",
+          "timestamp": 1773813600000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6182",
+          "longShortRatio": "1.6192",
+          "shortAccount": "0.3818",
+          "timestamp": 1773817200000
+        }
+      ]
+    },
+    "fear_greed": {
+      "name": "Fear and Greed Index",
+      "data": [
+        {
+          "value": "26",
+          "value_classification": "Fear",
+          "timestamp": "1773792000",
+          "time_until_update": "59333"
+        }
+      ],
+      "metadata": {
+        "error": null
+      }
+    },
+    "coingecko": {
+      "bitcoin": {
+        "usd": 73846,
+        "usd_24h_change": -0.6675178690299732
+      },
+      "ethereum": {
+        "usd": 2317.31,
+        "usd_24h_change": -0.6239014601821391
+      },
+      "solana": {
+        "usd": 94.03,
+        "usd_24h_change": -0.5235598024105294
+      }
+    },
+    "cross_market_fallback": {
+      "gold": "XAUUSD,2026-03-18,08:31:08,5000.16,5016.17,4982.32,5008.96,",
+      "oil": "WTI,N/D,N/D,N/D,N/D,N/D,N/D,N/D",
+      "dxy": "DX.F,2026-03-18,08:30:56,99.327,99.38,99.22,99.33,",
+      "spy": "SPY.US,2026-03-17,21:00:16,672.39,674.44,669.7,670.79,87128044",
+      "qqq": "QQQ.US,2026-03-17,21:00:17,603.14,605.9,601.87,603.31,47106607"
+    }
+  }
+}

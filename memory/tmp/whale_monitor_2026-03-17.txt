@@ -1,0 +1,10 @@
+
+🐳 Crypto Whale Monitor
+=========================
+Monitoring 3 wallet(s)... (Threshold: 100 ETH)
+
+Checked | 0x47acD0287D43c16a6D8F8F9B6e60b615c4876b50 | 0.00 ETH
+Checked | 0x9f816c703bC27931c8F61e7A912211910E0f162A | 0.00 ETH
+Checked | 0x6e9E01f2B2A3B31828B8d95B72C730A5c5b967d6 | 0.00 ETH
+
+✅ Scan complete. Found 0 whale(s) above threshold.

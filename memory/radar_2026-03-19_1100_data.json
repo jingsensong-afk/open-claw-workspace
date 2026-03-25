@@ -1,0 +1,290 @@
+{
+  "timestamp": "2026-03-19 11:00 Asia/Shanghai",
+  "binance_core": {
+    "BTCUSDT": {
+      "symbol": "BTCUSDT",
+      "priceChange": "-3264.57000000",
+      "priceChangePercent": "-4.391",
+      "weightedAvgPrice": "72146.90848471",
+      "prevClosePrice": "74343.94000000",
+      "lastPrice": "71079.38000000",
+      "lastQty": "0.00018000",
+      "bidPrice": "71079.38000000",
+      "bidQty": "1.63638000",
+      "askPrice": "71079.39000000",
+      "askQty": "1.73669000",
+      "openPrice": "74343.95000000",
+      "highPrice": "74672.34000000",
+      "lowPrice": "70500.00000000",
+      "volume": "23466.97009000",
+      "quoteVolume": "1693069343.49667380",
+      "openTime": 1773802866001,
+      "closeTime": 1773889266001,
+      "firstId": 6120071557,
+      "lastId": 6124761308,
+      "count": 4689752
+    },
+    "ETHUSDT": {
+      "symbol": "ETHUSDT",
+      "priceChange": "-132.93000000",
+      "priceChangePercent": "-5.703",
+      "weightedAvgPrice": "2228.39003233",
+      "prevClosePrice": "2330.75000000",
+      "lastPrice": "2197.83000000",
+      "lastQty": "0.29760000",
+      "bidPrice": "2197.82000000",
+      "bidQty": "9.89890000",
+      "askPrice": "2197.83000000",
+      "askQty": "21.45260000",
+      "openPrice": "2330.76000000",
+      "highPrice": "2350.00000000",
+      "lowPrice": "2153.21000000",
+      "volume": "489737.16800000",
+      "quoteVolume": "1091325423.63055200",
+      "openTime": 1773802866004,
+      "closeTime": 1773889266004,
+      "firstId": 3830028266,
+      "lastId": 3835738045,
+      "count": 5709780
+    },
+    "SOLUSDT": {
+      "symbol": "SOLUSDT",
+      "priceChange": "-4.97000000",
+      "priceChangePercent": "-5.232",
+      "weightedAvgPrice": "91.10261610",
+      "prevClosePrice": "94.99000000",
+      "lastPrice": "90.02000000",
+      "lastQty": "2.36700000",
+      "bidPrice": "90.02000000",
+      "bidQty": "459.03100000",
+      "askPrice": "90.03000000",
+      "askQty": "456.84400000",
+      "openPrice": "94.99000000",
+      "highPrice": "95.65000000",
+      "lowPrice": "88.55000000",
+      "volume": "3228037.32200000",
+      "quoteVolume": "294082644.91834000",
+      "openTime": 1773802865786,
+      "closeTime": 1773889265786,
+      "firstId": 1911657212,
+      "lastId": 1912876159,
+      "count": 1218948
+    }
+  },
+  "hyperliquid_core": {
+    "BTC": {
+      "funding": "0.0000048882",
+      "openInterest": "27527.23656",
+      "prevDayPx": "74296.0",
+      "dayNtlVlm": "2871223803.9004335403",
+      "premium": "-0.0004642721",
+      "oraclePx": "71079.0",
+      "markPx": "71046.0",
+      "midPx": "71045.5",
+      "impactPxs": [
+        "71045.0",
+        "71046.0"
+      ],
+      "dayBaseVlm": "39871.7612200001"
+    },
+    "ETH": {
+      "funding": "0.00000176",
+      "openInterest": "580058.2868",
+      "prevDayPx": "2330.4",
+      "dayNtlVlm": "1718899977.924519062",
+      "premium": "-0.0005005005",
+      "oraclePx": "2197.8",
+      "markPx": "2196.7",
+      "midPx": "2196.65",
+      "impactPxs": [
+        "2196.6",
+        "2196.7"
+      ],
+      "dayBaseVlm": "771646.9297999997"
+    },
+    "SOL": {
+      "funding": "-0.000011968",
+      "openInterest": "3459159.3400000003",
+      "prevDayPx": "94.874",
+      "dayNtlVlm": "276445040.6818199158",
+      "premium": "-0.0006098645",
+      "oraclePx": "90.02",
+      "markPx": "89.962",
+      "midPx": "89.9625",
+      "impactPxs": [
+        "89.962",
+        "89.9651"
+      ],
+      "dayBaseVlm": "3033610.0000000037"
+    }
+  },
+  "fear_greed": {
+    "name": "Fear and Greed Index",
+    "data": [
+      {
+        "value": "23",
+        "value_classification": "Extreme Fear",
+        "timestamp": "1773878400",
+        "time_until_update": "75533"
+      }
+    ],
+    "metadata": {
+      "error": null
+    }
+  },
+  "funding_scan_top_negative": "Scanning Binance Futures funding rates...\n\n=== Top Negative Funding Rates ===\n\nRank  Coin      Rate      Annual(5x)\n────────────────────────────────────────\n 1    HUMA       -0.8292%    -4540%\n 2    DEGO       -0.6739%    -3690%\n 3    ROBO       -0.5829%    -3192%\n 4    SAHARA     -0.4347%    -2380%\n 5    MANTRA     -0.4275%    -2341%\n 6    THE        -0.3392%    -1857%\n 7    ENJ        -0.3136%    -1717%\n 8    COS        -0.2020%    -1106%\n 9    CVC        -0.2006%    -1098%\n10    ENSO       -0.1857%    -1017%\n\n💡 Negative rate = longs earn from shorts\n⚠️  Always use stop-loss!\n",
+  "sentiment": {
+    "BTC": {
+      "score": 0,
+      "status": "Neutral",
+      "narrative_drivers": [
+        "Keywords analysis"
+      ]
+    },
+    "ETH": {
+      "score": 0,
+      "status": "Neutral",
+      "narrative_drivers": [
+        "Keywords analysis"
+      ]
+    }
+  },
+  "polymarket_top_events_24h": [
+    {
+      "title": "Starmer out by...?",
+      "slug": "starmer-out-in-2025",
+      "volume24hr": 218551.756046,
+      "liquidity": 147868.38337,
+      "tags": [
+        "Starmer",
+        "uk",
+        "keir"
+      ]
+    },
+    {
+      "title": "GTA VI released before June 2026?",
+      "slug": "gta-vi-released-before-june-2026",
+      "volume24hr": 80174.67294899997,
+      "liquidity": 52653.12248,
+      "tags": [
+        "Culture",
+        "GTA VI",
+        "Breaking News"
+      ]
+    },
+    {
+      "title": "Harvey Weinstein prison time?",
+      "slug": "harvey-weinstein-prison-time",
+      "volume24hr": 78651.882368,
+      "liquidity": 15569.5071,
+      "tags": [
+        "Courts",
+        "Culture",
+        "Movies"
+      ]
+    },
+    {
+      "title": "MicroStrategy sells any Bitcoin by ___ ?",
+      "slug": "microstrategy-sell-any-bitcoin-in-2025",
+      "volume24hr": 70820.70292000001,
+      "liquidity": 145254.60861,
+      "tags": [
+        "Finance",
+        "Economy",
+        "Business"
+      ]
+    },
+    {
+      "title": "Kraken IPO by ___ ?",
+      "slug": "kraken-ipo-in-2025",
+      "volume24hr": 63969.27158,
+      "liquidity": 19020.62398,
+      "tags": [
+        "exchange",
+        "Tech",
+        "Crypto"
+      ]
+    },
+    {
+      "title": "What will happen before GTA VI?",
+      "slug": "what-will-happen-before-gta-vi",
+      "volume24hr": 27814.404801000008,
+      "liquidity": 1419930.72681,
+      "tags": [
+        "Culture",
+        "All",
+        "Politics"
+      ]
+    },
+    {
+      "title": "BitBoy convicted?",
+      "slug": "bitboy-convicted",
+      "volume24hr": 20083.56150000001,
+      "liquidity": 2783.48062,
+      "tags": [
+        "Courts",
+        "bitboy",
+        "Crypto"
+      ]
+    },
+    {
+      "title": "Will Russia capture Kostyantynivka by...?",
+      "slug": "will-russia-capture-kostyantynivka-by",
+      "volume24hr": 17305.360815000004,
+      "liquidity": 115345.4749,
+      "tags": [
+        "Ukraine",
+        "Politics",
+        "World"
+      ]
+    }
+  ],
+  "rss_headlines": [
+    {
+      "title": "SEC approves Nasdaq's move to support tokenized securities trading",
+      "link": "https://www.coindesk.com/policy/2026/03/18/sec-approves-nasdaq-s-move-to-allow-tokenized-securities-trading",
+      "pubDate": "Wed, 18 Mar 2026 20:44:02 +0000"
+    },
+    {
+      "title": "Fairshake's $10 million Illinois misfire marks first big hitch in crypto political surge",
+      "link": "https://www.coindesk.com/news-analysis/2026/03/18/fairshake-s-usd10-million-illinois-misfire-marks-first-big-hitch-in-crypto-political-surge",
+      "pubDate": "Wed, 18 Mar 2026 20:31:18 +0000"
+    },
+    {
+      "title": "Bitcoin sinks below $71,000, stocks close at session lows, as 2026 Fed rate cut hopes fade further",
+      "link": "https://www.coindesk.com/markets/2026/03/18/bitcoin-sinks-below-usd71-000-stocks-close-at-session-lows-as-2026-rate-cut-hopes-fade-further",
+      "pubDate": "Wed, 18 Mar 2026 20:19:04 +0000"
+    },
+    {
+      "title": "Polymarket acquires Brahma to scale blockchain trading infrastructure",
+      "link": "https://www.coindesk.com/business/2026/03/18/polymarket-acquires-defi-brahma-to-build-reliable-financial-blockchain-infrastructure",
+      "pubDate": "Wed, 18 Mar 2026 19:56:41 +0000"
+    },
+    {
+      "title": "Sam Bankman-Fried's bankrupt exchange FTX set to repay creditors $2.2 billion this month",
+      "link": "https://www.coindesk.com/business/2026/03/18/sam-bankman-fried-s-bankrupt-exchange-ftx-set-to-repay-creditors-usd2-2-billion-this-month",
+      "pubDate": "Wed, 18 Mar 2026 19:06:59 +0000"
+    },
+    {
+      "title": "Kalshi co-founder fights back against Arizona’s ‘overstep’ in what a lawyer calls a federal-state turf war",
+      "link": "https://www.coindesk.com/policy/2026/03/18/kalshi-co-founder-fights-back-against-arizona-s-overstep-in-what-a-lawyer-calls-a-federal-state-turf-war",
+      "pubDate": "Wed, 18 Mar 2026 18:19:24 +0000"
+    },
+    {
+      "title": "Federal Reserve holds policy steady as Iran war adds to growth and inflation concerns",
+      "link": "https://www.coindesk.com/markets/2026/03/18/federal-reserve-holds-policy-steady-as-it-balances-growth-and-inflation-concerns",
+      "pubDate": "Wed, 18 Mar 2026 17:59:47 +0000"
+    },
+    {
+      "title": "The era of cheap money is over as the Iran war creates a permanent 'inflation floor'",
+      "link": "https://www.coindesk.com/markets/2026/03/18/the-era-of-cheap-money-is-over-as-the-iran-war-creates-a-permanent-inflation-floor",
+      "pubDate": "Wed, 18 Mar 2026 17:09:02 +0000"
+    }
+  ],
+  "tool_status": {
+    "opennews_mcp": "unavailable_direct_cli (fallback rss/http)",
+    "opentwitter_mcp": "unavailable_direct_cli",
+    "polymarket_wallet_xray": "requires wallet address; no default wallet configured",
+    "crypto_whale_monitor": "no wallet list specified this run"
+  }
+}

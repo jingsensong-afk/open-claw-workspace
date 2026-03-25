@@ -1,0 +1,134 @@
+{
+  "BTCUSDT": [
+    {
+      "symbol": "BTCUSDT",
+      "sumOpenInterest": "87143.47900000",
+      "sumOpenInterestValue": "6128063180.19863400",
+      "CMCCirculatingSupply": "20003043.00000000",
+      "timestamp": 1774130400000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "sumOpenInterest": "87202.76700000",
+      "sumOpenInterestValue": "6126282150.88110000",
+      "CMCCirculatingSupply": "20003043.00000000",
+      "timestamp": 1774134000000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "sumOpenInterest": "86381.61200000",
+      "sumOpenInterestValue": "5950086368.81680000",
+      "CMCCirculatingSupply": "20003043.00000000",
+      "timestamp": 1774137600000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "sumOpenInterest": "86939.83100000",
+      "sumOpenInterestValue": "5990791866.78087300",
+      "CMCCirculatingSupply": "20003043.00000000",
+      "timestamp": 1774141200000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "sumOpenInterest": "87155.82100000",
+      "sumOpenInterestValue": "6007310833.82810000",
+      "CMCCirculatingSupply": "20003043.00000000",
+      "timestamp": 1774144800000
+    },
+    {
+      "symbol": "BTCUSDT",
+      "sumOpenInterest": "87319.60100000",
+      "sumOpenInterestValue": "6045790874.23750000",
+      "CMCCirculatingSupply": "20003043.00000000",
+      "timestamp": 1774148400000
+    }
+  ],
+  "ETHUSDT": [
+    {
+      "symbol": "ETHUSDT",
+      "sumOpenInterest": "2212446.33800000",
+      "sumOpenInterestValue": "4762781615.93431300",
+      "CMCCirculatingSupply": "120691772.35754023",
+      "timestamp": 1774130400000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "sumOpenInterest": "2212471.13900000",
+      "sumOpenInterestValue": "4754508085.60210100",
+      "CMCCirculatingSupply": "120691772.35754023",
+      "timestamp": 1774134000000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "sumOpenInterest": "2147454.35000000",
+      "sumOpenInterestValue": "4475512757.11331750",
+      "CMCCirculatingSupply": "120691772.35754023",
+      "timestamp": 1774137600000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "sumOpenInterest": "2149497.28600000",
+      "sumOpenInterestValue": "4484410632.78148800",
+      "CMCCirculatingSupply": "120691772.35754023",
+      "timestamp": 1774141200000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "sumOpenInterest": "2153727.75000000",
+      "sumOpenInterestValue": "4501269460.22250000",
+      "CMCCirculatingSupply": "120691772.35754023",
+      "timestamp": 1774144800000
+    },
+    {
+      "symbol": "ETHUSDT",
+      "sumOpenInterest": "2161821.94000000",
+      "sumOpenInterestValue": "4542370890.34637400",
+      "CMCCirculatingSupply": "120691743.12389752",
+      "timestamp": 1774148400000
+    }
+  ],
+  "SOLUSDT": [
+    {
+      "symbol": "SOLUSDT",
+      "sumOpenInterest": "8474677.86000000",
+      "sumOpenInterestValue": "763653221.96460000",
+      "CMCCirculatingSupply": "571566503.31462250",
+      "timestamp": 1774126800000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "sumOpenInterest": "8443909.51000000",
+      "sumOpenInterestValue": "759529660.42450000",
+      "CMCCirculatingSupply": "571566503.31462250",
+      "timestamp": 1774130400000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "sumOpenInterest": "8454090.53000000",
+      "sumOpenInterestValue": "759529106.66809870",
+      "CMCCirculatingSupply": "571566503.31462250",
+      "timestamp": 1774134000000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "sumOpenInterest": "8433883.18000000",
+      "sumOpenInterestValue": "738049117.08180000",
+      "CMCCirculatingSupply": "571566503.31462250",
+      "timestamp": 1774137600000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "sumOpenInterest": "8454146.41000000",
+      "sumOpenInterestValue": "737793357.20070000",
+      "CMCCirculatingSupply": "571566503.31462250",
+      "timestamp": 1774141200000
+    },
+    {
+      "symbol": "SOLUSDT",
+      "sumOpenInterest": "8372371.37000000",
+      "sumOpenInterestValue": "731661534.02430000",
+      "CMCCirculatingSupply": "571566503.31462250",
+      "timestamp": 1774144800000
+    }
+  ]
+}

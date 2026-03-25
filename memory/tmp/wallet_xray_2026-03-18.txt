@@ -1,0 +1,45 @@
+🔍 Polymarket Wallet Xray
+Inspired by @thejayden's trading analysis framework
+
+/root/.openclaw/workspace/skills/polymarket-wallet-xray/wallet_xray.py:67: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  created_at = datetime.utcfromtimestamp(ts).isoformat() + "Z" if ts else ""
+📊 Analyzing 1 trades from Polymarket...
+/root/.openclaw/workspace/skills/polymarket-wallet-xray/wallet_xray.py:582: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "analysis_timestamp": datetime.utcnow().isoformat(),
+{
+  "wallet": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "total_trades": 1,
+  "total_period_hours": 0.0,
+  "analysis_timestamp": "2026-03-18T03:03:45.693765",
+  "profitability": {
+    "time_profitable_pct": 0,
+    "win_rate_pct": 0,
+    "avg_profit_per_win": 0,
+    "avg_loss_per_loss": 0,
+    "realized_pnl_usd": 0,
+    "total_trades": 1
+  },
+  "entry_quality": {
+    "avg_price_spread_bps": 0,
+    "quality_rating": "N/A",
+    "assessment": "No buy trades to analyze"
+  },
+  "behavior": {
+    "is_bot_detected": false,
+    "trading_intensity": "very_low",
+    "avg_seconds_between_trades": 0,
+    "price_chasing": "unknown",
+    "accumulation_signal": "unknown"
+  },
+  "edge_detection": {
+    "hedge_check_combined_avg": 1.0,
+    "has_arbitrage_edge": false,
+    "assessment": "No hedged positions (one-sided bets)"
+  },
+  "risk_profile": {
+    "max_drawdown_pct": 0,
+    "volatility": "unknown",
+    "max_position_concentration": 1.0
+  },
+  "recommendation": "Risky trader. \u274c Low Time Profitable (<40%); \u26a0\ufe0f Insufficient data for entry quality Avoid copytrading or limit to <5% of capital."
+}

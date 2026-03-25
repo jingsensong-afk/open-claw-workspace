@@ -1,0 +1,452 @@
+{
+  "ts": "2026-03-20T11:02:24.283270",
+  "sources": {
+    "binance_24h": {
+      "BTCUSDT": {
+        "lastPrice": 70414.96,
+        "priceChangePercent": -0.939,
+        "quoteVolume": 1556693723.645749
+      },
+      "ETHUSDT": {
+        "lastPrice": 2144.88,
+        "priceChangePercent": -2.417,
+        "quoteVolume": 1072513020.239431
+      },
+      "SOLUSDT": {
+        "lastPrice": 89.27,
+        "priceChangePercent": -0.877,
+        "quoteVolume": 244997058.72884
+      }
+    },
+    "binance_funding": {
+      "BTCUSDT": {
+        "symbol": "BTCUSDT",
+        "fundingTime": 1773964800002,
+        "fundingRate": "0.00000625",
+        "markPrice": "69895.06080435"
+      },
+      "ETHUSDT": {
+        "symbol": "ETHUSDT",
+        "fundingTime": 1773964800002,
+        "fundingRate": "-0.00006348",
+        "markPrice": "2136.68000000"
+      },
+      "SOLUSDT": {
+        "symbol": "SOLUSDT",
+        "fundingTime": 1773964800002,
+        "fundingRate": "0.00000387",
+        "markPrice": "88.85000000"
+      }
+    },
+    "binance_longshort": {
+      "BTCUSDT": [
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.6096",
+          "longShortRatio": "1.5615",
+          "shortAccount": "0.3904",
+          "timestamp": 1773961200000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.6079",
+          "longShortRatio": "1.5504",
+          "shortAccount": "0.3921",
+          "timestamp": 1773964800000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.6132",
+          "longShortRatio": "1.5853",
+          "shortAccount": "0.3868",
+          "timestamp": 1773968400000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.6142",
+          "longShortRatio": "1.5920",
+          "shortAccount": "0.3858",
+          "timestamp": 1773972000000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.6103",
+          "longShortRatio": "1.5661",
+          "shortAccount": "0.3897",
+          "timestamp": 1773975600000
+        }
+      ],
+      "ETHUSDT": [
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6609",
+          "longShortRatio": "1.9490",
+          "shortAccount": "0.3391",
+          "timestamp": 1773961200000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6594",
+          "longShortRatio": "1.9360",
+          "shortAccount": "0.3406",
+          "timestamp": 1773964800000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6620",
+          "longShortRatio": "1.9586",
+          "shortAccount": "0.3380",
+          "timestamp": 1773968400000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6634",
+          "longShortRatio": "1.9709",
+          "shortAccount": "0.3366",
+          "timestamp": 1773972000000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6650",
+          "longShortRatio": "1.9851",
+          "shortAccount": "0.3350",
+          "timestamp": 1773975600000
+        }
+      ],
+      "SOLUSDT": [
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.7024",
+          "longShortRatio": "2.3602",
+          "shortAccount": "0.2976",
+          "timestamp": 1773961200000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6960",
+          "longShortRatio": "2.2895",
+          "shortAccount": "0.3040",
+          "timestamp": 1773964800000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6939",
+          "longShortRatio": "2.2669",
+          "shortAccount": "0.3061",
+          "timestamp": 1773968400000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6976",
+          "longShortRatio": "2.3069",
+          "shortAccount": "0.3024",
+          "timestamp": 1773972000000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6949",
+          "longShortRatio": "2.2776",
+          "shortAccount": "0.3051",
+          "timestamp": 1773975600000
+        }
+      ]
+    },
+    "hyperliquid_ctx": {
+      "BTC": {
+        "funding": "0.0000125",
+        "openInterest": "28382.39414",
+        "prevDayPx": "71023.0",
+        "dayNtlVlm": "3049261271.9021720886",
+        "premium": "-0.0001704182",
+        "oraclePx": "70415.0",
+        "markPx": "70398.0",
+        "midPx": "70402.5",
+        "impactPxs": [
+          "70402.0",
+          "70403.0"
+        ],
+        "dayBaseVlm": "43560.4913600001"
+      },
+      "ETH": {
+        "funding": "0.0000125",
+        "openInterest": "597127.8068000001",
+        "prevDayPx": "2195.5",
+        "dayNtlVlm": "1447198938.7734799385",
+        "premium": "-0.0002797203",
+        "oraclePx": "2145.0",
+        "markPx": "2144.2",
+        "midPx": "2144.35",
+        "impactPxs": [
+          "2144.3",
+          "2144.4"
+        ],
+        "dayBaseVlm": "674674.4410000006"
+      },
+      "SOL": {
+        "funding": "-0.0000020016",
+        "openInterest": "3296865.299999998",
+        "prevDayPx": "89.926",
+        "dayNtlVlm": "317073198.0517804623",
+        "premium": "-0.0004211705",
+        "oraclePx": "89.275",
+        "markPx": "89.228",
+        "midPx": "89.2335",
+        "impactPxs": [
+          "89.233",
+          "89.2374"
+        ],
+        "dayBaseVlm": "3566344.9200000013"
+      }
+    },
+    "fear_greed": {
+      "value": "11",
+      "value_classification": "Extreme Fear",
+      "timestamp": "1773964800",
+      "time_until_update": "75456"
+    },
+    "stooq": {
+      "SPY": {
+        "Symbol": "SPY.US",
+        "Date": "2026-03-19",
+        "Time": "21:00:20",
+        "Open": "656.97",
+        "High": "662.98",
+        "Low": "655.17",
+        "Close": "659.8",
+        "Volume": "111272539"
+      },
+      "QQQ": {
+        "Symbol": "QQQ.US",
+        "Date": "2026-03-19",
+        "Time": "21:00:18",
+        "Open": "589.51",
+        "High": "595.8",
+        "Low": "587.08",
+        "Close": "593.02",
+        "Volume": "75597578"
+      },
+      "GOLD": {
+        "Symbol": "XAUUSD",
+        "Date": "2026-03-20",
+        "Time": "04:02:24",
+        "Open": "4636.58",
+        "High": "4703.61",
+        "Low": "4635.09",
+        "Close": "4694.68",
+        "Volume": ""
+      },
+      "OIL": {
+        "Symbol": "CL.F",
+        "Date": "2026-03-20",
+        "Time": "04:02:29",
+        "Open": "93.74",
+        "High": "94.4",
+        "Low": "92.49",
+        "Close": "93.6",
+        "Volume": ""
+      },
+      "DXY": {
+        "Symbol": "DX.F",
+        "Date": "2026-03-20",
+        "Time": "04:02:14",
+        "Open": "99.105",
+        "High": "99.202",
+        "Low": "99.055",
+        "Close": "99.202",
+        "Volume": ""
+      },
+      "US10Y": {
+        "Symbol": "10USY.B",
+        "Date": "N/D",
+        "Time": "N/D",
+        "Open": "N/D",
+        "High": "N/D",
+        "Low": "N/D",
+        "Close": "N/D",
+        "Volume": "N/D"
+      }
+    },
+    "news_rss": [
+      {
+        "query": "crypto market",
+        "title": "Crypto market maker Flow Traders enters tokenized assets via 24/7 OTC desk - The Block",
+        "published": "Thu, 19 Mar 2026 06:31:02 GMT",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZWdoaUZ1VDFsNlY3NG9XZFhTaWhxQXBsY08wUlJsUzlWSG82SHVRVkkzVlZ1RElScUZCOVBOMGFfbHdWTkhKY05VNHc3YmhEZGdEUUVsbkdUZWhocXBsZWNfMGhTYjk3SGQ4WG52bVBGckNGaGdSVkdjaWxWejU4YjRxdWhveHUwa1RZci1sRUdaenhKeTJBY0dYeEpxMzk4?oc=5"
+      },
+      {
+        "query": "crypto market",
+        "title": "'Extreme Fear' Hits Crypto Markets After Bitcoin Gives Up $75K Spike - Decrypt",
+        "published": "Thu, 19 Mar 2026 16:08:27 GMT",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMlZqUGFRQWI5UjdSVVZhOGNCdmlUVnl1YVRoNUE2ZlQxZ1FJdHJubHotTW1fVzdnZEpZb3NJLVE5cW12dUlpOVhSaGhPSXAxVzRhaVVQck15LUc5XzdST24xRFN0WWtKLWs1X1NCRGJUdmZxYjc1Ujg1YUExbTNqVHVqajhMTmFaNHp5OUlyMWVnbFJFQWfSAZ4BQVVfeXFMUGg1SS1idWtMeUxTSVRnSDR1UFVySHo3RDE3cTBncGJWdXVnSUszblV1LVlPNUxLU2dVcjRra0t3c3hNYWZnVFh5M241ODBYVW9UUnZKSDJ5UGNtNDZ6ZGE5RTAwTnZSdzVMc0hyTVZvazAwMzkxUlJYVU1NTjBaaUxwS1dQNzNpLU0zOXU5VFk3bjRiMTFxaElsR25na2c?oc=5"
+      },
+      {
+        "query": "crypto market",
+        "title": "Crypto Market Structure Bill to Face Key Vote in April and Must Pass by May, Senators Say - Yahoo Finance",
+        "published": "Wed, 18 Mar 2026 17:11:34 GMT",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYUoxOG90ZDREcnhXVDREeU5Nd09TeF9hVDVKVGc3elBqNWx6SkNUSGJlaUlxcGJQVktEd29WZWxBMDVVblpGLXM1UThhUGwzcFltOXY4VXlQZ0JrSUhRVnh0bVlGVF9oMXNtUzZwTmVvaUhzWUp6MTIyUU95MHBjNUp6NzQydw?oc=5"
+      },
+      {
+        "query": "bitcoin etf",
+        "title": "Bitcoin Touches a Six-Week High as Investors Pour Into ETFs - Yahoo Finance",
+        "published": "Mon, 16 Mar 2026 20:44:28 GMT",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUEktVGNtYS1FU05EeDJMUEpCRGhwMWZKbWQ5Ym9ZWTJhcTN6Wm5QUENfVkdESU13a0JqTTI2YnRBV1lCV0lXUjloYXlsRzdDc0ZFTlN3TGlqU0lxQmJkdTg3dWc0NGZPYkxfTE95MDhEN0RMNnVfYW5iV3dTcVJfMQ?oc=5"
+      },
+      {
+        "query": "bitcoin etf",
+        "title": "Morgan Stanley Prepares Bitcoin ETF for NYSE Arca Launch, Picking MSBT Ticker - Decrypt",
+        "published": "Thu, 19 Mar 2026 20:08:19 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeFRRZExyY3kzYk9zbml0VUtlVWMzb25KZHg3RnMxMjlnNjZ2NXBEdWQwRFh3aEFRUXNNZC00RjVVMXpPZWVISV9NaUZmLXI5NUJvN1FRZU13Tmt5NmRwOEdTVWkwVnFZVUpVeC1oUmhTZHZSX1pCQ1VGNlc3N29MdWhWVnBuTXRoN1dv0gGTAUFVX3lxTE1WWkV3Wms4T0gwa2FrQkxLRkRER0RFTmY2TWk5dzBrZ0NWeTc4NFhEMWI5Q28zbU5kQk5wOFM3R2U4aF8yVm5DNEpMUm1TNmFDUzRrY1Q2Q193QVdXVjhfOHpvTEtRdWVYNmdzb3NILWx6WGRfNFRQSmh2QklEYTlIT2c1cFdJLUpwUXczczdpVC1LWQ?oc=5"
+      },
+      {
+        "query": "bitcoin etf",
+        "title": "Bitcoin, ether ETFs snap multi-day inflow streaks with $219 million in combined outflows - The Block",
+        "published": "Thu, 19 Mar 2026 12:24:18 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObjdkcEFBOUdNVmlIUkZXcHVjeUVENFljVVFxcUtxUWRVbXpNQ2U2MU9telhlaHhUb1c3MTFPU0loUkJ0MGlQRzlaWTdwTHZ0MUFVOHA4VG5WX2dTYXlCb2MtaGpsdUlXRFdYdmdnUlluX2VScDE3Z2dYWDhseWF6SlVyb2ZfVEdsY2JwM0NRODZTRVloNDJpYmVidnpjWlBJMTVfWkhodFZBd3QtTElySHp1cw?oc=5"
+      },
+      {
+        "query": "federal reserve rates",
+        "title": "Live Updates: Federal Reserve Leaves Interest Rates Unchanged - The New York Times",
+        "published": "Wed, 18 Mar 2026 20:52:32 GMT",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObXdQVGN0NlNHN0JKakpoZDZZUzlqcUo2ZS0xS25zX0RxLXIxMVpOYS01RHV1QnV2M19UWXZJVk5QNHlma2o3SEtuSzcyRzRfR3BqR0pBdloybnN5VTdWWC1WeWFDcERpOFZYQ1ZMcng2czJSSDVURWFaVTJfeWtTZEFwZG42Zw?oc=5"
+      },
+      {
+        "query": "federal reserve rates",
+        "title": "The Fed holds interest rates steady as the economy faces deep uncertainty - NPR",
+        "published": "Wed, 18 Mar 2026 09:00:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdjdJaWJSQVAzeDc1VnozdHNRbVZyNEFHZFE5bXFrYmRVOTNRSXVBVEY4c0tIT0pKcjVQSmtpN0MwTkhSLUozVWl3Q1I5djdVQ1RuMWxNU2V0SWtRSlBxZU8wTnFlTXhqVkZhUVlhcEVDeUtsVEhxWU10QmhCcE9maTFMVENZNWgxd0taZ0tkcXFRWWE2cjhObWtLdktYUl9H?oc=5"
+      },
+      {
+        "query": "federal reserve rates",
+        "title": "'A month ago, no one would have believed this': June Fed rate hike odds just surpassed rate cut odds as stagflation fears grow - Fortune",
+        "published": "Thu, 19 Mar 2026 16:49:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZmtQYzlFWkY5bFZqNWh2OVNMd3Rpb2NTWU45QXVGcGgybzVlWXVHbHVEOV9uQ2RIWUVsZXZ2NnlSdkJlTFFzd1loa0ZIQ0l1R2V4eU41NDFhSEVvR2hJXzRJQWVDRDk0SU1WYUxyVnZ0Rm5Sb05WUXpsVDNRbVh5d3JWeGxvZDZ3Uld3VWJxNlViQ0NxRU9fbmt6dnFwX1ozd2RRMjlBU0dMY00?oc=5"
+      },
+      {
+        "query": "geopolitics oil",
+        "title": "Rice experts available during CERAWeek for energy, geopolitics insight - Rice University",
+        "published": "Thu, 19 Mar 2026 14:58:56 GMT",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNzFEMHZSRkljdHpFckNXM19ZT3hkVUZ4TGFFdUQ3ckhOdG42cVlJVUVqczRLaGtfWFJqT0VVX3MzQTZMOGpham1vdjRBWEwtdld1NnYtc0RILWVZU3pmbEltNllZcncyQ3h3Vk5naE1faGhsNkNmZDIzSkNFY2poMWZqVVNfNktOdEFTaDJkUFBUWUtXY201NG9KZjB0UQ?oc=5"
+      },
+      {
+        "query": "geopolitics oil",
+        "title": "Oil surge and geopolitics drive markets as leadership shifts - CNBC",
+        "published": "Tue, 17 Mar 2026 11:52:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWGhIMlhReWQyMDV6elhaTERLU3Rqb3NwZjRva2xzMjJ3Z2dsM2xpOUc2UFJ3SExfY0ZMc3JJdzh4dXVYZmRaXzhEX3dKeFYzT0R1LXJuNll5aHY4enA3bmdId09MeG5RNVRKdk1pN0I1WVNVMFU1SEdGenR2UHBzUlI1dUtBX18wM0ZkWFhWVVVFbnFoUFdZVGRHemNUUHcyUl9lUDdB?oc=5"
+      },
+      {
+        "query": "geopolitics oil",
+        "title": "Oil Shock And Geopolitics Cloud The Path For Inflation - Seeking Alpha",
+        "published": "Wed, 18 Mar 2026 11:05:00 GMT",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV0p2YV9GRzc4Z2FONXdIbWo3QTlBTHZ3QWFVSVBIbGlHN0VubjhqaFNsWVVjRlp3d0FXLUY2RmhUa25QS2dtMjVtUV9FQjhaaUVLLXpuMXpQNzFYclpIMG1xLWVoOEVoWjFqU1dZdzQtZVBmSzFTQUQ1U3JoMEpBcF9wUXR2dEFONUJTcFlnejc?oc=5"
+      }
+    ],
+    "polymarket_top": [
+      {
+        "question": "Netanyahu out by March 31?",
+        "volume24hr": 10107930.729430988,
+        "liquidity": "2416046.83836",
+        "endDate": "2026-03-31T00:00:00Z",
+        "slug": "netanyahu-out-by-march-31-854"
+      },
+      {
+        "question": "VCU Rams vs. North Carolina Tar Heels",
+        "volume24hr": 5929847.869283965,
+        "liquidity": "669617.82505",
+        "endDate": "2026-03-19T04:00:00Z",
+        "slug": "cbb-vcu-ncar-2026-03-19"
+      },
+      {
+        "question": "Will Chelsea win the 2025–26 English Premier League?",
+        "volume24hr": 5826294.847333,
+        "liquidity": "331083.63384",
+        "endDate": "2026-05-27T00:00:00Z",
+        "slug": "will-chelsea-win-the-202526-english-premier-league"
+      },
+      {
+        "question": "Lakers vs. Heat",
+        "volume24hr": 4542553.951368999,
+        "liquidity": "1005514.59998",
+        "endDate": "2026-03-20T00:00:00Z",
+        "slug": "nba-lal-mia-2026-03-19"
+      },
+      {
+        "question": "Howard Bison vs. Michigan Wolverines",
+        "volume24hr": 4280655.895176998,
+        "liquidity": "1356464.18014",
+        "endDate": "2026-03-19T23:10:00Z",
+        "slug": "cbb-howrd-mich-2026-03-19"
+      },
+      {
+        "question": "Will Dialogue for Hungary (Párbeszéd) win the most seats in the next Hungarian parliamentary election?",
+        "volume24hr": 3699321.680000006,
+        "liquidity": "30817.38595",
+        "endDate": "2026-04-12T00:00:00Z",
+        "slug": "will-dialogue-for-hungary-prbeszd-win-the-most-seats-in-the-next-hungarian-parliamentary-election"
+      },
+      {
+        "question": "Will the Iranian regime fall by March 31?",
+        "volume24hr": 3100232.697933998,
+        "liquidity": "1304997.91048",
+        "endDate": "2026-03-31T00:00:00Z",
+        "slug": "will-the-iranian-regime-fall-by-march-31"
+      },
+      {
+        "question": "Spread: Hornets (-5.5)",
+        "volume24hr": 2335142.2533670026,
+        "liquidity": "163782.08965",
+        "endDate": "2026-03-19T23:00:00Z",
+        "slug": "nba-orl-cha-2026-03-19-spread-home-5pt5"
+      },
+      {
+        "question": "Clippers vs. Pelicans",
+        "volume24hr": 2239701.9658300015,
+        "liquidity": "781109.93535",
+        "endDate": "2026-03-20T00:00:00Z",
+        "slug": "nba-lac-nop-2026-03-19"
+      },
+      {
+        "question": "Texas Longhorns vs. BYU Cougars",
+        "volume24hr": 2216157.676024,
+        "liquidity": "1225791.05784",
+        "endDate": "2026-03-19T23:25:00Z",
+        "slug": "cbb-tx-byu-2026-03-19"
+      },
+      {
+        "question": "Pistons vs. Wizards",
+        "volume24hr": 1684881.2040959988,
+        "liquidity": "722662.48488",
+        "endDate": "2026-03-19T23:00:00Z",
+        "slug": "nba-det-was-2026-03-19"
+      },
+      {
+        "question": "Magic vs. Hornets",
+        "volume24hr": 1618267.673102002,
+        "liquidity": "664123.7212",
+        "endDate": "2026-03-19T23:00:00Z",
+        "slug": "nba-orl-cha-2026-03-19"
+      },
+      {
+        "question": "Kennesaw State Owls vs. Gonzaga Bulldogs",
+        "volume24hr": 1538115.2013889996,
+        "liquidity": "64156.9041",
+        "endDate": "2026-03-19T04:00:00Z",
+        "slug": "cbb-kenest-gnzg-2026-03-19"
+      },
+      {
+        "question": "Hofstra Pride vs. Alabama Crimson Tide",
+        "volume24hr": 1526027.2477280016,
+        "liquidity": "1536038.7986",
+        "endDate": "2026-03-20T04:00:00Z",
+        "slug": "cbb-hofst-ala-2026-03-20"
+      },
+      {
+        "question": "Cavaliers vs. Bulls",
+        "volume24hr": 1425630.1554369985,
+        "liquidity": "797904.04154",
+        "endDate": "2026-03-20T00:00:00Z",
+        "slug": "nba-cle-chi-2026-03-19"
+      }
+    ]
+  },
+  "notes": []
+}

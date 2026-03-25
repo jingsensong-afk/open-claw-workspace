@@ -1,0 +1,8 @@
+Hyperliquid ETH (perp)
+- mark: 2,177.6 | mid: 2,177.65 | oracle: 2,178.8
+- 24h: +3.63% (prev 2,101.3)
+- funding: 0.0002%
+- OI: 589,726.51
+- 24h notional: 833,223,588
+- premium: -0.0505%
+- impact: buy 2,177.6 | sell 2,177.7

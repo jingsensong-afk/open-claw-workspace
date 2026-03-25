@@ -1,0 +1,3 @@
+usage: wallet_xray.py [-h] [--compare] [--json] [--limit LIMIT]
+                      [wallet] [market]
+wallet_xray.py: error: unrecognized arguments: --top-wallets 3 --dry-run

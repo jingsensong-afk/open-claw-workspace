@@ -1,0 +1,16 @@
+usage: wallet_xray.py [-h] [--compare] [--json] [--limit LIMIT]
+                      [wallet] [market]
+
+Polymarket Wallet Xray - Forensic trading analysis
+
+positional arguments:
+  wallet         Wallet address (0x...)
+  market         Second wallet address for --compare
+
+options:
+  -h, --help     show this help message and exit
+  --compare      Compare two wallets
+  --json         Output as JSON
+  --limit LIMIT  Limit trades analyzed
+
+Example: python wallet_xray.py 0x1234...abcd

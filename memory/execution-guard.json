@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "effectiveAt": "2026-03-23T21:15:00+08:00",
+  "owner": "龙皓晨",
+  "rules": {
+    "deadlineDeliverable": ["可执行单", "中止单"],
+    "timeoutFuseMinutes": 10,
+    "singleAccountability": true
+  },
+  "violationPolicy": {
+    "onTimeout": "必须立即发送中止单（卡点/替代动作/新硬时间）",
+    "tracking": "按承诺时间与实际消息时间戳逐条核验"
+  }
+}

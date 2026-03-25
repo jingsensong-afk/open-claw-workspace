@@ -1,0 +1,19 @@
+Scanning Binance Futures funding rates...
+
+=== Top Negative Funding Rates ===
+
+Rank  Coin      Rate      Annual(5x)
+────────────────────────────────────────
+ 1    ANKR       -2.0000%   -10950%
+ 2    CFG        -1.0611%    -5810%
+ 3    ENSO       -0.8553%    -4683%
+ 4    KITE       -0.6384%    -3495%
+ 5    DEGO       -0.3998%    -2189%
+ 6    MANTRA     -0.3767%    -2062%
+ 7    ENJ        -0.3726%    -2040%
+ 8    GLM        -0.3717%    -2035%
+ 9    POLYX      -0.3368%    -1844%
+10    VANRY      -0.3226%    -1766%
+
+💡 Negative rate = longs earn from shorts
+⚠️  Always use stop-loss!

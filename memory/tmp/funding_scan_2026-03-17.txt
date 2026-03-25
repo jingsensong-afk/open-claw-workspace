@@ -1,0 +1,19 @@
+Scanning Binance Futures funding rates...
+
+=== Top Negative Funding Rates ===
+
+Rank  Coin      Rate      Annual(5x)
+────────────────────────────────────────
+ 1    ANIME      -1.7143%    -9386%
+ 2    KITE       -1.1367%    -6223%
+ 3    CFG        -0.8207%    -4493%
+ 4    DENT       -0.3730%    -2042%
+ 5    F          -0.2988%    -1636%
+ 6    RVN        -0.2838%    -1554%
+ 7    ME         -0.2294%    -1256%
+ 8    ROBO       -0.2112%    -1156%
+ 9    COS        -0.1884%    -1031%
+10    STABLE     -0.1675%     -917%
+
+💡 Negative rate = longs earn from shorts
+⚠️  Always use stop-loss!

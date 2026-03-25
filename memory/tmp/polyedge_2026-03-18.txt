@@ -1,0 +1,36 @@
+{
+  "market_a": {
+    "id": "540844",
+    "question": "Will bitcoin hit $1m before GTA VI?",
+    "yes_price": 0.487,
+    "category": "markets",
+    "volume": 3675530.9049126683
+  },
+  "market_b": {
+    "id": "540881",
+    "question": "GTA VI released before June 2026?",
+    "yes_price": 0.0235,
+    "category": "other",
+    "volume": 12617345.985936992
+  },
+  "analysis": {
+    "pattern_type": "category",
+    "categories": [
+      "markets",
+      "other"
+    ],
+    "base_correlation": 0.2,
+    "expected_price_b": 0.4974,
+    "actual_price_b": 0.0235,
+    "mispricing": 0.4739,
+    "confidence": "low",
+    "reasoning": "No known correlation pattern"
+  },
+  "signal": {
+    "action": "BUY_YES_B",
+    "strength": "strong",
+    "reason": "Market B underpriced by 47.4%",
+    "mispricing_pct": "47.4%",
+    "confidence": "low"
+  }
+}

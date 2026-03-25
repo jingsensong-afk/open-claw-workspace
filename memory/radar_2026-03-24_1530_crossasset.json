@@ -1,0 +1,163 @@
+{
+  "us": {
+    "tsla.us": {
+      "symbol": "TSLA.US",
+      "date": "2026-03-23",
+      "time": "21:00:19",
+      "open": 373.17,
+      "high": 385.33,
+      "low": 372.73,
+      "close": 380.85,
+      "volume": 74606049
+    },
+    "nvda.us": {
+      "symbol": "NVDA.US",
+      "date": "2026-03-23",
+      "time": "21:00:20",
+      "open": 177.22,
+      "high": 178.37,
+      "low": 174.76,
+      "close": 175.64,
+      "volume": 182836294
+    },
+    "mstr.us": {
+      "symbol": "MSTR.US",
+      "date": "2026-03-23",
+      "time": "21:00:19",
+      "open": 138.61,
+      "high": 139.93,
+      "low": 133.97,
+      "close": 138.2,
+      "volume": 21633732
+    },
+    "coin.us": {
+      "symbol": "COIN.US",
+      "date": "2026-03-23",
+      "time": "21:00:18",
+      "open": 198.6,
+      "high": 203.95,
+      "low": 196.11,
+      "close": 200.62,
+      "volume": 12466491
+    },
+    "smci.us": {
+      "symbol": "SMCI.US",
+      "date": "2026-03-23",
+      "time": "21:00:21",
+      "open": 20.24,
+      "high": 22.14,
+      "low": 19.48,
+      "close": 21.58,
+      "volume": 114269718
+    },
+    "pltr.us": {
+      "symbol": "PLTR.US",
+      "date": "2026-03-23",
+      "time": "21:00:20",
+      "open": 153.28,
+      "high": 161.08,
+      "low": 153.24,
+      "close": 160.84,
+      "volume": 57507057
+    },
+    "ibit.us": {
+      "symbol": "IBIT.US",
+      "date": "2026-03-23",
+      "time": "21:00:18",
+      "open": 40.125,
+      "high": 40.7199,
+      "low": 39.72,
+      "close": 40.05,
+      "volume": 49007873
+    },
+    "hood.us": {
+      "symbol": "HOOD.US",
+      "date": "2026-03-23",
+      "time": "21:00:18",
+      "open": 71.846,
+      "high": 73.6,
+      "low": 70.9201,
+      "close": 72.49,
+      "volume": 26070187
+    }
+  },
+  "hk": {
+    "0700.hk": {
+      "symbol": "0700.HK"
+    },
+    "9988.hk": {
+      "symbol": "9988.HK",
+      "date": "2026-03-23",
+      "time": "09:00:00",
+      "open": 120.8,
+      "high": 121.6,
+      "low": 117.7,
+      "close": 119.7,
+      "volume": 136352855
+    },
+    "1810.hk": {
+      "symbol": "1810.HK",
+      "date": "2026-03-23",
+      "time": "09:00:00",
+      "open": 32.9,
+      "high": 33.04,
+      "low": 31.62,
+      "close": 32.06,
+      "volume": 252029044
+    },
+    "3690.hk": {
+      "symbol": "3690.HK",
+      "date": "2026-03-23",
+      "time": "09:00:00",
+      "open": 77.8,
+      "high": 78.5,
+      "low": 75.85,
+      "close": 76.55,
+      "volume": 54303511
+    },
+    "1211.hk": {
+      "symbol": "1211.HK",
+      "date": "2026-03-23",
+      "time": "09:00:00",
+      "open": 104.2,
+      "high": 108,
+      "low": 101.7,
+      "close": 102.4,
+      "volume": 71168848
+    },
+    "0388.hk": {
+      "symbol": "0388.HK"
+    },
+    "0005.hk": {
+      "symbol": "0005.HK"
+    },
+    "9618.hk": {
+      "symbol": "9618.HK",
+      "date": "2026-03-23",
+      "time": "09:00:00",
+      "open": 106.5,
+      "high": 106.7,
+      "low": 103.5,
+      "close": 105.1,
+      "volume": 19055693
+    }
+  },
+  "com": {
+    "xauusd": {
+      "Symbol": "XAUUSD",
+      "error": "Expecting value: line 1 column 137 (char 136)"
+    },
+    "xagusd": {
+      "Symbol": "XAGUSD",
+      "error": "Expecting value: line 1 column 134 (char 133)"
+    },
+    "cl.f": {
+      "Symbol": "CL.F",
+      "error": "Expecting value: line 1 column 129 (char 128)"
+    },
+    "ng.f": {
+      "Symbol": "NG.F",
+      "error": "Expecting value: line 1 column 129 (char 128)"
+    }
+  }
+}

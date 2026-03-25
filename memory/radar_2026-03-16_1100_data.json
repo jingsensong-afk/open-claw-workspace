@@ -1,0 +1,1232 @@
+{
+  "generated_at": "2026-03-16T03:04:13.560960+00:00",
+  "sources": {
+    "opennews_latest.json": {
+      "data": [
+        {
+          "aiRating": {
+            "enSummary": "The news article provides a 4-step quick checklist before making a purchase, along with a link.",
+            "grade": "C",
+            "score": 20,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "该新闻提供了一份购买前的4步快速检查清单，并附有相关链接。"
+          },
+          "coins": [
+            {
+              "symbol": "QUICK",
+              "market_type": "cex",
+              "match": [
+                "QUICK"
+              ]
+            }
+          ],
+          "description": "Coin X",
+          "engineType": "news",
+          "id": 1106454,
+          "link": "https://twitter.com/binance/status/2033377937563517420",
+          "newsType": "Twitter",
+          "source": "binance",
+          "text": "a quick 4-step checklist before you hit buy. https://t.co/YLNmk8ufIW",
+          "ts": "2026-03-16T03:00:53.670815Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "The relevant contracts will be built and executed on-chain, with natively integrated verifiable execution processes and fund flows.",
+            "grade": "C",
+            "score": 20,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "相关合约将在链上构建和执行，原生集成可验证的执行流程与资金流"
+          },
+          "coins": null,
+          "description": "Circle CEO",
+          "engineType": "news",
+          "id": 1106453,
+          "link": "https://twitter.com/jerallaire/status/2033377880139321603",
+          "newsType": "Twitter",
+          "source": "jerallaire",
+          "text": "And these contracts will be built and executed onchain, with verifiable execution and financial flows natively integrated.",
+          "ts": "2026-03-16T03:00:40.377133Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "During the 2026 FIN/SUM, a major fintech event in Japan, JasmyLab Inc. (headquartered in Tokyo, CEO Hiroshi Harada) won the Sony Financial Venture Capital Award for its JANCTION project, which aims to solve the problem of computing power shortage in the AI ​​era.",
+            "grade": "B",
+            "score": 65,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "2026年日本大型金融科技活动FIN/SUM期间，JasmyLab Inc.（总部东京，CEO原田浩）的JANCTION项目凭借去中心化GPU云GPU POOL和并行渲染基础设施GPX.LINK获索尼金融风险投资奖，旨在解决AI时代算力短缺问题。"
+          },
+          "coins": [
+            {
+              "symbol": "JCT",
+              "market_type": "cex",
+              "match": [
+                "JANCTION"
+              ]
+            },
+            {
+              "symbol": "LINK",
+              "market_type": "cex",
+              "match": [
+                "LINK"
+              ]
+            },
+            {
+              "symbol": "ERA",
+              "market_type": "cex",
+              "match": [
+                "ERA"
+              ]
+            }
+          ],
+          "description": "JANCTION Global Official Account (@JANCTION_Global)",
+          "engineType": "news",
+          "id": 1106452,
+          "link": "https://twitter.com/JANCTION_Global/status/2033377761344237623",
+          "newsType": "tree",
+          "source": "",
+          "text": "JANCTION Wins Sony Financial Ventures Award at FIN/SUM 2026 \"IMPACT PITCH\"\n\nShowcasing initiatives centered on the decentralized GPU cloud “GPU POOL” and the parallel rendering infrastructure “GPX . LINK”\n\nJasmyLab Inc. (Headquarters: Minato-ku, Tokyo; CEO: Hiroshi Harada; Project: JANCTION; hereinafter “the Company”) is pleased to announce that its project “JANCTION” received the Sony Financial Ventures Award at the startup competition “IMPACT PITCH” held during FIN/SUM 2026, one of Japan’s largest fintech events.\nAt the event, the Company presented its initiatives centered on the decentralized GPU cloud “JANCTION GPU POOL” and the parallel rendering infrastructure “GPX . LINK.” These initiatives address the growing shortage of computational resources in the AI era by creating an environment where computing power can be accessed whenever and wherever it is needed, while also exploring the potential for next-generation infrastructure.\nAbout the “IMPACT PITCH” Startup Competition at FIN/SUM 2026\n\nFIN/SUM is one of Japan’s largest fintech events, co-hosted by Nikkei Inc. and the Financial Services Agency of Japan (FSA).\nThe event brings together financial institutions, startups, technology companies, investors, and government stakeholders to discuss and showcase the future of financial services.\n\n“IMPACT PITCH” is a program within FIN/SUM where startups present solutions that leverage fintech to address social challenges and create new industrial structures.\nProjects are evaluated based on innovation, social impact, growth potential, and feasibility.\n\nJANCTION received the Sony Financial Ventures Award for presenting a decentralized approach to GPU utilization, offering a new option for accessing computational resources in the AI era.\nOverview of the Presentation\n\nWith the rapid expansion of generative AI, the importance of GPUs has increased significantly across fields such as research and development, product development, and 3DCG production.\n\nHowever, many companies and creators face challenges in securing sufficient computational resources when needed due to GPU supply shortages, rising costs, and fluctuating demand.\n\nTo address these challenges, the Company is developing an environment that enables more flexible access to computational resources by utilizing distributed GPU resources secured and operated across multiple locations.\nKey Initiatives Presented\n\nJANCTION GPU POOL (Decentralized GPU Cloud)\n\nJANCTION GPU POOL is a cloud-based GPU infrastructure that aggregates distributed GPU resources and provides them on demand according to various use cases.By enabling users to access the necessary computing power whenever needed, the platform helps reduce capital expenditure and operational burdens, while supporting research and development activities.\nGPX . LINK (Parallel Rendering Infrastructure)\n\nGPX . LINK focuses on the rendering bottlenecks often encountered in 3DCG and video production workflows.\n\nBy leveraging parallel processing across distributed GPU resources, the platform aims to improve production efficiency and reduce rendering wait times.\nEnhancing Transparency in Task Execution\n\nTo improve transparency and reliability when executing GPU tasks in distributed environments, the Company is also exploring mechanisms to manage and verify execution records using blockchain technology.\n\nSome of the initiatives described above are currently under development or consideration.\nRepresentative Director Comment\n\n“We are deeply honored to receive the Sony Financial Ventures Award at the FIN/SUM 2026 IMPACT PITCH.\n\nThrough initiatives such as the decentralized GPU cloud GPU POOL and the parallel rendering infrastructure GPX . LINK, JANCTION aims to make access to computational resources in the AI era more open and accessible.\n\nEncouraged by this recognition, we will continue advancing both technological development and real-world implementation to deliver valuable infrastructure to companies, research institutions, and creators.”\nHiroshi Harada\nRepresentative Director, JasmyLab Inc.\nAbout JANCTION\n \nJANCTION is a project designed to provide computational resources required for the development and operation of generative AI, supporting research institutions, startups, and product development teams.\n\nThrough the decentralized GPU cloud JANCTION GPU Pool, the project offers easier access to high-performance GPUs, helping improve the quality of generative AI products and optimize development costs.\n\nJANCTION is also developing GPX . LINK, a service that enables high-load processing such as rendering to be executed more efficiently by distributing tasks across GPU nodes.\n\nIn addition, the project is working on surrounding infrastructure, including the development and operation of its own blockchain to support accurate and traceable data input and privacy protection.\nCompany Information\n\nCompany Name: JasmyLab Inc.\nAddress: 11F, 1–2–3 Kita-Aoyama, Minato-ku, Tokyo 107–0061, Japan\nEstablished: June 1, 2023\nCEO: Hiroshi Harada\nBusiness: Development and operation of distributed GPU infrastructure, blockchain research and development, Web3 consulting\nContact\n\nJasmyLab Inc.\nPublic Relations: Kato\nEmail: contact@jasmylab.com\nLinks\n\nOfficial Website (JP)\nhttps://www.jasmylab.com/GPU POOL (Service Site)\nhttps://www.janction.ai/homeJANCTION LINK\nhttps://janction.linkX (Japanese)\nhttps://x.com/JanctionMGT_JPX (English)\nhttps://x.com/JANCTION_GlobalTelegram\nhttps://t.me/jasmyofficialMedium\nhttps://medium.com/@JANCTION",
+          "ts": "2026-03-16T03:00:11.856Z"
+        },
+        {
+          "coins": [
+            {
+              "symbol": "SAHARA",
+              "market_type": "cex"
+            }
+          ],
+          "description": "",
+          "engineType": "market",
+          "id": 1106451,
+          "link": "https://www.bybit.com/trade/usdt/SAHARAUSDT",
+          "newsType": "funding_diff",
+          "source": "cex",
+          "text": "<span style=\"color: var(--color-primary)\">SAHARA/USDT</span> Cross-Ex Rate Diff <b class=\"text-buy\">Significant 0.1681%</b> bybit(0.0013%) vs okx(-0.1669%), Arb APY ~1473%",
+          "ts": "2026-03-16T03:00:08.759Z"
+        },
+        {
+          "coins": [
+            {
+              "symbol": "KITE",
+              "market_type": "cex"
+            }
+          ],
+          "description": "",
+          "engineType": "market",
+          "id": 1106449,
+          "link": "https://www.bybit.com/trade/usdt/KITEUSDT",
+          "newsType": "funding_diff",
+          "source": "cex",
+          "text": "<span style=\"color: var(--color-primary)\">KITE/USDT</span> Cross-Ex Rate Diff <b class=\"text-buy\">Extreme 0.4808%</b> bybit(-0.2142%) vs binance(-0.6950%), Arb APY ~2106%",
+          "ts": "2026-03-16T03:00:08.194Z"
+        },
+        {
+          "coins": [
+            {
+              "symbol": "APR",
+              "market_type": "cex"
+            }
+          ],
+          "description": "",
+          "engineType": "market",
+          "id": 1106448,
+          "link": "https://www.binance.com/en/futures/APRUSDT",
+          "newsType": "price_change",
+          "source": "binance",
+          "text": "<span style=\"color: var(--color-primary)\">APR/USDT</span> 180s <b class=\"text-sell\">Down 5.03%</b> $0.1689 → $0.1604",
+          "ts": "2026-03-16T03:00:00.576Z"
+        },
+        {
+          "coins": null,
+          "description": "",
+          "engineType": "news",
+          "id": 1106447,
+          "link": "https://dbws.io/newsbot/dj/DNCO20260315001457",
+          "newsType": "DJ",
+          "source": "",
+          "text": "Iran War Hits Europe With an Energy Shock It Can't Afford to Absorb -- WSJ",
+          "ts": "2026-03-16T03:00:00.552079Z"
+        },
+        {
+          "coins": null,
+          "description": "",
+          "engineType": "news",
+          "id": 1106446,
+          "link": "https://dbws.io/newsbot/dj/DNCO20260315001456",
+          "newsType": "DJ",
+          "source": "",
+          "text": "Americans Love Everything About This Scottish University -- Except All the Americans -- WSJ",
+          "ts": "2026-03-16T03:00:00.479526Z"
+        },
+        {
+          "coins": [
+            {
+              "symbol": "ANT",
+              "market_type": "cex",
+              "match": [
+                "ANT"
+              ]
+            }
+          ],
+          "description": "",
+          "engineType": "news",
+          "id": 1106445,
+          "link": "https://dbws.io/newsbot/i/nBw57W1Jna",
+          "newsType": "Business Wire",
+          "source": "",
+          "text": "Ant International Becomes Official Sponsor of The Argentine National Football Team",
+          "ts": "2026-03-16T03:00:00.277526Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "The Middle East crisis led to high oil prices, causing the South Korean stock market to decline.",
+            "grade": "B",
+            "score": 60,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "中东危机导致油价高企，韩国股市转而走低。"
+          },
+          "coins": [
+            {
+              "symbol": "CL",
+              "market_type": "cex",
+              "match": [
+                "(?i)\\b(?:oil|wti|Brent|CL)\\b"
+              ]
+            },
+            {
+              "symbol": "XYZ-CL",
+              "market_type": "cex",
+              "match": [
+                "(?i)\\b(?:oil|wti|Brent|CL)\\b"
+              ]
+            }
+          ],
+          "description": "",
+          "engineType": "news",
+          "id": 1106444,
+          "link": "https://dbws.io/newsbot/i/nL1N40402G",
+          "newsType": "Reuters",
+          "source": "",
+          "text": "South Korean shares turn lower as Middle East crisis keeps oil elevated",
+          "ts": "2026-03-16T02:59:38.708623Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "The Iranian crisis has triggered concerns about stagflation, causing Japan&#39;s Nikkei index to fall for the third consecutive day.",
+            "grade": "B+",
+            "score": 65,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "伊朗危机引发滞胀担忧，日本日经指数连续第三天下跌。"
+          },
+          "coins": null,
+          "description": "",
+          "engineType": "news",
+          "id": 1106443,
+          "link": "https://dbws.io/newsbot/i/nL4N40404W",
+          "newsType": "Reuters",
+          "source": "",
+          "text": "Japan’s Nikkei falls a third day as Iran crisis stokes stagflation concerns",
+          "ts": "2026-03-16T02:59:27.672275Z"
+        },
+        {
+          "coins": [
+            {
+              "symbol": "KITE",
+              "market_type": "cex"
+            }
+          ],
+          "description": "",
+          "engineType": "market",
+          "id": 1106442,
+          "link": "https://www.binance.com/en/futures/KITEUSDT",
+          "newsType": "funding_rate",
+          "source": "binance",
+          "text": "<span style=\"color: var(--color-primary)\">KITE/USDT</span> Funding Rate <b class=\"text-buy\">Extreme Short Rate</b> -0.6961% (4h), Short pays ~4.18% daily",
+          "ts": "2026-03-16T02:59:02.199Z"
+        },
+        {
+          "coins": [
+            {
+              "symbol": "BTC",
+              "market_type": "cex",
+              "match": [
+                "TRUMP"
+              ]
+            },
+            {
+              "symbol": "ETH",
+              "market_type": "cex",
+              "match": [
+                "TRUMP"
+              ]
+            },
+            {
+              "symbol": "SOL",
+              "market_type": "cex",
+              "match": [
+                "TRUMP"
+              ]
+            },
+            {
+              "symbol": "TRUMP",
+              "market_type": "cex",
+              "match": [
+                "TRUMP"
+              ]
+            }
+          ],
+          "description": "",
+          "engineType": "news",
+          "id": 1106441,
+          "link": "https://www.forbes.com/sites/siladityaray/2026/03/15/trump-backs-fcc-chairs-threat-to-revoke-broadcast-licenses-over-iran-war-coverage/",
+          "newsType": "Forbes",
+          "source": "",
+          "text": "Trump Backs FCC Chair’s Threat To Revoke Broadcast Licenses Over Iran War Coverage.<br/>The president claimed without evidence that the broadcasters were coordinating with the Iranian government to disseminate false news and AI-generated videos of the war.",
+          "ts": "2026-03-16T02:58:31.842611Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "Trump supports the FCC chairman&#39;s threat to revoke broadcast licenses covering the war with Iran.",
+            "grade": "B",
+            "score": 55,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "特朗普支持美国联邦通信委员会主席威胁要撤销涉及伊朗战争报道的广播执照。"
+          },
+          "coins": [
+            {
+              "symbol": "BTC",
+              "market_type": "cex",
+              "match": [
+                "TRUMP"
+              ]
+            },
+            {
+              "symbol": "ETH",
+              "market_type": "cex",
+              "match": [
+                "TRUMP"
+              ]
+            },
+            {
+              "symbol": "SOL",
+              "market_type": "cex",
+              "match": [
+                "TRUMP"
+              ]
+            },
+            {
+              "symbol": "TRUMP",
+              "market_type": "cex",
+              "match": [
+                "TRUMP"
+              ]
+            }
+          ],
+          "description": "",
+          "engineType": "news",
+          "id": 1106440,
+          "link": "https://www.forbes.com/sites/siladityaray/2026/03/15/trump-backs-fcc-chairs-threat-to-revoke-broadcast-licenses-over-iran-war-coverage/",
+          "newsType": "phoenixnews",
+          "source": "Webs",
+          "text": "Trump Backs FCC Chair’s Threat To Revoke Broadcast Licenses Over Iran War Coverage",
+          "ts": "2026-03-16T02:58:25.689Z"
+        },
+        {
+          "coins": [
+            {
+              "symbol": "CRCL",
+              "market_type": "cex"
+            }
+          ],
+          "description": "",
+          "engineType": "market",
+          "id": 1106439,
+          "link": "https://www.binance.com/en/futures/CRCLUSDT",
+          "newsType": "funding_diff",
+          "source": "cex",
+          "text": "<span style=\"color: var(--color-primary)\">CRCL/USDT</span> Cross-Ex Rate Diff <b class=\"text-buy\">Significant 0.2251%</b> binance(0.2351%) vs okx(0.0100%), Arb APY ~246%",
+          "ts": "2026-03-16T02:58:00.157Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "A spokesperson for China&#39;s National Bureau of Statistics said that as policy measures take effect, consumption is expected to recover steadily this year, but more support is still needed.",
+            "grade": "B",
+            "score": 55,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "中国统计局发言人表示，随着政策措施见效，预计今年消费将稳步回升，但仍需更多支持。"
+          },
+          "coins": [
+            {
+              "symbol": "GAIN",
+              "market_type": "dex",
+              "chain": "bsc",
+              "contract_address": "0xacf5a368ec5bb9e804c8ac0b508daa5a21c92e13",
+              "pool": "0x39131578a319cfdeed38fdc512bccc9eb996befb",
+              "match": [
+                "GAIN"
+              ]
+            }
+          ],
+          "description": "",
+          "engineType": "news",
+          "id": 1106438,
+          "link": "",
+          "newsType": "Reuters",
+          "source": "",
+          "text": "China Stats Bureau Spokesperson: Expects Consumption to Rise Steadily This Year as Policy Measures Gain Traction, but More Support Needed",
+          "ts": "2026-03-16T02:57:50.485413Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "The White House denied Tucker Carlson&#39;s claim that the CIA attempted to frame him for violating the Foreign Agents Registration Act (FARA), a claim Lumer supported.",
+            "grade": "C",
+            "score": 10,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "白宫否认塔克·卡尔森（Tucker Carlson）有关中央情报局（CIA）试图以《外国代理人登记法》（FARA）违规为由构陷他的说法，卢默尔对此表示支持。"
+          },
+          "coins": [
+            {
+              "symbol": "SPY",
+              "market_type": "cex",
+              "match": [
+                "SPY"
+              ]
+            },
+            {
+              "symbol": "OP",
+              "market_type": "cex",
+              "match": [
+                "OP"
+              ]
+            }
+          ],
+          "description": "",
+          "engineType": "news",
+          "id": 1106437,
+          "link": "https://twitter.com/zerohedge/status/2033376985544618390",
+          "newsType": "Twitter",
+          "source": "zerohedge",
+          "text": "White House Denies Tucker Carlson CIA Spy-Op https://www.zerohedge.com/political/tucker-carlson-claims-cia-trying-frame-him-fara-violation-loomer-celebrates",
+          "ts": "2026-03-16T02:57:06.655131Z"
+        },
+        {
+          "coins": [
+            {
+              "symbol": "TURBO",
+              "market_type": "cex",
+              "match": [
+                "TURBO"
+              ]
+            },
+            {
+              "symbol": "GLM",
+              "market_type": "cex",
+              "match": [
+                "GLM"
+              ]
+            }
+          ],
+          "description": "Influential Chinese Blogger",
+          "engineType": "news",
+          "id": 1106436,
+          "link": "https://m.weibo.cn/detail/5277048155144979",
+          "newsType": "Translation",
+          "source": "chairmanrabbit",
+          "text": "[#Zhipu Raises New Model API Price by 20%#] #Zhipu API Price Has Increased by 83%# On March 16th, Zhipu announced the launch of its base model GLM-5-Turbo for the OpenClaw lobster scenario, its first closed-source model since 2025. Simultaneously, it raised the API price of the new model by 20%, marking Zhipu&#39;s second price increase recently. Roughly calculated, Zhipu&#39;s API price has already increased by 83% in the first quarter of 2026. Zhipu&#39;s stock price opened more than 13% today, but as of press time, the increase has fallen back to 8.77%. (First Financial Daily reporter Lü Qian)",
+          "ts": "2026-03-16T02:56:31.58647Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "On March 16, Zhipu launched GLM-5-Turbo, a closed-source base model for the OpenClaw lobster scenario, and at the same time raised the API price of the new model by 20% (the second price increase recently, with a cumulative increase of 83% in the first quarter of 2026); its stock price rose by more than 13% at the opening today, but as of press time the increase has fallen back to 8.77%.",
+            "grade": "B+",
+            "score": 65,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "3月16日，智谱推出面向OpenClaw龙虾场景的闭源基座模型GLM-5-Turbo，同时上调新模型API价格20%（系近期第二次涨价，2026年一季度累计涨83%）；今日开盘其股价涨超13%，截至发稿涨幅回落至8.77%。"
+          },
+          "coins": [
+            {
+              "symbol": "TURBO",
+              "market_type": "cex",
+              "match": [
+                "TURBO"
+              ]
+            },
+            {
+              "symbol": "龙虾",
+              "market_type": "cex",
+              "match": [
+                "龙虾"
+              ]
+            },
+            {
+              "symbol": "GLM",
+              "market_type": "cex",
+              "match": [
+                "GLM"
+              ]
+            }
+          ],
+          "description": "Influential Chinese Blogger",
+          "engineType": "news",
+          "id": 1106435,
+          "link": "https://m.weibo.cn/detail/5277048155144979",
+          "newsType": "Weibo",
+          "source": "chairmanrabbit",
+          "text": "【#智谱上调新模型API价格20%# 】#智谱API价格已涨83%# 3月16日，智谱宣布推出面向OpenClaw龙虾场景的基座模型GLM-5-Turbo，也是2025年以来智谱首个闭源模型，同时上调新模型API价格20%，系智谱近期第二次涨价。粗略计算，2026年第一季度智谱API价格已涨83%。今日开盘，智谱股价涨超13%，截至发稿前涨幅回落至8.77%。（第一财经记者 吕倩）",
+          "ts": "2026-03-16T02:56:31.428352Z"
+        },
+        {
+          "coins": null,
+          "description": "",
+          "engineType": "news",
+          "id": 1106434,
+          "link": "https://tass.ru/",
+          "newsType": "Translation",
+          "source": "",
+          "text": "Dubai Airports is diverting some flights from its main airport to Al Maktoum.",
+          "ts": "2026-03-16T02:56:00.233761Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "Dubai Airport will divert a number of flights from the main airport to Al Maktoum Airport.",
+            "grade": "C",
+            "score": 10,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "迪拜机场将把一批航班从主机场转至阿勒马克图姆机场"
+          },
+          "coins": null,
+          "description": "",
+          "engineType": "news",
+          "id": 1106433,
+          "link": "https://tass.ru/",
+          "newsType": "TASS",
+          "source": "",
+          "text": "Dubai Airports перенаправляет ряд рейсов из главного аэропорта в Аль-Мактум",
+          "ts": "2026-03-16T02:56:00.12525Z"
+        },
+        {
+          "coins": null,
+          "description": "",
+          "engineType": "news",
+          "id": 1106432,
+          "link": "https://dbws.io/newsbot/dj/DNCO20260315001442",
+          "newsType": "DJ",
+          "source": "",
+          "text": "China's Economy Off to Steady Start in 2026 Amid Lowered Expectations -- WSJ",
+          "ts": "2026-03-16T02:55:27.283774Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "China&#39;s 30-year government bond futures hit their lowest level since October 2024.",
+            "grade": "B",
+            "score": 55,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "中国30年期国债期货触及2024年10月以来的最低水平"
+          },
+          "coins": null,
+          "description": "China's business and market",
+          "engineType": "news",
+          "id": 1106431,
+          "link": "https://twitter.com/sino_market/status/2033376400464662703",
+          "newsType": "Twitter",
+          "source": "sino_market",
+          "text": "🇨🇳CHINA'S 30-YEAR TREASURY FUTURES HITS LOWEST LEVEL SINCE OCT 2024 (https://mktnews.com/flashDetail.html?id=019cf490-e2da-777a-a96c-76a03bee0da5) https://t.co/vHMk221t60",
+          "ts": "2026-03-16T02:54:47.465333Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "Palm oil opened more than 1% higher, influenced by strong competitor Dalian market and export data.",
+            "grade": "C",
+            "score": 20,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "棕榈油开盘涨幅超1%，受强劲的竞争对手大连市场及出口数据影响。"
+          },
+          "coins": null,
+          "description": "",
+          "engineType": "news",
+          "id": 1106430,
+          "link": "https://dbws.io/newsbot/i/nL1N40402K",
+          "newsType": "Reuters",
+          "source": "",
+          "text": "VEGOILS-Palm opens more than 1% higher on strong rival Dalian, export data",
+          "ts": "2026-03-16T02:54:02.158892Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "China&#39;s 30-year government bond futures hit their lowest level since October 2024.",
+            "grade": "B",
+            "score": 55,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "中国30年期国债期货触及2024年10月以来的最低水平。"
+          },
+          "coins": null,
+          "description": "",
+          "engineType": "news",
+          "id": 1106429,
+          "link": "",
+          "newsType": "Reuters",
+          "source": "",
+          "text": "China’s 30-Year Treasury Futures Hits Lowest Level Since Oct 2024",
+          "ts": "2026-03-16T02:54:01.963769Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "Gold prices fell slightly as rising energy prices dampened market expectations for interest rate cuts.",
+            "grade": "B",
+            "score": 55,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "黄金价格小幅下跌，因能源价格上涨削弱了市场对降息的预期。"
+          },
+          "coins": [
+            {
+              "symbol": "XYZ-GOLD",
+              "market_type": "cex",
+              "match": [
+                "(?i)\\b(?:黄金|gold)\\b"
+              ]
+            },
+            {
+              "symbol": "XAU",
+              "market_type": "cex",
+              "match": [
+                "(?i)\\b(?:黄金|gold)\\b"
+              ]
+            }
+          ],
+          "description": "",
+          "engineType": "news",
+          "id": 1106428,
+          "link": "https://dbws.io/newsbot/i/nL1N40401X",
+          "newsType": "Reuters",
+          "source": "",
+          "text": "PRECIOUS-Gold edges lower as higher energy prices dim rate‑cut hopes",
+          "ts": "2026-03-16T02:53:12.260505Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "The team leader expressed pride in launching the project in the current environment, where most other parties have postponed it indefinitely; he stated that the team is making a difficult but correct decision for the long-term success of Katana and KAT.",
+            "grade": "B",
+            "score": 55,
+            "signal": "long",
+            "status": "done",
+            "summary": "团队负责人表示自豪团队在当前环境下直面挑战推出项目，多数其他方已无限期推迟；称团队正为Katana和KAT的长期成功做出艰难但正确的决定。"
+          },
+          "coins": [
+            {
+              "symbol": "KAT",
+              "market_type": "cex",
+              "match": [
+                "KAT"
+              ]
+            }
+          ],
+          "description": "Polygon CEO",
+          "engineType": "news",
+          "id": 1106427,
+          "link": "https://twitter.com/0xmarcb/status/2033375970695238078",
+          "newsType": "Twitter",
+          "source": "0xmarcb",
+          "text": "Proud of the team to face some of the challenges with launching in this environment head on. Most others have delayed indefinitely. <br/><br/>It is clear that they are making tough decisions but the right ones for Katana and KAT to be successful in the long run. <br/><br/>⚔️⚔️⚔️",
+          "ts": "2026-03-16T02:53:04.874237Z"
+        },
+        {
+          "coins": [
+            {
+              "symbol": "CROSS",
+              "market_type": "cex",
+              "match": [
+                "CROSS"
+              ]
+            },
+            {
+              "symbol": "BRIDGE",
+              "market_type": "cex",
+              "match": [
+                "BRIDGE"
+              ]
+            },
+            {
+              "symbol": "BTC",
+              "market_type": "cex",
+              "match": [
+                "BITCOIN"
+              ]
+            },
+            {
+              "symbol": "XRP",
+              "market_type": "cex",
+              "match": [
+                "XRP"
+              ]
+            }
+          ],
+          "description": "",
+          "engineType": "news",
+          "id": 1106426,
+          "link": "https://dbws.io/newsbot/i/nGNX1YRlBb",
+          "newsType": "GlobeNewswire",
+          "source": "",
+          "text": "Crypto News: New Crypto Pepeto Reveil Advances Cross Chain Bridge And Bitcoin, XRP Whales Search For The Best Crypto To Buy",
+          "ts": "2026-03-16T02:53:02.190674Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "Bloomberg News reports that BioMap, backed by Baidu, has reportedly filed for a secret IPO in Hong Kong.",
+            "grade": "C",
+            "score": 20,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "彭博新闻称，百度支持的BioMap据称已秘密提交香港IPO申请。"
+          },
+          "coins": null,
+          "description": "",
+          "engineType": "news",
+          "id": 1106425,
+          "link": "https://dbws.io/newsbot/i/nL4N40407N",
+          "newsType": "Reuters",
+          "source": "",
+          "text": "MEDIA-Baidu-backed BioMap is said to confidentially file for HK IPO - Bloomberg News",
+          "ts": "2026-03-16T02:52:41.411728Z"
+        },
+        {
+          "aiRating": {
+            "enSummary": "The chairman of Trump&#39;s Federal Communications Commission threatened to revoke the licenses of certain broadcasters due to Trump&#39;s dissatisfaction with their war coverage, leading some to believe that the United States is showing signs of a new national media landscape.",
+            "grade": "C",
+            "score": 20,
+            "signal": "neutral",
+            "status": "done",
+            "summary": "特朗普的联邦通信委员会主席因特朗普不满某些广播公司的战争报道，威胁要取消其执照，有观点认为美国正出现国家媒体迹象。"
+          },
+          "coins": [
+            {
+              "symbol": "BTC",
+              "market_type": "cex",
+              "match": [
+                "TRUMP"
+              ]
+            },
+            {
+              "symbol": "ETH",
+              "market_type": "cex",
+              "match": [
+                "TRUMP"
+              ]
+            },
+            {
+              "symbol": "SOL",
+              "market_type": "cex",
+              "match": [
+                "TRUMP"
+              ]
+            },
+            {
+              "symbol": "TRUMP",
+              "market_type": "cex",
+              "match": [
+                "TRUMP"
+              ]
+            }
+          ],
+          "description": "Newsom Press Office",
+          "engineType": "news",
+          "id": 1106424,
+          "link": "https://twitter.com/govpressoffice/status/2033375827208093817",
+          "newsType": "Twitter",
+          "source": "govpressoffice",
+          "text": "Trump’s FCC chair is threatening to cancel broadcasters’ licenses because Trump doesn’t like their war coverage.<br/><br/>State media is coming to America.<br/><br/>Putin must be so proud!",
+          "ts": "2026-03-16T02:52:30.597427Z"
+        }
+      ],
+      "limit": 30,
+      "page": 1,
+      "success": true,
+      "total": 10000,
+      "usage": {
+        "cost": "2",
+        "quota": "0"
+      }
+    },
+    "twitter_top.json": {
+      "data": [
+        {
+          "id": "2033307649698075064",
+          "text": "🇺🇸 A NEW STRATEGIC BITCOIN RESERVE BILL GOT INTRODUCED IN CONGRESS.\n\nBILL WILL ALLOW TAXES TO BE PAID IN BITCOIN, AND NO CAPITAL GAINS TAX.\n\nTHIS IS MASSIVE 🔥\n\nFOLLOW AND REPOST @Rephughblackwel https://t.co/zbpM3AlJG7",
+          "createdAt": "Sun Mar 15 22:21:35 +0000 2026",
+          "language": "en",
+          "retweetCount": 23,
+          "favoriteCount": 100,
+          "replyCount": 6,
+          "quoteCount": 0,
+          "userScreenName": "Rephughblackwel",
+          "userName": "Rep. Hugh Blackwell",
+          "userIdStr": "1034688752",
+          "userFollowers": 14498,
+          "conversationId": "2033307649698075064",
+          "media": [
+            {
+              "type": "video",
+              "url": "https://x.com/Rephughblackwel/status/2033307649698075064/video/1",
+              "thumbUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2033307301986136064/pu/img/eefonlb_RhQNw7oA.jpg",
+              "videoUrl": "https://video.twimg.com/ext_tw_video/2033307301986136064/pu/vid/avc1/1280x716/wfp1bAQfyOjXrPlQ.mp4?tag=12",
+              "duration": 86029
+            }
+          ],
+          "mentions": [
+            {
+              "screenName": "Rephughblackwel",
+              "name": "Rep. Hugh Blackwell",
+              "userId": "1034688752"
+            }
+          ]
+        },
+        {
+          "id": "2033259207202402791",
+          "text": "A bot turned $2,050 → $178,000 in one month arbitraging 5-minute Bitcoin markets on Polymarket.\n\nNo predictions.\nNo news.\nNo macro analysis.\nJust automation.\n\nThe system:\n\n• uses limit orders only\n• exploits small pricing inefficiencies\n• repeats the process hundreds of times https://t.co/OmTrrxOQj5",
+          "createdAt": "Sun Mar 15 19:09:05 +0000 2026",
+          "language": "en",
+          "retweetCount": 8,
+          "favoriteCount": 81,
+          "replyCount": 9,
+          "quoteCount": 0,
+          "userScreenName": "0x_Discover",
+          "userName": "Discover",
+          "userIdStr": "1520730091684311041",
+          "userFollowers": 71830,
+          "userVerified": true,
+          "conversationId": "2033259207202402791",
+          "isQuote": true,
+          "media": [
+            {
+              "type": "video",
+              "url": "https://x.com/0x_Discover/status/2033259207202402791/video/1",
+              "thumbUrl": "https://pbs.twimg.com/amplify_video_thumb/2033259046179139584/img/oTJy9tB4wpGdyuhg.jpg",
+              "videoUrl": "https://video.twimg.com/amplify_video/2033259046179139584/vid/avc1/1080x1080/CqguG8PnfkTX7vEH.mp4?tag=21",
+              "duration": 21339
+            }
+          ]
+        },
+        {
+          "id": "2033353304097309074",
+          "text": "BILLIONAIRE WINKLEVOSS BROTHERS WENT LIVE ON CNBC TO EXPLAIN WHY EVERYONE SHOULD SAVE IN BITCOIN \n\n\"YOU SHOULD HODL\" IT'S GOING UP \"10X FROM HERE\" 🔥 https://t.co/5TLEtT7tbZ",
+          "createdAt": "Mon Mar 16 01:23:00 +0000 2026",
+          "language": "en",
+          "retweetCount": 13,
+          "favoriteCount": 150,
+          "replyCount": 17,
+          "quoteCount": 0,
+          "userScreenName": "saylordocs",
+          "userName": "Documenting Saylor",
+          "userIdStr": "1345111222916562944",
+          "userFollowers": 96386,
+          "userVerified": true,
+          "conversationId": "2033353304097309074",
+          "media": [
+            {
+              "type": "video",
+              "url": "https://x.com/saylordocs/status/2033353304097309074/video/1",
+              "thumbUrl": "https://pbs.twimg.com/amplify_video_thumb/2033081484115152896/img/g8ZJhKlsu_y7bN7r.jpg",
+              "videoUrl": "https://video.twimg.com/amplify_video/2033081484115152896/vid/avc1/1282x720/kfJlBkmfDoE6US36.mp4?tag=21",
+              "duration": 95978
+            }
+          ]
+        },
+        {
+          "id": "2033288376468779426",
+          "text": "BULLISH: New model shows that Bitcoin could reach $10,000,000 in less than 6 years and $20,000,000 in 10 years. 🚀 https://t.co/5uI5N0nidw",
+          "createdAt": "Sun Mar 15 21:05:00 +0000 2026",
+          "language": "en",
+          "retweetCount": 78,
+          "favoriteCount": 474,
+          "replyCount": 46,
+          "quoteCount": 4,
+          "userScreenName": "BitcoinSapiens",
+          "userName": "BitcoinSapiens ⚡️",
+          "userIdStr": "1333823429041074181",
+          "userFollowers": 75349,
+          "userVerified": true,
+          "conversationId": "2033288376468779426",
+          "media": [
+            {
+              "type": "photo",
+              "url": "https://x.com/BitcoinSapiens/status/2033288376468779426/photo/1",
+              "thumbUrl": "https://pbs.twimg.com/media/HDcsyc9XkAAtGbB.jpg"
+            },
+            {
+              "type": "photo",
+              "url": "https://x.com/BitcoinSapiens/status/2033288376468779426/photo/1",
+              "thumbUrl": "https://pbs.twimg.com/media/HDcs2LsX0AAazHP.jpg"
+            }
+          ]
+        },
+        {
+          "id": "2033185937090293801",
+          "text": "Called the Bitcoin top at 126K, shorted ZEC at the exact top (literally the top), called OIH, XLE &amp; NTR, all in profit.\n\nNot to brag, but I don’t have a single losing trade in the history of my X account. Not one.\n\nWhat’s the secret? I don’t overtrade. When there’s no money to be",
+          "createdAt": "Sun Mar 15 14:17:56 +0000 2026",
+          "language": "en",
+          "retweetCount": 268,
+          "favoriteCount": 9493,
+          "replyCount": 462,
+          "quoteCount": 23,
+          "userScreenName": "NoLimitGains",
+          "userName": "NoLimit",
+          "userIdStr": "1957198190",
+          "userFollowers": 1414215,
+          "userVerified": true,
+          "conversationId": "2033185937090293801"
+        },
+        {
+          "id": "2033252901708079496",
+          "text": "🚨 JUST IN: The individual reported to have the world’s highest IQ says a bull market for $XRP could be ahead.\n\nDo you believe the call? https://t.co/j4QsvTx10H",
+          "createdAt": "Sun Mar 15 18:44:02 +0000 2026",
+          "language": "en",
+          "retweetCount": 26,
+          "favoriteCount": 185,
+          "replyCount": 62,
+          "quoteCount": 2,
+          "userScreenName": "MrBitcoinWhalee",
+          "userName": "Mr. Bitcoin Whale",
+          "userIdStr": "1640428741766594595",
+          "userFollowers": 570980,
+          "userVerified": true,
+          "conversationId": "2033252901708079496",
+          "media": [
+            {
+              "type": "photo",
+              "url": "https://x.com/MrBitcoinWhalee/status/2033252901708079496/photo/1",
+              "thumbUrl": "https://pbs.twimg.com/media/HDeQvUGaIAAApSJ.jpg"
+            },
+            {
+              "type": "photo",
+              "url": "https://x.com/MrBitcoinWhalee/status/2033252901708079496/photo/1",
+              "thumbUrl": "https://pbs.twimg.com/media/HDeQvUNXcAAnOom.jpg"
+            }
+          ]
+        },
+        {
+          "id": "2033247092387316013",
+          "text": "NEW IN: The total crypto market cap increased by $121,000,000,000 in the last week. https://t.co/kEY79HN3m3",
+          "createdAt": "Sun Mar 15 18:20:57 +0000 2026",
+          "language": "en",
+          "retweetCount": 47,
+          "favoriteCount": 419,
+          "replyCount": 37,
+          "quoteCount": 2,
+          "userScreenName": "PolymarketMoney",
+          "userName": "Polymarket Money",
+          "userIdStr": "1938262633871822848",
+          "userFollowers": 73186,
+          "userVerified": true,
+          "conversationId": "2033247092387316013",
+          "media": [
+            {
+              "type": "photo",
+              "url": "https://x.com/PolymarketMoney/status/2033247092387316013/photo/1",
+              "thumbUrl": "https://pbs.twimg.com/media/HDeLbtnWcAA19KY.jpg"
+            },
+            {
+              "type": "photo",
+              "url": "https://x.com/PolymarketMoney/status/2033247092387316013/photo/1",
+              "thumbUrl": "https://pbs.twimg.com/media/HDeLbtmXgAAFjQU.jpg"
+            }
+          ]
+        },
+        {
+          "id": "2033333919656132642",
+          "text": "This is absolutely WILD.\n\nCrypto just had a massive green week while gold, silver, and global stocks wiped out trillions due to the US-Iran war.\n\nBitcoin is up +11%, reaching $73,000.  \nETH is up +13%, hitting almost $2,200.\n\nETH has also just printed its first green weekly https://t.co/PmI3xZp0aQ",
+          "createdAt": "Mon Mar 16 00:05:58 +0000 2026",
+          "language": "en",
+          "retweetCount": 167,
+          "favoriteCount": 953,
+          "replyCount": 115,
+          "quoteCount": 18,
+          "userScreenName": "BullTheoryio",
+          "userName": "Bull Theory",
+          "userIdStr": "815942827968495616",
+          "userFollowers": 137494,
+          "userVerified": true,
+          "conversationId": "2033333919656132642",
+          "media": [
+            {
+              "type": "photo",
+              "url": "https://x.com/BullTheoryio/status/2033333919656132642/photo/1",
+              "thumbUrl": "https://pbs.twimg.com/media/HDfaamcbkAAA7p4.jpg"
+            },
+            {
+              "type": "photo",
+              "url": "https://x.com/BullTheoryio/status/2033333919656132642/photo/1",
+              "thumbUrl": "https://pbs.twimg.com/media/HDfaamgbMAATnWI.jpg"
+            }
+          ]
+        },
+        {
+          "id": "2033337197827604901",
+          "text": "Every week you stack bitcoin without selling is a week you're betting on yourself over the system. That's worth something.",
+          "createdAt": "Mon Mar 16 00:19:00 +0000 2026",
+          "language": "en",
+          "retweetCount": 2,
+          "favoriteCount": 32,
+          "replyCount": 3,
+          "quoteCount": 0,
+          "userScreenName": "kit_sats",
+          "userName": "Kit",
+          "userIdStr": "1764516205837025280",
+          "userFollowers": 10398,
+          "userVerified": true,
+          "conversationId": "2033337197827604901"
+        },
+        {
+          "id": "2033211716314464523",
+          "text": "Who’s ready for the next giveaway?👀\n\nStarting Monday, \n\nWe’re giving away $100 in Bitcoin to the community.\n\n🏆 5 winners\n\n💰 $20 in BTC each\n\nFollow @cryptodispenser  and turn on notifications so \nYou don’t miss the launch and entry instructions.\n\nReal Bitcoin. Real winners. https://t.co/HZs1P0Tc62",
+          "createdAt": "Sun Mar 15 16:00:23 +0000 2026",
+          "language": "en",
+          "retweetCount": 149,
+          "favoriteCount": 212,
+          "replyCount": 163,
+          "quoteCount": 0,
+          "userScreenName": "cryptodispenser",
+          "userName": "Crypto Dispensers",
+          "userIdStr": "1235757438718087168",
+          "userFollowers": 6150,
+          "userVerified": true,
+          "conversationId": "2033211716314464523",
+          "media": [
+            {
+              "type": "photo",
+              "url": "https://x.com/cryptodispenser/status/2033211716314464523/photo/1",
+              "thumbUrl": "https://pbs.twimg.com/media/HDdrR_1WsAAz8DG.jpg"
+            }
+          ],
+          "mentions": [
+            {
+              "screenName": "cryptodispenser",
+              "name": "Crypto Dispensers",
+              "userId": "1235757438718087168"
+            }
+          ]
+        },
+        {
+          "id": "2033190128517022058",
+          "text": "Giving away 10,000 $XRP (~$31,000) to one lucky follower!\n\nSec ago I closed my $200K #XRP long and decided to share the profit\n\nSimple like, retweet, and comment \"done\"\n\nRandom winner will be picked by Grok in 24h, must be following https://t.co/JzYSRQfF3V",
+          "createdAt": "Sun Mar 15 14:34:36 +0000 2026",
+          "language": "en",
+          "retweetCount": 394,
+          "favoriteCount": 590,
+          "replyCount": 380,
+          "quoteCount": 16,
+          "userScreenName": "BitcoinPulseX",
+          "userName": "Bitcoin PulseX",
+          "userIdStr": "1649863979563376646",
+          "userFollowers": 158350,
+          "userVerified": true,
+          "conversationId": "2033190128517022058",
+          "hashtags": [
+            "XRP"
+          ],
+          "media": [
+            {
+              "type": "photo",
+              "url": "https://x.com/BitcoinPulseX/status/2033190128517022058/photo/1",
+              "thumbUrl": "https://pbs.twimg.com/media/HDdXpa-W4AAl2j3.jpg"
+            }
+          ]
+        },
+        {
+          "id": "2033217912094474423",
+          "text": "This is a map of the public Bitcoin network. Each dot represents a computer (node) that holds a complete copy of the blockchain and verifies transactions. https://t.co/T5ybNhKW8n",
+          "createdAt": "Sun Mar 15 16:25:00 +0000 2026",
+          "language": "en",
+          "retweetCount": 72,
+          "favoriteCount": 370,
+          "replyCount": 29,
+          "quoteCount": 3,
+          "userScreenName": "saylordocs",
+          "userName": "Documenting Saylor",
+          "userIdStr": "1345111222916562944",
+          "userFollowers": 96386,
+          "userVerified": true,
+          "conversationId": "2033217912094474423",
+          "media": [
+            {
+              "type": "video",
+              "url": "https://x.com/saylordocs/status/2033217912094474423/video/1",
+              "thumbUrl": "https://pbs.twimg.com/amplify_video_thumb/2032991773111496705/img/noq_Wo1BBkFPM0lI.jpg",
+              "videoUrl": "https://video.twimg.com/amplify_video/2032991773111496705/vid/avc1/806x720/GeE-milI9vlZNh0B.mp4?tag=21",
+              "duration": 74483
+            }
+          ]
+        },
+        {
+          "id": "2033215024215261197",
+          "text": "Who is bitcoin-maxxing the hardest?\n\nThe data is clear: businesses and boomers. https://t.co/B9TeBIC6LD",
+          "createdAt": "Sun Mar 15 16:13:31 +0000 2026",
+          "language": "en",
+          "retweetCount": 32,
+          "favoriteCount": 311,
+          "replyCount": 25,
+          "quoteCount": 6,
+          "userScreenName": "River",
+          "userName": "River",
+          "userIdStr": "1069832249447596032",
+          "userFollowers": 58250,
+          "userVerified": true,
+          "conversationId": "2033215024215261197",
+          "media": [
+            {
+              "type": "video",
+              "url": "https://x.com/River/status/2033215024215261197/video/1",
+              "thumbUrl": "https://pbs.twimg.com/media/HDdppGxXAAAZ6K7.jpg",
+              "videoUrl": "https://video.twimg.com/amplify_video/2032485662062989312/vid/avc1/1920x1080/AUcUGah9nDLh6-Mg.mp4?tag=21",
+              "duration": 389489
+            }
+          ]
+        },
+        {
+          "id": "2033352279399469390",
+          "text": "The best Bitcoin strategy isn't timing the bottom. It's setting up automatic buys and deleting your trading app.",
+          "createdAt": "Mon Mar 16 01:18:55 +0000 2026",
+          "language": "en",
+          "retweetCount": 1,
+          "favoriteCount": 15,
+          "replyCount": 2,
+          "quoteCount": 2,
+          "userScreenName": "bitcoinwell",
+          "userName": "Bitcoin Well",
+          "userIdStr": "2289196172",
+          "userFollowers": 13083,
+          "userVerified": true,
+          "conversationId": "2033352279399469390"
+        },
+        {
+          "id": "2033337486357778706",
+          "text": "Bros, what if we were right. https://t.co/Yz9yN3CtKL",
+          "createdAt": "Mon Mar 16 00:20:08 +0000 2026",
+          "language": "en",
+          "retweetCount": 3,
+          "favoriteCount": 13,
+          "replyCount": 5,
+          "quoteCount": 0,
+          "userScreenName": "SWEATY333",
+          "userName": "Andrεω ☜",
+          "userIdStr": "1582939501265027073",
+          "userFollowers": 21983,
+          "userVerified": true,
+          "conversationId": "2033337486357778706",
+          "isQuote": true,
+          "media": [
+            {
+              "type": "video",
+              "url": "https://x.com/SWEATY333/status/2033337486357778706/video/1",
+              "thumbUrl": "https://pbs.twimg.com/amplify_video_thumb/2033337411045040128/img/9QppG0N8w1m3JGPC.jpg",
+              "videoUrl": "https://video.twimg.com/amplify_video/2033337411045040128/vid/avc1/1080x766/4ubVxpv9j007-qpt.mp4?tag=21",
+              "duration": 29000
+            }
+          ]
+        },
+        {
+          "id": "2033318777732125081",
+          "text": "$BTC goes banana https://t.co/YrgtYB9GHF",
+          "createdAt": "Sun Mar 15 23:05:48 +0000 2026",
+          "language": "en",
+          "retweetCount": 3,
+          "favoriteCount": 178,
+          "replyCount": 32,
+          "quoteCount": 0,
+          "userScreenName": "JohnLoc18",
+          "userName": "JLoc",
+          "userIdStr": "1213208169410727936",
+          "userFollowers": 36705,
+          "userVerified": true,
+          "conversationId": "2033318777732125081",
+          "media": [
+            {
+              "type": "photo",
+              "url": "https://x.com/JohnLoc18/status/2033318777732125081/photo/1",
+              "thumbUrl": "https://pbs.twimg.com/media/HDfMpo9b0AARfRe.jpg"
+            }
+          ]
+        }
+      ],
+      "success": true,
+      "usage": {
+        "cost": "1",
+        "quota": "0"
+      }
+    },
+    "funding_scan.txt": "Scanning Binance Futures funding rates...\n\n=== Top Negative Funding Rates ===\n\nRank  Coin      Rate      Annual(5x)\n────────────────────────────────────────\n 1    G          -1.3380%    -7326%\n 2    KITE       -0.6940%    -3800%\n 3    SIREN      -0.3072%    -1682%\n 4    GAS        -0.2658%    -1455%\n 5    VANA       -0.2474%    -1355%\n 6    MANTRA     -0.2465%    -1350%\n 7    PIPPIN     -0.2187%    -1197%\n 8    ME         -0.2083%    -1140%\n 9    REZ        -0.1843%    -1009%\n10    ATH        -0.1740%     -953%\n\n💡 Negative rate = longs earn from shorts\n⚠️  Always use stop-loss!\n",
+    "hl_btc.txt": "Hyperliquid BTC (perp)\n- mark: 72,435 | mid: 72,435.5 | oracle: 72,471\n- 24h: +1.41% (prev 71,426)\n- funding: 0.0005%\n- OI: 26,348.67\n- 24h notional: 1,549,714,873\n- premium: -0.0483%\n- impact: buy 72,435 | sell 72,436\n",
+    "hl_eth.txt": "Hyperliquid ETH (perp)\n- mark: 2,177.6 | mid: 2,177.65 | oracle: 2,178.8\n- 24h: +3.63% (prev 2,101.3)\n- funding: 0.0002%\n- OI: 589,726.51\n- 24h notional: 833,223,588\n- premium: -0.0505%\n- impact: buy 2,177.6 | sell 2,177.7\n",
+    "hl_sol.txt": "Hyperliquid SOL (perp)\n- mark: 91.341 | mid: 91.3405 | oracle: 91.395\n- 24h: +3.51% (prev 88.24)\n- funding: -0.0007%\n- OI: 3,226,206.76\n- 24h notional: 215,086,239\n- premium: -0.0591%\n- impact: buy 91.34 | sell 91.341\n",
+    "hl_movers.txt": "Hyperliquid movers (perps, by |24h %|)\n- REZ: +21.34% | mark 0.003924 | 24h vol 2,192,630\n- BLAST: +11.86% | mark 0.000547 | 24h vol 127,569\n- ZRO: +11.11% | mark 2.1837 | 24h vol 5,665,102\n- CELO: +11.07% | mark 0.082325 | 24h vol 236,086\n- CFX: +10.43% | mark 0.063115 | 24h vol 938,212\n- NEO: +8.36% | mark 2.7938 | 24h vol 1,886,582\n- GAS: +8.20% | mark 1.6557 | 24h vol 429,452\n- MON: +7.91% | mark 0.024224 | 24h vol 4,117,968\n- ME: +7.44% | mark 0.12313 | 24h vol 90,646\n- S: +6.57% | mark 0.048039 | 24h vol 1,141,324\n",
+    "hl_funding_top.txt": "Hyperliquid funding (top)\n- MAVIA: 0.0233%\n- PROMPT: 0.0134%\n- HEMI: 0.0109%\n- STBL: 0.0077%\n- GRIFFAIN: 0.0068%\n- XMR: 0.0037%\n- CC: 0.0032%\n- DYDX: 0.0013%\n- AVAX: 0.0013%\n- BNB: 0.0013%\n",
+    "polymarket_top.txt": "📈 Top 10 Markets by 24h Volume\n\nWill the Fed increase interest rates by 25+ bps after the March 2026 meeting?\n   Yes: 0.1% | No: 100.0% | 24h: $14,740,472 | Total: $152,817,711\n\nNetanyahu out by March 31?\n   Yes: 3.8% | No: 96.2% | 24h: $9,817,621 | Total: $16,195,711\n\nWarriors vs. Knicks\n   Yes: 0.1% | No: 100.0% | 24h: $5,180,127 | Total: $5,285,654\n\nWill LMP – Hungary’s Green Party (LMP) win the most seats in the next Hungarian \n   Yes: 0.1% | No: 99.9% | 24h: $4,469,349 | Total: $5,476,979\n\nTrail Blazers vs. 76ers\n   Yes: 0.1% | No: 100.0% | 24h: $3,188,050 | Total: $3,239,938\n\nWill there be no change in Fed interest rates after the March 2026 meeting?\n   Yes: 99.6% | No: 0.4% | 24h: $2,371,426 | Total: $61,367,742\n\nWill Iran strike Israel on March 10?\n   Yes: 99.8% | No: 0.2% | 24h: $2,347,025 | Total: $11,980,048\n\nWill the Fed decrease interest rates by 25 bps after the March 2026 meeting?\n   Yes: 0.3% | No: 99.7% | 24h: $1,957,865 | Total: $56,178,602\n\nJazz vs. Kings\n   Yes: 30.5% | No: 69.5% | 24h: $1,947,045 | Total: $2,209,655\n\nUS x Iran ceasefire by March 15?\n   Yes: 0.1% | No: 100.0% | 24h: $1,737,060 | Total: $11,670,202\n\n",
+    "polymarket_btc.txt": "🔍 Markets matching 'bitcoin'\n\nWill Bitcoin reach $150,000 in March?\n   Yes: 0.4% | No: 99.6% | 24h: $377,235 | Total: $12,575,760\n\nWill Bitcoin reach $82,000 March 9-15?\n   Yes: 0.1% | No: 100.0% | 24h: $322,166 | Total: $455,168\n\nWill the price of Bitcoin be above $78,000 on March 16?\n   Yes: 0.1% | No: 99.9% | 24h: $299,962 | Total: $570,887\n\n",
+    "polymarket_fed.txt": "🔍 Markets matching 'fed'\n\nWill the Fed increase interest rates by 25+ bps after the March 2026 meeting?\n   Yes: 0.1% | No: 100.0% | 24h: $14,740,472 | Total: $152,817,711\n\nWill there be no change in Fed interest rates after the March 2026 meeting?\n   Yes: 99.6% | No: 0.4% | 24h: $2,371,426 | Total: $61,367,742\n\nWill the Fed decrease interest rates by 25 bps after the March 2026 meeting?\n   Yes: 0.3% | No: 99.7% | 24h: $1,957,865 | Total: $56,178,602\n\nWill the Fed decrease interest rates by 50+ bps after the March 2026 meeting?\n   Yes: 0.1% | No: 100.0% | 24h: $797,230 | Total: $151,679,880\n\n",
+    "polymarket_iran.txt": "🔍 Markets matching 'iran'\n\nWill Iran strike Israel on March 10?\n   Yes: 99.8% | No: 0.2% | 24h: $2,347,025 | Total: $11,980,048\n\nUS x Iran ceasefire by March 15?\n   Yes: 0.1% | No: 100.0% | 24h: $1,737,060 | Total: $11,670,202\n\nWill the Iranian regime fall by March 31?\n   Yes: 3.7% | No: 96.3% | 24h: $1,731,636 | Total: $34,204,293\n\nIran leadership change by March 13?\n   Yes: 0.1% | No: 99.9% | 24h: $1,628,457 | Total: $4,787,992\n\nWill the Iranian regime fall by June 30?\n   Yes: 28.5% | No: 71.5% | 24h: $1,207,745 | Total: $17,475,253\n\nUS forces enter Iran by March 31?\n   Yes: 29.5% | No: 70.5% | 24h: $1,012,880 | Total: $9,862,048\n\nUS x Iran ceasefire by March 31?\n   Yes: 11.5% | No: 88.5% | 24h: $900,571 | Total: $9,479,433\n\nWill the Iranian regime fall by April 30?\n   Yes: 15.5% | No: 84.5% | 24h: $857,285 | Total: $5,708,254\n\nIran x Israel/US conflict ends by March 15?\n   Yes: 0.1% | No: 100.0% | 24h: $392,462 | Total: $2,830,889\n\nKharg Island no longer under Iranian control by March 31?\n   Yes: 13.5% | No: 86.5% | 24h: $368,003 | Total: $746,335\n\n",
+    "polymarket_analysis.txt": "## Market: Will there be no change in Fed interest rates after the March 2026 meeting?\n**ID:** 654414\n**Prices:** YES $0.996 | NO $0.004 | Pair: $1.000\n**Volume:** $61,369,942 | **Liquidity:** $2,550,400\n**Ends:** 2026-03-18T00:00:00Z\n\nNo alerts triggered.\n",
+    "whale_monitor.txt": "\n🐳 Crypto Whale Monitor\n=========================\nMonitoring 3 wallet(s)... (Threshold: 100 ETH)\n\nChecked | 0x47acD0287D43c16a6D8F8F9B6e60b615c4876b50 | 0.00 ETH\nChecked | 0x9f816c703bC27931c8F61e7A912211910E0f162A | 0.00 ETH\nChecked | 0x6e9E01f2B2A3B31828B8d95B72C730A5c5b967d6 | 0.00 ETH\n\n✅ Scan complete. Found 0 whale(s) above threshold.\n",
+    "sentiment_btc.txt": "{\n  \"score\": 0,\n  \"status\": \"Neutral\",\n  \"narrative_drivers\": [\n    \"Keywords analysis\"\n  ]\n}\n",
+    "sentiment_eth.txt": "{\n  \"score\": 0,\n  \"status\": \"Neutral\",\n  \"narrative_drivers\": [\n    \"Keywords analysis\"\n  ]\n}\n",
+    "cross_market.json": {
+      "ts": "2026-03-16T03:02:49.999379+00:00",
+      "snapshot": {
+        "BTC": {
+          "last": 72500.24,
+          "chg_24h_pct": 1.388
+        },
+        "ETH": {
+          "last": 2179.1,
+          "chg_24h_pct": 3.57
+        },
+        "SOL": {
+          "last": 91.4,
+          "chg_24h_pct": 3.429
+        },
+        "GOLD": {
+          "last": 5005.2,
+          "chg_open_pct": -0.476
+        },
+        "WTI": {
+          "last": 97.44,
+          "chg_open_pct": -0.409
+        },
+        "DXY": {
+          "last": 100.027,
+          "chg_open_pct": -0.083
+        },
+        "SPY": {
+          "last": 662.29,
+          "chg_1d_pct": -0.566
+        },
+        "QQQ": {
+          "last": 593.72,
+          "chg_1d_pct": -0.593
+        }
+      },
+      "fear_greed": {
+        "value": 23,
+        "classification": "Extreme Fear"
+      },
+      "binance_long_short_ratio": {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5121",
+        "longShortRatio": "1.0496",
+        "shortAccount": "0.4879",
+        "timestamp": 1773630000000
+      }
+    },
+    "wallet_xray.json": "🔍 Polymarket Wallet Xray\nInspired by @thejayden's trading analysis framework\n\n/root/.openclaw/workspace/skills/polymarket-wallet-xray/wallet_xray.py:67: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).\n  created_at = datetime.utcfromtimestamp(ts).isoformat() + \"Z\" if ts else \"\"\n📊 Analyzing 176 trades from Polymarket...\n/root/.openclaw/workspace/skills/polymarket-wallet-xray/wallet_xray.py:582: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\n  \"analysis_timestamp\": datetime.utcnow().isoformat(),\n   ⚠️  4 sells/redeems had no matching buy (outside fetch window)\n{\n  \"wallet\": \"0x7845bc5e15bc9c41be5ac0725e68a16ec02b51b5\",\n  \"total_trades\": 176,\n  \"total_period_hours\": 1516.8,\n  \"analysis_timestamp\": \"2026-03-16T03:03:54.314307\",\n  \"profitability\": {\n    \"time_profitable_pct\": 100.0,\n    \"win_rate_pct\": 40.4,\n    \"avg_profit_per_win\": 14.6119,\n    \"avg_loss_per_loss\": -5.7768,\n    \"realized_pnl_usd\": 127.43,\n    \"total_trades\": 176\n  },\n  \"entry_quality\": {\n    \"avg_price_spread_bps\": 8203.4,\n    \"quality_rating\": \"C\",\n    \"assessment\": \"Wide spread across entries. Chasing prices.\"\n  },\n  \"behavior\": {\n    \"is_bot_detected\": false,\n    \"trading_intensity\": \"low\",\n    \"avg_seconds_between_trades\": 33915.5,\n    \"price_chasing\": \"low\",\n    \"accumulation_signal\": \"growing\"\n  },\n  \"edge_detection\": {\n    \"hedge_check_combined_avg\": 0.7596,\n    \"has_arbitrage_edge\": true,\n    \"assessment\": \"Found arbitrage edge! Combined avg $0.76 < $1.00\"\n  },\n  \"risk_profile\": {\n    \"max_drawdown_pct\": 7.1,\n    \"volatility\": \"high\",\n    \"max_position_concentration\": 0.08\n  },\n  \"recommendation\": \"Good trader. \\u2705 Strong Time Profitable (>80%); \\u26a0\\ufe0f Weak entry quality; \\u2705 Human trader (not bot) Safe to copytrade with 10-25% of capital.\"\n}\n"
+  }
+}

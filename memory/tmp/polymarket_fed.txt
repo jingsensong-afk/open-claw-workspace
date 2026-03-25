@@ -1,0 +1,14 @@
+🔍 Markets matching 'fed'
+
+Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?
+   Yes: 0.1% | No: 100.0% | 24h: $14,740,472 | Total: $152,817,711
+
+Will there be no change in Fed interest rates after the March 2026 meeting?
+   Yes: 99.6% | No: 0.4% | 24h: $2,371,426 | Total: $61,367,742
+
+Will the Fed decrease interest rates by 25 bps after the March 2026 meeting?
+   Yes: 0.3% | No: 99.7% | 24h: $1,957,865 | Total: $56,178,602
+
+Will the Fed decrease interest rates by 50+ bps after the March 2026 meeting?
+   Yes: 0.1% | No: 100.0% | 24h: $797,230 | Total: $151,679,880
+

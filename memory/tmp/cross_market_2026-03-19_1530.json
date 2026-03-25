@@ -1,0 +1,7 @@
+{
+  "gold": "Symbol,Date,Time,Open,High,Low,Close,Volume\r\nXAUUSD,2026-03-19,08:31:36,4834.68,4867.09,4748.79,4761.64,",
+  "oil": "Symbol,Date,Time,Open,High,Low,Close,Volume\r\nCL.F,2026-03-19,08:31:37,98.39,99.14,95.35,95.74,",
+  "dxy": "Symbol,Date,Time,Open,High,Low,Close,Volume\r\nDX.F,2026-03-19,08:31:38,99.98,100.077,99.8,99.965,",
+  "spy": "Symbol,Date,Time,Open,High,Low,Close,Volume\r\nSPY.US,2026-03-18,21:00:20,668.36,669.72,661.19,661.43,82062576",
+  "qqq": "Symbol,Date,Time,Open,High,Low,Close,Volume\r\nQQQ.US,2026-03-18,21:00:19,601.49,603.16,594.56,594.9,56127962"
+}

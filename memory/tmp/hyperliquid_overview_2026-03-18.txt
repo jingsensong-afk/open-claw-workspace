@@ -1,0 +1,20 @@
+Hyperliquid movers (perps, by |24h %|)
+- POLYX: +13.84% | mark 0.048931 | 24h vol 5,158,972
+- LIT: +12.56% | mark 1.2495 | 24h vol 15,144,664
+- ANIME: -10.57% | mark 0.005517 | 24h vol 5,719,469
+- GRASS: -10.16% | mark 0.41689 | 24h vol 2,321,950
+- REZ: -10.06% | mark 0.003406 | 24h vol 425,947
+
+Hyperliquid funding (top)
+- HEMI: 0.015%
+- SAGA: 0.0138%
+- ATOM: 0.0013%
+- DYDX: 0.0013%
+- LTC: 0.0013%
+
+Hyperliquid OI (top)
+- PUMP: 15,556,538,186
+- HMSTR: 7,344,461,172
+- kPEPE: 4,027,947,584
+- BLAST: 1,870,572,608
+- MON: 1,267,212,046

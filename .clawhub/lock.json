@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "skills": {
+    "tavily-search": {
+      "version": "1.0.0",
+      "installedAt": 1772636990924
+    },
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1772636992400
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1772636994005
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1772636996141
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1772636997772
+    },
+    "obsidian": {
+      "version": "1.0.0",
+      "installedAt": 1772636999554
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1772637001453
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1772637003119
+    },
+    "tencentcloud-lighthouse-skill": {
+      "version": "1.0.0",
+      "installedAt": 1772637005244
+    },
+    "tencent-docs": {
+      "version": "1.0.3",
+      "installedAt": 1772637007657
+    },
+    "qmd-memory": {
+      "version": "1.0.0",
+      "installedAt": 1773043647179
+    },
+    "lancedb-memory": {
+      "version": "1.0.0",
+      "installedAt": 1773044179821
+    },
+    "opentwitter-mcp": {
+      "version": "1.0.0",
+      "installedAt": 1773046017587
+    },
+    "opennews-mcp": {
+      "version": "1.0.0",
+      "installedAt": 1773046020806
+    },
+    "xint-rs": {
+      "version": "2026.2.25",
+      "installedAt": 1773113942575
+    },
+    "finance-radar": {
+      "version": "1.1.0",
+      "installedAt": 1773113945659
+    },
+    "etherscan": {
+      "version": "1.0.0",
+      "installedAt": 1773113948866
+    },
+    "is-token-safe": {
+      "version": "1.0.0",
+      "installedAt": 1773227264464
+    },
+    "polymarket-api": {
+      "version": "1.0.0",
+      "installedAt": 1773227267957
+    },
+    "polymarket-analysis": {
+      "version": "2.1.0",
+      "installedAt": 1773227269924
+    },
+    "prediction-market-aggregator": {
+      "version": "1.0.0",
+      "installedAt": 1773227273507
+    },
+    "binance-pro": {
+      "version": "1.0.0",
+      "installedAt": 1773245442341
+    },
+    "hyperliquid-trading": {
+      "version": "1.0.0",
+      "installedAt": 1773245446162
+    },
+    "hyperliquid": {
+      "version": "1.0.0",
+      "installedAt": 1773245452909
+    },
+    "funding-rate-scanner": {
+      "version": "1.0.2",
+      "installedAt": 1773245455868
+    },
+    "crypto-whale-monitor": {
+      "version": "1.0.3",
+      "installedAt": 1773245460037
+    },
+    "whale-watch": {
+      "version": "",
+      "installedAt": 1773245469221
+    },
+    "whale-tracker": {
+      "version": "1.1.0",
+      "installedAt": 1773245473659
+    },
+    "whale-alert": {
+      "version": "1.0.0",
+      "installedAt": 1773245477029
+    },
+    "mobula": {
+      "version": "1.0.1",
+      "installedAt": 1773245480156
+    },
+    "polymarket-wallet-xray": {
+      "version": "1.0.4",
+      "installedAt": 1773245483925
+    },
+    "market-sentiment-pulse": {
+      "version": "1.1.0",
+      "installedAt": 1773245488587
+    },
+    "polyedge": {
+      "version": "0.1.1",
+      "installedAt": 1773245494598
+    },
+    "self-improving-agent": {
+      "version": "1.0.11",
+      "installedAt": 1774269107035
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1774269112997
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-03-15T15:30:00+08:00",
+  "scenario": "C-交易机会筛选（叠加A-实盘异动诊断）",
+  "opennews": [
+    "Reuters/CNN/NYT主线集中在中东与霍尔木兹风险，风险溢价主题仍在",
+    "Cointelegraph: Ethereum Foundation OTC卖出约1020万美元ETH（偏短线利空）"
+  ],
+  "opentwitter": {
+    "tier10k": "提及伊朗在霍尔木兹布雷，地缘风险延续",
+    "lookonchain": "链上KOL讨论LINK高杠杆多单与大户再配置",
+    "WuBlockchain": "以太坊供给与生态结构讨论升温"
+  },
+  "funding_rate_scanner": {
+    "BTC_current_rate": "-0.0073%",
+    "BTC_24h_change": "1.12%",
+    "extreme_negative_examples": ["XAN -0.6461%", "KITE -0.5435%", "C -0.5282%"]
+  },
+  "hyperliquid": {
+    "BTC": {"mark": 71481, "24h": "+1.18%", "funding": "0.0004%", "oi": 25937, "notional_24h": 912601935},
+    "ETH": {"mark": 2106.1, "24h": "+1.33%", "funding": "0.0013%", "oi": 606852.93, "notional_24h": 322642241},
+    "SOL": {"mark": 88.235, "24h": "+1.07%", "funding": "0.0001%", "oi": 3224629.74, "notional_24h": 113316451},
+    "funding_bottom": ["AXS -0.0337%", "YGG -0.0238%", "ZORA -0.0192%"]
+  },
+  "cross_market_snapshot": {
+    "ETHUSD_1d": "+0.58%",
+    "SOLUSD_1d": "+0.44%",
+    "SPY_1d": "-0.57%",
+    "QQQ_1d": "-0.59%",
+    "GOLD_1d": "-1.06%",
+    "OIL_1d": "+3.11%",
+    "DXY_1d": "+0.62%",
+    "US10Y_1d": "+0.28%"
+  },
+  "polymarket": {
+    "btc_150k_march_yes": "0.4%",
+    "btc_20k_march_yes": "0.4%",
+    "btc_above_78k_mar16_yes": "0.2%",
+    "fed_hike_25bp_mar_yes": "0.1%"
+  },
+  "whale_monitor": "监控地址3个，ETH余额均低于阈值，未触发新增大额警报",
+  "long_short_ratio": {
+    "BTC": "1.3159 -> 1.2635（过去5个1h点位，偏多但降温）",
+    "ETH": "1.8201 -> 1.7042（偏多且降温）"
+  },
+  "fear_greed": {"value": 15, "classification": "Extreme Fear"},
+  "sentiment_pulse": {"BTC_score": 0, "status": "Neutral"},
+  "unavailable_or_degraded": [
+    "polymarket-wallet-xray缺少SIMMER_API_KEY",
+    "polyedge未发现可直接复用的当轮相关事件对",
+    "yfinance批量接口触发429，已改为单点补抓"
+  ]
+}

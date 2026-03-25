@@ -1,0 +1,20 @@
+Hyperliquid movers (perps, by |24h %|)
+- ANIME: +35.44% | mark 0.006393 | 24h vol 1,453,080
+- GRASS: +28.67% | mark 0.4681 | 24h vol 2,929,561
+- FARTCOIN: +25.52% | mark 0.20997 | 24h vol 53,373,369
+- ZEC: +21.37% | mark 278.38 | 24h vol 84,802,353
+- FET: +18.36% | mark 0.2328 | 24h vol 10,515,488
+
+Hyperliquid funding (top)
+- MAVIA: 0.0351%
+- STBL: 0.0243%
+- HEMI: 0.0044%
+- GOAT: 0.0025%
+- PROMPT: 0.0025%
+
+Hyperliquid OI (top)
+- PUMP: 16,601,835,064
+- HMSTR: 7,349,746,012
+- kPEPE: 4,319,843,400
+- BLAST: 2,002,381,688
+- MON: 1,318,481,522

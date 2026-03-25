@@ -1,0 +1,11 @@
+Hyperliquid funding (top)
+- MAVIA: 0.0233%
+- PROMPT: 0.0134%
+- HEMI: 0.0109%
+- STBL: 0.0077%
+- GRIFFAIN: 0.0068%
+- XMR: 0.0037%
+- CC: 0.0032%
+- DYDX: 0.0013%
+- AVAX: 0.0013%
+- BNB: 0.0013%

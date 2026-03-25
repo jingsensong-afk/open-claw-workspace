@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "skills": {
+    "qmd-memory": {
+      "name": "QMD Memory",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=qmd-memory",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "opentwitter-mcp": {
+      "name": "opentwitter",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=opentwitter-mcp",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "opennews-mcp": {
+      "name": "opennews",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=opennews-mcp",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "xint-rs": {
+      "name": "Xint Rs",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=xint-rs",
+      "source": "skillhub",
+      "version": "2026.2.25"
+    },
+    "finance-radar": {
+      "name": "Finance Radar",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=finance-radar",
+      "source": "skillhub",
+      "version": "1.1.0"
+    },
+    "etherscan": {
+      "name": "Etherscan",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=etherscan",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "is-token-safe": {
+      "name": "Is Token Safe?",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=is-token-safe",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "polymarket-api": {
+      "name": "Polymarket API",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=polymarket-api",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "polymarket-analysis": {
+      "name": "Polymarket Analysis",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=polymarket-analysis",
+      "source": "skillhub",
+      "version": "2.1.0"
+    },
+    "prediction-market-aggregator": {
+      "name": "Prediction Market Aggregator",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=prediction-market-aggregator",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "binance-pro": {
+      "name": "Binance Pro",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=binance-pro",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "hyperliquid-trading": {
+      "name": "Hyperliquid Trading & Analysis",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=hyperliquid-trading",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "hyperliquid": {
+      "name": "Hyperliquid",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=hyperliquid",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "funding-rate-scanner": {
+      "name": "Funding Rate Scanner",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=funding-rate-scanner",
+      "source": "skillhub",
+      "version": "1.0.2"
+    },
+    "crypto-whale-monitor": {
+      "name": "Crypto Whale Monitor",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=crypto-whale-monitor",
+      "source": "skillhub",
+      "version": "1.0.3"
+    },
+    "whale-watch": {
+      "name": "whale-watch",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=whale-watch",
+      "source": "skillhub",
+      "version": ""
+    },
+    "whale-tracker": {
+      "name": "Whale Tracker",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=whale-tracker",
+      "source": "skillhub",
+      "version": "1.1.0"
+    },
+    "whale-alert": {
+      "name": "Whale Alert",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=whale-alert",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "mobula": {
+      "name": "Mobula - Crypto Market Data & Wallet Intelligence",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=mobula",
+      "source": "skillhub",
+      "version": "1.0.1"
+    },
+    "polymarket-wallet-xray": {
+      "name": "Polymarket Wallet Xray",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=polymarket-wallet-xray",
+      "source": "skillhub",
+      "version": "1.0.4"
+    },
+    "market-sentiment-pulse": {
+      "name": "Market Sentiment Pulse",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=market-sentiment-pulse",
+      "source": "skillhub",
+      "version": "1.1.0"
+    },
+    "polyedge": {
+      "name": "PolyEdge - Polymarket Correlation Analyzer",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=polyedge",
+      "source": "skillhub",
+      "version": "0.1.1"
+    },
+    "self-improving-agent": {
+      "name": "self-improving-agent",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=self-improving-agent",
+      "source": "skillhub",
+      "version": "1.0.11"
+    },
+    "proactive-agent": {
+      "name": "Proactive Agent",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=proactive-agent",
+      "source": "skillhub",
+      "version": "3.1.0"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "us": {
+    "tsla.us": {
+      "symbol": "TSLA",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "nvda.us": {
+      "symbol": "NVDA",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "mstr.us": {
+      "symbol": "MSTR",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "coin.us": {
+      "symbol": "COIN",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "smci.us": {
+      "symbol": "SMCI",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "pltr.us": {
+      "symbol": "PLTR",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "ibit.us": {
+      "symbol": "IBIT",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "hood.us": {
+      "symbol": "HOOD",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  },
+  "hk": {
+    "0700.hk": {
+      "symbol": "0700.HK",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "9988.hk": {
+      "symbol": "9988.HK",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "1810.hk": {
+      "symbol": "1810.HK",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "3690.hk": {
+      "symbol": "3690.HK",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "1211.hk": {
+      "symbol": "1211.HK",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "0388.hk": {
+      "symbol": "0388.HK",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "0005.hk": {
+      "symbol": "0005.HK",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "9618.hk": {
+      "symbol": "9618.HK",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  },
+  "com": {
+    "GC=F": {
+      "symbol": "GC=F",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "SI=F": {
+      "symbol": "SI=F",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "CL=F": {
+      "symbol": "CL=F",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    "NG=F": {
+      "symbol": "NG=F",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    }
+  }
+}

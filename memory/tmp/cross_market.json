@@ -1,0 +1,48 @@
+{
+  "ts": "2026-03-16T03:02:49.999379+00:00",
+  "snapshot": {
+    "BTC": {
+      "last": 72500.24,
+      "chg_24h_pct": 1.388
+    },
+    "ETH": {
+      "last": 2179.1,
+      "chg_24h_pct": 3.57
+    },
+    "SOL": {
+      "last": 91.4,
+      "chg_24h_pct": 3.429
+    },
+    "GOLD": {
+      "last": 5005.2,
+      "chg_open_pct": -0.476
+    },
+    "WTI": {
+      "last": 97.44,
+      "chg_open_pct": -0.409
+    },
+    "DXY": {
+      "last": 100.027,
+      "chg_open_pct": -0.083
+    },
+    "SPY": {
+      "last": 662.29,
+      "chg_1d_pct": -0.566
+    },
+    "QQQ": {
+      "last": 593.72,
+      "chg_1d_pct": -0.593
+    }
+  },
+  "fear_greed": {
+    "value": 23,
+    "classification": "Extreme Fear"
+  },
+  "binance_long_short_ratio": {
+    "symbol": "BTCUSDT",
+    "longAccount": "0.5121",
+    "longShortRatio": "1.0496",
+    "shortAccount": "0.4879",
+    "timestamp": 1773630000000
+  }
+}

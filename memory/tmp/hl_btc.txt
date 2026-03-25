@@ -1,0 +1,8 @@
+Hyperliquid BTC (perp)
+- mark: 72,435 | mid: 72,435.5 | oracle: 72,471
+- 24h: +1.41% (prev 71,426)
+- funding: 0.0005%
+- OI: 26,348.67
+- 24h notional: 1,549,714,873
+- premium: -0.0483%
+- impact: buy 72,435 | sell 72,436

@@ -1,0 +1,27 @@
+---BTC
+Hyperliquid BTC (perp)
+- mark: 74,280 | mid: 74,280.5 | oracle: 74,321
+- 24h: -0.86% (prev 74,928)
+- funding: -0.0003%
+- OI: 26,355.79
+- 24h notional: 2,617,881,819
+- premium: -0.0519%
+- impact: buy 74,280 | sell 74,282.4
+---ETH
+Hyperliquid ETH (perp)
+- mark: 2,329.7 | mid: 2,329.75 | oracle: 2,330.8
+- 24h: -0.49% (prev 2,341.1)
+- funding: 0.001%
+- OI: 552,032.73
+- 24h notional: 1,012,671,992
+- premium: -0.0408%
+- impact: buy 2,329.7 | sell 2,329.85
+---SOL
+Hyperliquid SOL (perp)
+- mark: 94.915 | mid: 94.9125 | oracle: 94.975
+- 24h: +0.17% (prev 94.757)
+- funding: -0.0009%
+- OI: 3,275,553.46
+- 24h notional: 225,298,251
+- premium: -0.0588%
+- impact: buy 94.912 | sell 94.9192

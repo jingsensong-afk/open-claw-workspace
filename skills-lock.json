@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "skills": {
+    "aicoin-account": {
+      "source": "aicoincom/coinos-skills",
+      "sourceType": "github",
+      "computedHash": "e6584ba8fc3eeaead69478013d5e91a3970216716ee4642a6d55c8bc7d3bb5de"
+    },
+    "aicoin-freqtrade": {
+      "source": "aicoincom/coinos-skills",
+      "sourceType": "github",
+      "computedHash": "8a463068523dcb43f46fd3e91df128b6e4d752bacdeaa063afc541923088dd0e"
+    },
+    "aicoin-hyperliquid": {
+      "source": "aicoincom/coinos-skills",
+      "sourceType": "github",
+      "computedHash": "9b1e8ec7d4af37ac6739808e6fa2dc7f51322643fc55840603a1f89c06e669ee"
+    },
+    "aicoin-market": {
+      "source": "aicoincom/coinos-skills",
+      "sourceType": "github",
+      "computedHash": "c1dfe9b2986bab699b6b01ad3ea21504a31cadc8ccdb981eae03fb11d42af454"
+    },
+    "aicoin-trading": {
+      "source": "aicoincom/coinos-skills",
+      "sourceType": "github",
+      "computedHash": "4ab70d956197447459ae414deaf08f2cd40a361c6a2077eb1157b89a65b98e73"
+    }
+  }
+}

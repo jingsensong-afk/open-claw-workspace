@@ -1,0 +1,473 @@
+{
+  "collected_at_shanghai": "2026-03-15T11:01:59.240374+08:00",
+  "crypto": {
+    "bitcoin": {
+      "usd": 71484,
+      "usd_24h_vol": 22631182166.04066,
+      "usd_24h_change": 0.8997655505746802
+    },
+    "ethereum": {
+      "usd": 2103.01,
+      "usd_24h_vol": 10036849004.000006,
+      "usd_24h_change": 0.45757031935438064
+    },
+    "solana": {
+      "usd": 88.34,
+      "usd_24h_vol": 1928929430.3448684,
+      "usd_24h_change": 0.09814744291179378
+    }
+  },
+  "binance": {
+    "BTCUSDT": {
+      "ticker24": {
+        "symbol": "BTCUSDT",
+        "priceChange": "642.00",
+        "priceChangePercent": "0.907",
+        "weightedAvgPrice": "70810.48",
+        "lastPrice": "71438.40",
+        "lastQty": "0.008",
+        "openPrice": "70796.40",
+        "highPrice": "71599.90",
+        "lowPrice": "70256.00",
+        "volume": "79456.410",
+        "quoteVolume": "5626346563.19",
+        "openTime": 1773457260000,
+        "closeTime": 1773543714125,
+        "firstId": 7434812015,
+        "lastId": 7436732354,
+        "count": 1916570
+      },
+      "funding": {
+        "symbol": "BTCUSDT",
+        "markPrice": "71438.30000000",
+        "indexPrice": "71483.59239130",
+        "estimatedSettlePrice": "71360.23525994",
+        "lastFundingRate": "-0.00003415",
+        "interestRate": "0.00010000",
+        "nextFundingTime": 1773561600000,
+        "time": 1773543719008
+      },
+      "oi": {
+        "symbol": "BTCUSDT",
+        "openInterest": "83034.668",
+        "time": 1773543715596
+      },
+      "ls_ratio": [
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.5646",
+          "longShortRatio": "1.2967",
+          "shortAccount": "0.4354",
+          "timestamp": 1773532800000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.5626",
+          "longShortRatio": "1.2862",
+          "shortAccount": "0.4374",
+          "timestamp": 1773536400000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.5638",
+          "longShortRatio": "1.2925",
+          "shortAccount": "0.4362",
+          "timestamp": 1773540000000
+        },
+        {
+          "symbol": "BTCUSDT",
+          "longAccount": "0.5682",
+          "longShortRatio": "1.3159",
+          "shortAccount": "0.4318",
+          "timestamp": 1773543600000
+        }
+      ]
+    },
+    "ETHUSDT": {
+      "ticker24": {
+        "symbol": "ETHUSDT",
+        "priceChange": "10.05",
+        "priceChangePercent": "0.480",
+        "weightedAvgPrice": "2082.43",
+        "lastPrice": "2102.28",
+        "lastQty": "0.186",
+        "openPrice": "2092.23",
+        "highPrice": "2107.00",
+        "lowPrice": "2060.09",
+        "volume": "2205647.538",
+        "quoteVolume": "4593104224.01",
+        "openTime": 1773457260000,
+        "closeTime": 1773543712882,
+        "firstId": 7776420988,
+        "lastId": 7779118915,
+        "count": 2688714
+      },
+      "funding": {
+        "symbol": "ETHUSDT",
+        "markPrice": "2102.20136434",
+        "indexPrice": "2103.53813953",
+        "estimatedSettlePrice": "2098.25600891",
+        "lastFundingRate": "-0.00003989",
+        "interestRate": "0.00010000",
+        "nextFundingTime": 1773561600000,
+        "time": 1773543719008
+      },
+      "oi": {
+        "symbol": "ETHUSDT",
+        "openInterest": "2031861.754",
+        "time": 1773543713573
+      },
+      "ls_ratio": [
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6454",
+          "longShortRatio": "1.8201",
+          "shortAccount": "0.3546",
+          "timestamp": 1773532800000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6428",
+          "longShortRatio": "1.7996",
+          "shortAccount": "0.3572",
+          "timestamp": 1773536400000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6427",
+          "longShortRatio": "1.7988",
+          "shortAccount": "0.3573",
+          "timestamp": 1773540000000
+        },
+        {
+          "symbol": "ETHUSDT",
+          "longAccount": "0.6454",
+          "longShortRatio": "1.8201",
+          "shortAccount": "0.3546",
+          "timestamp": 1773543600000
+        }
+      ]
+    },
+    "SOLUSDT": {
+      "ticker24": {
+        "symbol": "SOLUSDT",
+        "priceChange": "0.0500",
+        "priceChangePercent": "0.057",
+        "weightedAvgPrice": "87.3960",
+        "lastPrice": "88.2700",
+        "lastQty": "21.90",
+        "openPrice": "88.2200",
+        "highPrice": "88.6600",
+        "lowPrice": "86.4100",
+        "volume": "11050915.80",
+        "quoteVolume": "965805413.1604",
+        "openTime": 1773457260000,
+        "closeTime": 1773543716669,
+        "firstId": 3225965926,
+        "lastId": 3227003968,
+        "count": 1029840
+      },
+      "funding": {
+        "symbol": "SOLUSDT",
+        "markPrice": "88.26000000",
+        "indexPrice": "88.32529188",
+        "estimatedSettlePrice": "88.22036002",
+        "lastFundingRate": "-0.00009719",
+        "interestRate": "0.00010000",
+        "nextFundingTime": 1773561600000,
+        "time": 1773543719008
+      },
+      "oi": {
+        "symbol": "SOLUSDT",
+        "openInterest": "9377365.28",
+        "time": 1773543714477
+      },
+      "ls_ratio": [
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.7011",
+          "longShortRatio": "2.3456",
+          "shortAccount": "0.2989",
+          "timestamp": 1773532800000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6976",
+          "longShortRatio": "2.3069",
+          "shortAccount": "0.3024",
+          "timestamp": 1773536400000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.6965",
+          "longShortRatio": "2.2949",
+          "shortAccount": "0.3035",
+          "timestamp": 1773540000000
+        },
+        {
+          "symbol": "SOLUSDT",
+          "longAccount": "0.7017",
+          "longShortRatio": "2.3523",
+          "shortAccount": "0.2983",
+          "timestamp": 1773543600000
+        }
+      ]
+    }
+  },
+  "cross_market": {
+    "Gold": {
+      "last": 5061.7001953125,
+      "chg_pct": 0.182091940870856
+    },
+    "WTI": {
+      "last": 98.70999908447266,
+      "chg_pct": 0.0
+    },
+    "DXY": {
+      "last": 100.49500274658203,
+      "chg_pct": 0.13451787107357197
+    },
+    "US10Y": {
+      "last": 4.284999847412109,
+      "chg_pct": 0.0
+    },
+    "QQQ": {
+      "last": 593.719970703125,
+      "chg_pct": 0.0
+    },
+    "SPY": {
+      "last": 662.2899780273438,
+      "chg_pct": 0.0
+    }
+  },
+  "fear_greed": {
+    "value": "15",
+    "value_classification": "Extreme Fear",
+    "timestamp": "1773532800",
+    "time_until_update": "75479"
+  },
+  "polymarket": [
+    {
+      "q": "Russia x Ukraine ceasefire by March 31, 2026?",
+      "slug": "russia-x-ukraine-ceasefire-by-march-31-2026",
+      "vol": "25208101.574438382",
+      "liq": "202967.49345",
+      "end": "2026-03-31T00:00:00Z",
+      "outcomePrices": "[\"0.021\", \"0.979\"]"
+    },
+    {
+      "q": "Russia x Ukraine ceasefire by end of 2026?",
+      "slug": "russia-x-ukraine-ceasefire-before-2027",
+      "vol": "11661515.903621038",
+      "liq": "391226.7489",
+      "end": "2026-12-31T00:00:00Z",
+      "outcomePrices": "[\"0.375\", \"0.625\"]"
+    },
+    {
+      "q": "Will China invade Taiwan by end of 2026?",
+      "slug": "will-china-invade-taiwan-before-2027",
+      "vol": "11033784.300667953",
+      "liq": "540575.19241",
+      "end": "2026-12-31T00:00:00Z",
+      "outcomePrices": "[\"0.1005\", \"0.8995\"]"
+    },
+    {
+      "q": "Will Donald Trump Jr. win the 2028 US Presidential Election?",
+      "slug": "will-donald-trump-jr-win-the-2028-us-presidential-election",
+      "vol": "7239193.398880938",
+      "liq": "975778.3594",
+      "end": "2028-11-07T00:00:00Z",
+      "outcomePrices": "[\"0.0095\", \"0.9905\"]"
+    },
+    {
+      "q": "Will Donald Trump win the 2028 US Presidential Election?",
+      "slug": "will-donald-trump-win-the-2028-us-presidential-election",
+      "vol": "5696376.947110199",
+      "liq": "436080.65413",
+      "end": "2028-11-07T00:00:00Z",
+      "outcomePrices": "[\"0.0215\", \"0.9785\"]"
+    },
+    {
+      "q": "Will Donald Trump win the 2028 Republican presidential nomination?",
+      "slug": "will-donald-trump-win-the-2028-republican-presidential-nomination",
+      "vol": "5665261.576508944",
+      "liq": "491313.89694",
+      "end": "2028-11-07T00:00:00Z",
+      "outcomePrices": "[\"0.0175\", \"0.9825\"]"
+    },
+    {
+      "q": "Will Ivanka Trump win the 2028 Republican presidential nomination?",
+      "slug": "will-ivanka-trump-win-the-2028-republican-presidential-nomination",
+      "vol": "4318521.596191011",
+      "liq": "613710.53134",
+      "end": "2028-11-07T00:00:00Z",
+      "outcomePrices": "[\"0.0105\", \"0.9895\"]"
+    },
+    {
+      "q": "Will Donald Trump Jr. win the 2028 Republican presidential nomination?",
+      "slug": "will-donald-trump-jr-win-the-2028-republican-presidential-nomination",
+      "vol": "4120273.8020229763",
+      "liq": "493584.09273",
+      "end": "2028-11-07T00:00:00Z",
+      "outcomePrices": "[\"0.0125\", \"0.9875\"]"
+    },
+    {
+      "q": "Will Ivanka Trump win the 2028 US Presidential Election?",
+      "slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
+      "vol": "3589016.4548079856",
+      "liq": "454749.26684",
+      "end": "2028-11-07T00:00:00Z",
+      "outcomePrices": "[\"0.0125\", \"0.9875\"]"
+    },
+    {
+      "q": "Will bitcoin hit $1m before GTA VI?",
+      "slug": "will-bitcoin-hit-1m-before-gta-vi-872",
+      "vol": "3567834.638676705",
+      "liq": "422130.6434",
+      "end": "2026-07-31T12:00:00Z",
+      "outcomePrices": "[\"0.489\", \"0.511\"]"
+    },
+    {
+      "q": "Will Eric Trump win the 2028 US Presidential Election?",
+      "slug": "will-eric-trump-win-the-2028-us-presidential-election",
+      "vol": "3213088.9028070034",
+      "liq": "1149890.93283",
+      "end": "2028-11-07T00:00:00Z",
+      "outcomePrices": "[\"0.0085\", \"0.9915\"]"
+    },
+    {
+      "q": "Will Eric Trump win the 2028 Republican presidential nomination?",
+      "slug": "will-eric-trump-win-the-2028-republican-presidential-nomination",
+      "vol": "2909656.865620001",
+      "liq": "966958.57374",
+      "end": "2028-11-07T00:00:00Z",
+      "outcomePrices": "[\"0.0065\", \"0.9935\"]"
+    },
+    {
+      "q": "Zelenskyy out as Ukraine president by end of 2026?",
+      "slug": "zelenskyy-out-as-ukraine-president-before-2027",
+      "vol": "1908254.2336030141",
+      "liq": "57323.066",
+      "end": "2026-12-31T00:00:00Z",
+      "outcomePrices": "[\"0.245\", \"0.755\"]"
+    },
+    {
+      "q": "Will China invades Taiwan before GTA VI?",
+      "slug": "will-china-invades-taiwan-before-gta-vi-716",
+      "vol": "1474588.654698001",
+      "liq": "132653.291",
+      "end": "2026-07-31T12:00:00Z",
+      "outcomePrices": "[\"0.515\", \"0.485\"]"
+    },
+    {
+      "q": "Russia-Ukraine Ceasefire before GTA VI?",
+      "slug": "russia-ukraine-ceasefire-before-gta-vi-554",
+      "vol": "1371874.2839900004",
+      "liq": "43747.6754",
+      "end": "2026-07-31T12:00:00Z",
+      "outcomePrices": "[\"0.565\", \"0.435\"]"
+    },
+    {
+      "q": "Trump impeached by end of 2026?",
+      "slug": "will-trump-be-impeached-by-december-31-2026",
+      "vol": "604671.1676130013",
+      "liq": "69238.3616",
+      "end": "2026-12-31T00:00:00Z",
+      "outcomePrices": "[\"0.115\", \"0.885\"]"
+    },
+    {
+      "q": "Trump out as President before GTA VI?",
+      "slug": "trump-out-as-president-before-gta-vi-846",
+      "vol": "538125.5531730049",
+      "liq": "48961.6185",
+      "end": "2026-07-31T12:00:00Z",
+      "outcomePrices": "[\"0.525\", \"0.475\"]"
+    },
+    {
+      "q": "Will Trump pardon Ghislaine Maxwell by end of 2026?",
+      "slug": "will-trump-pardon-ghislaine-maxwell",
+      "vol": "502474.59432399995",
+      "liq": "53996.3448",
+      "end": "2026-12-31T00:00:00Z",
+      "outcomePrices": "[\"0.065\", \"0.935\"]"
+    },
+    {
+      "q": "Will Trump resign by December 31, 2026?",
+      "slug": "will-trump-resign-by-december-31-2026",
+      "vol": "394287.8622089989",
+      "liq": "108810.0698",
+      "end": "2026-12-31T00:00:00Z",
+      "outcomePrices": "[\"0.065\", \"0.935\"]"
+    },
+    {
+      "q": "Will Ukraine qualify for the 2026 FIFA World Cup?",
+      "slug": "will-ukraine-qualify-for-the-2026-fifa-world-cup",
+      "vol": "139983.48926900025",
+      "liq": "3163.1509",
+      "end": "2026-04-12T00:00:00Z",
+      "outcomePrices": "[\"0.295\", \"0.705\"]"
+    }
+  ],
+  "news": [
+    {
+      "source": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "title": "Hoskinson might be wrong about the future of decentralized compute",
+      "pubDate": "Sat, 14 Mar 2026 18:30:00 +0000"
+    },
+    {
+      "source": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "title": "Crypto’s multi-million F1 sponsorship under fire as Middle East war hits region's biggest events",
+      "pubDate": "Sat, 14 Mar 2026 18:00:00 +0000"
+    },
+    {
+      "source": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "title": "Ethereum Foundation sells 5,000 ether to Tom Lee's BitMine in $10.2 million deal",
+      "pubDate": "Sat, 14 Mar 2026 17:56:34 +0000"
+    },
+    {
+      "source": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "title": "Boris Johnson calling Bitcoin a ‘Ponzi’ draws rebuttal from Michael Saylor and others",
+      "pubDate": "Sat, 14 Mar 2026 17:18:37 +0000"
+    },
+    {
+      "source": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "title": "Wall Street pushes tokenized stocks, but institutions aren’t eager to trade them",
+      "pubDate": "Sat, 14 Mar 2026 16:00:00 +0000"
+    },
+    {
+      "source": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "title": "Brazil industry giants representing 850 companies decry stablecoin tax threat",
+      "pubDate": "Sat, 14 Mar 2026 14:58:14 +0000"
+    },
+    {
+      "source": "https://cointelegraph.com/rss",
+      "title": "CLARITY Act 2026 odds 'extremely low' if not passed before April: Exec",
+      "pubDate": "Sun, 15 Mar 2026 02:09:37 +0000"
+    },
+    {
+      "source": "https://cointelegraph.com/rss",
+      "title": "Here’s what happened in crypto today",
+      "pubDate": "Sat, 14 Mar 2026 22:04:02 +0000"
+    },
+    {
+      "source": "https://cointelegraph.com/rss",
+      "title": "Changing Basel rules could unlock 'huge' liquidity for BTC: Analyst",
+      "pubDate": "Sat, 14 Mar 2026 21:45:50 +0000"
+    },
+    {
+      "source": "https://cointelegraph.com/rss",
+      "title": "Former UK Prime Minister Boris Johnson calls Bitcoin a ‘Ponzi scheme’",
+      "pubDate": "Sat, 14 Mar 2026 18:09:15 +0000"
+    },
+    {
+      "source": "https://cointelegraph.com/rss",
+      "title": "Bitcoin beats stocks as Strategy's STRC hints at $776M BTC buying potential",
+      "pubDate": "Sat, 14 Mar 2026 17:38:08 +0000"
+    },
+    {
+      "source": "https://cointelegraph.com/rss",
+      "title": "Balaji calls for more ‘crypto tools’ for refugees amid Middle East tensions",
+      "pubDate": "Sat, 14 Mar 2026 13:05:18 +0000"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+
+============================================================
+🔍 WALLET XRAY: 0x7845...51b5
+============================================================
+
+💰 PROFITABILITY
+  Time Profitable:    100.0%
+  Win Rate:           40.4%
+  Avg Profit/Win:     $14.6119
+  Avg Loss/Loss:      $-5.7768
+  Realized P&L:       $127.43
+  Total Trades:       176
+
+🎯 ENTRY QUALITY
+  Price Spread:       8203.4 bps
+  Rating:             C
+  Assessment:         Wide spread across entries. Chasing prices.
+
+🤖 BEHAVIOR (👤 HUMAN)
+  Trading Intensity:  low
+  Avg Time Between:   33915.5s
+  Price Chasing:      low
+  Accumulation:       growing
+
+💎 EDGE DETECTION (✅ YES)
+  Combined Avg:       $0.7596
+  Assessment:         Found arbitrage edge! Combined avg $0.76 < $1.00
+
+⚠️  RISK PROFILE
+  Max Drawdown:       7.1%
+  Volatility:         high
+  Max Concentration:  8.0%
+
+📋 RECOMMENDATION
+  Good trader. ✅ Strong Time Profitable (>80%); ⚠️ Weak entry quality; ✅ Human trader (not bot) Safe to copytrade with 10-25% of capital.
+
+============================================================
+

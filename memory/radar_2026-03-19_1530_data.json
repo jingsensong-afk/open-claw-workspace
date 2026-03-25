@@ -1,0 +1,654 @@
+{
+  "timestamp": "2026-03-19 15:31 Asia/Shanghai",
+  "binance_24h": {
+    "BTCUSDT": {
+      "symbol": "BTCUSDT",
+      "priceChange": "-3873.03000000",
+      "priceChangePercent": "-5.249",
+      "weightedAvgPrice": "71666.61181376",
+      "prevClosePrice": "73780.00000000",
+      "lastPrice": "69906.98000000",
+      "lastQty": "0.26687000",
+      "bidPrice": "69906.98000000",
+      "bidQty": "1.84732000",
+      "askPrice": "69906.99000000",
+      "askQty": "0.92670000",
+      "openPrice": "73780.01000000",
+      "highPrice": "74281.33000000",
+      "lowPrice": "69478.51000000",
+      "volume": "25315.83855000",
+      "quoteVolume": "1814300374.10265310",
+      "openTime": 1773819096006,
+      "closeTime": 1773905496006,
+      "firstId": 6120471974,
+      "lastId": 6125524916,
+      "count": 5052943
+    },
+    "ETHUSDT": {
+      "symbol": "ETHUSDT",
+      "priceChange": "-158.10000000",
+      "priceChangePercent": "-6.826",
+      "weightedAvgPrice": "2213.73986143",
+      "prevClosePrice": "2316.15000000",
+      "lastPrice": "2158.06000000",
+      "lastQty": "5.41490000",
+      "bidPrice": "2158.05000000",
+      "bidQty": "21.14590000",
+      "askPrice": "2158.06000000",
+      "askQty": "7.37780000",
+      "openPrice": "2316.16000000",
+      "highPrice": "2333.62000000",
+      "lowPrice": "2143.14000000",
+      "volume": "534277.35030000",
+      "quoteVolume": "1182751067.41718100",
+      "openTime": 1773819096010,
+      "closeTime": 1773905496010,
+      "firstId": 3830470271,
+      "lastId": 3836786204,
+      "count": 6315934
+    },
+    "SOLUSDT": {
+      "symbol": "SOLUSDT",
+      "priceChange": "-4.83000000",
+      "priceChangePercent": "-5.141",
+      "weightedAvgPrice": "90.61900747",
+      "prevClosePrice": "93.95000000",
+      "lastPrice": "89.12000000",
+      "lastQty": "5.03800000",
+      "bidPrice": "89.12000000",
+      "bidQty": "385.73500000",
+      "askPrice": "89.13000000",
+      "askQty": "126.20200000",
+      "openPrice": "93.95000000",
+      "highPrice": "94.44000000",
+      "lowPrice": "88.55000000",
+      "volume": "3425805.63200000",
+      "quoteVolume": "310443106.16805000",
+      "openTime": 1773819095744,
+      "closeTime": 1773905495744,
+      "firstId": 1911781269,
+      "lastId": 1913049720,
+      "count": 1268452
+    }
+  },
+  "funding": {
+    "BTCUSDT": {
+      "symbol": "BTCUSDT",
+      "markPrice": "69866.44136957",
+      "indexPrice": "69904.49869565",
+      "estimatedSettlePrice": "70025.86618514",
+      "lastFundingRate": "-0.00001354",
+      "interestRate": "0.00010000",
+      "nextFundingTime": 1773907200000,
+      "time": 1773905496000
+    },
+    "ETHUSDT": {
+      "symbol": "ETHUSDT",
+      "markPrice": "2157.02000000",
+      "indexPrice": "2157.85953488",
+      "estimatedSettlePrice": "2163.45971550",
+      "lastFundingRate": "0.00000000",
+      "interestRate": "0.00010000",
+      "nextFundingTime": 1773907200000,
+      "time": 1773905496000
+    },
+    "SOLUSDT": {
+      "symbol": "SOLUSDT",
+      "markPrice": "89.08394381",
+      "indexPrice": "89.11870170",
+      "estimatedSettlePrice": "89.40817008",
+      "lastFundingRate": "-0.00001479",
+      "interestRate": "0.00010000",
+      "nextFundingTime": 1773907200000,
+      "time": 1773905496000
+    }
+  },
+  "oi": {
+    "BTCUSDT": {
+      "symbol": "BTCUSDT",
+      "openInterest": "87303.657",
+      "time": 1773905489824
+    },
+    "ETHUSDT": {
+      "symbol": "ETHUSDT",
+      "openInterest": "2212296.017",
+      "time": 1773905489856
+    },
+    "SOLUSDT": {
+      "symbol": "SOLUSDT",
+      "openInterest": "9236161.19",
+      "time": 1773905490479
+    }
+  },
+  "lsr": {
+    "BTCUSDT": [
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5866",
+        "longShortRatio": "1.4190",
+        "shortAccount": "0.4134",
+        "timestamp": 1773889200000
+      },
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5923",
+        "longShortRatio": "1.4528",
+        "shortAccount": "0.4077",
+        "timestamp": 1773892800000
+      },
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5942",
+        "longShortRatio": "1.4643",
+        "shortAccount": "0.4058",
+        "timestamp": 1773896400000
+      },
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5937",
+        "longShortRatio": "1.4612",
+        "shortAccount": "0.4063",
+        "timestamp": 1773900000000
+      },
+      {
+        "symbol": "BTCUSDT",
+        "longAccount": "0.5925",
+        "longShortRatio": "1.4540",
+        "shortAccount": "0.4075",
+        "timestamp": 1773903600000
+      }
+    ],
+    "ETHUSDT": [
+      {
+        "symbol": "ETHUSDT",
+        "longAccount": "0.6310",
+        "longShortRatio": "1.7100",
+        "shortAccount": "0.3690",
+        "timestamp": 1773889200000
+      },
+      {
+        "symbol": "ETHUSDT",
+        "longAccount": "0.6344",
+        "longShortRatio": "1.7352",
+        "shortAccount": "0.3656",
+        "timestamp": 1773892800000
+      },
+      {
+        "symbol": "ETHUSDT",
+        "longAccount": "0.6359",
+        "longShortRatio": "1.7465",
+        "shortAccount": "0.3641",
+        "timestamp": 1773896400000
+      },
+      {
+        "symbol": "ETHUSDT",
+        "longAccount": "0.6353",
+        "longShortRatio": "1.7420",
+        "shortAccount": "0.3647",
+        "timestamp": 1773900000000
+      },
+      {
+        "symbol": "ETHUSDT",
+        "longAccount": "0.6335",
+        "longShortRatio": "1.7285",
+        "shortAccount": "0.3665",
+        "timestamp": 1773903600000
+      }
+    ],
+    "SOLUSDT": [
+      {
+        "symbol": "SOLUSDT",
+        "longAccount": "0.6873",
+        "longShortRatio": "2.1980",
+        "shortAccount": "0.3127",
+        "timestamp": 1773889200000
+      },
+      {
+        "symbol": "SOLUSDT",
+        "longAccount": "0.6874",
+        "longShortRatio": "2.1990",
+        "shortAccount": "0.3126",
+        "timestamp": 1773892800000
+      },
+      {
+        "symbol": "SOLUSDT",
+        "longAccount": "0.6909",
+        "longShortRatio": "2.2352",
+        "shortAccount": "0.3091",
+        "timestamp": 1773896400000
+      },
+      {
+        "symbol": "SOLUSDT",
+        "longAccount": "0.6878",
+        "longShortRatio": "2.2031",
+        "shortAccount": "0.3122",
+        "timestamp": 1773900000000
+      },
+      {
+        "symbol": "SOLUSDT",
+        "longAccount": "0.6834",
+        "longShortRatio": "2.1586",
+        "shortAccount": "0.3166",
+        "timestamp": 1773903600000
+      }
+    ]
+  },
+  "fear_greed": {
+    "name": "Fear and Greed Index",
+    "data": [
+      {
+        "value": "23",
+        "value_classification": "Extreme Fear",
+        "timestamp": "1773878400",
+        "time_until_update": "59303"
+      }
+    ],
+    "metadata": {
+      "error": null
+    }
+  },
+  "coingecko": {
+    "bitcoin": {
+      "usd": 69818,
+      "usd_24h_change": -5.381022881772771
+    },
+    "ethereum": {
+      "usd": 2155.4,
+      "usd_24h_change": -6.940077180671252
+    },
+    "solana": {
+      "usd": 89.04,
+      "usd_24h_change": -5.311442246489513
+    }
+  },
+  "rss_headlines": [
+    {
+      "title": "Bitcoin OGs dump over $100 million in BTC after hawkish Fed dents rate cut hopes",
+      "link": "https://www.coindesk.com/markets/2026/03/19/bitcoin-ogs-dump-over-usd100-million-in-btc-after-hawkish-fed-dents-rate-cut-hopes",
+      "pubDate": "Thu, 19 Mar 2026 07:19:10 +0000"
+    },
+    {
+      "title": "Forget market hours: Leading ETP firm just opened 24/7 liquidity for tokenized stocks, gold and money market funds",
+      "link": "https://www.coindesk.com/markets/2026/03/19/forget-market-hours-leading-etp-firm-just-opened-24-7-liquidity-for-tokenized-stocks-gold-and-money-market-funds",
+      "pubDate": "Thu, 19 Mar 2026 06:27:45 +0000"
+    },
+    {
+      "title": "SEC approves Nasdaq's move to support tokenized securities trading",
+      "link": "https://www.coindesk.com/policy/2026/03/18/sec-approves-nasdaq-s-move-to-allow-tokenized-securities-trading",
+      "pubDate": "Wed, 18 Mar 2026 20:44:02 +0000"
+    },
+    {
+      "title": "Fairshake's $10 million Illinois misfire marks first big hitch in crypto political surge",
+      "link": "https://www.coindesk.com/news-analysis/2026/03/18/fairshake-s-usd10-million-illinois-misfire-marks-first-big-hitch-in-crypto-political-surge",
+      "pubDate": "Wed, 18 Mar 2026 20:31:18 +0000"
+    },
+    {
+      "title": "Bitcoin sinks below $71,000, stocks close at session lows, as 2026 Fed rate cut hopes fade further",
+      "link": "https://www.coindesk.com/markets/2026/03/18/bitcoin-sinks-below-usd71-000-stocks-close-at-session-lows-as-2026-rate-cut-hopes-fade-further",
+      "pubDate": "Wed, 18 Mar 2026 20:19:04 +0000"
+    },
+    {
+      "title": "Polymarket acquires Brahma to scale blockchain trading infrastructure",
+      "link": "https://www.coindesk.com/business/2026/03/18/polymarket-acquires-defi-brahma-to-build-reliable-financial-blockchain-infrastructure",
+      "pubDate": "Wed, 18 Mar 2026 19:56:41 +0000"
+    },
+    {
+      "title": "Sam Bankman-Fried's bankrupt exchange FTX set to repay creditors $2.2 billion this month",
+      "link": "https://www.coindesk.com/business/2026/03/18/sam-bankman-fried-s-bankrupt-exchange-ftx-set-to-repay-creditors-usd2-2-billion-this-month",
+      "pubDate": "Wed, 18 Mar 2026 19:06:59 +0000"
+    },
+    {
+      "title": "Kalshi co-founder fights back against Arizona’s ‘overstep’ in what a lawyer calls a federal-state turf war",
+      "link": "https://www.coindesk.com/policy/2026/03/18/kalshi-co-founder-fights-back-against-arizona-s-overstep-in-what-a-lawyer-calls-a-federal-state-turf-war",
+      "pubDate": "Wed, 18 Mar 2026 18:19:24 +0000"
+    },
+    {
+      "title": "Federal Reserve holds policy steady as Iran war adds to growth and inflation concerns",
+      "link": "https://www.coindesk.com/markets/2026/03/18/federal-reserve-holds-policy-steady-as-it-balances-growth-and-inflation-concerns",
+      "pubDate": "Wed, 18 Mar 2026 17:59:47 +0000"
+    },
+    {
+      "title": "The era of cheap money is over as the Iran war creates a permanent 'inflation floor'",
+      "link": "https://www.coindesk.com/markets/2026/03/18/the-era-of-cheap-money-is-over-as-the-iran-war-creates-a-permanent-inflation-floor",
+      "pubDate": "Wed, 18 Mar 2026 17:09:02 +0000"
+    },
+    {
+      "title": "Crypto Long & Short: When price stops working, yield starts mattering",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/03/18/crypto-long-and-short-when-price-stops-working-yield-starts-mattering",
+      "pubDate": "Wed, 18 Mar 2026 16:17:13 +0000"
+    },
+    {
+      "title": "The Protocol: Ethereum community debates foundation’s new mandate document",
+      "link": "https://www.coindesk.com/tech/2026/03/18/the-protocol-ethereum-community-debates-foundation-s-new-mandate-document",
+      "pubDate": "Wed, 18 Mar 2026 15:52:37 +0000"
+    }
+  ],
+  "cross_market_fallback": {
+    "gold": "Symbol,Date,Time,Open,High,Low,Close,Volume\r\nXAUUSD,2026-03-19,08:31:36,4834.68,4867.09,4748.79,4761.64,",
+    "oil": "Symbol,Date,Time,Open,High,Low,Close,Volume\r\nCL.F,2026-03-19,08:31:37,98.39,99.14,95.35,95.74,",
+    "dxy": "Symbol,Date,Time,Open,High,Low,Close,Volume\r\nDX.F,2026-03-19,08:31:38,99.98,100.077,99.8,99.965,",
+    "spy": "Symbol,Date,Time,Open,High,Low,Close,Volume\r\nSPY.US,2026-03-18,21:00:20,668.36,669.72,661.19,661.43,82062576",
+    "qqq": "Symbol,Date,Time,Open,High,Low,Close,Volume\r\nQQQ.US,2026-03-18,21:00:19,601.49,603.16,594.56,594.9,56127962"
+  },
+  "polymarket_top_events_24h": [
+    {
+      "title": "Presidential Election Winner 2028",
+      "slug": "presidential-election-winner-2028",
+      "volume24hr": 6498953.581468004,
+      "liquidity": 25872490.53801,
+      "tags": [
+        {
+          "id": "101206",
+          "label": "World Elections",
+          "slug": "world-elections",
+          "forceShow": false,
+          "createdAt": "2024-11-07T23:07:25.512144Z",
+          "updatedAt": "2026-03-09T22:20:41.744191Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "1597",
+          "label": "Global Elections",
+          "slug": "global-elections",
+          "forceShow": true,
+          "publishedAt": "2024-03-07 20:44:01.258+00",
+          "createdBy": 15,
+          "updatedBy": 15,
+          "createdAt": "2024-03-07T20:41:56.773Z",
+          "updatedAt": "2026-03-09T22:35:06.772403Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "1101",
+          "label": "US Election",
+          "slug": "us-presidential-election",
+          "forceShow": false,
+          "publishedAt": "2024-02-06 19:42:10.126+00",
+          "createdAt": "2024-02-06T19:42:10.132Z",
+          "updatedAt": "2026-03-09T22:31:04.154999Z",
+          "requiresTranslation": false
+        }
+      ]
+    },
+    {
+      "title": "Democratic Presidential Nominee 2028",
+      "slug": "democratic-presidential-nominee-2028",
+      "volume24hr": 6242710.881389,
+      "liquidity": 40973849.49497,
+      "tags": [
+        {
+          "id": "101206",
+          "label": "World Elections",
+          "slug": "world-elections",
+          "forceShow": false,
+          "createdAt": "2024-11-07T23:07:25.512144Z",
+          "updatedAt": "2026-03-09T22:20:41.744191Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "1597",
+          "label": "Global Elections",
+          "slug": "global-elections",
+          "forceShow": true,
+          "publishedAt": "2024-03-07 20:44:01.258+00",
+          "createdBy": 15,
+          "updatedBy": 15,
+          "createdAt": "2024-03-07T20:41:56.773Z",
+          "updatedAt": "2026-03-09T22:35:06.772403Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "144",
+          "label": "Elections",
+          "slug": "elections",
+          "forceShow": false,
+          "publishedAt": "2023-11-02 21:24:31.008+00",
+          "updatedBy": 13,
+          "createdAt": "2023-11-02T21:24:31.198Z",
+          "updatedAt": "2026-03-09T22:32:04.396035Z",
+          "forceHide": true,
+          "requiresTranslation": false
+        }
+      ]
+    },
+    {
+      "title": "English Premier League Winner ",
+      "slug": "english-premier-league-winner",
+      "volume24hr": 5904774.192600001,
+      "liquidity": 4352163.2472,
+      "tags": [
+        {
+          "id": "1",
+          "label": "Sports",
+          "slug": "sports",
+          "forceShow": false,
+          "publishedAt": "2023-10-24 22:37:50.296+00",
+          "updatedBy": 15,
+          "createdAt": "2023-10-24T22:37:50.31Z",
+          "updatedAt": "2026-03-09T22:25:22.69129Z",
+          "forceHide": true,
+          "requiresTranslation": false
+        },
+        {
+          "id": "100350",
+          "label": "Soccer",
+          "slug": "soccer",
+          "forceShow": false,
+          "createdAt": "2024-08-21T16:31:18.953213Z",
+          "updatedAt": "2026-03-09T22:19:41.403029Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "306",
+          "label": "EPL",
+          "slug": "EPL",
+          "forceShow": false,
+          "publishedAt": "2023-11-02 21:53:01.244+00",
+          "createdAt": "2023-11-02T21:53:01.251Z",
+          "updatedAt": "2026-03-09T22:35:06.757903Z",
+          "requiresTranslation": false
+        }
+      ]
+    },
+    {
+      "title": "Republican Presidential Nominee 2028",
+      "slug": "republican-presidential-nominee-2028",
+      "volume24hr": 5819968.991151999,
+      "liquidity": 23166870.15213,
+      "tags": [
+        {
+          "id": "2",
+          "label": "Politics",
+          "slug": "politics",
+          "forceShow": false,
+          "publishedAt": "2023-10-25 18:55:50.674+00",
+          "updatedBy": 13,
+          "createdAt": "2023-10-25T18:55:50.681Z",
+          "updatedAt": "2026-03-09T22:35:26.76623Z",
+          "forceHide": true,
+          "requiresTranslation": false
+        },
+        {
+          "id": "1101",
+          "label": "US Election",
+          "slug": "us-presidential-election",
+          "forceShow": false,
+          "publishedAt": "2024-02-06 19:42:10.126+00",
+          "createdAt": "2024-02-06T19:42:10.132Z",
+          "updatedAt": "2026-03-09T22:31:04.154999Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "144",
+          "label": "Elections",
+          "slug": "elections",
+          "forceShow": false,
+          "publishedAt": "2023-11-02 21:24:31.008+00",
+          "updatedBy": 13,
+          "createdAt": "2023-11-02T21:24:31.198Z",
+          "updatedAt": "2026-03-09T22:32:04.396035Z",
+          "forceHide": true,
+          "requiresTranslation": false
+        }
+      ]
+    },
+    {
+      "title": "2026 FIFA World Cup Winner ",
+      "slug": "2026-fifa-world-cup-winner-595",
+      "volume24hr": 5420553.350883884,
+      "liquidity": 44151805.15981,
+      "tags": [
+        {
+          "id": "100350",
+          "label": "Soccer",
+          "slug": "soccer",
+          "forceShow": false,
+          "createdAt": "2024-08-21T16:31:18.953213Z",
+          "updatedAt": "2026-03-09T22:19:41.403029Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "1",
+          "label": "Sports",
+          "slug": "sports",
+          "forceShow": false,
+          "publishedAt": "2023-10-24 22:37:50.296+00",
+          "updatedBy": 15,
+          "createdAt": "2023-10-24T22:37:50.31Z",
+          "updatedAt": "2026-03-09T22:25:22.69129Z",
+          "forceHide": true,
+          "requiresTranslation": false
+        },
+        {
+          "id": "102232",
+          "label": "FIFA World Cup",
+          "slug": "fifa-world-cup",
+          "createdAt": "2025-06-08T02:11:18.665669Z",
+          "updatedAt": "2026-03-12T15:58:08.287448Z",
+          "requiresTranslation": false
+        }
+      ]
+    },
+    {
+      "title": "2026 NCAA Tournament Winner",
+      "slug": "2026-ncaa-tournament-winner",
+      "volume24hr": 4611691.877486,
+      "liquidity": 8765824.99886,
+      "tags": [
+        {
+          "id": "100396",
+          "label": "NCAA",
+          "slug": "ncaa",
+          "forceShow": false,
+          "createdAt": "2024-08-28T20:41:31.297232Z",
+          "updatedAt": "2026-03-12T15:58:00.360703Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "101178",
+          "label": "CBB",
+          "slug": "cbb",
+          "createdAt": "2024-11-04T20:09:35.892479Z",
+          "updatedAt": "2026-03-09T22:33:58.577464Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "1",
+          "label": "Sports",
+          "slug": "sports",
+          "forceShow": false,
+          "publishedAt": "2023-10-24 22:37:50.296+00",
+          "updatedBy": 15,
+          "createdAt": "2023-10-24T22:37:50.31Z",
+          "updatedAt": "2026-03-09T22:25:22.69129Z",
+          "forceHide": true,
+          "requiresTranslation": false
+        }
+      ]
+    },
+    {
+      "title": "Netanyahu out by...?",
+      "slug": "netanyahu-out-before-2027",
+      "volume24hr": 4126760.9941349947,
+      "liquidity": 2630888.30528,
+      "tags": [
+        {
+          "id": "101970",
+          "label": "World",
+          "slug": "world",
+          "forceShow": false,
+          "createdAt": "2025-03-19T23:36:08.498099Z",
+          "updatedAt": "2026-03-09T22:25:02.420693Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "100265",
+          "label": "Geopolitics",
+          "slug": "geopolitics",
+          "forceShow": true,
+          "createdAt": "2024-06-12T20:13:03.615956Z",
+          "updatedAt": "2026-03-09T22:29:03.520452Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "154",
+          "label": "Middle East",
+          "slug": "middle-east",
+          "forceShow": false,
+          "publishedAt": "2023-11-02 21:26:20.585+00",
+          "updatedBy": 15,
+          "createdAt": "2023-11-02T21:26:20.601Z",
+          "updatedAt": "2026-03-09T22:31:04.104846Z",
+          "forceHide": true,
+          "requiresTranslation": false
+        }
+      ]
+    },
+    {
+      "title": "Elon Musk # tweets March 13 - March 20, 2026?",
+      "slug": "elon-musk-of-tweets-march-13-march-20",
+      "volume24hr": 3848141.2245519985,
+      "liquidity": 1979086.47066,
+      "tags": [
+        {
+          "id": "596",
+          "label": "Culture",
+          "slug": "pop-culture",
+          "forceShow": false,
+          "publishedAt": "2023-11-29 18:40:13.013+00",
+          "createdAt": "2023-11-29T18:40:14.63Z",
+          "updatedAt": "2026-03-09T22:35:06.806106Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "972",
+          "label": "Tweet Markets",
+          "slug": "tweets-markets",
+          "forceShow": false,
+          "publishedAt": "2024-02-06 19:19:25.344+00",
+          "createdAt": "2024-02-06T19:19:25.37Z",
+          "updatedAt": "2026-03-09T22:34:18.711987Z",
+          "requiresTranslation": false
+        },
+        {
+          "id": "2",
+          "label": "Politics",
+          "slug": "politics",
+          "forceShow": false,
+          "publishedAt": "2023-10-25 18:55:50.674+00",
+          "updatedBy": 13,
+          "createdAt": "2023-10-25T18:55:50.681Z",
+          "updatedAt": "2026-03-09T22:35:26.76623Z",
+          "forceHide": true,
+          "requiresTranslation": false
+        }
+      ]
+    }
+  ],
+  "tool_status": {
+    "opennews_mcp": "unavailable_direct_cli (fallback rss/http)",
+    "opentwitter_mcp": "unavailable_direct_cli",
+    "polymarket_wallet_xray": "requires wallet address; no default wallet configured",
+    "crypto_whale_monitor": "no wallet list specified this run"
+  }
+}

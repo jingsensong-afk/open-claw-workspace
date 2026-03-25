@@ -1,0 +1,9 @@
+## Market: Will there be no change in Fed interest rates after the March 2026 meeting?
+**ID:** 654414
+**Prices:** YES $0.995 | NO $0.005 | Pair: $1.000
+**Volume:** $67,290,899 | **Liquidity:** $851,066
+**Ends:** 2026-03-18T00:00:00Z
+
+### Alerts
+- [PRICE_CHANGE] NO price moved up 22.2%: $0.004 → $0.005
+- [WHALE_TRADE] Large volume detected: +$5,920,957 ($61,369,942 → $67,290,899)
