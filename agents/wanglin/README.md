@@ -16,5 +16,10 @@
 默认写入：
 - agents/wanglin/
 
+当前专属模板：
+- `agents/wanglin/templates/CRYPTO_EXECUTION_TEMPLATE.md`
+- `agents/wanglin/templates/CRYPTO_EXECUTION_LOG_TEMPLATE.md`
+
 说明：
 王林与龙皓晨共享 shared 层，但除共享层外，其他沉淀必须分区，避免恢复与执行混乱。
+从 2026-03-27 起，王林正式按专属分区工作。
