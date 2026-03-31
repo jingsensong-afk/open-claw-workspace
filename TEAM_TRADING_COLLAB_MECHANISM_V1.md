@@ -1,6 +1,6 @@
 # ZeroOne 交易小组协作机制 V1（组长制）
 
-更新时间：2026-03-15
+更新时间：2026-03-31
 
 ## 一、目标
 建立“组长制”小组协作机制，提升跨市场交易执行效率与专业度：
@@ -85,7 +85,58 @@
 
 两周后根据实战结果优化到 V1.x。
 
-## 八、当前结论
-该机制用于将 ZeroOne 从“单点分析”升级到“组长制协同执行”。
+## 八、王林执行线协作结果总表（2026-03-31）
+### 1. 角色分工
+- 景森：CEO，最终决策与方向确认
+- 龙皓晨：组长 / 总调度 / 总裁决
+- 王林：加密交易执行员
 
-先跑起来，再在实战中迭代升级，最终形成稳定可扩展的跨市场交易协作体系。
+### 2. 输出风格要求
+- 王林输出风格：简洁、精确、先结论、少铺垫
+
+### 3. 加密执行共识
+已对齐：
+- 职责边界
+- 统一分析框架
+- 每日交付物
+- 执行日志规则
+- 复盘规则
+- 上报机制
+- 数据源与工具升级方向
+
+### 4. 统一分析框架
+- 底层环境 → 周期结构 → 资金行为 → 技术触发 → 剧本推演 → 执行动作
+
+### 5. 每日交付物
+- BTC/ETH 主报告
+- 热点异动机会扫描
+- 执行记录
+- 日终复盘
+- 必要时异常/机会快报
+
+### 6. 上报机制
+- 常规事项自主处理
+- 风险上限变化 / 方向变化 / 突发变化 / 重大机会必须快速上报
+
+### 7. 数据源主次顺序
+- Binance USDⓈ-M → OKX → Hyperliquid → Coinbase → AiCoin
+
+### 8. 已落盘模板 / 规则 / 协议
+- `agents/wanglin/rules/CRYPTO_EXECUTION_SYSTEM.md`
+- `agents/wanglin/templates/BTC_ETH_MAIN_REPORT_TEMPLATE.md`
+- `agents/wanglin/templates/END_OF_DAY_REVIEW_TEMPLATE.md`
+- `agents/wanglin/templates/EXECUTION_LOG_TEMPLATE_V2.md`
+- `agents/wanglin/templates/HOT_MARKET_OPPORTUNITY_TEMPLATE.md`
+- `shared/trading/EXECUTION_COLLAB_PROTOCOL.md`
+
+### 9. 已确认数据源测试结果
+- AiCoin 基础 K 线可用；Funding / OI / 清算图受付费权限限制返回 403
+- Hyperliquid 公开市场接口可用
+- OKX 市场口径已跑通
+- Binance USDⓈ-M 已跑通
+- Coinbase 基础现货已跑通，candles 待修
+
+## 九、当前结论
+该机制已从“单点分析”升级为“组长制 + 加密执行线”的正式协作机制。
+
+先按现有机制稳定运行，再在实战中持续收口、升级、迭代。
