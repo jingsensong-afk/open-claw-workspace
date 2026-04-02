@@ -40,6 +40,10 @@
 35. aicoin-market
 36. aicoin-trading
 37. okx-cex-market
+38. finnhub-pro
+39. fundamental-stock-analysis
+40. institutional-flow-tracker
+41. openclaw-tradingview-quant
 
 ## 二、投研交易相关 Skill 全量
 1. aicoin-account
@@ -69,6 +73,10 @@
 25. prediction-market-aggregator
 26. qmd-memory
 27. xint-rs
+28. finnhub-pro
+29. fundamental-stock-analysis
+30. institutional-flow-tracker
+31. openclaw-tradingview-quant
 
 ## 三、当前正式主干核心（建议长期保留）
 1. aicoin-hyperliquid
@@ -86,6 +94,8 @@
 13. polymarket-api
 14. polymarket-wallet-xray
 15. xint-rs
+16. finnhub-pro
+17. fundamental-stock-analysis
 
 ## 四、保留观察
 1. aicoin-account
@@ -100,6 +110,8 @@
 10. okx-cex-market
 11. prediction-market-aggregator
 12. qmd-memory
+13. institutional-flow-tracker
+14. openclaw-tradingview-quant
 
 ## 五、本轮已处理
 - 已删除重复 Skill：whale-alert、whale-tracker、whale-watch

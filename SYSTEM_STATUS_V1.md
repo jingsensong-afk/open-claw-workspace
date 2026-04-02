@@ -103,6 +103,18 @@
 - 验证情况：已验证
 - 备注：第三方代码已本地修补
 
+17. `finnhub-pro`
+- 用途：美股实时行情、公司档案、公司新闻、分析师推荐、内部人交易、财报日历、基本面财务
+- 当前状态：已安装，可用
+- 验证情况：AAPL 实时报价已跑通
+- 备注：依赖 `FINNHUB_API_KEY`，当前已配置；免费层不含 K 线/目标价/新闻情绪
+
+18. `fundamental-stock-analysis`
+- 用途：港美股基本面分析、同业比较、估值与质量判断框架
+- 当前状态：已安装，可用
+- 验证情况：已安装，当前可作为分析框架直接调用
+- 备注：偏方法论/分析框架层，不依赖额外 key
+
 ## 二、系统内置可直接使用能力
 1. `summarize`
 - 用途：长文 / URL / PDF 总结
@@ -132,6 +144,8 @@
 - Agent Browser
 - is-token-safe
 - etherscan
+- finnhub-pro
+- fundamental-stock-analysis
 
 ## 四、已安装但当前不纳入主力的
 - xint-rs（待更深验证）
@@ -140,9 +154,8 @@
 - prediction-market-aggregator（参考资料型）
 - binance-pro（观察组）
 - hyperliquid-trading（观察组）
-- whale-watch（观察组）
-- whale-tracker（观察组）
-- whale-alert（观察组）
+- institutional-flow-tracker（已安装但当前 403，暂缓）
+- openclaw-tradingview-quant（已安装，偏方法论/文档型，观察组）
 
 ## 五、当前不可用 / 尚未补齐的关键能力
 1. 标准清算热图 / 流动性热区专用数据源
@@ -167,6 +180,8 @@
 - 记忆检索与复盘
 - 浏览器抓取补位
 - 长文总结
+- 美股实时行情 / 公司档案 / 公司新闻 / 财报日历（通过 `finnhub-pro`）
+- 港美股基本面分析框架（通过 `fundamental-stock-analysis`）
 
 ### 已接入《每日投研机会雷达》工作流的 6 个主力 Skill
 - funding-rate-scanner
