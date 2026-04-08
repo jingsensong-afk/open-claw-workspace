@@ -16,3 +16,12 @@
 - 若内容可被龙皓晨与王林共用，再上升到 `shared/`。
 - 龙皓晨顶层主线 cron / 主报告 / 恢复记录不属于王林默认工作入口。
 - 若未来王林演化为独立系统，可直接从本分区低成本拆仓。
+
+## 当前9维工作状态（2026-04-08收口版）
+- BTC/ETH 主报告已形成“规则层 + checklist + 前台模板 + 示例稿 + 恢复索引”的完整链路。
+- 当前数据源主次顺序已固定：Binance USDⓈ-M → OKX → Hyperliquid → Coinbase → AiCoin。
+- 当前 1-7 维已基本进入固化阶段；第8维（清算热图 / 未平仓集中区）与第9维（宏观流动性）仍在补链。
+- 第8维当前主方案：CoinGlass；当前状态：等待 key / 授权。
+- 第9维风险偏好层主方案：Trading Economics；当前状态：等待 key。
+- 第9维 crypto资金流层已确认可优先推进：DefiLlama Stablecoins + BTCETFData。
+- 恢复 BTC/ETH 主报告工作流时，不再从零摸索；默认从 `rules/BTC_ETH_9D_RECOVERY_INDEX.md` 进入。
