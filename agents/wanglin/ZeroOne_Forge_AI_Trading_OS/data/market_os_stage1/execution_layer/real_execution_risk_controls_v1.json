@@ -1,0 +1,19 @@
+{
+  "max_single_order_pct": 1,
+  "max_total_exposure_pct": 5,
+  "default_mode": "small_size_first",
+  "required_order_types": [
+    "limit",
+    "market_small_test"
+  ],
+  "must_have": [
+    "stop_loss_rule",
+    "take_profit_rule",
+    "invalid_condition_check",
+    "post_trade_log"
+  ],
+  "forbidden": [
+    "withdraw_permission",
+    "full_size_first_trade"
+  ]
+}

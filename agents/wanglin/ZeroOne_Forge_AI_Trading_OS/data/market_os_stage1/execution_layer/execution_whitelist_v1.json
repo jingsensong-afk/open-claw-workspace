@@ -1,0 +1,57 @@
+[
+  {
+    "symbol": "DOGE",
+    "action": "prepare_entry",
+    "side": "long",
+    "confidence": 0.77,
+    "max_position_pct": 1,
+    "stop_condition": "跌破关键支撑或热度明显退潮",
+    "take_profit_mode": "staged_take_profit",
+    "execution_status": "paper_ready",
+    "updated_at": "2026-04-26T16:03:47Z"
+  },
+  {
+    "symbol": "BTC",
+    "action": "prepare_entry",
+    "side": "long",
+    "confidence": 0.76,
+    "max_position_pct": 2,
+    "stop_condition": "跌破关键支撑或热度明显退潮",
+    "take_profit_mode": "staged_take_profit",
+    "execution_status": "paper_ready",
+    "updated_at": "2026-04-26T16:03:47Z"
+  },
+  {
+    "symbol": "CHIP",
+    "action": "prepare_entry",
+    "side": "long",
+    "confidence": 0.74,
+    "max_position_pct": 1,
+    "stop_condition": "跌破关键支撑或热度明显退潮",
+    "take_profit_mode": "staged_take_profit",
+    "execution_status": "paper_ready",
+    "updated_at": "2026-04-26T16:03:47Z"
+  },
+  {
+    "symbol": "SOL",
+    "action": "prepare_entry",
+    "side": "long",
+    "confidence": 0.73,
+    "max_position_pct": 2,
+    "stop_condition": "跌破关键支撑或热度明显退潮",
+    "take_profit_mode": "staged_take_profit",
+    "execution_status": "paper_ready",
+    "updated_at": "2026-04-26T16:03:47Z"
+  },
+  {
+    "symbol": "SPK",
+    "action": "prepare_entry",
+    "side": "long",
+    "confidence": 0.73,
+    "max_position_pct": 1,
+    "stop_condition": "跌破关键支撑或热度明显退潮",
+    "take_profit_mode": "staged_take_profit",
+    "execution_status": "paper_ready",
+    "updated_at": "2026-04-26T16:03:47Z"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "updated_at": "2026-04-26T14:15:24Z",
+  "masked_key": "55c46...cf16",
+  "result": {
+    "http_status": 200,
+    "body": "{\"code\":\"000000\",\"message\":null,\"messageDetail\":null,\"data\":{\"id\":316709783525649,\"shareLink\":\"https://app.binance.com/uni-qr/cpos/316709783525649?r=D3JK5GF4&l=zh-CN\"},\"success\":true}"
+  }
+}

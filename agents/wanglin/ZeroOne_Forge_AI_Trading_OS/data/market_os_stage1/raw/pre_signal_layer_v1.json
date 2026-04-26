@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "ORDI",
+    "text": "[pre_signal] 15m 放量异动，尚未完全进入主流热门层",
+    "sentiment": "bullish",
+    "engagement": 12000
+  },
+  {
+    "symbol": "KAS",
+    "text": "[pre_signal] 连续被少量账号提及，但尚未全面发酵",
+    "sentiment": "bullish",
+    "engagement": 9000
+  },
+  {
+    "symbol": "BAN",
+    "text": "[pre_signal] 事件驱动残余热度，观察是否二次发酵",
+    "sentiment": "neutral",
+    "engagement": 7000
+  },
+  {
+    "symbol": "SPACE",
+    "text": "[pre_signal] 题材边缘热度抬头，尚未形成大共振",
+    "sentiment": "bullish",
+    "engagement": 8000
+  },
+  {
+    "symbol": "MOVR",
+    "text": "[pre_signal] 榜单边缘+轻度讨论，观察是否放大",
+    "sentiment": "bullish",
+    "engagement": 8500
+  }
+]

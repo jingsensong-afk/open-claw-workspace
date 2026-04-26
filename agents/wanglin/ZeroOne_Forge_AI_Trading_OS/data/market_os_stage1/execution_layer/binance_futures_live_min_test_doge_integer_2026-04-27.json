@@ -1,0 +1,88 @@
+{
+  "updated_at": "2026-04-26T16:05:49Z",
+  "symbol": "DOGEUSDT",
+  "price": "0.098930",
+  "quantity_mode": "integer_for_low_price_coin",
+  "quantity": "1011",
+  "open_order": {
+    "status": 200,
+    "body": {
+      "orderId": 96834590466,
+      "symbol": "DOGEUSDT",
+      "status": "NEW",
+      "clientOrderId": "WiCRYX1ThM2TsQJ9kbOCOO",
+      "price": "0.000000",
+      "avgPrice": "0.00",
+      "origQty": "1011",
+      "executedQty": "0",
+      "cumQty": "0",
+      "cumQuote": "0.000000",
+      "timeInForce": "GTC",
+      "type": "MARKET",
+      "reduceOnly": false,
+      "closePosition": false,
+      "side": "BUY",
+      "positionSide": "LONG",
+      "stopPrice": "0.000000",
+      "workingType": "CONTRACT_PRICE",
+      "priceProtect": false,
+      "origType": "MARKET",
+      "priceMatch": "NONE",
+      "selfTradePreventionMode": "EXPIRE_MAKER",
+      "goodTillDate": 0,
+      "updateTime": 1777219549072
+    }
+  },
+  "position_after_open": {
+    "status": 200,
+    "body": [
+      {
+        "symbol": "DOGEUSDT",
+        "positionAmt": "1011",
+        "entryPrice": "0.09893",
+        "breakEvenPrice": "0.098979465",
+        "markPrice": "0.09892652",
+        "unRealizedProfit": "-0.00351828",
+        "liquidationPrice": "0.00014907",
+        "leverage": "10",
+        "maxNotionalValue": "20000000",
+        "marginType": "cross",
+        "isolatedMargin": "0.00000000",
+        "isAutoAddMargin": "false",
+        "positionSide": "LONG",
+        "notional": "100.01471172",
+        "isolatedWallet": "0",
+        "updateTime": 1777219549072,
+        "isolated": false,
+        "adlQuantile": 0
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "positionAmt": "0",
+        "entryPrice": "0.0",
+        "breakEvenPrice": "0.0",
+        "markPrice": "0.09892652",
+        "unRealizedProfit": "0.00000000",
+        "liquidationPrice": "0",
+        "leverage": "10",
+        "maxNotionalValue": "20000000",
+        "marginType": "cross",
+        "isolatedMargin": "0.00000000",
+        "isAutoAddMargin": "false",
+        "positionSide": "SHORT",
+        "notional": "0",
+        "isolatedWallet": "0",
+        "updateTime": 0,
+        "isolated": false,
+        "adlQuantile": 0
+      }
+    ]
+  },
+  "close_order": {
+    "status": 400,
+    "body": {
+      "code": -1106,
+      "msg": "Parameter 'reduceonly' sent when not required."
+    }
+  }
+}

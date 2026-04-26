@@ -1,0 +1,33 @@
+{
+  "updated_at": "2026-04-26T15:47:53Z",
+  "symbol": "DOGEUSDT",
+  "price": "0.098880",
+  "target_margin": "10U",
+  "leverage": "10",
+  "target_notional": "100U",
+  "quantityPrecision": 3,
+  "step": "0.001",
+  "quantity": "1011.327",
+  "set_leverage": {
+    "status": 200,
+    "body": {
+      "symbol": "DOGEUSDT",
+      "leverage": 10,
+      "maxNotionalValue": "20000000"
+    }
+  },
+  "open_order": {
+    "status": 400,
+    "body": {
+      "code": -1111,
+      "msg": "Precision is over the maximum defined for this asset."
+    }
+  },
+  "close_order": {
+    "status": 400,
+    "body": {
+      "code": -1106,
+      "msg": "Parameter 'reduceonly' sent when not required."
+    }
+  }
+}

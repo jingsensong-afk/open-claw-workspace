@@ -1,0 +1,44 @@
+{
+  "updated_at": "2026-04-25T05:35:35Z",
+  "watch": 78,
+  "candidate": 14,
+  "execution": 13,
+  "thought": 10,
+  "paper": 10,
+  "paper_validation_pass": 10,
+  "paper_validation_total": 10,
+  "distribution_summary": "watch 78 / candidate 14 / execution 13 / paper 10",
+  "verdicts": [
+    "full-chain refresh 已正式接成主刷新链并实际跑通",
+    "1-6层已能联动刷新",
+    "第三层与第四层已由主刷新链自动重建",
+    "第五层分发摘要已由主刷新链自动重建",
+    "第六层校准快照已由主刷新链自动重建"
+  ],
+  "issues": [
+    "execution 与 thought 仍不完全一致: XRP, ETH, KAS",
+    "execution 与 paper 仍不完全一致: XRP, ETH, KAS",
+    "币安广场自动分发未接通",
+    "X 自动分发未接通"
+  ],
+  "upgrade": [
+    "把 execution 与 thought/paper 做强制一一对应约束",
+    "继续扩大 real_fetch 覆盖并压缩 seed 残留",
+    "补强前置信号层短周期异动扫描（15m/1h）",
+    "完成币安广场自动分发验证",
+    "完成 X 自动分发接通",
+    "为真实小额执行/API 接入做准备"
+  ],
+  "top_execution": [
+    "BTC",
+    "CHIP",
+    "SPK",
+    "DOGE",
+    "ZEC",
+    "SOL",
+    "KAT",
+    "GENIUS",
+    "TRUMP",
+    "AAVE"
+  ]
+}

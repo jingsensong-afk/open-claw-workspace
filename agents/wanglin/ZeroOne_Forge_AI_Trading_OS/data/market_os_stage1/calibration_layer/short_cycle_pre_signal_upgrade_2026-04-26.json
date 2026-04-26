@@ -1,0 +1,27 @@
+{
+  "updated_at": "2026-04-26T01:35:53Z",
+  "raw_file": "short_cycle_pre_signal_v1.json",
+  "symbols": [
+    "PEPE",
+    "DOGE",
+    "TURBO",
+    "ORDI",
+    "KAS"
+  ],
+  "watch": 81,
+  "candidate": 15,
+  "execution": 10,
+  "top_execution": [
+    "BTC",
+    "CHIP",
+    "DOGE",
+    "SPK",
+    "SOL",
+    "ZEC",
+    "KAS",
+    "GENIUS",
+    "TRUMP",
+    "KAT"
+  ],
+  "summary": "已补强 15m/1h + OI/Funding 的短周期前置信号层"
+}

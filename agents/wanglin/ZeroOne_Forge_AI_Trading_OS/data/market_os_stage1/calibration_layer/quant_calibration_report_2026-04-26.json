@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-04-26T03:01:59Z",
+  "watch_count": 81,
+  "candidate_count": 15,
+  "execution_count": 6,
+  "consistent_execution_count": 6,
+  "inconsistent_execution_count": 0,
+  "real_fetch_count": 63,
+  "seed_count": 34,
+  "retention": {
+    "prev_top_execution_overlap": null,
+    "prev_top_execution_dropped": [],
+    "new_top_execution": []
+  },
+  "next_fix_focus": [
+    "继续提升 real_fetch 占比",
+    "继续压缩 seed 影响",
+    "持续监控 execution 一致性",
+    "对 top execution 做多轮留存观察"
+  ],
+  "summary": "第六层已升级为带数量、一致性、来源结构、留存视角的量化校准"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "BTC",
+    "text": "[real_fetch] X 访谈与主题扩散显示：BTC 是 AI交易与大盘beta讨论核心锚点",
+    "sentiment": "bullish",
+    "engagement": 26474
+  },
+  {
+    "symbol": "DOGE",
+    "text": "[real_fetch] X 热门传播显示：DOGE 在情绪和扩散层持续活跃",
+    "sentiment": "bullish",
+    "engagement": 24000
+  },
+  {
+    "symbol": "TRUMP",
+    "text": "[real_fetch] X 主题扩散显示：TRUMP 事件交易仍具反身性",
+    "sentiment": "bullish",
+    "engagement": 23000
+  },
+  {
+    "symbol": "SPK",
+    "text": "[real_fetch] X 主题扩散显示：SPK 具有 AAVE 资金外溢与机构标叙事",
+    "sentiment": "bullish",
+    "engagement": 21000
+  },
+  {
+    "symbol": "CHIP",
+    "text": "[real_fetch] X 主题扩散显示：CHIP 具备新币/高弹性叙事",
+    "sentiment": "bullish",
+    "engagement": 22000
+  },
+  {
+    "symbol": "GENIUS",
+    "text": "[real_fetch] X 主题扩散显示：GENIUS 属于机构标/新币观察对象",
+    "sentiment": "bullish",
+    "engagement": 18000
+  },
+  {
+    "symbol": "SOL",
+    "text": "[real_fetch] X 主题扩散显示：SOL 属于主流beta扩散观察位",
+    "sentiment": "bullish",
+    "engagement": 19000
+  },
+  {
+    "symbol": "ETH",
+    "text": "[real_fetch] X 主题扩散显示：ETH 修复中但弹性弱于热点山寨",
+    "sentiment": "neutral",
+    "engagement": 16000
+  }
+]

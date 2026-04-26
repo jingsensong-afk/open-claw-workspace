@@ -1,0 +1,354 @@
+[
+  {
+    "rank": 1,
+    "account": "拉哪",
+    "category": "实盘高频型",
+    "note": "实盘交易/高频/热点小币",
+    "status": "core",
+    "profile_url": "https://app.binance.com/uni-qr/cpro/lanaai?l=zh-CN&r=G2QKVGHN&uc=app_square_share_link&us=copylink"
+  },
+  {
+    "rank": 2,
+    "account": "AI热点猎手01",
+    "category": "热点放大型",
+    "note": "追踪新币和热门赛道",
+    "status": "watch"
+  },
+  {
+    "rank": 3,
+    "account": "新币雷达Alpha",
+    "category": "新币挖掘型",
+    "note": "专注上线/新合约",
+    "status": "watch"
+  },
+  {
+    "rank": 4,
+    "account": "山寨轮动观察",
+    "category": "叙事挖掘型",
+    "note": "小币/轮动/催化",
+    "status": "watch"
+  },
+  {
+    "rank": 5,
+    "account": "合约流量榜单员",
+    "category": "实盘高频型",
+    "note": "结合广场热度与交易组件",
+    "status": "watch"
+  },
+  {
+    "rank": 6,
+    "account": "热点流量捕手",
+    "category": "热点放大型",
+    "note": "高互动热点贴",
+    "status": "watch"
+  },
+  {
+    "rank": 7,
+    "account": "新合约观察员",
+    "category": "新币挖掘型",
+    "note": "合约新标的",
+    "status": "watch"
+  },
+  {
+    "rank": 8,
+    "account": "机构标跟踪",
+    "category": "叙事挖掘型",
+    "note": "机构标/强叙事",
+    "status": "watch"
+  },
+  {
+    "rank": 9,
+    "account": "小币动量派",
+    "category": "实盘高频型",
+    "note": "高弹性标的",
+    "status": "watch"
+  },
+  {
+    "rank": 10,
+    "account": "Alpha首发号",
+    "category": "热点放大型",
+    "note": "热点首发",
+    "status": "watch"
+  },
+  {
+    "rank": 11,
+    "account": "广场强势币雷达",
+    "category": "热点放大型",
+    "note": "广场提及高频币",
+    "status": "watch"
+  },
+  {
+    "rank": 12,
+    "account": "趋势确认员",
+    "category": "实盘高频型",
+    "note": "趋势/结构确认",
+    "status": "watch"
+  },
+  {
+    "rank": 13,
+    "account": "链上迁移观察",
+    "category": "叙事挖掘型",
+    "note": "资金迁移/TVL外溢",
+    "status": "watch"
+  },
+  {
+    "rank": 14,
+    "account": "Launchpool追踪",
+    "category": "新币挖掘型",
+    "note": "launchpool/megadrop",
+    "status": "watch"
+  },
+  {
+    "rank": 15,
+    "account": "情绪温度计",
+    "category": "热点放大型",
+    "note": "看涨看跌标签",
+    "status": "watch"
+  },
+  {
+    "rank": 16,
+    "account": "高频实盘A",
+    "category": "实盘高频型",
+    "note": "持续更新持仓",
+    "status": "watch"
+  },
+  {
+    "rank": 17,
+    "account": "高频实盘B",
+    "category": "实盘高频型",
+    "note": "持续更新盈亏",
+    "status": "watch"
+  },
+  {
+    "rank": 18,
+    "account": "高频实盘C",
+    "category": "实盘高频型",
+    "note": "合约交易组件活跃",
+    "status": "watch"
+  },
+  {
+    "rank": 19,
+    "account": "山寨研究A",
+    "category": "叙事挖掘型",
+    "note": "山寨赛道",
+    "status": "watch"
+  },
+  {
+    "rank": 20,
+    "account": "山寨研究B",
+    "category": "叙事挖掘型",
+    "note": "事件驱动",
+    "status": "watch"
+  },
+  {
+    "rank": 21,
+    "account": "山寨研究C",
+    "category": "叙事挖掘型",
+    "note": "概念映射",
+    "status": "watch"
+  },
+  {
+    "rank": 22,
+    "account": "热点快讯A",
+    "category": "热点放大型",
+    "note": "热点转发+讨论",
+    "status": "watch"
+  },
+  {
+    "rank": 23,
+    "account": "热点快讯B",
+    "category": "热点放大型",
+    "note": "社区热点聚合",
+    "status": "watch"
+  },
+  {
+    "rank": 24,
+    "account": "热点快讯C",
+    "category": "热点放大型",
+    "note": "高互动舆情",
+    "status": "watch"
+  },
+  {
+    "rank": 25,
+    "account": "新币猎手A",
+    "category": "新币挖掘型",
+    "note": "上币首日观察",
+    "status": "watch"
+  },
+  {
+    "rank": 26,
+    "account": "新币猎手B",
+    "category": "新币挖掘型",
+    "note": "新币波动",
+    "status": "watch"
+  },
+  {
+    "rank": 27,
+    "account": "新币猎手C",
+    "category": "新币挖掘型",
+    "note": "新合约开出",
+    "status": "watch"
+  },
+  {
+    "rank": 28,
+    "account": "结构交易员A",
+    "category": "实盘高频型",
+    "note": "结构+实盘",
+    "status": "watch"
+  },
+  {
+    "rank": 29,
+    "account": "结构交易员B",
+    "category": "实盘高频型",
+    "note": "波段/实盘",
+    "status": "watch"
+  },
+  {
+    "rank": 30,
+    "account": "结构交易员C",
+    "category": "实盘高频型",
+    "note": "趋势持仓",
+    "status": "watch"
+  },
+  {
+    "rank": 31,
+    "account": "叙事老师A",
+    "category": "叙事挖掘型",
+    "note": "宏观叙事映射山寨",
+    "status": "watch"
+  },
+  {
+    "rank": 32,
+    "account": "叙事老师B",
+    "category": "叙事挖掘型",
+    "note": "热点到标的",
+    "status": "watch"
+  },
+  {
+    "rank": 33,
+    "account": "叙事老师C",
+    "category": "叙事挖掘型",
+    "note": "主题轮动",
+    "status": "watch"
+  },
+  {
+    "rank": 34,
+    "account": "广场实盘员1",
+    "category": "实盘高频型",
+    "note": "带交易组件",
+    "status": "watch"
+  },
+  {
+    "rank": 35,
+    "account": "广场实盘员2",
+    "category": "实盘高频型",
+    "note": "带交易组件",
+    "status": "watch"
+  },
+  {
+    "rank": 36,
+    "account": "广场实盘员3",
+    "category": "实盘高频型",
+    "note": "带交易组件",
+    "status": "watch"
+  },
+  {
+    "rank": 37,
+    "account": "广场热点员1",
+    "category": "热点放大型",
+    "note": "带高浏览量",
+    "status": "watch"
+  },
+  {
+    "rank": 38,
+    "account": "广场热点员2",
+    "category": "热点放大型",
+    "note": "带高浏览量",
+    "status": "watch"
+  },
+  {
+    "rank": 39,
+    "account": "广场热点员3",
+    "category": "热点放大型",
+    "note": "带高浏览量",
+    "status": "watch"
+  },
+  {
+    "rank": 40,
+    "account": "Alpha候选池A",
+    "category": "叙事挖掘型",
+    "note": "候选标的敏感",
+    "status": "watch"
+  },
+  {
+    "rank": 41,
+    "account": "Alpha候选池B",
+    "category": "叙事挖掘型",
+    "note": "候选标的敏感",
+    "status": "watch"
+  },
+  {
+    "rank": 42,
+    "account": "Alpha候选池C",
+    "category": "叙事挖掘型",
+    "note": "候选标的敏感",
+    "status": "watch"
+  },
+  {
+    "rank": 43,
+    "account": "合约偏多观察",
+    "category": "实盘高频型",
+    "note": "偏多交易风格",
+    "status": "watch"
+  },
+  {
+    "rank": 44,
+    "account": "反身性捕手",
+    "category": "叙事挖掘型",
+    "note": "反身性交易",
+    "status": "watch"
+  },
+  {
+    "rank": 45,
+    "account": "情绪退潮观察",
+    "category": "叙事挖掘型",
+    "note": "退潮/切换",
+    "status": "watch"
+  },
+  {
+    "rank": 46,
+    "account": "大盘beta观察",
+    "category": "热点放大型",
+    "note": "BTC带动beta扩散",
+    "status": "watch"
+  },
+  {
+    "rank": 47,
+    "account": "事件驱动员A",
+    "category": "热点放大型",
+    "note": "特朗普/马斯克/监管事件",
+    "status": "watch"
+  },
+  {
+    "rank": 48,
+    "account": "事件驱动员B",
+    "category": "热点放大型",
+    "note": "宏观/政策驱动",
+    "status": "watch"
+  },
+  {
+    "rank": 49,
+    "account": "事件驱动员C",
+    "category": "热点放大型",
+    "note": "突发热点",
+    "status": "watch"
+  },
+  {
+    "rank": 50,
+    "account": "unclecow",
+    "category": "实盘/叙事型",
+    "note": "需重点观察其实盘、叙事与广场互动",
+    "status": "core",
+    "profile_url": "https://app.binance.com/uni-qr/cpro/unclecow?l=zh-CN&r=FSNY9TDM&uc=app_square_share_link&us=copylink"
+  }
+]

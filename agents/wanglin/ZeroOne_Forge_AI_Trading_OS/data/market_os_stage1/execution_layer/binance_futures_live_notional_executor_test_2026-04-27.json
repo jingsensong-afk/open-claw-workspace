@@ -1,0 +1,100 @@
+{
+  "updated_at": "2026-04-26T16:02:33Z",
+  "leader": {
+    "symbol": "DOGE",
+    "narrative_score": 10,
+    "sentiment_score": 8,
+    "attention_score": 10,
+    "liquidity_score": 9,
+    "volatility_score": 5,
+    "execution_score": 7.69,
+    "risk_level": "medium",
+    "status": "executable",
+    "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
+    "invalid_condition": null,
+    "updated_at": "2026-04-26T15:41:36Z",
+    "source_confidence": 0.74,
+    "signal_quality": 0.75,
+    "last_verified_at": "2026-04-26T15:41:36Z"
+  },
+  "symbol": "DOGEUSDT",
+  "side": "BUY",
+  "position_side": "LONG",
+  "target_margin": "10U",
+  "leverage": "10",
+  "target_notional": "100U",
+  "effective_notional": "100",
+  "price": "0.098880",
+  "step": "0.001",
+  "min_qty": "0.001",
+  "qty_precision": 3,
+  "min_notional": "50",
+  "quantity": "1011.327",
+  "set_leverage": {
+    "status": 200,
+    "body": {
+      "symbol": "DOGEUSDT",
+      "leverage": 10,
+      "maxNotionalValue": "20000000"
+    }
+  },
+  "open_order": {
+    "status": 400,
+    "body": {
+      "code": -1111,
+      "msg": "Precision is over the maximum defined for this asset."
+    }
+  },
+  "position_after_open": {
+    "status": 200,
+    "body": [
+      {
+        "symbol": "DOGEUSDT",
+        "positionAmt": "0",
+        "entryPrice": "0.0",
+        "breakEvenPrice": "0.0",
+        "markPrice": "0.00000000",
+        "unRealizedProfit": "0.00000000",
+        "liquidationPrice": "0",
+        "leverage": "10",
+        "maxNotionalValue": "20000000",
+        "marginType": "cross",
+        "isolatedMargin": "0.00000000",
+        "isAutoAddMargin": "false",
+        "positionSide": "LONG",
+        "notional": "0",
+        "isolatedWallet": "0",
+        "updateTime": 0,
+        "isolated": false,
+        "adlQuantile": 0
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "positionAmt": "0",
+        "entryPrice": "0.0",
+        "breakEvenPrice": "0.0",
+        "markPrice": "0.00000000",
+        "unRealizedProfit": "0.00000000",
+        "liquidationPrice": "0",
+        "leverage": "10",
+        "maxNotionalValue": "20000000",
+        "marginType": "cross",
+        "isolatedMargin": "0.00000000",
+        "isAutoAddMargin": "false",
+        "positionSide": "SHORT",
+        "notional": "0",
+        "isolatedWallet": "0",
+        "updateTime": 0,
+        "isolated": false,
+        "adlQuantile": 0
+      }
+    ]
+  },
+  "close_order": {
+    "status": 400,
+    "body": {
+      "code": -1106,
+      "msg": "Parameter 'reduceonly' sent when not required."
+    }
+  }
+}

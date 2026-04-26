@@ -1,0 +1,27 @@
+[
+  {
+    "account": "WEB3_furture",
+    "type": "x_account",
+    "focus": "AI交易/热点总结/账号研究"
+  },
+  {
+    "account": "lanaaielsa",
+    "type": "x_account",
+    "focus": "AI交易/广场联动/热点山寨"
+  },
+  {
+    "account": "CYZhang01",
+    "type": "x_account",
+    "focus": "访谈/扩散/主题传播"
+  },
+  {
+    "account": "elonmusk_related_watch",
+    "type": "x_account",
+    "focus": "DOGE/老马叙事扩散"
+  },
+  {
+    "account": "trump_event_watch",
+    "type": "x_account",
+    "focus": "TRUMP/政治事件叙事"
+  }
+]

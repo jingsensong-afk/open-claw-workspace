@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "BTC",
+    "text": "AI交易访谈中提到 BTC 偏强、适合作为主流确认标的",
+    "engagement": 26474,
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "SPK",
+    "text": "Spark 承接 AAVE 资金外溢，是机构标叙事",
+    "engagement": 26474,
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "CHIP",
+    "text": "新币/热门赛道/高弹性",
+    "engagement": 26474,
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "GENIUS",
+    "text": "机构标 + 新币观察",
+    "engagement": 26474,
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "DOGE",
+    "text": "老马相关叙事仍具传播性",
+    "engagement": 26474,
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "TRUMP",
+    "text": "事件驱动+市场一致预期反做",
+    "engagement": 26474,
+    "sentiment": "bullish"
+  }
+]

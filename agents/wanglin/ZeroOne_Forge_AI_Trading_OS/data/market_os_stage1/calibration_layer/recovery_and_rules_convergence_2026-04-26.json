@@ -1,0 +1,7 @@
+{
+  "updated_at": "2026-04-26T03:16:30Z",
+  "readme_created": true,
+  "recovery_index_created": true,
+  "rules_convergence_index_created": true,
+  "summary": "已补统一 README / recovery 入口，并完成第一批 rules 收敛索引"
+}

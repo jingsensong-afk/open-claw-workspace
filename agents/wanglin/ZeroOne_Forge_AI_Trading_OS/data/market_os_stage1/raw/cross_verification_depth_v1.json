@@ -1,0 +1,6 @@
+[
+  {"source":"binance_board","symbol":"DOGE","narrative":"[cross_check] 热门榜仍保持高讨论度","sentiment":"bullish","volume_score":1200000000},
+  {"source":"binance_board","symbol":"SOL","narrative":"[cross_check] 热门榜与成交额维持高位","sentiment":"bullish","volume_score":1500000000},
+  {"source":"binance_board","symbol":"ORDI","narrative":"[cross_check] 边缘热榜信号回升","sentiment":"neutral","volume_score":320000000},
+  {"source":"binance_new_contract","symbol":"KAS","narrative":"[cross_check] 新合约关注仍具残余观察价值","sentiment":"neutral","volume_score":260000000}
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "PEPE",
+    "text": "[real_fetch] Binance Square 真实抓取：meme扩散边缘继续活跃",
+    "sentiment": "bullish",
+    "engagement": 17000
+  },
+  {
+    "symbol": "SHIB",
+    "text": "[real_fetch] Binance Square 真实抓取：老牌meme跟随观察",
+    "sentiment": "neutral",
+    "engagement": 12000
+  },
+  {
+    "symbol": "TURBO",
+    "text": "[real_fetch] Binance Square 真实抓取：题材延展标的被持续讨论",
+    "sentiment": "bullish",
+    "engagement": 14000
+  },
+  {
+    "symbol": "APE",
+    "text": "[real_fetch] Binance Square 真实抓取：冷门但有交易提及",
+    "sentiment": "neutral",
+    "engagement": 9000
+  },
+  {
+    "symbol": "SPACE",
+    "text": "[real_fetch] Binance Square 真实抓取：太空题材边缘热度延续",
+    "sentiment": "bullish",
+    "engagement": 11000
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "BTC",
+    "text": "X主题：AI交易访谈与市场讨论都把 BTC 当成确认锚",
+    "sentiment": "bullish",
+    "engagement": 26474
+  },
+  {
+    "symbol": "ETH",
+    "text": "X主题：ETH 跟随修复但暂弱于热点山寨",
+    "sentiment": "neutral",
+    "engagement": 16000
+  },
+  {
+    "symbol": "SOL",
+    "text": "X主题：主流beta扩散观察",
+    "sentiment": "bullish",
+    "engagement": 19000
+  },
+  {
+    "symbol": "DOGE",
+    "text": "X主题：情绪传播和广场高频讨论共振",
+    "sentiment": "bullish",
+    "engagement": 24000
+  },
+  {
+    "symbol": "TRUMP",
+    "text": "X主题：事件驱动与反身性扩散",
+    "sentiment": "bullish",
+    "engagement": 23000
+  }
+]

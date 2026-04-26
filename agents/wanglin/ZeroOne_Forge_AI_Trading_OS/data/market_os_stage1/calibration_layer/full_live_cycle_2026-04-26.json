@@ -1,0 +1,52 @@
+{
+  "updated_at": "2026-04-26T15:27:07Z",
+  "execution_leader": {
+    "symbol": "DOGE",
+    "narrative_score": 10,
+    "sentiment_score": 8,
+    "attention_score": 10,
+    "liquidity_score": 9,
+    "volatility_score": 5,
+    "execution_score": 7.69,
+    "risk_level": "medium",
+    "status": "executable",
+    "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
+    "invalid_condition": null,
+    "updated_at": "2026-04-26T15:27:07Z",
+    "source_confidence": 0.74,
+    "signal_quality": 0.75,
+    "last_verified_at": "2026-04-26T15:27:07Z"
+  },
+  "trade": {
+    "symbol": "DOGEUSDT",
+    "quantity": "1",
+    "open_order": {
+      "status": 400,
+      "body": {
+        "code": -4164,
+        "msg": "Order's notional must be no smaller than 5 (unless you choose reduce only)."
+      }
+    },
+    "close_order": {
+      "status": 400,
+      "body": {
+        "code": -1106,
+        "msg": "Parameter 'reduceonly' sent when not required."
+      }
+    }
+  },
+  "distribution": {
+    "draft": "DOGE long: 回踩一直有人接，强的不是情绪，是承接。",
+    "square_status": 200,
+    "square_body": {
+      "code": "000000",
+      "message": null,
+      "messageDetail": null,
+      "data": {
+        "id": 316727420197970,
+        "shareLink": "https://app.binance.com/uni-qr/cpos/316727420197970?r=D3JK5GF4&l=zh-CN"
+      },
+      "success": true
+    }
+  }
+}

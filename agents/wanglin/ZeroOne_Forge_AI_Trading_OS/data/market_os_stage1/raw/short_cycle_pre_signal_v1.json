@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "PEPE",
+    "window": "15m",
+    "volume_spike": 2.8,
+    "oi_change_pct": 9.2,
+    "funding_rate": 0.0009,
+    "signal": "short_cycle_pre_signal",
+    "note": "15m 放量 + OI 抬升"
+  },
+  {
+    "symbol": "DOGE",
+    "window": "15m",
+    "volume_spike": 2.1,
+    "oi_change_pct": 7.8,
+    "funding_rate": 0.0011,
+    "signal": "short_cycle_pre_signal",
+    "note": "15m 活跃延续"
+  },
+  {
+    "symbol": "TURBO",
+    "window": "1h",
+    "volume_spike": 3.2,
+    "oi_change_pct": 10.5,
+    "funding_rate": 0.0014,
+    "signal": "short_cycle_pre_signal",
+    "note": "1h 放量明显"
+  },
+  {
+    "symbol": "ORDI",
+    "window": "1h",
+    "volume_spike": 2.4,
+    "oi_change_pct": 8.4,
+    "funding_rate": 0.0007,
+    "signal": "short_cycle_pre_signal",
+    "note": "1h OI 边际抬升"
+  },
+  {
+    "symbol": "KAS",
+    "window": "15m",
+    "volume_spike": 2.0,
+    "oi_change_pct": 6.9,
+    "funding_rate": 0.0008,
+    "signal": "short_cycle_pre_signal",
+    "note": "边缘活跃回升"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "symbol": "NEW_LISTING",
+    "title": "Binance listing / launch related event signal",
+    "type": "listing_announcement",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "NEW_FUTURES",
+    "title": "Binance futures listing / new perpetual contract signal",
+    "type": "futures_announcement",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "NEW_TOKEN",
+    "title": "Binance new token / launchpool / alpha catalyst signal",
+    "type": "launch_catalyst",
+    "sentiment": "bullish"
+  }
+]

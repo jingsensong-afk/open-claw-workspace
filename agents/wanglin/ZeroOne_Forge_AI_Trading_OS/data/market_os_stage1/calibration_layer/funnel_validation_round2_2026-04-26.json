@@ -1,0 +1,38 @@
+{
+  "updated_at": "2026-04-26T13:18:24Z",
+  "watch": 78,
+  "candidate": 15,
+  "execution": 5,
+  "execution_symbols": [
+    "DOGE",
+    "BTC",
+    "CHIP",
+    "SOL",
+    "SPK"
+  ],
+  "candidate_top10": [
+    "DOGE",
+    "BTC",
+    "CHIP",
+    "SOL",
+    "SPK",
+    "KAS",
+    "GENIUS",
+    "TRUMP",
+    "ZEC",
+    "PEPE"
+  ],
+  "retention": {
+    "overlap": 0,
+    "dropped": [],
+    "new": [
+      "BTC",
+      "CHIP",
+      "DOGE",
+      "SOL",
+      "SPK"
+    ]
+  },
+  "verdict": "stable_funnel",
+  "summary": "按漏斗式AI交易OS逻辑继续验证一轮，观察 execution 是否稳定收敛"
+}

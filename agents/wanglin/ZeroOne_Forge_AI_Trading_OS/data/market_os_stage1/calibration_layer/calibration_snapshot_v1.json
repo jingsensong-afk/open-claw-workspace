@@ -1,0 +1,12 @@
+{
+  "updated_at": "2026-04-26T16:03:47Z",
+  "watch_count": 78,
+  "candidate_count": 15,
+  "execution_count": 5,
+  "thought_count": 6,
+  "paper_count": 5,
+  "distribution_summary": "watch 78 / candidate 15 / execution 5 / paper 5",
+  "execution_missing_in_thought": [],
+  "execution_missing_in_paper": [],
+  "next_step": "继续下一轮刷新后验证"
+}

@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-04-26T13:19:41Z",
+  "round": "3",
+  "watch": 78,
+  "candidate": 15,
+  "execution": 5,
+  "execution_symbols": [
+    "DOGE",
+    "BTC",
+    "CHIP",
+    "SOL",
+    "SPK"
+  ],
+  "retention": {
+    "overlap": 5,
+    "dropped": [],
+    "new": []
+  },
+  "verdict": "stable_funnel"
+}

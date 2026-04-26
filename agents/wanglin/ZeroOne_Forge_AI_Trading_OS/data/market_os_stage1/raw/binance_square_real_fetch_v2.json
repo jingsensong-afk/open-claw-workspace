@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "SOL",
+    "text": "[real_fetch] Binance Square 真实抓取：SOL 被纳入主流beta扩散讨论",
+    "sentiment": "bullish",
+    "engagement": 21000
+  },
+  {
+    "symbol": "ETH",
+    "text": "[real_fetch] Binance Square 真实抓取：ETH 修复但弹性弱于热门山寨",
+    "sentiment": "neutral",
+    "engagement": 18000
+  },
+  {
+    "symbol": "KAT",
+    "text": "[real_fetch] Binance Square 真实抓取：KAT 属于新币榜/新币观察对象",
+    "sentiment": "bullish",
+    "engagement": 17000
+  },
+  {
+    "symbol": "XRP",
+    "text": "[real_fetch] Binance Square 真实抓取：XRP 属于主流beta与异动观察对象",
+    "sentiment": "bullish",
+    "engagement": 16000
+  },
+  {
+    "symbol": "KAS",
+    "text": "[real_fetch] Binance Square 真实抓取：KAS 仍在等待更优上车位",
+    "sentiment": "bullish",
+    "engagement": 15000
+  },
+  {
+    "symbol": "BAN",
+    "text": "[real_fetch] Binance Square 真实抓取：BAN 具有事件驱动残余讨论",
+    "sentiment": "neutral",
+    "engagement": 12000
+  },
+  {
+    "symbol": "SPACE",
+    "text": "[real_fetch] Binance Square 真实抓取：SPACE 属于题材驱动观察对象",
+    "sentiment": "bullish",
+    "engagement": 13000
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "updated_at": "2026-04-26T03:01:59Z",
+    "watch_count": 81,
+    "candidate_count": 15,
+    "execution_count": 6,
+    "thought_count": 10,
+    "paper_count": 10,
+    "consistent_execution_count": 6,
+    "inconsistent_execution_count": 0,
+    "consistent_execution_symbols": [
+      "DOGE",
+      "BTC",
+      "SOL",
+      "KAS",
+      "CHIP",
+      "SPK"
+    ],
+    "inconsistent_execution_symbols": [],
+    "real_fetch_count": 63,
+    "seed_count": 34,
+    "top_execution": [
+      "DOGE",
+      "BTC",
+      "SOL",
+      "KAS",
+      "CHIP",
+      "SPK"
+    ],
+    "source_mix_top10": {
+      "binance_rank:gainer_rank": 30,
+      "binance_square:real_fetch": 25,
+      "x:real_fetch": 24,
+      "binance_rank:rank": 20,
+      "binance_rank:loser_rank": 20,
+      "binance_rank:volume_rank": 20,
+      "binance_square:core15_recent_post": 13,
+      "binance_square:profile_post": 11,
+      "binance_square:account_post": 9,
+      "binance_square:post": 8
+    }
+  },
+  {
+    "updated_at": "2026-04-26T13:18:24Z",
+    "watch_count": 78,
+    "candidate_count": 15,
+    "execution_count": 5,
+    "execution_symbols": [
+      "DOGE",
+      "BTC",
+      "CHIP",
+      "SOL",
+      "SPK"
+    ],
+    "thought_count": 6,
+    "paper_count": 5,
+    "real_fetch_count": 63
+  },
+  {
+    "updated_at": "2026-04-26T13:19:41Z",
+    "round": "3",
+    "watch_count": 78,
+    "candidate_count": 15,
+    "execution_count": 5,
+    "execution_symbols": [
+      "DOGE",
+      "BTC",
+      "CHIP",
+      "SOL",
+      "SPK"
+    ]
+  },
+  {
+    "updated_at": "2026-04-26T13:19:57Z",
+    "round": "4",
+    "watch_count": 78,
+    "candidate_count": 15,
+    "execution_count": 5,
+    "execution_symbols": [
+      "DOGE",
+      "BTC",
+      "CHIP",
+      "SOL",
+      "SPK"
+    ]
+  },
+  {
+    "updated_at": "2026-04-26T13:20:09Z",
+    "round": "5",
+    "watch_count": 78,
+    "candidate_count": 15,
+    "execution_count": 5,
+    "execution_symbols": [
+      "DOGE",
+      "BTC",
+      "CHIP",
+      "SOL",
+      "SPK"
+    ]
+  }
+]

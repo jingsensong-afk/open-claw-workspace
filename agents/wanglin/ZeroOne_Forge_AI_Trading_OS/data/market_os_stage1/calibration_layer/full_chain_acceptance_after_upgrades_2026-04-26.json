@@ -1,0 +1,28 @@
+{
+  "updated_at": "2026-04-26T03:40:09Z",
+  "watch": 81,
+  "candidate": 19,
+  "execution": 10,
+  "thought": 10,
+  "paper": 10,
+  "execution_consistent": true,
+  "execution_symbols": [
+    "DOGE",
+    "BTC",
+    "SOL",
+    "CHIP",
+    "SPK",
+    "KAS",
+    "ZEC",
+    "KAT",
+    "GENIUS",
+    "TRUMP"
+  ],
+  "paper_validation_pass": 10,
+  "paper_validation_total": 10,
+  "distribution_summary": "watch 81 / candidate 19 / execution 10 / paper 10",
+  "real_fetch_count": 63,
+  "seed_count": 34,
+  "quant_history_rounds": 1,
+  "verdict": "upgraded_full_chain_stable"
+}

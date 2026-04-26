@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "BTC",
+    "text": "OI/Funding/成交额异动锚点",
+    "source_type": "deriv_anomaly",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "ETH",
+    "text": "OI/Funding/成交额异动观察",
+    "source_type": "deriv_anomaly",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "DOGE",
+    "text": "高热度与交易异动共振",
+    "source_type": "deriv_anomaly",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "SOL",
+    "text": "主流beta异动观察",
+    "source_type": "deriv_anomaly",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "XRP",
+    "text": "主流beta异动观察",
+    "source_type": "deriv_anomaly",
+    "sentiment": "bullish"
+  }
+]

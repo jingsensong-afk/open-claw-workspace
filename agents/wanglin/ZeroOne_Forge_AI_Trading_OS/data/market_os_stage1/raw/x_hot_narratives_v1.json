@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "BTC",
+    "text": "X热门叙事：BTC偏强，作为大盘beta锚",
+    "sentiment": "bullish",
+    "engagement": 24000
+  },
+  {
+    "symbol": "DOGE",
+    "text": "X热门叙事：meme继续有传播性",
+    "sentiment": "bullish",
+    "engagement": 26000
+  },
+  {
+    "symbol": "TRUMP",
+    "text": "X热门叙事：事件交易仍在扩散",
+    "sentiment": "bullish",
+    "engagement": 25000
+  },
+  {
+    "symbol": "SPK",
+    "text": "X热门叙事：AAVE资金外溢 / 机构标",
+    "sentiment": "bullish",
+    "engagement": 21000
+  },
+  {
+    "symbol": "CHIP",
+    "text": "X热门叙事：新币/高弹性",
+    "sentiment": "bullish",
+    "engagement": 22000
+  },
+  {
+    "symbol": "GENIUS",
+    "text": "X热门叙事：机构标/新币观察",
+    "sentiment": "bullish",
+    "engagement": 18000
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "updated_at": "2026-04-26T01:24:24Z",
+  "new_real_fetch_files": [
+    "binance_square_real_fetch_v3.json",
+    "x_real_fetch_v3.json"
+  ],
+  "seed_count_before": 34,
+  "seed_weight_policy": "进一步下调 seed 来源的 confidence / quality",
+  "watch": 81,
+  "candidate": 16,
+  "execution": 13,
+  "top_execution": [
+    "BTC",
+    "CHIP",
+    "SPK",
+    "DOGE",
+    "ZEC",
+    "SOL",
+    "KAT",
+    "GENIUS",
+    "TRUMP",
+    "AAVE"
+  ]
+}

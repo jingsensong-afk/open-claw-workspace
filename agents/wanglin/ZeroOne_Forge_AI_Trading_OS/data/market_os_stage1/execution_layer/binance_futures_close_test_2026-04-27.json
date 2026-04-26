@@ -1,0 +1,77 @@
+{
+  "updated_at": "2026-04-26T16:09:22Z",
+  "close_order": {
+    "status": 200,
+    "body": {
+      "orderId": 96834677729,
+      "symbol": "DOGEUSDT",
+      "status": "NEW",
+      "clientOrderId": "oenk6ouNvDcTBggAzHBvxc",
+      "price": "0.000000",
+      "avgPrice": "0.00",
+      "origQty": "1011",
+      "executedQty": "0",
+      "cumQty": "0",
+      "cumQuote": "0.000000",
+      "timeInForce": "GTC",
+      "type": "MARKET",
+      "reduceOnly": true,
+      "closePosition": false,
+      "side": "SELL",
+      "positionSide": "LONG",
+      "stopPrice": "0.000000",
+      "workingType": "CONTRACT_PRICE",
+      "priceProtect": false,
+      "origType": "MARKET",
+      "priceMatch": "NONE",
+      "selfTradePreventionMode": "EXPIRE_MAKER",
+      "goodTillDate": 0,
+      "updateTime": 1777219762198
+    }
+  },
+  "position_after_close": {
+    "status": 200,
+    "body": [
+      {
+        "symbol": "DOGEUSDT",
+        "positionAmt": "0",
+        "entryPrice": "0.0",
+        "breakEvenPrice": "0.0",
+        "markPrice": "0.09881000",
+        "unRealizedProfit": "0.00000000",
+        "liquidationPrice": "0",
+        "leverage": "10",
+        "maxNotionalValue": "20000000",
+        "marginType": "cross",
+        "isolatedMargin": "0.00000000",
+        "isAutoAddMargin": "false",
+        "positionSide": "LONG",
+        "notional": "0",
+        "isolatedWallet": "0",
+        "updateTime": 1777219762199,
+        "isolated": false,
+        "adlQuantile": 1
+      },
+      {
+        "symbol": "DOGEUSDT",
+        "positionAmt": "0",
+        "entryPrice": "0.0",
+        "breakEvenPrice": "0.0",
+        "markPrice": "0.09881000",
+        "unRealizedProfit": "0.00000000",
+        "liquidationPrice": "0",
+        "leverage": "10",
+        "maxNotionalValue": "20000000",
+        "marginType": "cross",
+        "isolatedMargin": "0.00000000",
+        "isAutoAddMargin": "false",
+        "positionSide": "SHORT",
+        "notional": "0",
+        "isolatedWallet": "0",
+        "updateTime": 0,
+        "isolated": false,
+        "adlQuantile": 0
+      }
+    ]
+  }
+}

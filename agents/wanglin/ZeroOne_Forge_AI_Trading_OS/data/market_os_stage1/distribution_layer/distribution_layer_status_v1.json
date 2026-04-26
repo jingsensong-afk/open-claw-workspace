@@ -1,0 +1,9 @@
+{
+  "updated_at": "2026-04-26T14:18:50Z",
+  "telegram_distribution": "connected_ready",
+  "binance_square_distribution": "connected_ready",
+  "x_distribution": "draft_ready_pending_connection",
+  "binance_square_draft": "binance_square_distribution_draft_v1.txt",
+  "x_draft": "x_distribution_draft_v1.txt",
+  "binance_square_publish_script": "scripts/send_distribution_to_binance_square.sh"
+}

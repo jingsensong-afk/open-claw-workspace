@@ -1,0 +1,44 @@
+{
+  "updated_at": "2026-04-26T03:10:27Z",
+  "inventory_counts": {
+    "rules": 20,
+    "workflows": 23,
+    "scripts": 4
+  },
+  "must_keep_count": 44,
+  "review_count": 3,
+  "must_keep_examples": [
+    "scripts/refresh_market_os_full_chain.sh",
+    "scripts/refresh_market_os_stage1.sh",
+    "scripts/upgrade_real_fetch_depth.py",
+    "rules/AI_TRADING_OS_BINANCE_SQUARE_ACCOUNT_STANDARD.md",
+    "rules/AI_TRADING_OS_BINANCE_SQUARE_DELIVERY_VALIDATION.md",
+    "rules/AI_TRADING_OS_CALIBRATION_LAYER_RULES.md",
+    "rules/AI_TRADING_OS_DISTRIBUTION_LAYER_RULES.md",
+    "rules/AI_TRADING_OS_EXECUTION_COMPLETION_STANDARD.md",
+    "rules/AI_TRADING_OS_EXECUTION_CONSISTENCY_RULES.md",
+    "rules/AI_TRADING_OS_EXECUTION_LAYER_RULES.md",
+    "rules/AI_TRADING_OS_EXTERNAL_DISTRIBUTION_CONNECTION_RULES.md",
+    "rules/AI_TRADING_OS_PAPER_EXECUTION_RULES.md",
+    "rules/AI_TRADING_OS_PRE_SIGNAL_LAYER_RULES.md",
+    "rules/AI_TRADING_OS_QUANT_CALIBRATION_RULES.md",
+    "rules/AI_TRADING_OS_REAL_EXECUTION_PREP_RULES.md",
+    "rules/AI_TRADING_OS_REAL_FETCH_DEPTH_RULES.md",
+    "rules/AI_TRADING_OS_REAL_FETCH_REPLACEMENT_PLAN.md",
+    "rules/AI_TRADING_OS_SHORT_CYCLE_PRE_SIGNAL_RULES.md",
+    "rules/AI_TRADING_OS_SOURCE_INGESTION_PLAN.md",
+    "rules/AI_TRADING_OS_STAGE1_PLAN.md"
+  ],
+  "review_examples": [
+    "scripts/send_distribution_to_telegram.sh",
+    "data/market_os_stage1/distribution_layer/binance_square_distribution_draft_v1.txt",
+    "data/market_os_stage1/distribution_layer/x_distribution_draft_v1.txt"
+  ],
+  "next_cleanup_focus": [
+    "后续合并同类 rules，避免规则文件继续横向膨胀",
+    "检查 distribution draft 是否在真实接通后归档或删除",
+    "继续把新增能力尽量收敛进主刷新链，而不是外部散落脚本",
+    "后续补统一 recovery / README 入口，提升恢复效率"
+  ],
+  "summary": "已建立 AI交易OS 系统收敛治理规则，并完成一轮结构盘点"
+}

@@ -1,0 +1,7 @@
+{
+  "updated_at": "2026-04-26T15:36:12Z",
+  "text_rule_fixed": true,
+  "new_draft": "$DOGE 回踩一直有人接，强的不是情绪，是承接。",
+  "next_check": "验证 Binance Square API 是否支持 symbol/trade widget 参数或需额外接口",
+  "summary": "已先修正文案格式，下一步查交易组件接入能力"
+}

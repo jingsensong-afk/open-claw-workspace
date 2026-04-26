@@ -1,0 +1,22 @@
+[
+  {
+    "symbol": "BTC",
+    "text": "X/访谈中强调 BTC 偏强",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "SPK",
+    "text": "Spark / AAVE 资金迁移叙事",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "CHIP",
+    "text": "新币 / 热门赛道叙事",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "GENIUS",
+    "text": "机构标 / 新币观察",
+    "sentiment": "bullish"
+  }
+]

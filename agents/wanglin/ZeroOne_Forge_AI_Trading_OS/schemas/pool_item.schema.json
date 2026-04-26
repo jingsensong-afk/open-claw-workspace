@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "pool_item",
+  "type": "object",
+  "properties": {
+    "symbol": {"type": "string"},
+    "narrative_score": {"type": ["number", "null"]},
+    "sentiment_score": {"type": ["number", "null"]},
+    "attention_score": {"type": ["number", "null"]},
+    "liquidity_score": {"type": ["number", "null"]},
+    "volatility_score": {"type": ["number", "null"]},
+    "execution_score": {"type": ["number", "null"]},
+    "risk_level": {"type": ["string", "null"]},
+    "status": {"type": "string"},
+    "reason": {"type": ["string", "null"]},
+    "invalid_condition": {"type": ["string", "null"]},
+    "updated_at": {"type": "string"}
+  },
+  "required": ["symbol", "status", "updated_at"]
+}

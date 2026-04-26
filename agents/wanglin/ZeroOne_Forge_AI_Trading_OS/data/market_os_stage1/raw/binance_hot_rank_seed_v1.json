@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "BTC",
+    "text": "交易所热门榜核心锚点",
+    "source_type": "hot_rank",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "DOGE",
+    "text": "交易所热门榜高讨论资产",
+    "source_type": "hot_rank",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "TRUMP",
+    "text": "事件热点驱动资产",
+    "source_type": "hot_rank",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "CHIP",
+    "text": "高弹性热门资产",
+    "source_type": "hot_rank",
+    "sentiment": "bullish"
+  },
+  {
+    "symbol": "SPK",
+    "text": "叙事热门资产",
+    "source_type": "hot_rank",
+    "sentiment": "bullish"
+  }
+]

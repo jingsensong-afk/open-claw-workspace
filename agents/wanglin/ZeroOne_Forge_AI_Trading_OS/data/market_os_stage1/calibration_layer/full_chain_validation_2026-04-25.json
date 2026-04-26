@@ -1,0 +1,49 @@
+{
+  "updated_at": "2026-04-25T04:31:40Z",
+  "verdicts": [
+    "信息流层已可刷新并产出 pools",
+    "候选池层已能筛出 candidate / execution",
+    "第三层已能生成 compact analysis",
+    "第四层已能生成 paper execution 并验证",
+    "第五层 Telegram 分发已接通到目标群",
+    "第六层已跑出自动校准"
+  ],
+  "issues": [
+    "execution 与 thought layer 仍有缺口: XRP, ETH, KAS",
+    "execution 与 paper execution 仍有缺口: XRP, ETH, KAS",
+    "币安广场自动分发仍未验证通过",
+    "X 自动分发仍未接通"
+  ],
+  "upgrade": [
+    "继续扩大 real_fetch 覆盖，减少 seed 依赖",
+    "把 execution pool 与 thought/paper 输出做强制一致性约束",
+    "补全前置信号层的短周期异动扫描",
+    "验证币安广场发帖链路",
+    "验证 X 发帖链路",
+    "为第四层准备真实小额执行/API 接入"
+  ],
+  "report": {
+    "updated_at": "2026-04-25T04:31:40Z",
+    "watch_count": 78,
+    "candidate_count": 14,
+    "execution_count": 13,
+    "thought_count": 10,
+    "paper_count": 10,
+    "distribution_summary": "watch 78 / candidate 14 / execution 13 / paper 10",
+    "telegram_distribution": "connected_ready",
+    "binance_square_distribution": "validation_pending",
+    "x_distribution": "entry_ready",
+    "execution_missing_in_thought": [
+      "XRP",
+      "ETH",
+      "KAS"
+    ],
+    "execution_missing_in_paper": [
+      "XRP",
+      "ETH",
+      "KAS"
+    ],
+    "paper_validation_pass": 10,
+    "paper_validation_total": 10
+  }
+}

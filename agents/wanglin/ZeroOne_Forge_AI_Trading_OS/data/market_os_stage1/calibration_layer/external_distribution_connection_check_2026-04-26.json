@@ -1,0 +1,21 @@
+{
+  "updated_at": "2026-04-26T01:43:26Z",
+  "binance_square": {
+    "config_or_workflow_files_present": true,
+    "draft_ready": true,
+    "real_send_connected": false,
+    "current_status": "draft_ready_pending_connection"
+  },
+  "x": {
+    "config_or_workflow_files_present": true,
+    "draft_ready": true,
+    "real_send_connected": false,
+    "current_status": "draft_ready_pending_connection"
+  },
+  "next_steps": [
+    "补真实发送入口/凭证配置",
+    "做一次真实发送验证",
+    "把发送成功结果回写到 distribution status"
+  ],
+  "summary": "已完成 Binance Square / X 分发草稿与接通状态校验，但真实外部分发仍待接通验证"
+}

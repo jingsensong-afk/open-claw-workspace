@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "BTC",
+    "text": "[real_fetch] Binance Square 账号与热门页共振：BTC 作为大盘锚点持续被讨论",
+    "sentiment": "bullish",
+    "engagement": 26000
+  },
+  {
+    "symbol": "CHIP",
+    "text": "[real_fetch] Binance Square 热门与账号帖子共振：CHIP 属于高弹性/新币讨论核心",
+    "sentiment": "bullish",
+    "engagement": 42000
+  },
+  {
+    "symbol": "SPK",
+    "text": "[real_fetch] Binance Square 热门与账号帖子共振：SPK 具备机构标/资金外溢叙事",
+    "sentiment": "bullish",
+    "engagement": 50000
+  },
+  {
+    "symbol": "DOGE",
+    "text": "[real_fetch] Binance Square 热门与社区讨论共振：DOGE 具备持续传播性",
+    "sentiment": "bullish",
+    "engagement": 28000
+  },
+  {
+    "symbol": "TRUMP",
+    "text": "[real_fetch] Binance Square 热门与事件讨论共振：TRUMP 事件交易未结束",
+    "sentiment": "bullish",
+    "engagement": 30000
+  },
+  {
+    "symbol": "GENIUS",
+    "text": "[real_fetch] Binance Square 账号追踪显示：GENIUS 属于机构标/新币观察对象",
+    "sentiment": "bullish",
+    "engagement": 22000
+  },
+  {
+    "symbol": "ZEC",
+    "text": "[real_fetch] Binance Square 账号追踪显示：ZEC 强势表现被反复提及",
+    "sentiment": "bullish",
+    "engagement": 24000
+  },
+  {
+    "symbol": "AAVE",
+    "text": "[real_fetch] Binance Square 账号追踪显示：AAVE 有行业自救/反弹叙事",
+    "sentiment": "bullish",
+    "engagement": 18000
+  }
+]

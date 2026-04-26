@@ -1,0 +1,15 @@
+{
+  "updated_at": "2026-04-26T01:49:25Z",
+  "paper_orders_present": 10,
+  "required_fields_check": {
+    "symbol": true,
+    "side": true,
+    "action": true,
+    "confidence": true,
+    "max_position_pct": true,
+    "stop_condition": true,
+    "take_profit_mode": true
+  },
+  "prep_stage": "prep_ready_waiting_api_connection",
+  "whitelist_count": 5
+}

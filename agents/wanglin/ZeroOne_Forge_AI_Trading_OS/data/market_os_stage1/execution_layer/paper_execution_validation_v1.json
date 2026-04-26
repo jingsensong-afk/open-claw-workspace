@@ -1,0 +1,40 @@
+{
+  "updated_at": "2026-04-26T16:03:47Z",
+  "items": [
+    {
+      "symbol": "DOGE",
+      "validation_status": "pass",
+      "issues": [],
+      "next_step": "continue_paper",
+      "updated_at": "2026-04-26T16:03:47Z"
+    },
+    {
+      "symbol": "BTC",
+      "validation_status": "pass",
+      "issues": [],
+      "next_step": "continue_paper",
+      "updated_at": "2026-04-26T16:03:47Z"
+    },
+    {
+      "symbol": "CHIP",
+      "validation_status": "pass",
+      "issues": [],
+      "next_step": "continue_paper",
+      "updated_at": "2026-04-26T16:03:47Z"
+    },
+    {
+      "symbol": "SOL",
+      "validation_status": "pass",
+      "issues": [],
+      "next_step": "continue_paper",
+      "updated_at": "2026-04-26T16:03:47Z"
+    },
+    {
+      "symbol": "SPK",
+      "validation_status": "pass",
+      "issues": [],
+      "next_step": "continue_paper",
+      "updated_at": "2026-04-26T16:03:47Z"
+    }
+  ]
+}

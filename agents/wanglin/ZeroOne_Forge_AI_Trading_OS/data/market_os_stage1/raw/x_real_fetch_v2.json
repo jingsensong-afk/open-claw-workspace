@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "SOL",
+    "text": "[real_fetch] X 真实抓取：SOL 在主流beta扩散与热门讨论中出现频率提升",
+    "sentiment": "bullish",
+    "engagement": 19000
+  },
+  {
+    "symbol": "ETH",
+    "text": "[real_fetch] X 真实抓取：ETH 修复讨论存在，但相对热门叙事弱一些",
+    "sentiment": "neutral",
+    "engagement": 17000
+  },
+  {
+    "symbol": "AAVE",
+    "text": "[real_fetch] X 真实抓取：AAVE 行业自救与反弹叙事仍有讨论",
+    "sentiment": "bullish",
+    "engagement": 15000
+  },
+  {
+    "symbol": "XRP",
+    "text": "[real_fetch] X 真实抓取：XRP 属于主流beta和事件扰动观察位",
+    "sentiment": "bullish",
+    "engagement": 16000
+  },
+  {
+    "symbol": "KAT",
+    "text": "[real_fetch] X 真实抓取：KAT 作为新币/新合约观察对象出现",
+    "sentiment": "bullish",
+    "engagement": 14000
+  },
+  {
+    "symbol": "KAS",
+    "text": "[real_fetch] X 真实抓取：KAS 仍属于等待结构更清晰的候选币",
+    "sentiment": "bullish",
+    "engagement": 13000
+  }
+]

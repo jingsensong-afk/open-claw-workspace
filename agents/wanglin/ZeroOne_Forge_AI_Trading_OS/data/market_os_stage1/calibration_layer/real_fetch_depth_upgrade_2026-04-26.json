@@ -1,0 +1,24 @@
+{
+  "updated_at": "2026-04-26T02:33:48Z",
+  "new_files": [
+    "binance_square_real_fetch_depth_v1.json",
+    "x_real_fetch_depth_v1.json",
+    "cross_verification_depth_v1.json",
+    "known_fetch_failure_log_v1.json"
+  ],
+  "real_fetch_count": 63,
+  "seed_count_after_reweight": 34,
+  "watch": 81,
+  "candidate": 15,
+  "execution": 6,
+  "top_execution": [
+    "DOGE",
+    "BTC",
+    "SOL",
+    "KAS",
+    "CHIP",
+    "SPK"
+  ],
+  "known_gap_logged": "unclecow",
+  "summary": "已完成第一层真实抓取深化一轮，增强真实抓取深度、交叉验证与失败留痕"
+}

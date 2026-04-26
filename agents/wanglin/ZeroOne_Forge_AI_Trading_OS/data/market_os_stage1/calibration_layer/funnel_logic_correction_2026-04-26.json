@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-04-26T13:11:33Z",
+  "watch": 78,
+  "candidate": 15,
+  "execution": 5,
+  "thought": 6,
+  "paper": 5,
+  "execution_symbols": [
+    "DOGE",
+    "BTC",
+    "CHIP",
+    "SOL",
+    "SPK"
+  ],
+  "candidate_symbols_top10": [
+    "DOGE",
+    "BTC",
+    "CHIP",
+    "SOL",
+    "SPK",
+    "KAS",
+    "GENIUS",
+    "TRUMP",
+    "ZEC",
+    "PEPE"
+  ],
+  "summary": "已按漏斗式AI交易OS逻辑完成一轮纠偏：收紧 execution 阈值，压缩 thought/paper 承接数量，强化少而准逻辑",
+  "stdout_tail": "[market-os] full-chain refresh start\n[market-os] refresh start: 2026-04-26T13:11:33Z\n{\"watch\": 78, \"candidate\": 15, \"execution\": 5, \"top_execution\": [\"DOGE\", \"BTC\", \"CHIP\", \"SOL\", \"SPK\"]}\n[market-os] refresh done\nthought 6\nexecution 5\nexecution_consistency 5 []\ndistribution 5\ncalibration 5\n[market-os] full-chain refresh done\n",
+  "stderr_tail": ""
+}

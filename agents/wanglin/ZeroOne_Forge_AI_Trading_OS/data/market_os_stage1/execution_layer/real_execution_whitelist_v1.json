@@ -1,0 +1,37 @@
+[
+  {
+    "symbol": "BTC",
+    "allowed": true,
+    "max_position_pct": 1,
+    "mode": "small_test_only",
+    "reason": "paper execution 已存在，适合作为真实小额执行首批白名单"
+  },
+  {
+    "symbol": "CHIP",
+    "allowed": true,
+    "max_position_pct": 1,
+    "mode": "small_test_only",
+    "reason": "paper execution 已存在，适合作为真实小额执行首批白名单"
+  },
+  {
+    "symbol": "SPK",
+    "allowed": true,
+    "max_position_pct": 1,
+    "mode": "small_test_only",
+    "reason": "paper execution 已存在，适合作为真实小额执行首批白名单"
+  },
+  {
+    "symbol": "DOGE",
+    "allowed": true,
+    "max_position_pct": 1,
+    "mode": "small_test_only",
+    "reason": "paper execution 已存在，适合作为真实小额执行首批白名单"
+  },
+  {
+    "symbol": "ZEC",
+    "allowed": true,
+    "max_position_pct": 1,
+    "mode": "small_test_only",
+    "reason": "paper execution 已存在，适合作为真实小额执行首批白名单"
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "updated_at": "2026-04-26T15:24:46Z",
+  "symbol": "BTCUSDT",
+  "quantity": "0.001",
+  "open_order": {
+    "status": 200,
+    "body": {
+      "orderId": 996244547758,
+      "symbol": "BTCUSDT",
+      "status": "NEW",
+      "clientOrderId": "QtPxxOAMh9gffSvU25gtzT",
+      "price": "0.00",
+      "avgPrice": "0.00",
+      "origQty": "0.001",
+      "executedQty": "0.000",
+      "cumQty": "0.000",
+      "cumQuote": "0.00000",
+      "timeInForce": "GTC",
+      "type": "MARKET",
+      "reduceOnly": false,
+      "closePosition": false,
+      "side": "BUY",
+      "positionSide": "LONG",
+      "stopPrice": "0.00",
+      "workingType": "CONTRACT_PRICE",
+      "priceProtect": false,
+      "origType": "MARKET",
+      "priceMatch": "NONE",
+      "selfTradePreventionMode": "EXPIRE_MAKER",
+      "goodTillDate": 0,
+      "updateTime": 1777217086656
+    }
+  },
+  "close_order": {
+    "status": 200,
+    "body": {
+      "orderId": 996244589863,
+      "symbol": "BTCUSDT",
+      "status": "NEW",
+      "clientOrderId": "bKLLCjbxNVK4ZpqSk4dcYU",
+      "price": "0.00",
+      "avgPrice": "0.00",
+      "origQty": "0.001",
+      "executedQty": "0.000",
+      "cumQty": "0.000",
+      "cumQuote": "0.00000",
+      "timeInForce": "GTC",
+      "type": "MARKET",
+      "reduceOnly": true,
+      "closePosition": false,
+      "side": "SELL",
+      "positionSide": "LONG",
+      "stopPrice": "0.00",
+      "workingType": "CONTRACT_PRICE",
+      "priceProtect": false,
+      "origType": "MARKET",
+      "priceMatch": "NONE",
+      "selfTradePreventionMode": "EXPIRE_MAKER",
+      "goodTillDate": 0,
+      "updateTime": 1777217088681
+    }
+  }
+}

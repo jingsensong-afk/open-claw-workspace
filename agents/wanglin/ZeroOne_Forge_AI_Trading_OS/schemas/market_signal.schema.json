@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "market_signal",
+  "type": "object",
+  "properties": {
+    "source": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "symbol": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "narrative": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "sentiment": {
+      "type": "string"
+    },
+    "engagement_score": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "velocity_score": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "price_change_pct": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "volume_score": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "oi_change_pct": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "funding_rate": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "raw_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_confidence": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "signal_quality": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "last_verified_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "source",
+    "source_type",
+    "symbol",
+    "timestamp"
+  ]
+}

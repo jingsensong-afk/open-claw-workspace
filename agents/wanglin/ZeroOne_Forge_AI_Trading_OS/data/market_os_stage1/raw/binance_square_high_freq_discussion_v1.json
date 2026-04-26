@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "BTC",
+    "text": "社区高频讨论：大盘是否继续带动beta扩散",
+    "sentiment": "bullish",
+    "engagement": 32000
+  },
+  {
+    "symbol": "DOGE",
+    "text": "社区高频讨论：热门meme是否继续扩散",
+    "sentiment": "bullish",
+    "engagement": 28000
+  },
+  {
+    "symbol": "TRUMP",
+    "text": "社区高频讨论：事件交易持续性",
+    "sentiment": "bullish",
+    "engagement": 26000
+  },
+  {
+    "symbol": "SPK",
+    "text": "社区高频讨论：AAVE资金外溢与机构标",
+    "sentiment": "bullish",
+    "engagement": 35000
+  },
+  {
+    "symbol": "CHIP",
+    "text": "社区高频讨论：新币独立行情",
+    "sentiment": "bullish",
+    "engagement": 34000
+  },
+  {
+    "symbol": "GENIUS",
+    "text": "社区高频讨论：新币/机构标观察",
+    "sentiment": "bullish",
+    "engagement": 22000
+  }
+]

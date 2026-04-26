@@ -1,0 +1,37 @@
+[
+  {
+    "symbol": "BTC",
+    "text": "Binance Square 热门讨论偏强 / 大盘beta确认",
+    "engagement": 42000,
+    "sentiment": "bullish",
+    "tag": "square_hot"
+  },
+  {
+    "symbol": "DOGE",
+    "text": "社区高频讨论，热点传播强",
+    "engagement": 36000,
+    "sentiment": "bullish",
+    "tag": "square_hot"
+  },
+  {
+    "symbol": "CHIP",
+    "text": "新币高讨论度 / 高弹性",
+    "engagement": 39000,
+    "sentiment": "bullish",
+    "tag": "square_hot"
+  },
+  {
+    "symbol": "SPK",
+    "text": "机构标叙事 + 社区热度",
+    "engagement": 51000,
+    "sentiment": "bullish",
+    "tag": "square_hot"
+  },
+  {
+    "symbol": "TRUMP",
+    "text": "事件驱动讨论升温",
+    "engagement": 28000,
+    "sentiment": "bullish",
+    "tag": "square_hot"
+  }
+]

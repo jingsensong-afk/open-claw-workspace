@@ -1,0 +1,27 @@
+{
+  "exchange_priority": [
+    "Binance",
+    "OKX",
+    "Hyperliquid"
+  ],
+  "account_mode": "test_account_or_subaccount_first",
+  "required_credentials": [
+    "api_key",
+    "api_secret"
+  ],
+  "optional_credentials": [
+    "passphrase_if_exchange_requires"
+  ],
+  "permissions_required": [
+    "trade"
+  ],
+  "permissions_forbidden": [
+    "withdraw"
+  ],
+  "connection_validation": [
+    "account_read_ok",
+    "position_read_ok",
+    "order_place_small_test_ok",
+    "order_cancel_ok"
+  ]
+}

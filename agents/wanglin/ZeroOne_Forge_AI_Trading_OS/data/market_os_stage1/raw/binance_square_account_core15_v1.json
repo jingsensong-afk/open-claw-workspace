@@ -1,0 +1,109 @@
+[
+  {
+    "rank": 1,
+    "account": "拉哪",
+    "category": "实盘高频型",
+    "status": "core",
+    "reason": "已验证有价值实盘/热点/小币样本",
+    "profile_url": "https://app.binance.com/uni-qr/cpro/lanaai?l=zh-CN&r=G2QKVGHN&uc=app_square_share_link&us=copylink"
+  },
+  {
+    "rank": 2,
+    "account": "unclecow",
+    "category": "实盘/叙事型",
+    "status": "core",
+    "reason": "用户指定加入核心名单，优先观察",
+    "profile_url": "https://app.binance.com/uni-qr/cpro/unclecow?l=zh-CN&r=FSNY9TDM&uc=app_square_share_link&us=copylink"
+  },
+  {
+    "rank": 3,
+    "account": "新币雷达Alpha",
+    "category": "新币挖掘型",
+    "status": "core",
+    "reason": "覆盖上线/新合约"
+  },
+  {
+    "rank": 4,
+    "account": "热点流量捕手",
+    "category": "热点放大型",
+    "status": "core",
+    "reason": "覆盖高互动热点"
+  },
+  {
+    "rank": 5,
+    "account": "机构标跟踪",
+    "category": "叙事挖掘型",
+    "status": "core",
+    "reason": "覆盖机构标叙事"
+  },
+  {
+    "rank": 6,
+    "account": "合约流量榜单员",
+    "category": "实盘高频型",
+    "status": "core",
+    "reason": "覆盖实盘组件与热度结合"
+  },
+  {
+    "rank": 7,
+    "account": "广场强势币雷达",
+    "category": "热点放大型",
+    "status": "core",
+    "reason": "覆盖广场高频提及币"
+  },
+  {
+    "rank": 8,
+    "account": "Launchpool追踪",
+    "category": "新币挖掘型",
+    "status": "core",
+    "reason": "覆盖launchpool/alpha/megadrop"
+  },
+  {
+    "rank": 9,
+    "account": "情绪温度计",
+    "category": "热点放大型",
+    "status": "core",
+    "reason": "覆盖看涨看跌标签"
+  },
+  {
+    "rank": 10,
+    "account": "山寨轮动观察",
+    "category": "叙事挖掘型",
+    "status": "core",
+    "reason": "覆盖山寨轮动"
+  },
+  {
+    "rank": 11,
+    "account": "小币动量派",
+    "category": "实盘高频型",
+    "status": "core",
+    "reason": "覆盖高弹性动量"
+  },
+  {
+    "rank": 12,
+    "account": "新合约观察员",
+    "category": "新币挖掘型",
+    "status": "core",
+    "reason": "覆盖新合约"
+  },
+  {
+    "rank": 13,
+    "account": "叙事老师A",
+    "category": "叙事挖掘型",
+    "status": "core",
+    "reason": "覆盖叙事映射"
+  },
+  {
+    "rank": 14,
+    "account": "广场实盘员1",
+    "category": "实盘高频型",
+    "status": "core",
+    "reason": "覆盖交易组件型账号"
+  },
+  {
+    "rank": 15,
+    "account": "事件驱动员A",
+    "category": "热点放大型",
+    "status": "core",
+    "reason": "覆盖事件驱动"
+  }
+]

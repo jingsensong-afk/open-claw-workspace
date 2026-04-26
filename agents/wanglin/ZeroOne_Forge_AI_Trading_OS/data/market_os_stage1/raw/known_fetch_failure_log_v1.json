@@ -1,0 +1,8 @@
+[
+  {
+    "account": "unclecow",
+    "source": "binance_square",
+    "status": "failed_to_fetch_real_content",
+    "note": "已知缺口：名单接入不等于真实内容稳定可抓，需要单独补链路"
+  }
+]

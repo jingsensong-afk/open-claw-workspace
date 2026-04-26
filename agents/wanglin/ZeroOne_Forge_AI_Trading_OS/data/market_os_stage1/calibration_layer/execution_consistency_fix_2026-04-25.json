@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-04-25T05:49:02Z",
+  "missing_symbols": [
+    "XRP",
+    "ETH",
+    "KAS"
+  ],
+  "downgraded_symbols": [
+    "XRP",
+    "ETH",
+    "KAS"
+  ],
+  "execution_count_after_fix": 10,
+  "candidate_count_after_fix": 14,
+  "summary": "已对 execution 与 thought/paper 的缺口标的执行降级修正"
+}
