@@ -1,0 +1,19 @@
+{
+  "updated_at": "2026-04-26T03:16:30Z",
+  "root": "/root/.openclaw-wanglin/.openclaw/workspace/agents/wanglin/ZeroOne_Forge_AI_Trading_OS",
+  "main_refresh_chain": "scripts/refresh_market_os_full_chain.sh",
+  "main_refresh_cron": "market-os-full-refresh",
+  "recovery_read_order": [
+    "rules/AI_TRADING_OS_STAGE1_PLAN.md",
+    "scripts/refresh_market_os_full_chain.sh",
+    "data/market_os_stage1/calibration_layer/quant_calibration_report_2026-04-26.json",
+    "data/market_os_stage1/calibration_layer/system_convergence_review_2026-04-26.json"
+  ],
+  "notes": [
+    "AI交易OS 相关新增内容默认统一归入本目录",
+    "主刷新链已是 full-chain refresh",
+    "execution 强一致性约束已嵌入主刷新链",
+    "AI交易OS 属于王林分区子系统，恢复与运行时仍须遵守 agents/wanglin/rules/WORKING_RULES.md 的上位边界规则",
+    "若恢复目标是 BTC/ETH 主报告 / 异动报告 / 传统执行链，应返回 agents/wanglin/README.md 走分区总入口"
+  ]
+}

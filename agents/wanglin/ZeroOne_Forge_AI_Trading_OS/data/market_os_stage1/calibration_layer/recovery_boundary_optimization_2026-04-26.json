@@ -1,0 +1,9 @@
+{
+  "updated_at": "2026-04-26T03:28:00Z",
+  "summary": "已补清王林分区总入口与 AI交易OS 子系统入口的边界关系，并补充恢复说明与规则层级说明",
+  "changes": [
+    "agents/wanglin/README.md 明确分区总入口 vs AI交易OS 子系统入口",
+    "ZeroOne_Forge_AI_Trading_OS/README.md 明确从属于 WORKING_RULES.md 上位边界规则",
+    "ZeroOne_Forge_AI_Trading_OS/RECOVERY_INDEX.json 明确恢复目标分流与上位规则关系"
+  ]
+}

@@ -43,10 +43,36 @@
 - `EXECUTION_LOG_TEMPLATE_V2.md`
 
 ## 当前恢复入口
-若目标是恢复 BTC/ETH 主报告与异动报告工作流，默认先读：
+### A. 王林分区总入口（传统执行链）
+若目标是恢复 BTC/ETH 主报告、异动报告、传统加密执行链，默认先读：
 1. `REBOOT_RULES.md`
 2. `rules/BTC_ETH_9D_RECOVERY_INDEX.md`
 3. 再按恢复索引继续读其余规则 / 模板 / 示例稿
+
+### B. AI交易OS 子系统入口
+若目标是恢复 ZeroOne Forge AI交易OS，默认改走：
+1. `ZeroOne_Forge_AI_Trading_OS/README.md`
+2. `ZeroOne_Forge_AI_Trading_OS/RECOVERY_INDEX.json`
+3. 再按其中 recovery_read_order 继续恢复
+
+说明：
+- `agents/wanglin/README.md` 是王林分区总入口。
+- `ZeroOne_Forge_AI_Trading_OS/` 是王林分区下的 AI交易OS 子系统入口。
+- 两者不是冲突关系，而是总入口与子系统入口的关系。
+
+## BTC/ETH 主报告唯一默认执行入口（硬规则）
+以后 BTC/ETH 主报告只能按以下唯一链路执行：
+1. `rules/BTC_ETH_9D_RECOVERY_INDEX.md`
+2. `rules/BTC_ETH_9D_ANALYSIS_PROTOCOL.md`
+3. `rules/BTC_ETH_MAIN_REPORT_OUTPUT_ENFORCEMENT.md`
+4. `templates/BTC_ETH_MAIN_REPORT_BACKEND_CHECKLIST.md`
+5. `templates/BTC_ETH_MAIN_REPORT_TEMPLATE.md`
+
+禁止事项：
+- 禁止跳过恢复索引直接套旧稿
+- 禁止绕开 backend checklist 直接写前台
+- 禁止把历史示范稿、旧习惯、临时发挥当作默认入口
+- 禁止在未经过 6/7 维硬门槛核查前输出“主报告”标题
 
 ## 当前专属模板
 - `agents/wanglin/templates/CRYPTO_EXECUTION_TEMPLATE.md`
