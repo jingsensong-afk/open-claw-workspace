@@ -1,0 +1,7 @@
+{
+  "updated_at": "2026-04-28T14:51:03Z",
+  "rule": "AI_TRADING_OS_EXECUTION_LAYER_RULES.md",
+  "workflow": "AI_TRADING_OS_POSITION_MANAGEMENT_WORKFLOW.md",
+  "config": "position_management_config_v1.json",
+  "summary": "已补齐同标的同方向持仓的加仓/拦截硬规则，默认禁止非计划重复开仓"
+}

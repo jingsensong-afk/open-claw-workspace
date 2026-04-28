@@ -1,0 +1,81 @@
+{
+  "updated_at": "2026-04-28T13:20:12Z",
+  "layer1": {
+    "A_count": 6,
+    "B_count": 0,
+    "C_count": 14,
+    "A_symbols": [
+      "DOGE",
+      "KAS",
+      "SOL",
+      "ORDI",
+      "PEPE",
+      "TURBO"
+    ],
+    "B_symbols": [],
+    "C_symbols": [
+      "BTC",
+      "TRUMP",
+      "CHIP",
+      "SPK",
+      "GENIUS",
+      "AAVE",
+      "ZEC",
+      "ETH",
+      "BAN",
+      "KAT"
+    ]
+  },
+  "layer2": {
+    "candidate_v2_count": 6,
+    "candidate_v2_symbols": [
+      "DOGE",
+      "KAS",
+      "SOL",
+      "ORDI",
+      "PEPE",
+      "TURBO"
+    ]
+  },
+  "layer3": {
+    "thought_count": 6,
+    "thought_symbols": [
+      "DOGE",
+      "BTC",
+      "CHIP",
+      "SOL",
+      "SPK",
+      "KAS"
+    ]
+  },
+  "layer4": {
+    "execution_pool_count": 5,
+    "execution_pool_symbols": [
+      "DOGE",
+      "BTC",
+      "CHIP",
+      "SOL",
+      "SPK"
+    ],
+    "strategy_count": 2,
+    "strategy_symbols": [
+      "DOGE",
+      "SOL"
+    ],
+    "trade_cards_count": 2,
+    "trade_cards_symbols": [
+      "DOGE",
+      "SOL"
+    ],
+    "closure_items": 2
+  },
+  "layer5": {
+    "distribution_summary": "watch 78 / candidate 15 / execution 5 / paper 5"
+  },
+  "layer6": {
+    "calibration_execution_count": 5,
+    "calibration_missing_in_thought": [],
+    "calibration_missing_in_paper": []
+  },
+  "verdict": "system_runs_but_layer_alignment_still_needs_final_unification"
+}

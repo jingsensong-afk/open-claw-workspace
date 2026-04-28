@@ -1,0 +1,25 @@
+{
+  "updated_at": "2026-04-27T05:06:55Z",
+  "signal_cards_count": 78,
+  "candidate_v2_count": 3,
+  "top_signal_cards": [
+    "DOGE",
+    "ORDI",
+    "SOL",
+    "KAS",
+    "PEPE",
+    "TURBO",
+    "BTC",
+    "ETH",
+    "CHIP",
+    "SPK",
+    "AAVE",
+    "GENIUS"
+  ],
+  "top_candidates": [
+    "DOGE",
+    "SOL",
+    "KAS"
+  ],
+  "summary": "已完成第一层重构定义与第一层->第二层标准化链接的首轮落地"
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "signal_card",
+  "type": "object",
+  "required": [
+    "symbol",
+    "trigger_type",
+    "trigger_strength",
+    "verification_strength",
+    "mapping_strength",
+    "liquidity_ok",
+    "novelty",
+    "urgency",
+    "summary",
+    "sources",
+    "timestamp"
+  ],
+  "properties": {
+    "symbol": {
+      "type": "string"
+    },
+    "trigger_type": {
+      "type": "string"
+    },
+    "trigger_strength": {
+      "type": "number"
+    },
+    "verification_strength": {
+      "type": "number"
+    },
+    "mapping_strength": {
+      "type": "number"
+    },
+    "liquidity_ok": {
+      "type": "boolean"
+    },
+    "novelty": {
+      "type": "string"
+    },
+    "urgency": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  }
+}

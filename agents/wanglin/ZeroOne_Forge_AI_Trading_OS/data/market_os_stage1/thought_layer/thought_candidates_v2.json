@@ -1,0 +1,23 @@
+[
+  {
+    "symbol": "DOGE",
+    "one_line": "DOGE 属于资金与热度共振标的，进入第四层执行判断。",
+    "judgment": "do",
+    "execution_view": "可做",
+    "updated_at": "2026-04-28T13:55:00Z"
+  },
+  {
+    "symbol": "KAS",
+    "one_line": "KAS 属于资金与热度共振标的，进入第四层执行判断。",
+    "judgment": "do",
+    "execution_view": "可做",
+    "updated_at": "2026-04-28T13:55:00Z"
+  },
+  {
+    "symbol": "SOL",
+    "one_line": "SOL 属于资金与热度共振标的，继续观察，不进入第四层。",
+    "judgment": "observe",
+    "execution_view": "观察",
+    "updated_at": "2026-04-28T13:55:00Z"
+  }
+]

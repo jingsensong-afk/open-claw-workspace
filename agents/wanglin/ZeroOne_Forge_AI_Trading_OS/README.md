@@ -38,3 +38,13 @@
 - 避免乱散、极重、臃肿
 - 六层联动，形成“发现 → 筛选 → 判断 → 执行 → 分发 → 校准 → 反向修正”的闭环系统
 - 优先复用已有沉淀，不轻易平行新建
+
+## 分层固定索引
+- 第一层：`rules/LAYER1_INFOFLOW_INDEX.md`
+- 第二层：`rules/LAYER2_CANDIDATE_INDEX.md`
+- 第三层：`rules/LAYER3_THOUGHT_INDEX.md`
+- 第四层：`rules/LAYER4_EXECUTION_INDEX.md`
+- 第五层：`rules/LAYER5_DISTRIBUTION_INDEX.md`
+- 第六层：`rules/LAYER6_CALIBRATION_INDEX.md`
+
+说明：后续新增的规则、文件、模板、交易卡、数据产物，默认应固定到对应层，避免层级混乱、执行乱串与职责漂移。

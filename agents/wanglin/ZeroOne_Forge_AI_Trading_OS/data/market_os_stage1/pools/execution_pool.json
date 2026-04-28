@@ -11,10 +11,10 @@
     "status": "executable",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.74,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "BTC",
@@ -28,10 +28,10 @@
     "status": "executable",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.72,
     "signal_quality": 0.74,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "CHIP",
@@ -45,10 +45,10 @@
     "status": "executable",
     "reason": "top_volume_24h | 上面有海量空单？/ 趋势走出来了 / 新币行情 | 新币/热门赛道/高弹性",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.7,
     "signal_quality": 0.73,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "SOL",
@@ -62,10 +62,10 @@
     "status": "executable",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.81,
     "signal_quality": 0.78,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "SPK",
@@ -79,9 +79,9 @@
     "status": "executable",
     "reason": "top_volume_24h | 有点猛 / 顶住压力 / AAVE资金外溢到Spark | Spark 承接 AAVE 资金外溢，是机构标叙事",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.7,
     "signal_quality": 0.73,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   }
 ]

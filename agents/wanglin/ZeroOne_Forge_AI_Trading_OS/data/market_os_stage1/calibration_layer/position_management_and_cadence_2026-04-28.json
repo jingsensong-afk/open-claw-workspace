@@ -1,0 +1,6 @@
+{
+  "updated_at": "2026-04-28T14:12:58Z",
+  "workflow": "workflows/AI_TRADING_OS_POSITION_MANAGEMENT_WORKFLOW.md",
+  "config": "data/market_os_stage1/execution_layer/position_management_config_v1.json",
+  "summary": "已将持仓管理规则与分层扫描节奏正式落入系统，具备进入真实下单前的管理框架"
+}

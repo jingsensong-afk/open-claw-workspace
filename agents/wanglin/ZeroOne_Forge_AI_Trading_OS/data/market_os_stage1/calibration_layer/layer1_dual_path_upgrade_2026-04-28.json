@@ -1,0 +1,40 @@
+{
+  "updated_at": "2026-04-28T10:41:28Z",
+  "A_count": 6,
+  "B_count": 0,
+  "C_count": 14,
+  "A_symbols": [
+    "DOGE",
+    "KAS",
+    "SOL",
+    "ORDI",
+    "PEPE",
+    "TURBO"
+  ],
+  "B_symbols": [],
+  "C_symbols": [
+    "BTC",
+    "TRUMP",
+    "CHIP",
+    "SPK",
+    "GENIUS",
+    "AAVE",
+    "ZEC",
+    "ETH",
+    "BAN",
+    "KAT",
+    "XRP",
+    "SPACE",
+    "SHIB",
+    "APE"
+  ],
+  "candidate_symbols": [
+    "DOGE",
+    "KAS",
+    "SOL",
+    "ORDI",
+    "PEPE",
+    "TURBO"
+  ],
+  "summary": "已按双路径交叉验证模型彻底升级第一层，并仅以A类共振标的进入第二层正式候选"
+}

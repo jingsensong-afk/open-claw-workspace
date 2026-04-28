@@ -1,0 +1,212 @@
+[
+  {
+    "symbol": "BTC",
+    "capital_count": 0,
+    "attention_count": 11,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:account_post",
+      "binance_square:core15_recent_post",
+      "binance_square:high_freq_discussion",
+      "binance_square:profile_post",
+      "binance_square:real_fetch",
+      "x:hot_narrative"
+    ],
+    "summary": "top_volume_24h | funding_snapshot",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "TRUMP",
+    "capital_count": 0,
+    "attention_count": 11,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:account_post",
+      "binance_square:core15_recent_post",
+      "binance_square:high_freq_discussion",
+      "binance_square:profile_post",
+      "binance_square:real_fetch",
+      "x:hot_narrative"
+    ],
+    "summary": "市场一致看空时反向看多 | 事件驱动+市场一致预期反做",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "CHIP",
+    "capital_count": 0,
+    "attention_count": 10,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:account_post",
+      "binance_square:core15_recent_post",
+      "binance_square:high_freq_discussion",
+      "binance_square:profile_post",
+      "binance_square:real_fetch",
+      "x:hot_narrative"
+    ],
+    "summary": "top_volume_24h | 上面有海量空单？/ 趋势走出来了 / 新币行情",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "SPK",
+    "capital_count": 0,
+    "attention_count": 10,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:account_post",
+      "binance_square:core15_recent_post",
+      "binance_square:high_freq_discussion",
+      "binance_square:profile_post",
+      "binance_square:real_fetch",
+      "x:hot_narrative"
+    ],
+    "summary": "top_volume_24h | 有点猛 / 顶住压力 / AAVE资金外溢到Spark",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "GENIUS",
+    "capital_count": 0,
+    "attention_count": 8,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:account_post",
+      "binance_square:core15_recent_post",
+      "binance_square:high_freq_discussion",
+      "binance_square:profile_post",
+      "binance_square:real_fetch",
+      "x:hot_narrative"
+    ],
+    "summary": "回本了终于 / 机构标观察 | 机构标 + 新币观察",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "AAVE",
+    "capital_count": 0,
+    "attention_count": 5,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:account_post",
+      "binance_square:core15_recent_post",
+      "binance_square:profile_post",
+      "binance_square:real_fetch",
+      "x:real_fetch"
+    ],
+    "summary": "top_volume_24h | 行业自救，可能会有大反弹",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "ZEC",
+    "capital_count": 0,
+    "attention_count": 4,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:account_post",
+      "binance_square:core15_recent_post",
+      "binance_square:profile_post",
+      "binance_square:real_fetch"
+    ],
+    "summary": "top_gainer_24h | top_volume_24h",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "ETH",
+    "capital_count": 0,
+    "attention_count": 4,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:core15_recent_post",
+      "binance_square:real_fetch",
+      "x:real_fetch",
+      "x:topic_post"
+    ],
+    "summary": "top_volume_24h | funding_snapshot",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "BAN",
+    "capital_count": 0,
+    "attention_count": 3,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:profile_post",
+      "binance_square:real_fetch",
+      "x:real_fetch"
+    ],
+    "summary": "事件驱动 | [real_fetch] Binance Square 真实抓取：BAN 具有事件驱动残余讨论",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "KAT",
+    "capital_count": 0,
+    "attention_count": 2,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:real_fetch",
+      "x:real_fetch"
+    ],
+    "summary": "top_gainer_24h | top_volume_24h",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "XRP",
+    "capital_count": 0,
+    "attention_count": 2,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:real_fetch",
+      "x:real_fetch"
+    ],
+    "summary": "top_volume_24h | funding_snapshot",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "SPACE",
+    "capital_count": 0,
+    "attention_count": 2,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:profile_post",
+      "binance_square:real_fetch"
+    ],
+    "summary": "太空探索热门 | [real_fetch] Binance Square 真实抓取：SPACE 属于题材驱动观察对象",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "SHIB",
+    "capital_count": 0,
+    "attention_count": 2,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:real_fetch",
+      "x:real_fetch"
+    ],
+    "summary": "[real_fetch] Binance Square 真实抓取：老牌meme跟随观察 | [real_fetch] X 真实抓取：老牌meme仍具边缘传播性",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  },
+  {
+    "symbol": "APE",
+    "capital_count": 0,
+    "attention_count": 2,
+    "capital_sources": [],
+    "attention_sources": [
+      "binance_square:real_fetch",
+      "x:real_fetch"
+    ],
+    "summary": "[real_fetch] Binance Square 真实抓取：冷门但有交易提及 | [real_fetch] X 真实抓取：冷门标的偶发讨论",
+    "updated_at": "2026-04-28T10:41:28Z",
+    "path_class": "C_attention_only"
+  }
+]

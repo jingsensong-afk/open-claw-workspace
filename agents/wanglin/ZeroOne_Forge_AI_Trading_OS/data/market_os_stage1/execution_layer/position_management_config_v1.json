@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-04-28T14:12:58Z",
+  "scan_cadence": {
+    "layer1_infoflow": "15m",
+    "layer2_candidate": "follow_layer1",
+    "layer3_thought": "30m_or_candidate_change",
+    "layer4_position_management": "5m",
+    "layer5_distribution": "event_triggered",
+    "layer6_calibration": "post_trade_and_1h_4h_review"
+  },
+  "position_management": {
+    "price_stop": true,
+    "staged_take_profit": true,
+    "time_stop": {
+      "soft_check": "2h",
+      "hard_exit": "4h"
+    },
+    "mode": "small_real_trade_plus_semi_auto_management"
+  },
+  "duplicate_position_guard": {
+    "enabled": true,
+    "default_action": "block_same_symbol_same_side_reopen",
+    "allow_only": [
+      "confirm_add",
+      "planned_add"
+    ],
+    "requires_trade_card_match": true,
+    "requires_risk_budget_check": true
+  }
+}

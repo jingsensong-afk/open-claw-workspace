@@ -1,0 +1,10 @@
+{
+  "updated_at": "2026-04-28T09:24:59Z",
+  "template": "templates/EXECUTION_V1_TRADE_CARD_TEMPLATE.md",
+  "cards_count": 2,
+  "symbols": [
+    "DOGE",
+    "SOL"
+  ],
+  "summary": "已生成第四层执行层通用V1交易卡模板，并基于本轮策略单生成首批交易卡样本"
+}

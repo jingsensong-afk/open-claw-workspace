@@ -11,10 +11,10 @@
     "status": "executable",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.74,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "BTC",
@@ -28,10 +28,10 @@
     "status": "executable",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.72,
     "signal_quality": 0.74,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "CHIP",
@@ -45,10 +45,10 @@
     "status": "executable",
     "reason": "top_volume_24h | 上面有海量空单？/ 趋势走出来了 / 新币行情 | 新币/热门赛道/高弹性",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.7,
     "signal_quality": 0.73,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "SOL",
@@ -62,10 +62,10 @@
     "status": "executable",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.81,
     "signal_quality": 0.78,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "SPK",
@@ -79,10 +79,10 @@
     "status": "executable",
     "reason": "top_volume_24h | 有点猛 / 顶住压力 / AAVE资金外溢到Spark | Spark 承接 AAVE 资金外溢，是机构标叙事",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.7,
     "signal_quality": 0.73,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "KAS",
@@ -96,10 +96,10 @@
     "status": "candidate",
     "reason": "还在找合适的点位上车 | [real_fetch] Binance Square 真实抓取：KAS 仍在等待更优上车位 | [real_fetch] X 真实抓取：KAS 仍属于等待结构更清晰的候选币",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.77,
     "signal_quality": 0.76,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "GENIUS",
@@ -113,10 +113,10 @@
     "status": "candidate",
     "reason": "回本了终于 / 机构标观察 | 机构标 + 新币观察 | [拉哪] 机构标观察",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.69,
     "signal_quality": 0.73,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "TRUMP",
@@ -130,10 +130,10 @@
     "status": "candidate",
     "reason": "市场一致看空时反向看多 | 事件驱动+市场一致预期反做 | [拉哪] 事件驱动反身性",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.68,
     "signal_quality": 0.72,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "ZEC",
@@ -147,10 +147,10 @@
     "status": "candidate",
     "reason": "top_gainer_24h | top_volume_24h | 今天走的比较强",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.76,
     "signal_quality": 0.74,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "PEPE",
@@ -164,10 +164,10 @@
     "status": "candidate",
     "reason": "top_volume_24h | [real_fetch] Binance Square 真实抓取：meme扩散边缘继续活跃 | [real_fetch] X 真实抓取：meme扩散层仍在发酵",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.83,
     "signal_quality": 0.79,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "KAT",
@@ -181,10 +181,10 @@
     "status": "candidate",
     "reason": "top_gainer_24h | top_volume_24h | [real_fetch] Binance Square 真实抓取：KAT 属于新币榜/新币观察对象",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.86,
     "signal_quality": 0.77,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "ETH",
@@ -198,10 +198,10 @@
     "status": "candidate",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.8,
     "signal_quality": 0.77,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "AAVE",
@@ -215,10 +215,10 @@
     "status": "candidate",
     "reason": "top_volume_24h | 行业自救，可能会有大反弹 | [拉哪] 行业自救，可能会有大反弹",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.74,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "ORDI",
@@ -232,10 +232,10 @@
     "status": "candidate",
     "reason": "[pre_signal] 15m 放量异动，尚未完全进入主流热门层 | [short_cycle_pre_signal] 1h OI 边际抬升 | [real_fetch] Binance Square core账号关注 ORDI 边际活跃",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.81,
     "signal_quality": 0.77,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   },
   {
     "symbol": "XRP",
@@ -249,9 +249,9 @@
     "status": "candidate",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-26T16:03:47Z",
+    "updated_at": "2026-04-28T15:03:46Z",
     "source_confidence": 0.86,
     "signal_quality": 0.79,
-    "last_verified_at": "2026-04-26T16:03:47Z"
+    "last_verified_at": "2026-04-28T15:03:46Z"
   }
 ]

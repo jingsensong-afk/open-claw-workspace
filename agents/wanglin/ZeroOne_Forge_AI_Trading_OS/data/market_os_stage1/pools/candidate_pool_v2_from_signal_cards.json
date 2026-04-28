@@ -1,0 +1,45 @@
+[
+  {
+    "symbol": "DOGE",
+    "candidate_level": "priority_candidate",
+    "why_selected": "top_volume_24h | funding_snapshot",
+    "trigger_source": [
+      "binance_board:real_fetch",
+      "short_cycle_scan:real_fetch",
+      "binance_square:account_post",
+      "binance_square:core15_recent_post",
+      "binance_square:high_freq_discussion"
+    ],
+    "verification_notes": "top_volume_24h | funding_snapshot",
+    "priority_rank": 1,
+    "updated_at": "2026-04-28T13:55:00Z"
+  },
+  {
+    "symbol": "KAS",
+    "candidate_level": "priority_candidate",
+    "why_selected": "还在找合适的点位上车 | [real_fetch] Binance Square 真实抓取：KAS 仍在等待更优上车位",
+    "trigger_source": [
+      "short_cycle_scan:real_fetch",
+      "binance_new_contract:real_fetch",
+      "binance_square:account_post",
+      "binance_square:profile_post"
+    ],
+    "verification_notes": "还在找合适的点位上车 | [real_fetch] Binance Square 真实抓取：KAS 仍在等待更优上车位",
+    "priority_rank": 2,
+    "updated_at": "2026-04-28T13:55:00Z"
+  },
+  {
+    "symbol": "SOL",
+    "candidate_level": "priority_candidate",
+    "why_selected": "top_volume_24h | funding_snapshot",
+    "trigger_source": [
+      "binance_board:real_fetch",
+      "binance_square:core15_recent_post",
+      "binance_square:real_fetch",
+      "x:real_fetch"
+    ],
+    "verification_notes": "top_volume_24h | funding_snapshot",
+    "priority_rank": 3,
+    "updated_at": "2026-04-28T13:55:00Z"
+  }
+]

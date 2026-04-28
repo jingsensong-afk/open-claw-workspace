@@ -1,0 +1,18 @@
+{
+  "updated_at": "2026-04-28T09:19:59Z",
+  "source_candidates": [
+    "DOGE",
+    "SOL",
+    "KAS"
+  ],
+  "strategy_count": 2,
+  "strategy_symbols": [
+    "DOGE",
+    "SOL"
+  ],
+  "qualified_symbols": [
+    "DOGE",
+    "SOL"
+  ],
+  "summary": "已把第三层候选与第四层执行层实战版规则V1接起来，生成首轮策略单候选"
+}

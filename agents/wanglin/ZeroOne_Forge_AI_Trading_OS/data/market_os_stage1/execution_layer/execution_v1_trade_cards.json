@@ -1,0 +1,76 @@
+[
+  {
+    "symbol": "DOGE",
+    "side": "long",
+    "candidate_score": 7.75,
+    "execution_qualified": true,
+    "trigger_conditions": [
+      "回踩不破关键结构位",
+      "量能/资金延续未明显转弱",
+      "盘口未出现快速反向失衡"
+    ],
+    "execution_actions": {
+      "trial_position_pct": 30,
+      "confirm_position_pct": 40,
+      "add_position_pct": 30,
+      "target_notional": "100U initial test"
+    },
+    "invalid_conditions": [
+      "关键结构位失守",
+      "放量反向跌破",
+      "资金/情绪明显断裂"
+    ],
+    "risk_control": {
+      "price_stop": "结构位失守即止损",
+      "time_stop": {
+        "soft_check": "2h",
+        "hard_exit": "4h"
+      },
+      "take_profit_mode": "staged_take_profit"
+    },
+    "abandon_conditions": [
+      "价格已明显偏离计划入场区",
+      "盘口/流动性明显恶化",
+      "同类风险暴露已超标"
+    ],
+    "execution_notes": "DOGE 当前属于executable，优先按偏强结构处理。",
+    "updated_at": "2026-04-28T09:24:59Z"
+  },
+  {
+    "symbol": "SOL",
+    "side": "long",
+    "candidate_score": 6.85,
+    "execution_qualified": true,
+    "trigger_conditions": [
+      "回踩不破关键结构位",
+      "量能/资金延续未明显转弱",
+      "盘口未出现快速反向失衡"
+    ],
+    "execution_actions": {
+      "trial_position_pct": 30,
+      "confirm_position_pct": 40,
+      "add_position_pct": 30,
+      "target_notional": "100U initial test"
+    },
+    "invalid_conditions": [
+      "关键结构位失守",
+      "放量反向跌破",
+      "资金/情绪明显断裂"
+    ],
+    "risk_control": {
+      "price_stop": "结构位失守即止损",
+      "time_stop": {
+        "soft_check": "2h",
+        "hard_exit": "4h"
+      },
+      "take_profit_mode": "staged_take_profit"
+    },
+    "abandon_conditions": [
+      "价格已明显偏离计划入场区",
+      "盘口/流动性明显恶化",
+      "同类风险暴露已超标"
+    ],
+    "execution_notes": "SOL 当前属于executable，优先按偏强结构处理。",
+    "updated_at": "2026-04-28T09:24:59Z"
+  }
+]
