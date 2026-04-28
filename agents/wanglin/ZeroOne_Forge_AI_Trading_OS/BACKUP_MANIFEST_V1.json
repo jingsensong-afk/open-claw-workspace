@@ -1,0 +1,57 @@
+{
+  "updated_at": "2026-04-28T15:19:50Z",
+  "purpose": "精准恢复王林 AI交易OS 当前有效主链",
+  "must_keep": {
+    "entrypoints": [
+      "README.md",
+      "RECOVERY_INDEX.json",
+      "scripts/refresh_market_os_full_chain.sh",
+      "scripts/refresh_market_os_stage1.sh"
+    ],
+    "core_rules": [
+      "rules/AI_TRADING_OS_STAGE1_PLAN.md",
+      "rules/AI_TRADING_OS_DUAL_PATH_LAYER1_RULES.md",
+      "rules/AI_TRADING_OS_EXECUTION_LAYER_RULES.md",
+      "rules/AI_TRADING_OS_DISTRIBUTION_LAYER_RULES.md",
+      "rules/LAYER1_CONVERGENCE_INDEX.md",
+      "rules/LAYER2_CANDIDATE_INDEX.md",
+      "rules/LAYER3_THOUGHT_INDEX.md",
+      "rules/LAYER4_EXECUTION_INDEX.md",
+      "rules/LAYER5_DISTRIBUTION_INDEX.md",
+      "rules/LAYER6_CALIBRATION_INDEX.md"
+    ],
+    "core_workflows": [
+      "workflows/AI_TRADING_OS_DUAL_PATH_LAYER1_WORKFLOW.md",
+      "workflows/AI_TRADING_OS_EXECUTION_LAYER_V1_WORKFLOW.md",
+      "workflows/AI_TRADING_OS_POSITION_MANAGEMENT_WORKFLOW.md",
+      "workflows/AI_TRADING_OS_EVENT_DRIVEN_DISTRIBUTION_WORKFLOW.md"
+    ],
+    "core_data_outputs": [
+      "data/market_os_stage1/processed/layer1_dual_path_A_resonance.json",
+      "data/market_os_stage1/processed/layer1_dual_path_B_capital_only.json",
+      "data/market_os_stage1/processed/layer1_dual_path_C_attention_only.json",
+      "data/market_os_stage1/pools/candidate_pool_v2_from_signal_cards.json",
+      "data/market_os_stage1/thought_layer/thought_candidates_v2.json",
+      "data/market_os_stage1/execution_layer/strategy_execution_orders_v2.json",
+      "data/market_os_stage1/execution_layer/execution_v1_trade_cards_v2.json",
+      "data/market_os_stage1/execution_layer/position_management_config_v1.json",
+      "data/market_os_stage1/distribution_layer/distribution_summary_v2.json",
+      "data/market_os_stage1/distribution_layer/distribution_copy_memory_v1.json",
+      "data/market_os_stage1/calibration_layer/calibration_v2_unified_main_chain.json"
+    ],
+    "live_validation_logs": [
+      "data/market_os_stage1/execution_layer/live_strategy_order_2026-04-28.json",
+      "data/market_os_stage1/execution_layer/live_strategy_order_event_driven_2026-04-28.json",
+      "data/market_os_stage1/calibration_layer/live_trade_and_distribution_2026-04-28.json",
+      "data/market_os_stage1/calibration_layer/live_trade_and_event_driven_distribution_2026-04-28.json"
+    ]
+  },
+  "never_commit": [
+    "config/local/",
+    "../../.binance_futures_api.json",
+    "../../.binance_square_api_key",
+    "../../../.agents/skills/aicoin-trading/node_modules/",
+    "../../../.agents/skills/aicoin-trading/package-lock.json"
+  ],
+  "note": "后续备份默认按白名单式 add，仅提交 must_keep + 本轮新增有效留痕。"
+}
