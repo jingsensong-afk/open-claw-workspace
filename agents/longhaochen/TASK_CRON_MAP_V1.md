@@ -33,7 +33,7 @@
 
 **对应 cron**
 - 名称：`zov-main-daily-report-v4`
-- 时间：11:00 Asia/Shanghai
+- 时间：09:00 Asia/Shanghai
 
 **当前执行方式**
 - `sessionTarget = isolated`
@@ -145,7 +145,7 @@
 
 ### 原因
 - 4 月主线升级后，改为：
-  - 11:00 主报告
+  - 09:00 主报告
   - 14:00 预测市场分析
   - 22:30 日终复盘
   - 重大突发时再额外输出异常提示
