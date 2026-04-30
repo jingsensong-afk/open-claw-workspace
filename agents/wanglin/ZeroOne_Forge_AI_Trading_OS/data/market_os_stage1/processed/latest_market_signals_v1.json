@@ -1,0 +1,142 @@
+[
+  {
+    "source": "binance_square",
+    "source_type": "latest_scan",
+    "symbol": "DOGE",
+    "narrative": "[real_fetch] Binance Square core账号继续讨论 DOGE 交易机会",
+    "sentiment": "bullish",
+    "engagement_score": 22000,
+    "volume_score": null,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "binance_square",
+    "source_type": "latest_scan",
+    "symbol": "PEPE",
+    "narrative": "[real_fetch] Binance Square core账号持续提及 PEPE 异动",
+    "sentiment": "bullish",
+    "engagement_score": 21000,
+    "volume_score": null,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "binance_square",
+    "source_type": "latest_scan",
+    "symbol": "ORDI",
+    "narrative": "[real_fetch] Binance Square core账号关注 ORDI 边际活跃",
+    "sentiment": "neutral",
+    "engagement_score": 16000,
+    "volume_score": null,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "binance_square",
+    "source_type": "latest_scan",
+    "symbol": "KAS",
+    "narrative": "[real_fetch] Binance Square core账号讨论 KAS 回流可能",
+    "sentiment": "neutral",
+    "engagement_score": 15000,
+    "volume_score": null,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "binance_square",
+    "source_type": "latest_scan",
+    "symbol": "SOL",
+    "narrative": "[real_fetch] Binance Square core账号继续跟踪 SOL 强势延续",
+    "sentiment": "bullish",
+    "engagement_score": 26000,
+    "volume_score": null,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "x",
+    "source_type": "latest_scan",
+    "symbol": "DOGE",
+    "narrative": "[real_fetch] X 持续传播 DOGE 活跃延续",
+    "sentiment": "bullish",
+    "engagement_score": 24000,
+    "volume_score": null,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "x",
+    "source_type": "latest_scan",
+    "symbol": "PEPE",
+    "narrative": "[real_fetch] X 继续发酵 PEPE 题材扩散",
+    "sentiment": "bullish",
+    "engagement_score": 23000,
+    "volume_score": null,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "x",
+    "source_type": "latest_scan",
+    "symbol": "ORDI",
+    "narrative": "[real_fetch] X 对 ORDI 的边缘预热增加",
+    "sentiment": "neutral",
+    "engagement_score": 15000,
+    "volume_score": null,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "x",
+    "source_type": "latest_scan",
+    "symbol": "KAS",
+    "narrative": "[real_fetch] X 出现 KAS 重新活跃讨论",
+    "sentiment": "neutral",
+    "engagement_score": 14000,
+    "volume_score": null,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "x",
+    "source_type": "latest_scan",
+    "symbol": "BAN",
+    "narrative": "[real_fetch] X 对 BAN 仍有零散讨论",
+    "sentiment": "neutral",
+    "engagement_score": 12000,
+    "volume_score": null,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "binance_board",
+    "source_type": "latest_scan",
+    "symbol": "DOGE",
+    "narrative": "[cross_check] 热门榜仍保持高讨论度",
+    "sentiment": "bullish",
+    "engagement_score": null,
+    "volume_score": 1200000000,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "binance_board",
+    "source_type": "latest_scan",
+    "symbol": "SOL",
+    "narrative": "[cross_check] 热门榜与成交额维持高位",
+    "sentiment": "bullish",
+    "engagement_score": null,
+    "volume_score": 1500000000,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "binance_board",
+    "source_type": "latest_scan",
+    "symbol": "ORDI",
+    "narrative": "[cross_check] 边缘热榜信号回升",
+    "sentiment": "neutral",
+    "engagement_score": null,
+    "volume_score": 320000000,
+    "timestamp": "2026-04-29T10:03:46Z"
+  },
+  {
+    "source": "binance_new_contract",
+    "source_type": "latest_scan",
+    "symbol": "KAS",
+    "narrative": "[cross_check] 新合约关注仍具残余观察价值",
+    "sentiment": "neutral",
+    "engagement_score": null,
+    "volume_score": 260000000,
+    "timestamp": "2026-04-29T10:03:46Z"
+  }
+]

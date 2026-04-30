@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-04-29T10:43:41Z",
+  "items": [
+    {
+      "symbol": "XAUUSD",
+      "market": "precious_metals",
+      "note": "gold"
+    },
+    {
+      "symbol": "XAGUSD",
+      "market": "precious_metals",
+      "note": "silver"
+    },
+    {
+      "symbol": "WTI",
+      "market": "oil",
+      "note": "crude_oil"
+    },
+    {
+      "symbol": "SPY",
+      "market": "us_equity",
+      "note": "sp500_proxy"
+    },
+    {
+      "symbol": "QQQ",
+      "market": "us_equity",
+      "note": "nasdaq_proxy"
+    },
+    {
+      "symbol": "DIA",
+      "market": "us_equity",
+      "note": "dow_proxy"
+    }
+  ]
+}

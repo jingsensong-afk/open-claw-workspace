@@ -23,10 +23,10 @@
       "soft_check": "2h",
       "hard_exit": "4h"
     },
-    "updated_at": "2026-04-28T13:55:00Z"
+    "updated_at": "2026-04-29T10:03:46Z"
   },
   {
-    "symbol": "KAS",
+    "symbol": "ORDI",
     "side": "long",
     "execution_qualified": true,
     "trigger_conditions": [
@@ -49,6 +49,6 @@
       "soft_check": "2h",
       "hard_exit": "4h"
     },
-    "updated_at": "2026-04-28T13:55:00Z"
+    "updated_at": "2026-04-29T10:03:46Z"
   }
 ]

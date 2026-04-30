@@ -1,0 +1,27 @@
+{
+  "updated_at": "2026-04-28T15:37:36Z",
+  "mode": "semi_auto_position_management",
+  "symbol": "DOGEUSDT",
+  "side": "LONG",
+  "current_position": {
+    "positionAmt": "2037",
+    "entryPrice": "0.0982299754541",
+    "markPrice": "0.09888007",
+    "unRealizedProfit": "1.32425370",
+    "notional": "201.41870259",
+    "leverage": "10"
+  },
+  "management_framework": {
+    "target_notional_mode": "200U active management",
+    "price_stop_logic": "若明显跌破当前回踩承接结构位，执行止损退出",
+    "soft_check": "2h",
+    "hard_exit": "4h",
+    "take_profit_plan": [
+      "第一目标位减仓 30%",
+      "第二目标位再减仓 30%",
+      "剩余仓位 40% 采用移动止损/趋势跟随"
+    ],
+    "monitor_cycle": "5m",
+    "notes": "当前按用户指示，不先平回100U，而是按约200U名义仓位进入半自动持仓管理模式"
+  }
+}

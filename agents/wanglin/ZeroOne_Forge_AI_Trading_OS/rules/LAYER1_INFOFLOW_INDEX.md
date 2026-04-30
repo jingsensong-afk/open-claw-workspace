@@ -2,7 +2,7 @@
 
 ## 规则
 - AI_TRADING_OS_STAGE1_PLAN.md
-- AI_TRADING_OS_SIGNAL_CARD_RULES.md
+- AI_TRADING_OS_DUAL_PATH_LAYER1_RULES.md
 - AI_TRADING_OS_REAL_FETCH_DEPTH_RULES.md
 - AI_TRADING_OS_SHORT_CYCLE_PRE_SIGNAL_RULES.md
 - AI_TRADING_OS_SOURCE_INGESTION_PLAN.md
@@ -10,7 +10,9 @@
 ## 数据产物
 - data/market_os_stage1/raw/
 - data/market_os_stage1/processed/market_signals_v1.json
-- data/market_os_stage1/processed/normalized_signal_cards_v1.json
+- data/market_os_stage1/processed/layer1_dual_path_A_resonance.json
+- data/market_os_stage1/processed/layer1_dual_path_B_capital_only.json
+- data/market_os_stage1/processed/layer1_dual_path_C_attention_only.json
 
 ## 职责
 - 独立实时扫描

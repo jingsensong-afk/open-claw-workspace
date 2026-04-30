@@ -1,0 +1,1102 @@
+[
+  {
+    "symbol": "AIOT",
+    "contract_symbol": "AIOTUSDT",
+    "price_change_pct_24h": 54.789,
+    "quote_volume": 362462582.085,
+    "trade_count": 5779449,
+    "scan_score": 7,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ETH",
+    "contract_symbol": "ETHUSDT",
+    "price_change_pct_24h": 2.098,
+    "quote_volume": 7891554780.51,
+    "trade_count": 4330085,
+    "scan_score": 5,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "SKYAI",
+    "contract_symbol": "SKYAIUSDT",
+    "price_change_pct_24h": 61.532,
+    "quote_volume": 201910871.08319,
+    "trade_count": 2320107,
+    "scan_score": 7,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "BTC",
+    "contract_symbol": "BTCUSDT",
+    "price_change_pct_24h": 1.277,
+    "quote_volume": 9552265392.13,
+    "trade_count": 2966493,
+    "scan_score": 5,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "DOGE",
+    "contract_symbol": "DOGEUSDT",
+    "price_change_pct_24h": 10.367,
+    "quote_volume": 1073114761.43642,
+    "trade_count": 1933533,
+    "scan_score": 8,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ZBT",
+    "contract_symbol": "ZBTUSDT",
+    "price_change_pct_24h": -20.246,
+    "quote_volume": 206231666.41448,
+    "trade_count": 3389539,
+    "scan_score": 7,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "PRL",
+    "contract_symbol": "PRLUSDT",
+    "price_change_pct_24h": -16.706,
+    "quote_volume": 183371460.2498,
+    "trade_count": 2065093,
+    "scan_score": 7,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "1000PEPE",
+    "contract_symbol": "1000PEPEUSDT",
+    "price_change_pct_24h": 6.655,
+    "quote_volume": 352329541.5658208,
+    "trade_count": 1384901,
+    "scan_score": 6,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "TAC",
+    "contract_symbol": "TACUSDT",
+    "price_change_pct_24h": 30.316,
+    "quote_volume": 75408799.001481,
+    "trade_count": 1878708,
+    "scan_score": 6,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "SOL",
+    "contract_symbol": "SOLUSDT",
+    "price_change_pct_24h": 1.684,
+    "quote_volume": 1290394612.6351,
+    "trade_count": 1070573,
+    "scan_score": 5,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "NOM",
+    "contract_symbol": "NOMUSDT",
+    "price_change_pct_24h": 23.238,
+    "quote_volume": 90308714.876986,
+    "trade_count": 976459,
+    "scan_score": 6,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "APE",
+    "contract_symbol": "APEUSDT",
+    "price_change_pct_24h": -12.361,
+    "quote_volume": 158625574.7055,
+    "trade_count": 854521,
+    "scan_score": 7,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "PUMP",
+    "contract_symbol": "PUMPUSDT",
+    "price_change_pct_24h": 7.399,
+    "quote_volume": 248701055.899863,
+    "trade_count": 588835,
+    "scan_score": 6,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "H",
+    "contract_symbol": "HUSDT",
+    "price_change_pct_24h": 16.008,
+    "quote_volume": 112135472.77642,
+    "trade_count": 2300651,
+    "scan_score": 7,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "NAORIS",
+    "contract_symbol": "NAORISUSDT",
+    "price_change_pct_24h": 24.102,
+    "quote_volume": 66315572.82548,
+    "trade_count": 1607934,
+    "scan_score": 6,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "BROCCOLI714",
+    "contract_symbol": "BROCCOLI714USDT",
+    "price_change_pct_24h": 16.856,
+    "quote_volume": 85877018.8996,
+    "trade_count": 676832,
+    "scan_score": 6,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "CHIP",
+    "contract_symbol": "CHIPUSDT",
+    "price_change_pct_24h": -6.914,
+    "quote_volume": 140823684.0892,
+    "trade_count": 1183797,
+    "scan_score": 6,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ORCA",
+    "contract_symbol": "ORCAUSDT",
+    "price_change_pct_24h": -2.536,
+    "quote_volume": 359421856.9508,
+    "trade_count": 1763313,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "TAO",
+    "contract_symbol": "TAOUSDT",
+    "price_change_pct_24h": 4.87,
+    "quote_volume": 170446139.25,
+    "trade_count": 845432,
+    "scan_score": 5,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "BIO",
+    "contract_symbol": "BIOUSDT",
+    "price_change_pct_24h": 5.085,
+    "quote_volume": 143967961.58992,
+    "trade_count": 1396134,
+    "scan_score": 6,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "DEXE",
+    "contract_symbol": "DEXEUSDT",
+    "price_change_pct_24h": -18.104,
+    "quote_volume": 37315817.95588,
+    "trade_count": 964365,
+    "scan_score": 6,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "UB",
+    "contract_symbol": "UBUSDT",
+    "price_change_pct_24h": 22.056,
+    "quote_volume": 24844077.39684,
+    "trade_count": 695809,
+    "scan_score": 5,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "PENGU",
+    "contract_symbol": "PENGUUSDT",
+    "price_change_pct_24h": 2.247,
+    "quote_volume": 214375066.490338,
+    "trade_count": 1529527,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "RAVE",
+    "contract_symbol": "RAVEUSDT",
+    "price_change_pct_24h": -6.336,
+    "quote_volume": 75547830.25882,
+    "trade_count": 991712,
+    "scan_score": 5,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "SWARMS",
+    "contract_symbol": "SWARMSUSDT",
+    "price_change_pct_24h": -7.123,
+    "quote_volume": 65156306.853266,
+    "trade_count": 2585279,
+    "scan_score": 5,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "OPG",
+    "contract_symbol": "OPGUSDT",
+    "price_change_pct_24h": -7.999,
+    "quote_volume": 48363500.6106,
+    "trade_count": 541357,
+    "scan_score": 5,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ASTER",
+    "contract_symbol": "ASTERUSDT",
+    "price_change_pct_24h": 5.4,
+    "quote_volume": 70747547.5133,
+    "trade_count": 298378,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "HYPE",
+    "contract_symbol": "HYPEUSDT",
+    "price_change_pct_24h": 1.108,
+    "quote_volume": 342377819.60528,
+    "trade_count": 888139,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ADA",
+    "contract_symbol": "ADAUSDT",
+    "price_change_pct_24h": 2.396,
+    "quote_volume": 138315867.3819,
+    "trade_count": 316236,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "AIO",
+    "contract_symbol": "AIOUSDT",
+    "price_change_pct_24h": 16.851,
+    "quote_volume": 19656225.45878,
+    "trade_count": 315137,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "XRP",
+    "contract_symbol": "XRPUSDT",
+    "price_change_pct_24h": 0.706,
+    "quote_volume": 462728000.7082,
+    "trade_count": 753758,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "FARTCOIN",
+    "contract_symbol": "FARTCOINUSDT",
+    "price_change_pct_24h": 6.056,
+    "quote_volume": 53406243.48364,
+    "trade_count": 261009,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "1000SHIB",
+    "contract_symbol": "1000SHIBUSDT",
+    "price_change_pct_24h": 5.244,
+    "quote_volume": 60196832.653486,
+    "trade_count": 234387,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ZEREBRO",
+    "contract_symbol": "ZEREBROUSDT",
+    "price_change_pct_24h": 16.503,
+    "quote_volume": 18638602.884913,
+    "trade_count": 424123,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "LUMIA",
+    "contract_symbol": "LUMIAUSDT",
+    "price_change_pct_24h": 10.531,
+    "quote_volume": 28232087.25992,
+    "trade_count": 997337,
+    "scan_score": 5,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "BASED",
+    "contract_symbol": "BASEDUSDT",
+    "price_change_pct_24h": -7.956,
+    "quote_volume": 36672692.25505,
+    "trade_count": 727601,
+    "scan_score": 5,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "JCT",
+    "contract_symbol": "JCTUSDT",
+    "price_change_pct_24h": 16.261,
+    "quote_volume": 17467272.244244,
+    "trade_count": 303269,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "AXL",
+    "contract_symbol": "AXLUSDT",
+    "price_change_pct_24h": 8.918,
+    "quote_volume": 27777363.712537,
+    "trade_count": 431972,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "API3",
+    "contract_symbol": "API3USDT",
+    "price_change_pct_24h": 2.869,
+    "quote_volume": 84610198.8948,
+    "trade_count": 906406,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "FIL",
+    "contract_symbol": "FILUSDT",
+    "price_change_pct_24h": 4.009,
+    "quote_volume": 59188214.236,
+    "trade_count": 123192,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "SOLV",
+    "contract_symbol": "SOLVUSDT",
+    "price_change_pct_24h": 18.222,
+    "quote_volume": 12727085.667775,
+    "trade_count": 270528,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "1000BONK",
+    "contract_symbol": "1000BONKUSDT",
+    "price_change_pct_24h": 4.629,
+    "quote_volume": 47750651.026311,
+    "trade_count": 223508,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "LTC",
+    "contract_symbol": "LTCUSDT",
+    "price_change_pct_24h": 3.522,
+    "quote_volume": 62488061.81,
+    "trade_count": 179646,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ZKP",
+    "contract_symbol": "ZKPUSDT",
+    "price_change_pct_24h": 2.712,
+    "quote_volume": 79178729.81459,
+    "trade_count": 1161889,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "AVAX",
+    "contract_symbol": "AVAXUSDT",
+    "price_change_pct_24h": 2.101,
+    "quote_volume": 100540160.396,
+    "trade_count": 323452,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "LIT",
+    "contract_symbol": "LITUSDT",
+    "price_change_pct_24h": 7.566,
+    "quote_volume": 26341766.41254,
+    "trade_count": 300864,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "OPEN",
+    "contract_symbol": "OPENUSDT",
+    "price_change_pct_24h": 7.68,
+    "quote_volume": 22670712.8335,
+    "trade_count": 261055,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "PLAY",
+    "contract_symbol": "PLAYUSDT",
+    "price_change_pct_24h": -14.532,
+    "quote_volume": 11708127.48111,
+    "trade_count": 237793,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "LYN",
+    "contract_symbol": "LYNUSDT",
+    "price_change_pct_24h": 1.404,
+    "quote_volume": 119244260.42722,
+    "trade_count": 1633218,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "M",
+    "contract_symbol": "MUSDT",
+    "price_change_pct_24h": -3.236,
+    "quote_volume": 50575760.074,
+    "trade_count": 1352731,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "MOVR",
+    "contract_symbol": "MOVRUSDT",
+    "price_change_pct_24h": 5.685,
+    "quote_volume": 28658827.10085,
+    "trade_count": 369599,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ENA",
+    "contract_symbol": "ENAUSDT",
+    "price_change_pct_24h": 3.116,
+    "quote_volume": 52158638.25142,
+    "trade_count": 446008,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "MOODENG",
+    "contract_symbol": "MOODENGUSDT",
+    "price_change_pct_24h": 9.635,
+    "quote_volume": 16668142.83582,
+    "trade_count": 271041,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ARB",
+    "contract_symbol": "ARBUSDT",
+    "price_change_pct_24h": 5.373,
+    "quote_volume": 29645580.81261,
+    "trade_count": 129401,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "CHZ",
+    "contract_symbol": "CHZUSDT",
+    "price_change_pct_24h": -4.127,
+    "quote_volume": 37869014.2607,
+    "trade_count": 333928,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "BNB",
+    "contract_symbol": "BNBUSDT",
+    "price_change_pct_24h": 0.773,
+    "quote_volume": 179032325.544,
+    "trade_count": 522286,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "DOLO",
+    "contract_symbol": "DOLOUSDT",
+    "price_change_pct_24h": -10.332,
+    "quote_volume": 13296222.6981,
+    "trade_count": 228923,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "KAT",
+    "contract_symbol": "KATUSDT",
+    "price_change_pct_24h": -3.122,
+    "quote_volume": 43589582.64111,
+    "trade_count": 251824,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "APT",
+    "contract_symbol": "APTUSDT",
+    "price_change_pct_24h": 3.513,
+    "quote_volume": 38194593.1466,
+    "trade_count": 338916,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "WIF",
+    "contract_symbol": "WIFUSDT",
+    "price_change_pct_24h": 5.32,
+    "quote_volume": 25177141.86399,
+    "trade_count": 137818,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "TURTLE",
+    "contract_symbol": "TURTLEUSDT",
+    "price_change_pct_24h": -13.006,
+    "quote_volume": 9959151.21592,
+    "trade_count": 225134,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "FIGHT",
+    "contract_symbol": "FIGHTUSDT",
+    "price_change_pct_24h": 15.872,
+    "quote_volume": 8056372.61364,
+    "trade_count": 208810,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "1000LUNC",
+    "contract_symbol": "1000LUNCUSDT",
+    "price_change_pct_24h": 1.813,
+    "quote_volume": 64815346.61759,
+    "trade_count": 836792,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "TIA",
+    "contract_symbol": "TIAUSDT",
+    "price_change_pct_24h": 3.705,
+    "quote_volume": 31587927.7338,
+    "trade_count": 253553,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "PAXG",
+    "contract_symbol": "PAXGUSDT",
+    "price_change_pct_24h": -1.044,
+    "quote_volume": 111923805.736,
+    "trade_count": 262946,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "GRIFFAIN",
+    "contract_symbol": "GRIFFAINUSDT",
+    "price_change_pct_24h": 17.412,
+    "quote_volume": 6701177.651203,
+    "trade_count": 143633,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "VIRTUAL",
+    "contract_symbol": "VIRTUALUSDT",
+    "price_change_pct_24h": 4.474,
+    "quote_volume": 25879602.03608,
+    "trade_count": 235546,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "GPS",
+    "contract_symbol": "GPSUSDT",
+    "price_change_pct_24h": -10.462,
+    "quote_volume": 10759029.4478,
+    "trade_count": 347235,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "BLUR",
+    "contract_symbol": "BLURUSDT",
+    "price_change_pct_24h": -7.571,
+    "quote_volume": 13140309.00134,
+    "trade_count": 174611,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "DOT",
+    "contract_symbol": "DOTUSDT",
+    "price_change_pct_24h": 2.126,
+    "quote_volume": 46551366.981,
+    "trade_count": 133583,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "LINK",
+    "contract_symbol": "LINKUSDT",
+    "price_change_pct_24h": 1.331,
+    "quote_volume": 73749927.788,
+    "trade_count": 224627,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "NEIRO",
+    "contract_symbol": "NEIROUSDT",
+    "price_change_pct_24h": 5.892,
+    "quote_volume": 16476698.54380359,
+    "trade_count": 317137,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "币安人生",
+    "contract_symbol": "币安人生USDT",
+    "price_change_pct_24h": -1.3,
+    "quote_volume": 70081296.68218,
+    "trade_count": 740416,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "RIF",
+    "contract_symbol": "RIFUSDT",
+    "price_change_pct_24h": 12.338,
+    "quote_volume": 7161316.82965,
+    "trade_count": 126080,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "UAI",
+    "contract_symbol": "UAIUSDT",
+    "price_change_pct_24h": 5.041,
+    "quote_volume": 17486364.0707,
+    "trade_count": 387954,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "SIREN",
+    "contract_symbol": "SIRENUSDT",
+    "price_change_pct_24h": -2.864,
+    "quote_volume": 30251345.43044,
+    "trade_count": 645896,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "PENDLE",
+    "contract_symbol": "PENDLEUSDT",
+    "price_change_pct_24h": 6.351,
+    "quote_volume": 13157589.2156,
+    "trade_count": 270236,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "TON",
+    "contract_symbol": "TONUSDT",
+    "price_change_pct_24h": 2.104,
+    "quote_volume": 39166483.06801,
+    "trade_count": 426070,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ENSO",
+    "contract_symbol": "ENSOUSDT",
+    "price_change_pct_24h": -4.717,
+    "quote_volume": 16913953.28107,
+    "trade_count": 362292,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "UNI",
+    "contract_symbol": "UNIUSDT",
+    "price_change_pct_24h": 2.444,
+    "quote_volume": 32176084.165,
+    "trade_count": 166408,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ORDI",
+    "contract_symbol": "ORDIUSDT",
+    "price_change_pct_24h": 2.325,
+    "quote_volume": 33748942.2151,
+    "trade_count": 303776,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "TAG",
+    "contract_symbol": "TAGUSDT",
+    "price_change_pct_24h": -11.109,
+    "quote_volume": 6837856.7767477,
+    "trade_count": 140610,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "LUNA2",
+    "contract_symbol": "LUNA2USDT",
+    "price_change_pct_24h": -6.208,
+    "quote_volume": 12217700.05371,
+    "trade_count": 173197,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "SUI",
+    "contract_symbol": "SUIUSDT",
+    "price_change_pct_24h": 0.713,
+    "quote_volume": 101720438.43097,
+    "trade_count": 376174,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "BEAT",
+    "contract_symbol": "BEATUSDT",
+    "price_change_pct_24h": 5.909,
+    "quote_volume": 12251083.1053,
+    "trade_count": 348389,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "REZ",
+    "contract_symbol": "REZUSDT",
+    "price_change_pct_24h": 6.805,
+    "quote_volume": 10444256.166046,
+    "trade_count": 158576,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "WLD",
+    "contract_symbol": "WLDUSDT",
+    "price_change_pct_24h": 1.92,
+    "quote_volume": 35648287.0691,
+    "trade_count": 180203,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "BCH",
+    "contract_symbol": "BCHUSDT",
+    "price_change_pct_24h": 1.504,
+    "quote_volume": 45257139.41,
+    "trade_count": 218895,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "GWEI",
+    "contract_symbol": "GWEIUSDT",
+    "price_change_pct_24h": -3.469,
+    "quote_volume": 19471408.196799,
+    "trade_count": 368039,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "EIGEN",
+    "contract_symbol": "EIGENUSDT",
+    "price_change_pct_24h": 7.435,
+    "quote_volume": 8977722.8393,
+    "trade_count": 86892,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "GENIUS",
+    "contract_symbol": "GENIUSUSDT",
+    "price_change_pct_24h": -4.824,
+    "quote_volume": 12794002.3102,
+    "trade_count": 194625,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "US",
+    "contract_symbol": "USUSDT",
+    "price_change_pct_24h": 11.204,
+    "quote_volume": 5424349.297068,
+    "trade_count": 135468,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "SOON",
+    "contract_symbol": "SOONUSDT",
+    "price_change_pct_24h": -1.537,
+    "quote_volume": 38868336.6638,
+    "trade_count": 444383,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "MYX",
+    "contract_symbol": "MYXUSDT",
+    "price_change_pct_24h": -4.501,
+    "quote_volume": 13085221.1352,
+    "trade_count": 253601,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ZRO",
+    "contract_symbol": "ZROUSDT",
+    "price_change_pct_24h": 4.231,
+    "quote_volume": 13883783.93082,
+    "trade_count": 296220,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "STABLE",
+    "contract_symbol": "STABLEUSDT",
+    "price_change_pct_24h": -8.213,
+    "quote_volume": 7042222.811709,
+    "trade_count": 122674,
+    "scan_score": 4,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "MUBARAK",
+    "contract_symbol": "MUBARAKUSDT",
+    "price_change_pct_24h": 7.809,
+    "quote_volume": 7374839.19692,
+    "trade_count": 94931,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "TRUMP",
+    "contract_symbol": "TRUMPUSDT",
+    "price_change_pct_24h": 0.853,
+    "quote_volume": 67481010.74674,
+    "trade_count": 240012,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "SPX",
+    "contract_symbol": "SPXUSDT",
+    "price_change_pct_24h": 6.294,
+    "quote_volume": 8842888.7212,
+    "trade_count": 117826,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "ACH",
+    "contract_symbol": "ACHUSDT",
+    "price_change_pct_24h": 3.211,
+    "quote_volume": 17240528.254195,
+    "trade_count": 268101,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "1000FLOKI",
+    "contract_symbol": "1000FLOKIUSDT",
+    "price_change_pct_24h": 4.829,
+    "quote_volume": 11318054.81564,
+    "trade_count": 103493,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "HIGH",
+    "contract_symbol": "HIGHUSDT",
+    "price_change_pct_24h": -6.664,
+    "quote_volume": 8140567.99388,
+    "trade_count": 146937,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "AIXBT",
+    "contract_symbol": "AIXBTUSDT",
+    "price_change_pct_24h": 8.492,
+    "quote_volume": 5956592.61328,
+    "trade_count": 84621,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "EDGE",
+    "contract_symbol": "EDGEUSDT",
+    "price_change_pct_24h": -3.668,
+    "quote_volume": 13022919.466,
+    "trade_count": 277960,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "BOME",
+    "contract_symbol": "BOMEUSDT",
+    "price_change_pct_24h": 5.707,
+    "quote_volume": 8342462.8498193,
+    "trade_count": 175503,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "MEGA",
+    "contract_symbol": "MEGAUSDT",
+    "price_change_pct_24h": 11.437,
+    "quote_volume": 4105049.88221,
+    "trade_count": 96669,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "SPK",
+    "contract_symbol": "SPKUSDT",
+    "price_change_pct_24h": 1.153,
+    "quote_volume": 39668675.81157,
+    "trade_count": 444304,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "D",
+    "contract_symbol": "DUSDT",
+    "price_change_pct_24h": -6.177,
+    "quote_volume": 7130281.827661,
+    "trade_count": 199551,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "STRK",
+    "contract_symbol": "STRKUSDT",
+    "price_change_pct_24h": 5.637,
+    "quote_volume": 7748667.356868,
+    "trade_count": 103195,
+    "scan_score": 3,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  },
+  {
+    "symbol": "KITE",
+    "contract_symbol": "KITEUSDT",
+    "price_change_pct_24h": -3.52,
+    "quote_volume": 11841348.79621,
+    "trade_count": 315381,
+    "scan_score": 2,
+    "narrative": "latest_binance_futures_scan",
+    "timestamp": "2026-04-29T10:43:41Z"
+  }
+]

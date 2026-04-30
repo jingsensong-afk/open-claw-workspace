@@ -21,9 +21,8 @@
 - `processed/market_signals_v1.json`
 - `raw/` 下各抓取源数据
 
-## 已降级 / 已被替代（不要作为当前主入口使用）
-- `rules/AI_TRADING_OS_SIGNAL_CARD_RULES.md`
-- `workflows/AI_TRADING_OS_SIGNAL_CARD_WORKFLOW.md`
-- `processed/normalized_signal_cards_v1.json`
+## 已彻底移除的旧主链部分
+- 旧 signal card 主规则与工作流
+- 旧 normalized signal cards 主产物
 
-说明：以上文件不立即删除，但已被第一层双路径模型上位替代；后续若无兼容需要，可归档或清理。
+说明：当前第一层只保留双路径主逻辑，不再保留旧 signal card 主链引用。

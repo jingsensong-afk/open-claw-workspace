@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-04-28T13:55:00Z",
-  "A_count": 6,
+  "updated_at": "2026-04-29T10:03:46Z",
+  "A_count": 3,
   "candidate_count": 3,
   "thought_count": 3,
   "thought_do_count": 2,
   "strategy_count": 2,
   "strategy_symbols": [
     "DOGE",
-    "KAS"
+    "ORDI"
   ],
-  "summary": "已加强第二层与第三层筛选强度，形成更明显漏斗"
+  "summary": "已按新主链统一刷新：A类共振 -> 第二层正式候选 -> 第三层判断 -> 第四层策略单 -> 第五层分发"
 }

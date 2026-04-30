@@ -92,9 +92,10 @@
 - `schemas/pool_item.schema.json`
 
 ### Pools
-- `data/market_os_stage1/pools/watch_pool.json`
-- `data/market_os_stage1/pools/candidate_pool.json`
-- `data/market_os_stage1/pools/execution_pool.json`
+- `data/market_os_stage1/processed/layer1_dual_path_A_resonance.json`
+- `data/market_os_stage1/processed/layer1_dual_path_B_capital_only.json`
+- `data/market_os_stage1/processed/layer1_dual_path_C_attention_only.json`
+- `data/market_os_stage1/pools/candidate_pool_v2_from_signal_cards.json`
 
 ---
 
@@ -137,10 +138,12 @@
 2. 落盘 raw 数据
 3. 做统一标准化
 4. 写入 processed
-5. 更新 watch pool
-6. 对 watch pool 打分生成 candidate pool
-7. 按执行标准筛出 execution pool
-8. 后续主报告 / 异动报告从 pool 读取输入
+5. 输出第一层 A/B/C 三类结果
+6. 仅由 A类共振标的生成第二层正式候选
+7. 第三层只承接第二层正式候选
+8. 第四层只承接第三层最终“do”结果
+9. 第五层只分发第四层最终策略单
+10. 第六层只校准新主链产物
 
 ---
 
@@ -157,10 +160,10 @@
 第一阶段完成，至少满足：
 1. 有清晰目录结构
 2. 有统一 schema
-3. 有 3 个标准池文件
-4. 能把至少 2 类外部来源写入观察池
-5. 候选池有基础评分逻辑
-6. 可执行池有最小筛选标准
+3. 有第一层 A/B/C 三类主产物
+4. 能把至少 2 类外部来源写入双路径识别结果
+5. 第二层正式候选有明确收窄逻辑
+6. 第三层与第四层能只承接新主链输入
 7. 后续可被主报告 / 异动报告直接调用
 
 ---

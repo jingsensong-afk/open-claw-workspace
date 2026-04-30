@@ -1,9 +1,0 @@
-{
-  "updated_at": "2026-04-28T13:18:25Z",
-  "created": "rules/LAYER1_CONVERGENCE_INDEX.md",
-  "deprecated_files": [
-    "rules/AI_TRADING_OS_SIGNAL_CARD_RULES.md",
-    "workflows/AI_TRADING_OS_SIGNAL_CARD_WORKFLOW.md"
-  ],
-  "summary": "已完成第一层收口，明确主逻辑、辅助逻辑与已降级旧逻辑"
-}

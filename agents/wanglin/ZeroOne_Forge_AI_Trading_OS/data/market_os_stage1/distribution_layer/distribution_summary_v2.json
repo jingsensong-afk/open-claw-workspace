@@ -1,10 +1,10 @@
 {
   "channel": "telegram/binance_square",
   "message_type": "strategy_summary",
-  "summary": "A类共振 6 / 第二层正式候选 3 / 第三层最终判断 2 / 第四层策略单 2",
+  "summary": "A类共振 3 / 第二层正式候选 3 / 第三层最终判断 2 / 第四层策略单 2",
   "symbols": [
     "DOGE",
-    "KAS"
+    "ORDI"
   ],
-  "updated_at": "2026-04-28T13:55:00Z"
+  "updated_at": "2026-04-29T10:03:46Z"
 }

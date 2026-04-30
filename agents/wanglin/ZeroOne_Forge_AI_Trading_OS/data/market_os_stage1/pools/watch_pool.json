@@ -11,10 +11,10 @@
     "status": "executable",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.74,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "BTC",
@@ -28,10 +28,10 @@
     "status": "executable",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.72,
     "signal_quality": 0.74,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "CHIP",
@@ -45,10 +45,10 @@
     "status": "executable",
     "reason": "top_volume_24h | 上面有海量空单？/ 趋势走出来了 / 新币行情 | 新币/热门赛道/高弹性",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.7,
     "signal_quality": 0.73,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "SOL",
@@ -62,10 +62,10 @@
     "status": "executable",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.81,
     "signal_quality": 0.78,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "SPK",
@@ -79,10 +79,10 @@
     "status": "executable",
     "reason": "top_volume_24h | 有点猛 / 顶住压力 / AAVE资金外溢到Spark | Spark 承接 AAVE 资金外溢，是机构标叙事",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.7,
     "signal_quality": 0.73,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "KAS",
@@ -96,10 +96,10 @@
     "status": "candidate",
     "reason": "还在找合适的点位上车 | [real_fetch] Binance Square 真实抓取：KAS 仍在等待更优上车位 | [real_fetch] X 真实抓取：KAS 仍属于等待结构更清晰的候选币",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.77,
     "signal_quality": 0.76,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "GENIUS",
@@ -113,10 +113,10 @@
     "status": "candidate",
     "reason": "回本了终于 / 机构标观察 | 机构标 + 新币观察 | [拉哪] 机构标观察",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.69,
     "signal_quality": 0.73,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "TRUMP",
@@ -130,10 +130,10 @@
     "status": "candidate",
     "reason": "市场一致看空时反向看多 | 事件驱动+市场一致预期反做 | [拉哪] 事件驱动反身性",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.68,
     "signal_quality": 0.72,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "ZEC",
@@ -147,10 +147,10 @@
     "status": "candidate",
     "reason": "top_gainer_24h | top_volume_24h | 今天走的比较强",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.76,
     "signal_quality": 0.74,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "PEPE",
@@ -164,10 +164,10 @@
     "status": "candidate",
     "reason": "top_volume_24h | [real_fetch] Binance Square 真实抓取：meme扩散边缘继续活跃 | [real_fetch] X 真实抓取：meme扩散层仍在发酵",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.83,
     "signal_quality": 0.79,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "KAT",
@@ -181,10 +181,10 @@
     "status": "candidate",
     "reason": "top_gainer_24h | top_volume_24h | [real_fetch] Binance Square 真实抓取：KAT 属于新币榜/新币观察对象",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.86,
     "signal_quality": 0.77,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "ETH",
@@ -198,10 +198,10 @@
     "status": "candidate",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.8,
     "signal_quality": 0.77,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "AAVE",
@@ -215,10 +215,10 @@
     "status": "candidate",
     "reason": "top_volume_24h | 行业自救，可能会有大反弹 | [拉哪] 行业自救，可能会有大反弹",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.74,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "ORDI",
@@ -232,10 +232,10 @@
     "status": "candidate",
     "reason": "[pre_signal] 15m 放量异动，尚未完全进入主流热门层 | [short_cycle_pre_signal] 1h OI 边际抬升 | [real_fetch] Binance Square core账号关注 ORDI 边际活跃",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.81,
     "signal_quality": 0.77,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "XRP",
@@ -249,10 +249,10 @@
     "status": "candidate",
     "reason": "top_volume_24h | funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.86,
     "signal_quality": 0.79,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "MOVR",
@@ -266,10 +266,10 @@
     "status": "watch",
     "reason": "top_gainer_24h | top_volume_24h | [pre_signal] 榜单边缘+轻度讨论，观察是否放大",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.85,
     "signal_quality": 0.73,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "BAN",
@@ -283,10 +283,10 @@
     "status": "watch",
     "reason": "事件驱动 | [real_fetch] Binance Square 真实抓取：BAN 具有事件驱动残余讨论 | [pre_signal] 事件驱动残余热度，观察是否二次发酵",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.76,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "SPACE",
@@ -300,10 +300,10 @@
     "status": "watch",
     "reason": "太空探索热门 | [real_fetch] Binance Square 真实抓取：SPACE 属于题材驱动观察对象 | [pre_signal] 题材边缘热度抬头，尚未形成大共振",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.75,
     "signal_quality": 0.74,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "TURBO",
@@ -317,10 +317,10 @@
     "status": "watch",
     "reason": "[real_fetch] Binance Square 真实抓取：题材延展标的被持续讨论 | [real_fetch] X 真实抓取：延展题材仍有提及 | [short_cycle_pre_signal] 1h 放量明显",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.8,
     "signal_quality": 0.78,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "CREAM",
@@ -334,10 +334,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "PNT",
@@ -351,10 +351,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "GLMR",
@@ -368,10 +368,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "STO",
@@ -385,10 +385,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "LUNC",
@@ -402,10 +402,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "ZBT",
@@ -419,10 +419,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "KDA",
@@ -436,10 +436,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "RED",
@@ -453,10 +453,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "UTK",
@@ -470,10 +470,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "SENT",
@@ -487,10 +487,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "CLV",
@@ -504,10 +504,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "ESP",
@@ -521,10 +521,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "MDX",
@@ -538,10 +538,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "LUMIA",
@@ -555,10 +555,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "SOLV",
@@ -572,10 +572,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "CGPT",
@@ -589,10 +589,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "WAVES",
@@ -606,10 +606,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "BETA",
@@ -623,10 +623,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "VIB",
@@ -640,10 +640,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "WTC",
@@ -657,10 +657,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "A2Z",
@@ -674,10 +674,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "ACA",
@@ -691,10 +691,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "SXP",
@@ -708,10 +708,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "HARD",
@@ -725,10 +725,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "FIO",
@@ -742,10 +742,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "FORTH",
@@ -759,10 +759,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "NTRN",
@@ -776,10 +776,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "DATA",
@@ -793,10 +793,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "IDEX",
@@ -810,10 +810,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "1000PEPE",
@@ -827,10 +827,10 @@
     "status": "watch",
     "reason": "funding_snapshot | open_interest_snapshot",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.8,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "TREE",
@@ -844,10 +844,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "SHIB",
@@ -861,10 +861,10 @@
     "status": "watch",
     "reason": "[real_fetch] Binance Square 真实抓取：老牌meme跟随观察 | [real_fetch] X 真实抓取：老牌meme仍具边缘传播性",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.81,
     "signal_quality": 0.79,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "APE",
@@ -878,10 +878,10 @@
     "status": "watch",
     "reason": "[real_fetch] Binance Square 真实抓取：冷门但有交易提及 | [real_fetch] X 真实抓取：冷门标的偶发讨论",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.81,
     "signal_quality": 0.79,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "BURGER",
@@ -895,10 +895,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "PROS",
@@ -912,10 +912,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "FIRO",
@@ -929,10 +929,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "OOKI",
@@ -946,10 +946,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "VITE",
@@ -963,10 +963,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "EPX",
@@ -980,10 +980,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "FUN",
@@ -997,10 +997,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "TROY",
@@ -1014,10 +1014,10 @@
     "status": "watch",
     "reason": "top_loser_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "PYTH",
@@ -1031,10 +1031,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "ALLO",
@@ -1048,10 +1048,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "RARE",
@@ -1065,10 +1065,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "DYDX",
@@ -1082,10 +1082,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "DODO",
@@ -1099,10 +1099,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "LUNA",
@@ -1116,10 +1116,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "ENJ",
@@ -1133,10 +1133,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "MAV",
@@ -1150,10 +1150,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "PHB",
@@ -1167,10 +1167,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "USD1",
@@ -1184,10 +1184,10 @@
     "status": "watch",
     "reason": "top_volume_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "KAITO",
@@ -1201,10 +1201,10 @@
     "status": "watch",
     "reason": "top_gainer_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "RLUSD",
@@ -1218,10 +1218,10 @@
     "status": "watch",
     "reason": "top_volume_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "BNB",
@@ -1235,10 +1235,10 @@
     "status": "watch",
     "reason": "top_volume_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "TRX",
@@ -1252,10 +1252,10 @@
     "status": "watch",
     "reason": "top_volume_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "币安人生",
@@ -1269,10 +1269,10 @@
     "status": "watch",
     "reason": "top_volume_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "EUR",
@@ -1286,10 +1286,10 @@
     "status": "watch",
     "reason": "top_volume_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "ADA",
@@ -1303,10 +1303,10 @@
     "status": "watch",
     "reason": "top_volume_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   },
   {
     "symbol": "PENGU",
@@ -1320,9 +1320,9 @@
     "status": "watch",
     "reason": "top_volume_24h",
     "invalid_condition": null,
-    "updated_at": "2026-04-28T15:03:46Z",
+    "updated_at": "2026-04-29T06:03:47Z",
     "source_confidence": 0.9,
     "signal_quality": 0.75,
-    "last_verified_at": "2026-04-28T15:03:46Z"
+    "last_verified_at": "2026-04-29T06:03:47Z"
   }
 ]
