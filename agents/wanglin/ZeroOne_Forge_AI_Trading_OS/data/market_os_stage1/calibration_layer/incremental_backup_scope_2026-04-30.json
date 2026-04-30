@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-04-30T09:22:10Z",
+  "change_scope": "post-8a2944e incremental backup only",
+  "why": "补备第一层输入机制修正后重跑的新主链结果，避免重复备份旧内容",
+  "files": [
+    "data/market_os_stage1/processed/latest_market_signals_v1.json",
+    "data/market_os_stage1/processed/layer1_dual_path_A_resonance.json",
+    "data/market_os_stage1/processed/layer1_dual_path_C_attention_only.json",
+    "data/market_os_stage1/pools/candidate_pool_v2_from_signal_cards.json",
+    "data/market_os_stage1/thought_layer/thought_candidates_v2.json",
+    "data/market_os_stage1/execution_layer/strategy_execution_orders_v2.json",
+    "data/market_os_stage1/execution_layer/execution_v1_trade_cards_v2.json",
+    "data/market_os_stage1/distribution_layer/distribution_summary_v2.json",
+    "data/market_os_stage1/calibration_layer/calibration_v2_unified_main_chain.json"
+  ],
+  "dedupe_note": "本次只补备新增有效结果文件，不重复提交上一轮已备份规则/工作流/历史留痕。"
+}
