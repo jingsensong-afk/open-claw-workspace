@@ -5,7 +5,11 @@
 脚本只调用账户查询接口，不会下单、不会改任何账户状态。
 
 运行方式（从仓库根目录）：
-    .venv/bin/python agents/wanglin/ZeroOne_Forge_AI_Trading_OS/scripts/binance_testnet_connectivity_check.py
+    agents/wanglin/ZeroOne_Forge_AI_Trading_OS/.venv/bin/python \
+        agents/wanglin/ZeroOne_Forge_AI_Trading_OS/scripts/binance_testnet_connectivity_check.py
+
+或者从 ZeroOne_Forge_AI_Trading_OS/ 目录里：
+    .venv/bin/python scripts/binance_testnet_connectivity_check.py
 
 凭证文件位置（必须先创建）：
     agents/wanglin/.binance_futures_api.testnet.json
