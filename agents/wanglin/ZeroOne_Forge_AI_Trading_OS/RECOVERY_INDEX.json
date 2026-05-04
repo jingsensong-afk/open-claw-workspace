@@ -13,6 +13,8 @@
     "AI交易OS 相关新增内容默认统一归入本目录",
     "主刷新链已是 full-chain refresh",
     "execution 强一致性约束已嵌入主刷新链",
+    "scripts/dangerous_manual_only/ 是主网危险脚本区，只能人工手动运行，禁止 cron / refresh_market_os_full_chain.sh / 自动主链调用，默认不建议运行",
+    "外部分发脚本与主网交易脚本均不得接入自动主刷新链；任何真实下单、真实平仓、真实分发、真实账户变更必须人工确认后手动执行",
     "AI交易OS 属于王林分区子系统，恢复与运行时仍须遵守 agents/wanglin/rules/WORKING_RULES.md 的上位边界规则",
     "若恢复目标是 BTC/ETH 主报告 / 异动报告 / 传统执行链，应返回 agents/wanglin/README.md 走分区总入口"
   ]

@@ -14,6 +14,8 @@
 ### 自动主刷新链
 - `scripts/refresh_market_os_full_chain.sh`
 - 已接为主刷新链，默认按 cron 自动运行
+- 禁止调用 `scripts/dangerous_manual_only/` 下任何脚本
+- 禁止接入外部分发脚本、主网交易脚本或任何真实外部动作
 - 负责依次刷新：
   1. 信息流层
   2. 候选池层
@@ -27,7 +29,14 @@
 - `rules/`：系统规则
 - `workflows/`：工作流
 - `scripts/`：执行脚本
+- `scripts/dangerous_manual_only/`：主网危险脚本区，只能人工手动运行，禁止 cron / 自动主链调用，默认不建议运行
 - `data/market_os_stage1/`：运行数据与校准结果
+
+## 自动化安全边界
+- `scripts/refresh_market_os_full_chain.sh` 只能生成本地策略、交易卡、分发摘要、校准结果，不得触发真实下单。
+- `scripts/send_distribution_to_binance_square.sh` 等外部分发脚本不得接入自动主刷新链。
+- `scripts/dangerous_manual_only/` 下主网交易脚本不得接入自动主刷新链。
+- 任何真实下单、真实平仓、真实分发、真实账户变更，必须人工确认后手动执行。
 
 ## 恢复优先阅读顺序
 1. `rules/AI_TRADING_OS_STAGE1_PLAN.md`
