@@ -3,6 +3,8 @@
 ## 统一入口
 这是王林分区下的 AI交易OS 主目录，后续与 AI交易OS 直接相关的规则、工作流、脚本、数据、校准、恢复说明，默认统一归入本目录。
 
+协作安全边界：`COLLABORATION_SAFETY_BOUNDARY.md`
+
 ## 与王林分区总规则的关系
 - `agents/wanglin/rules/WORKING_RULES.md` 是王林分区的上位边界规则。
 - `ZeroOne_Forge_AI_Trading_OS/rules/` 是 AI交易OS 子系统运行规则。
