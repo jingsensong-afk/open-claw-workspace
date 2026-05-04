@@ -1,0 +1,9 @@
+{
+  "_comment_说明": "这是测试网 API Key 的模板文件。用法：把这个文件复制一份去掉 .example 后缀，把下面两个字段填成你自己的测试网 Key。真实文件在 .gitignore 里，永远不会上传到 GitHub。",
+  "_comment_来源": "https://testnet.binancefuture.com → API Management",
+  "_comment_作废重生成": "怀疑泄漏立刻去测试网删除并重新生成，不影响主网账户。",
+  "apiKey": "在这里粘贴你的 Testnet API Key（64 个字符）",
+  "apiSecret": "在这里粘贴你的 Testnet Secret Key（64 个字符）",
+  "network": "testnet",
+  "base_url": "https://testnet.binancefuture.com"
+}

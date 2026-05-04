@@ -2,7 +2,16 @@
 # Wanglin local secrets
 agents/wanglin/ZeroOne_Forge_AI_Trading_OS/config/local/
 agents/wanglin/.binance_futures_api.json
+agents/wanglin/.binance_futures_api.testnet.json
 agents/wanglin/.binance_square_api_key
+
+# Python 虚拟环境（本地依赖，不入仓）
+.venv/
+__pycache__/
+*.pyc
+
+# SQLite 校准层数据库（运行时生成）
+agents/wanglin/ZeroOne_Forge_AI_Trading_OS/memory/*.db
 
 # Local skill junk
 .agents/skills/aicoin-trading/node_modules/
