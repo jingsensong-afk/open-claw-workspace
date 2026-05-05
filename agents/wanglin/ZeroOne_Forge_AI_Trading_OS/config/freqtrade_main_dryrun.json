@@ -1,0 +1,98 @@
+{
+  "_注释_": "ZeroOne Forge MainTrendStrategy v1 · 测试网 dry-run 配置",
+  "_注释_硬约束": "dry_run + sandbox 必须为 true，pair 白名单仅 BTC/ETH，leverage 上限 5x，无外部分发",
+  "_注释_凭证": "key/secret 留空字符串，运行时由 wrapper 从 .binance_futures_api.testnet.json 注入到环境变量",
+  "_注释_审查者": "preflight_freqtrade_main_dryrun.py 会在启动前校验本文件所有关键字段",
+
+  "max_open_trades": 2,
+  "stake_currency": "USDT",
+  "stake_amount": "unlimited",
+  "tradable_balance_ratio": 0.99,
+  "fiat_display_currency": "USD",
+  "timeframe": "1h",
+
+  "dry_run": true,
+  "dry_run_wallet": 100000,
+  "cancel_open_orders_on_exit": false,
+
+  "trading_mode": "futures",
+  "margin_mode": "isolated",
+
+  "unfilledtimeout": {
+    "entry": 10,
+    "exit": 10,
+    "exit_timeout_count": 0,
+    "unit": "minutes"
+  },
+
+  "entry_pricing": {
+    "price_side": "same",
+    "use_order_book": false,
+    "order_book_top": 1,
+    "price_last_balance": 0.0,
+    "check_depth_of_market": {
+      "enabled": false
+    }
+  },
+
+  "exit_pricing": {
+    "price_side": "same",
+    "use_order_book": false,
+    "order_book_top": 1
+  },
+
+  "exchange": {
+    "name": "binance",
+    "sandbox": true,
+    "key": "",
+    "secret": "",
+    "ccxt_config": {},
+    "ccxt_async_config": {},
+    "pair_whitelist": [
+      "BTC/USDT:USDT",
+      "ETH/USDT:USDT"
+    ],
+    "pair_blacklist": []
+  },
+
+  "pairlists": [
+    { "method": "StaticPairList" }
+  ],
+
+  "_注释_telegram": "强制 disabled。token/chat_id 留空字符串，即使有人误开 enabled，没有真实凭证也发不出去。",
+  "telegram": {
+    "enabled": false,
+    "token": "",
+    "chat_id": ""
+  },
+
+  "_注释_api_server": "REST API server 关闭，无外部触发面。",
+  "api_server": {
+    "enabled": false,
+    "listen_ip_address": "127.0.0.1",
+    "listen_port": 8080,
+    "verbosity": "error",
+    "enable_openapi": false,
+    "jwt_secret_key": "disabled-not-used",
+    "CORS_origins": [],
+    "username": "disabled",
+    "password": "disabled-not-used"
+  },
+
+  "_注释_风控参数": "下面是策略层面的可调参数，硬风控（单笔1% / 日3% / 杠杆≤5x）由 risk/risk_control.py 强制",
+  "max_leverage_cap": 5,
+  "risk_per_trade_pct": 0.01,
+  "daily_loss_halt_pct": 0.03,
+
+  "bot_name": "ZeroOneForge_MainTrend_Dryrun",
+  "initial_state": "running",
+  "force_entry_enable": false,
+
+  "strategy": "MainTrendStrategy",
+  "strategy_path": "agents/wanglin/ZeroOne_Forge_AI_Trading_OS/strategies/",
+  "user_data_dir": "agents/wanglin/ZeroOne_Forge_AI_Trading_OS/user_data/",
+
+  "internals": {
+    "process_throttle_secs": 5
+  }
+}

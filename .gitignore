@@ -16,6 +16,11 @@ agents/wanglin/ZeroOne_Forge_AI_Trading_OS/**/*.pyc
 # SQLite 校准层数据库（运行时生成）
 agents/wanglin/ZeroOne_Forge_AI_Trading_OS/memory/*.db
 
+# Freqtrade 运行时垃圾（下载的 K 线、日志、回测/hyperopt 中间产物）
+# 保留 user_data/ 目录骨架（.gitkeep），但所有内部产物不入仓
+agents/wanglin/ZeroOne_Forge_AI_Trading_OS/user_data/*
+!agents/wanglin/ZeroOne_Forge_AI_Trading_OS/user_data/.gitkeep
+
 # Local skill junk
 .agents/skills/aicoin-trading/node_modules/
 .agents/skills/aicoin-trading/package-lock.json
