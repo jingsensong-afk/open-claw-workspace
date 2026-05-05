@@ -145,21 +145,49 @@ def check_pair_whitelist(r: CheckResult, config: dict[str, Any]) -> None:
 
 
 def check_telegram_disabled(r: CheckResult, config: dict[str, Any]) -> None:
-    """Telegram 通知 v1 必须关闭（外部分发要走独立 handoff）。"""
-    enabled = config.get("telegram", {}).get("enabled", False)
-    if enabled is False:
-        r.ok("telegram.enabled === false")
+    """Telegram v1 必须关闭，且 token/chat_id 必须为空字符串（防御深度，防止
+    'enabled=false 但留着真 token 等未来误开' 的隐患）。"""
+    tg = config.get("telegram", {})
+    enabled = tg.get("enabled", False)
+    token = tg.get("token", "")
+    chat_id = tg.get("chat_id", "")
+    if enabled is False and token == "" and chat_id == "":
+        r.ok("telegram disabled + 凭证为空")
     else:
-        r.fail("telegram.enabled === false", f"实际值是 {enabled!r}")
+        r.fail(
+            "telegram disabled + 凭证为空",
+            f"enabled={enabled!r} · token{'(非空)' if token else '=空'} · chat_id{'(非空)' if chat_id else '=空'}",
+        )
 
 
 def check_api_server_disabled(r: CheckResult, config: dict[str, Any]) -> None:
-    """REST API server v1 必须关闭（无外部触发面）。"""
-    enabled = config.get("api_server", {}).get("enabled", False)
-    if enabled is False:
-        r.ok("api_server.enabled === false")
+    """REST API server v1 必须关闭，且关键字段必须是 placeholder（防御深度）。"""
+    api = config.get("api_server", {})
+    enabled = api.get("enabled", False)
+    listen_ip = api.get("listen_ip_address", "127.0.0.1")
+    enable_openapi = api.get("enable_openapi", False)
+    username = api.get("username", "disabled")
+    password = api.get("password", "disabled-not-used")
+    jwt_secret = api.get("jwt_secret_key", "disabled-not-used")
+
+    issues = []
+    if enabled is not False:
+        issues.append(f"enabled={enabled!r}")
+    if listen_ip not in ("127.0.0.1", "localhost"):
+        issues.append(f"listen_ip_address={listen_ip!r} (必须是 127.0.0.1 / localhost)")
+    if enable_openapi is not False:
+        issues.append(f"enable_openapi={enable_openapi!r}")
+    if username != "disabled":
+        issues.append(f"username 不是 placeholder")
+    if password != "disabled-not-used":
+        issues.append(f"password 不是 placeholder")
+    if jwt_secret != "disabled-not-used":
+        issues.append(f"jwt_secret_key 不是 placeholder")
+
+    if not issues:
+        r.ok("api_server disabled + 字段全部为 placeholder")
     else:
-        r.fail("api_server.enabled === false", f"实际值是 {enabled!r}")
+        r.fail("api_server disabled + 字段全部为 placeholder", "; ".join(issues))
 
 
 def check_external_message_consumer_disabled(r: CheckResult, config: dict[str, Any]) -> None:
@@ -169,6 +197,37 @@ def check_external_message_consumer_disabled(r: CheckResult, config: dict[str, A
         r.ok("external_message_consumer.enabled === false")
     else:
         r.fail("external_message_consumer.enabled === false", f"实际值是 {enabled!r}")
+
+
+def check_no_external_distribution_fields(r: CheckResult, config: dict[str, Any]) -> None:
+    """扫描禁止的外部分发字段（webhook / discord / slack / binance_square / x_distribution）。
+    这些字段在 v1 不应该出现，即使存在也必须 enabled=false 且无凭证。"""
+    # 这些 top-level 字段如果出现非空启用配置，直接拒绝
+    forbidden_top_level = ["webhook", "discord", "slack", "binance_square", "x_distribution"]
+    found_active = []
+    for field in forbidden_top_level:
+        block = config.get(field)
+        if block is None:
+            continue
+        # 块存在了——至少要 enabled=false
+        if isinstance(block, dict):
+            if block.get("enabled", False) is True:
+                found_active.append(f"{field}.enabled=true")
+            # 即使 disabled，块里如果有 url/token 等关键字段也提示
+            for sus_key in ("url", "token", "webhook_url", "channel_id"):
+                if block.get(sus_key):
+                    found_active.append(f"{field}.{sus_key} 非空")
+        elif block:
+            # 不是 dict 但是 truthy → 可疑
+            found_active.append(f"{field} = {type(block).__name__}")
+
+    if not found_active:
+        r.ok("无外部分发字段（webhook/discord/slack/binance_square/x_distribution）")
+    else:
+        r.fail(
+            "无外部分发字段",
+            "; ".join(found_active),
+        )
 
 
 def check_no_hardcoded_credentials(r: CheckResult, config: dict[str, Any]) -> None:
@@ -314,6 +373,7 @@ def main() -> int:
     check_telegram_disabled(r, config)
     check_api_server_disabled(r, config)
     check_external_message_consumer_disabled(r, config)
+    check_no_external_distribution_fields(r, config)
     check_no_hardcoded_credentials(r, config)
     check_leverage_cap(r, config)
     check_risk_per_trade(r, config)

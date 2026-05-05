@@ -46,6 +46,43 @@ if [[ ! -x "$VENV_FREQTRADE" ]]; then
     exit 2
 fi
 
+# 0a. 子命令白名单（Codex 要求：Step 1 阶段不允许 trade / hyperopt）
+# 进入 Step 8（实盘 dry-run 评估）前，trade 都不在白名单
+if [[ $# -lt 1 ]]; then
+    echo "❌ 缺少 freqtrade 子命令" >&2
+    echo "   用法：$0 <show-config|download-data|backtesting|list-strategies|list-data> ..." >&2
+    exit 2
+fi
+
+ALLOWED_SUBCOMMANDS=(show-config download-data backtesting list-strategies list-data list-pairs list-markets list-timeframes test-pairlist)
+SUBCMD="$1"
+ALLOWED=0
+for cmd in "${ALLOWED_SUBCOMMANDS[@]}"; do
+    if [[ "$SUBCMD" == "$cmd" ]]; then
+        ALLOWED=1
+        break
+    fi
+done
+if [[ "$ALLOWED" -eq 0 ]]; then
+    echo "❌ 拒绝启动：Step 1 阶段不允许 freqtrade 子命令 '$SUBCMD'" >&2
+    echo "   当前白名单：${ALLOWED_SUBCOMMANDS[*]}" >&2
+    echo "   trade / hyperopt 等需等到后续步骤补齐 risk gate + strategy 后人工放行。" >&2
+    exit 2
+fi
+echo "[0/3] 子命令白名单 ✅  '$SUBCMD'"
+
+# 0b. 拒绝任何外部预置的 FREQTRADE__* 环境变量
+# 否则外部 shell 可以用 FREQTRADE__DRY_RUN=false 等绕过 config 安全设置
+PRESET_VARS="$(env | grep -E '^FREQTRADE__' | cut -d= -f1 || true)"
+if [[ -n "$PRESET_VARS" ]]; then
+    echo "❌ 拒绝启动：检测到外部预置的 FREQTRADE__* 环境变量" >&2
+    echo "$PRESET_VARS" | sed 's/^/   /' >&2
+    echo "   这些可能覆盖 config 的 dry_run/sandbox/strategy 等关键安全设置。" >&2
+    echo "   请先 'unset' 它们再重跑。" >&2
+    exit 2
+fi
+echo "[0/3] 无外部预置 FREQTRADE__* 环境变量 ✅"
+
 # 1. Preflight 硬安全检查
 echo "[1/3] Preflight 启动安全门 ..."
 "$VENV_PYTHON" "$PREFLIGHT"

@@ -88,9 +88,9 @@
   "initial_state": "running",
   "force_entry_enable": false,
 
+  "_注释_user_data_dir": "user_data_dir 不在 config 里。Wrapper 通过 --userdir 绝对路径传给 freqtrade，是唯一来源。",
   "strategy": "MainTrendStrategy",
   "strategy_path": "agents/wanglin/ZeroOne_Forge_AI_Trading_OS/strategies/",
-  "user_data_dir": "agents/wanglin/ZeroOne_Forge_AI_Trading_OS/user_data/",
 
   "internals": {
     "process_throttle_secs": 5
