@@ -51,6 +51,11 @@ from risk import (  # noqa: E402  (sys.path setup must come first)
     load_risk_limits,
     validate_order,
 )
+from position_management import (  # noqa: E402
+    TradeRecord,
+    aggregate_daily_realized_pnl,
+    extract_open_positions,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -308,13 +313,43 @@ class MainTrendStrategy(IStrategy):
         stop_distance = Decimal(str(self.STOP_LOSS_ATR_MULT)) * Decimal(str(last_atr))
         stop_loss_price = entry_price - stop_distance
 
-        # 账户状态（v1 degraded：daily_realized_pnl 与 open_positions_count 暂未完整接入）
+        # 账户状态（Step 4 起从 Freqtrade Trade 状态聚合，不再 degraded）
         wallet_total = self.wallets.get_total(self.config["stake_currency"])
+
+        # 当日已实现盈亏：把 Trade ORM 转成 TradeRecord 喂给聚合器
+        try:
+            all_trades = Trade.get_trades_proxy()  # 包含 closed + open
+        except Exception as e:
+            logger.warning(f"[{pair}] Trade.get_trades_proxy 失败 ({e})，daily_realized_pnl fail closed=0")
+            all_trades = []
+        trade_records = [
+            TradeRecord(
+                pair=getattr(t, "pair", ""),
+                is_open=bool(getattr(t, "is_open", False)),
+                close_date=getattr(t, "close_date", None),
+                close_profit_abs=(
+                    Decimal(str(getattr(t, "close_profit_abs", 0)))
+                    if getattr(t, "close_profit_abs", None) is not None
+                    else None
+                ),
+            )
+            for t in all_trades
+        ]
+        daily_pnl = aggregate_daily_realized_pnl(trade_records)
+
+        # 当前持仓：抽 OpenPosition 元组
+        try:
+            open_trades = Trade.get_open_trades()
+        except Exception as e:
+            logger.warning(f"[{pair}] Trade.get_open_trades 失败 ({e})，open_positions fail closed=()")
+            open_trades = []
+        open_positions = extract_open_positions(open_trades)
+
         account = AccountState(
             total_equity=Decimal(str(wallet_total)),
             available_balance=Decimal(str(wallet_total)),
-            daily_realized_pnl=Decimal("0"),       # TODO Step 4: 接入当日 PnL 聚合
-            open_positions_count=len(Trade.get_open_trades()),
+            daily_realized_pnl=daily_pnl,
+            open_positions=open_positions,
         )
 
         # 当前杠杆使用情况（保守取 config 的 max_leverage_cap，由 gate 校验）

@@ -26,6 +26,7 @@ if __package__ in (None, ""):
 
 from risk.risk_control import (
     AccountState,
+    OpenPosition,
     ProposedOrder,
     RiskConfigError,
     RiskDecision,
@@ -65,13 +66,14 @@ STD_ACCOUNT = AccountState(
     total_equity=Decimal("100000"),
     available_balance=Decimal("100000"),
     daily_realized_pnl=Decimal("0"),
-    open_positions_count=0,
+    open_positions=(),
 )
 
 STD_LIMITS = RiskLimits(
     max_leverage_cap=Decimal("5"),
     risk_per_trade_pct=Decimal("0.01"),
     daily_loss_halt_pct=Decimal("0.03"),
+    max_open_trades=2,
 )
 
 # 标准订单：BTC 多单 60000 入场 / 59400 止损（距离 1% = 600 USDT/coin）
@@ -120,7 +122,7 @@ def test_validate_order(t: TestRunner) -> None:
         total_equity=Decimal("100000"),
         available_balance=Decimal("98000"),
         daily_realized_pnl=Decimal("-2000"),  # -2%
-        open_positions_count=0,
+        open_positions=(),
     )
     t.case("日亏损 2% · 通过", validate_order(std_order(), acc, STD_LIMITS), True)
 
@@ -129,7 +131,7 @@ def test_validate_order(t: TestRunner) -> None:
         total_equity=Decimal("100000"),
         available_balance=Decimal("97000"),
         daily_realized_pnl=Decimal("-3000"),  # -3%
-        open_positions_count=0,
+        open_positions=(),
     )
     t.case("日亏损 3%（边界）· 拒绝", validate_order(std_order(), acc, STD_LIMITS),
            False, "熔断")
@@ -212,6 +214,52 @@ def test_validate_order_extra(t: TestRunner) -> None:
            validate_order(std_order(), bad_acc, STD_LIMITS),
            False, "total_equity")
 
+    # 18. 同 symbol 同 side 已有持仓 → 拒绝（不允许加仓）
+    acc = AccountState(
+        total_equity=Decimal("100000"),
+        available_balance=Decimal("100000"),
+        daily_realized_pnl=Decimal("0"),
+        open_positions=(OpenPosition(symbol="BTC/USDT:USDT", side="long"),),
+    )
+    t.case("同 symbol 同 side 已持仓 · 拒绝",
+           validate_order(std_order(), acc, STD_LIMITS),
+           False, "同向加仓")
+
+    # 19. 同 symbol 反向持仓 → 通过（v1 规则只挡同向加仓，反向开仓暂未限制）
+    acc = AccountState(
+        total_equity=Decimal("100000"),
+        available_balance=Decimal("100000"),
+        daily_realized_pnl=Decimal("0"),
+        open_positions=(OpenPosition(symbol="BTC/USDT:USDT", side="short"),),
+    )
+    # 注：standard order 是 long，已有 short → 反向，应通过
+    t.case("同 symbol 反向（short）持仓 · long 通过",
+           validate_order(std_order(), acc, STD_LIMITS), True)
+
+    # 20. 不同 symbol 持仓 → 通过
+    acc = AccountState(
+        total_equity=Decimal("100000"),
+        available_balance=Decimal("100000"),
+        daily_realized_pnl=Decimal("0"),
+        open_positions=(OpenPosition(symbol="ETH/USDT:USDT", side="long"),),
+    )
+    t.case("不同 symbol 持仓 · 通过",
+           validate_order(std_order(), acc, STD_LIMITS), True)
+
+    # 21. 持仓数 = max_open_trades → 拒绝
+    acc = AccountState(
+        total_equity=Decimal("100000"),
+        available_balance=Decimal("100000"),
+        daily_realized_pnl=Decimal("0"),
+        open_positions=(
+            OpenPosition(symbol="ETH/USDT:USDT", side="long"),
+            OpenPosition(symbol="ETH/USDT:USDT", side="short"),
+        ),
+    )
+    t.case("持仓数达上限 (2/2) · 拒绝",
+           validate_order(std_order(), acc, STD_LIMITS),
+           False, "持仓数")
+
 
 def test_load_risk_limits(t: TestRunner) -> None:
     print("\n[C] load_risk_limits · config 加载 + 硬上限校验")
@@ -225,9 +273,9 @@ def test_load_risk_limits(t: TestRunner) -> None:
         p.write_text(json.dumps(content))
         return p
 
-    # 18. 正常 config
+    # 22. 正常 config（含 max_open_trades）
     p = write_tmp({"max_leverage_cap": 5, "risk_per_trade_pct": 0.01,
-                   "daily_loss_halt_pct": 0.03})
+                   "daily_loss_halt_pct": 0.03, "max_open_trades": 2})
     try:
         limits = load_risk_limits(p)
         ok = limits.max_leverage_cap == Decimal("5") and limits.risk_per_trade_pct == Decimal("0.01")
@@ -239,8 +287,8 @@ def test_load_risk_limits(t: TestRunner) -> None:
     finally:
         p.unlink()
 
-    # 19. 缺字段 → 抛异常
-    p = write_tmp({"max_leverage_cap": 5})  # 缺两项
+    # 23. 缺字段 → 抛异常
+    p = write_tmp({"max_leverage_cap": 5})  # 缺多项
     try:
         try:
             load_risk_limits(p)
@@ -255,9 +303,37 @@ def test_load_risk_limits(t: TestRunner) -> None:
     finally:
         p.unlink()
 
-    # 20. 杠杆超绝对硬上限（10 > 5）→ 抛异常
+    # 24. 缺 max_open_trades（Step 4 新增）→ 抛异常
+    p = write_tmp({"max_leverage_cap": 5, "risk_per_trade_pct": 0.01,
+                   "daily_loss_halt_pct": 0.03})  # 缺 max_open_trades
+    try:
+        try:
+            load_risk_limits(p)
+            t.failed.append(("缺 max_open_trades", "未抛异常"))
+        except RiskConfigError as e:
+            if "max_open_trades" in str(e):
+                t.passed += 1
+                print(f"  ✅ 缺 max_open_trades · 抛 RiskConfigError")
+    finally:
+        p.unlink()
+
+    # 25. max_open_trades 超硬上限（10 > 5）→ 抛异常
+    p = write_tmp({"max_leverage_cap": 5, "risk_per_trade_pct": 0.01,
+                   "daily_loss_halt_pct": 0.03, "max_open_trades": 10})
+    try:
+        try:
+            load_risk_limits(p)
+            t.failed.append(("max_open_trades 超硬上限", "未抛异常"))
+        except RiskConfigError as e:
+            if "max_open_trades" in str(e):
+                t.passed += 1
+                print(f"  ✅ max_open_trades 10 超硬上限 · 抛 RiskConfigError")
+    finally:
+        p.unlink()
+
+    # 26. 杠杆超绝对硬上限（10 > 5）→ 抛异常
     p = write_tmp({"max_leverage_cap": 10, "risk_per_trade_pct": 0.01,
-                   "daily_loss_halt_pct": 0.03})
+                   "daily_loss_halt_pct": 0.03, "max_open_trades": 2})
     try:
         try:
             load_risk_limits(p)
@@ -272,9 +348,9 @@ def test_load_risk_limits(t: TestRunner) -> None:
     finally:
         p.unlink()
 
-    # 21. 单笔风险超绝对硬上限（5% > 1%）→ 抛异常
+    # 27. 单笔风险超绝对硬上限（5% > 1%）→ 抛异常
     p = write_tmp({"max_leverage_cap": 5, "risk_per_trade_pct": 0.05,
-                   "daily_loss_halt_pct": 0.03})
+                   "daily_loss_halt_pct": 0.03, "max_open_trades": 2})
     try:
         try:
             load_risk_limits(p)
@@ -286,7 +362,7 @@ def test_load_risk_limits(t: TestRunner) -> None:
     finally:
         p.unlink()
 
-    # 22. 文件不存在 → 抛异常
+    # 28. 文件不存在 → 抛异常
     nonexistent = Path("/tmp/__not_exists__.json")
     try:
         load_risk_limits(nonexistent)

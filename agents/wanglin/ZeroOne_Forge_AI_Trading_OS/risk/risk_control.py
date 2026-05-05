@@ -32,6 +32,7 @@ from pathlib import Path
 ABSOLUTE_MAX_LEVERAGE = Decimal("5")
 ABSOLUTE_MAX_RISK_PER_TRADE = Decimal("0.01")    # 1%
 ABSOLUTE_MAX_DAILY_LOSS_HALT = Decimal("0.03")   # 3%
+ABSOLUTE_MAX_OPEN_TRADES = 5                      # 单账户同时持仓数硬上限
 
 # v1 默认允许的标的白名单（与 config.exchange.pair_whitelist 对应；
 # 后续若需要差异化，可改成从 config 读取）
@@ -52,6 +53,7 @@ class RiskLimits:
     max_leverage_cap: Decimal
     risk_per_trade_pct: Decimal
     daily_loss_halt_pct: Decimal
+    max_open_trades: int
 
 
 @dataclass(frozen=True)
@@ -73,18 +75,29 @@ class ProposedOrder:
 
 
 @dataclass(frozen=True)
+class OpenPosition:
+    """一个当前持仓的最小描述（用于 gate 检查"是否已有同向同币种持仓"）。"""
+    symbol: str
+    side: str  # "long" 或 "short"
+
+
+@dataclass(frozen=True)
 class AccountState:
     """下单瞬间的账户快照。
 
     total_equity: 总权益（用于计算单笔风险百分比 + 日亏损百分比）
     available_balance: 可用保证金
     daily_realized_pnl: 当日已实现盈亏（负数表示亏损）
-    open_positions_count: 当前持仓数（信息字段，未来可用于"持仓数上限"约束）
+    open_positions: 当前持仓的元组（gate 用来检查反向 / 同向 / 数量上限）
     """
     total_equity: Decimal
     available_balance: Decimal
     daily_realized_pnl: Decimal
-    open_positions_count: int = 0
+    open_positions: tuple[OpenPosition, ...] = ()
+
+    @property
+    def open_positions_count(self) -> int:
+        return len(self.open_positions)
 
 
 @dataclass(frozen=True)
@@ -111,7 +124,8 @@ def load_risk_limits(config_path: Path) -> RiskLimits:
     except json.JSONDecodeError as e:
         raise RiskConfigError(f"风控配置 JSON 解析失败 ({config_path}): {e}")
 
-    required = ("max_leverage_cap", "risk_per_trade_pct", "daily_loss_halt_pct")
+    required = ("max_leverage_cap", "risk_per_trade_pct", "daily_loss_halt_pct",
+                "max_open_trades")
     missing = [k for k in required if k not in config]
     if missing:
         raise RiskConfigError(f"风控配置缺少必需字段：{missing}")
@@ -121,6 +135,7 @@ def load_risk_limits(config_path: Path) -> RiskLimits:
         leverage_cap = Decimal(str(config["max_leverage_cap"]))
         risk_per_trade = Decimal(str(config["risk_per_trade_pct"]))
         daily_loss = Decimal(str(config["daily_loss_halt_pct"]))
+        max_open = int(config["max_open_trades"])
     except Exception as e:
         raise RiskConfigError(f"风控字段类型转换失败：{e}")
 
@@ -137,11 +152,16 @@ def load_risk_limits(config_path: Path) -> RiskLimits:
         raise RiskConfigError(
             f"daily_loss_halt_pct {daily_loss} 必须在 (0, {ABSOLUTE_MAX_DAILY_LOSS_HALT}]"
         )
+    if max_open <= 0 or max_open > ABSOLUTE_MAX_OPEN_TRADES:
+        raise RiskConfigError(
+            f"max_open_trades {max_open} 必须在 [1, {ABSOLUTE_MAX_OPEN_TRADES}]"
+        )
 
     return RiskLimits(
         max_leverage_cap=leverage_cap,
         risk_per_trade_pct=risk_per_trade,
         daily_loss_halt_pct=daily_loss,
+        max_open_trades=max_open,
     )
 
 
@@ -168,6 +188,8 @@ def validate_order(
     7. 单笔风险 (止损距离 × 数量) / 总权益 ≤ limits.risk_per_trade_pct
     8. 日内已实现亏损绝对值 / 总权益 < limits.daily_loss_halt_pct
        （等于阈值即触发熔断，拒绝新开仓）
+    9. 同一 symbol 同 side 已有持仓 → 拒绝（v1 不允许加仓）
+    10. 当前持仓数 ≥ limits.max_open_trades → 拒绝
     """
     failures: list[str] = []
 
@@ -240,6 +262,22 @@ def validate_order(
                 f"日内已实现亏损 {loss_pct:.6f} 触及熔断阈值 "
                 f"{limits.daily_loss_halt_pct}，拒绝新开仓"
             )
+
+    # 9. 同 symbol 同 side 已有持仓 → 拒绝（v1 不允许加仓）
+    if order.side in ("long", "short"):
+        for pos in account.open_positions:
+            if pos.symbol == order.symbol and pos.side == order.side:
+                failures.append(
+                    f"已有 {order.symbol} {order.side} 持仓，v1 不允许同向加仓"
+                )
+                break
+
+    # 10. 当前持仓数 ≥ max_open_trades → 拒绝
+    if account.open_positions_count >= limits.max_open_trades:
+        failures.append(
+            f"当前持仓数 {account.open_positions_count} 已达上限 "
+            f"{limits.max_open_trades}，拒绝新开仓"
+        )
 
     if failures:
         return RiskDecision(approved=False, reasons=tuple(failures))

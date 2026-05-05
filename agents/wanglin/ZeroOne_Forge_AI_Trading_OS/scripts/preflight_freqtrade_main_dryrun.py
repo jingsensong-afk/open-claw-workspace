@@ -47,6 +47,7 @@ ALLOWED_PAIRS = {"BTC/USDT:USDT", "ETH/USDT:USDT"}
 MAX_LEVERAGE_HARD_CAP = 5
 MAX_RISK_PER_TRADE_PCT = 0.01      # 单笔 1%
 MAX_DAILY_LOSS_PCT = 0.03          # 日内 3%
+MAX_OPEN_TRADES_HARD_CAP = 5       # 同时持仓数
 
 
 # ---------- 工具：打印通过 / 失败 ----------
@@ -283,6 +284,18 @@ def check_daily_loss_halt(r: CheckResult, config: dict[str, Any]) -> None:
         )
 
 
+def check_max_open_trades(r: CheckResult, config: dict[str, Any]) -> None:
+    """max_open_trades 必须在 [1, MAX_OPEN_TRADES_HARD_CAP] 之间。"""
+    val = config.get("max_open_trades")
+    if isinstance(val, int) and 1 <= val <= MAX_OPEN_TRADES_HARD_CAP:
+        r.ok(f"max_open_trades ≤ {MAX_OPEN_TRADES_HARD_CAP}", f"当前 {val}")
+    else:
+        r.fail(
+            f"max_open_trades 必须在 [1, {MAX_OPEN_TRADES_HARD_CAP}]",
+            f"实际值 {val!r}",
+        )
+
+
 def check_trading_mode(r: CheckResult, config: dict[str, Any]) -> None:
     """trading_mode 必须是 futures（合约），margin_mode 必须是 isolated（逐仓）。"""
     tm = config.get("trading_mode")
@@ -451,6 +464,7 @@ def main() -> int:
     check_leverage_cap(r, config)
     check_risk_per_trade(r, config)
     check_daily_loss_halt(r, config)
+    check_max_open_trades(r, config)
     check_trading_mode(r, config)
     check_strategy_name(r, config)
     check_no_mainnet_credential_leak(r, config)
