@@ -355,6 +355,79 @@ def check_strategy_name(r: CheckResult, config: dict[str, Any]) -> None:
         r.fail("strategy === MainTrendStrategy", f"实际值 {name!r}")
 
 
+def check_risk_module_loadable(r: CheckResult) -> None:
+    """风控模块（Step 2）必须可 import、关键函数齐、能从 config 加载、能拒绝坏订单。
+
+    fail closed：任何一步出错都视为风控失效，拒绝启动 freqtrade。
+    """
+    # 把 wanglin OS 根加进 sys.path，让 risk 包可被 import
+    sys.path.insert(0, str(WANGLIN_OS_ROOT))
+    try:
+        try:
+            from risk import (
+                AccountState,
+                ProposedOrder,
+                RiskConfigError,
+                load_risk_limits,
+                validate_order,
+            )
+        except ImportError as e:
+            r.fail("risk 模块可 import", f"{e}")
+            return
+
+        r.ok("risk 模块可 import + 接口齐", "AccountState/ProposedOrder/load_risk_limits/validate_order")
+
+        # 用真实 config 加载风控上限
+        try:
+            limits = load_risk_limits(CONFIG_PATH)
+        except RiskConfigError as e:
+            r.fail("load_risk_limits 能从 config 读出风控上限", f"{e}")
+            return
+        r.ok(
+            "load_risk_limits 从 config 读出风控上限",
+            f"杠杆≤{limits.max_leverage_cap} / 单笔≤{limits.risk_per_trade_pct} / 日熔断≤{limits.daily_loss_halt_pct}",
+        )
+
+        # Smoke check：构造一个明显违规的订单，确认 validate_order fail closed
+        from decimal import Decimal as _D
+        bad_order = ProposedOrder(
+            symbol="DOGE/USDT:USDT",         # 非白名单
+            side="long",
+            entry_price=_D("0.1"),
+            stop_loss_price=None,             # 无止损
+            quantity=_D("100000"),            # 超大数量（保证单笔风险违规）
+            leverage=_D("100"),               # 远超 5x
+        )
+        bad_account = AccountState(
+            total_equity=_D("100000"),
+            available_balance=_D("100000"),
+            daily_realized_pnl=_D("0"),
+        )
+        decision = validate_order(bad_order, bad_account, limits)
+        if decision.approved:
+            r.fail(
+                "validate_order 对明显违规订单 fail closed",
+                "明显违规订单竟然被批准了",
+            )
+            return
+        if len(decision.reasons) < 2:
+            r.fail(
+                "validate_order 一次性返回多重违规",
+                f"只返回 {len(decision.reasons)} 条原因，应至少 2 条",
+            )
+            return
+        r.ok(
+            "validate_order 对违规订单 fail closed",
+            f"返回 {len(decision.reasons)} 条拒绝原因",
+        )
+    finally:
+        # 清理 sys.path 修改，避免污染外部环境
+        try:
+            sys.path.remove(str(WANGLIN_OS_ROOT))
+        except ValueError:
+            pass
+
+
 # ---------- 主流程 ----------
 
 def main() -> int:
@@ -384,6 +457,9 @@ def main() -> int:
 
     # 凭证文件层面
     check_testnet_credentials_exist(r)
+
+    # 风控模块层面（Step 2 起加入）
+    check_risk_module_loadable(r)
 
     r.render()
     return r.exit_code
