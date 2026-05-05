@@ -188,7 +188,7 @@ def validate_order(
     7. 单笔风险 (止损距离 × 数量) / 总权益 ≤ limits.risk_per_trade_pct
     8. 日内已实现亏损绝对值 / 总权益 < limits.daily_loss_halt_pct
        （等于阈值即触发熔断，拒绝新开仓）
-    9. 同一 symbol 同 side 已有持仓 → 拒绝（v1 不允许加仓）
+    9. 同一 symbol 已有任意 side 持仓 → 拒绝（v1 不允许加仓 / 不允许对冲反向）
     10. 当前持仓数 ≥ limits.max_open_trades → 拒绝
     """
     failures: list[str] = []
@@ -263,14 +263,13 @@ def validate_order(
                 f"{limits.daily_loss_halt_pct}，拒绝新开仓"
             )
 
-    # 9. 同 symbol 同 side 已有持仓 → 拒绝（v1 不允许加仓）
-    if order.side in ("long", "short"):
-        for pos in account.open_positions:
-            if pos.symbol == order.symbol and pos.side == order.side:
-                failures.append(
-                    f"已有 {order.symbol} {order.side} 持仓，v1 不允许同向加仓"
-                )
-                break
+    # 9. 同 symbol 已有任意 side 持仓 → 拒绝（v1 不允许加仓 / 不允许同币种同时持仓对冲）
+    for pos in account.open_positions:
+        if pos.symbol == order.symbol:
+            failures.append(
+                f"已有 {order.symbol} {pos.side} 持仓，v1 不允许同 symbol 再开仓（无论方向）"
+            )
+            break
 
     # 10. 当前持仓数 ≥ max_open_trades → 拒绝
     if account.open_positions_count >= limits.max_open_trades:

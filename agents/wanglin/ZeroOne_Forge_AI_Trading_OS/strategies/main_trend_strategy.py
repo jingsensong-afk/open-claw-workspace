@@ -313,15 +313,19 @@ class MainTrendStrategy(IStrategy):
         stop_distance = Decimal(str(self.STOP_LOSS_ATR_MULT)) * Decimal(str(last_atr))
         stop_loss_price = entry_price - stop_distance
 
-        # 账户状态（Step 4 起从 Freqtrade Trade 状态聚合，不再 degraded）
+        # 账户状态（Step 4 v2 hardening：fail closed on Trade query failure）
         wallet_total = self.wallets.get_total(self.config["stake_currency"])
 
         # 当日已实现盈亏：把 Trade ORM 转成 TradeRecord 喂给聚合器
+        # Step 4 v2 hardening：查不到 Trade 历史时，必须拒绝入场而不是按 PnL=0 继续
         try:
-            all_trades = Trade.get_trades_proxy()  # 包含 closed + open
+            all_trades = Trade.get_trades_proxy()  # 回测时是 in-memory list，dry-run/live 是 SQLite 查询
         except Exception as e:
-            logger.warning(f"[{pair}] Trade.get_trades_proxy 失败 ({e})，daily_realized_pnl fail closed=0")
-            all_trades = []
+            logger.error(
+                f"[{pair}] 🛑 Trade.get_trades_proxy 失败 ({e})，"
+                f"无法计算日 PnL → 拒绝入场（fail closed）"
+            )
+            return False
         trade_records = [
             TradeRecord(
                 pair=getattr(t, "pair", ""),
@@ -335,14 +339,19 @@ class MainTrendStrategy(IStrategy):
             )
             for t in all_trades
         ]
-        daily_pnl = aggregate_daily_realized_pnl(trade_records)
+        # Step 4 v2 hardening：传 current_time 而不是用 wall clock，让回测中"今天"
+        # 等于回测的模拟当前时间，否则历史 trade 永远不算"今天"
+        daily_pnl = aggregate_daily_realized_pnl(trade_records, now=current_time)
 
-        # 当前持仓：抽 OpenPosition 元组
+        # 当前持仓：抽 OpenPosition 元组（同样 fail closed）
         try:
             open_trades = Trade.get_open_trades()
         except Exception as e:
-            logger.warning(f"[{pair}] Trade.get_open_trades 失败 ({e})，open_positions fail closed=()")
-            open_trades = []
+            logger.error(
+                f"[{pair}] 🛑 Trade.get_open_trades 失败 ({e})，"
+                f"无法判断当前持仓 → 拒绝入场（fail closed）"
+            )
+            return False
         open_positions = extract_open_positions(open_trades)
 
         account = AccountState(

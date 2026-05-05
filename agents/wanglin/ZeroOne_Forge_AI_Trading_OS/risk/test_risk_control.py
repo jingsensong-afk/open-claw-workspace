@@ -223,18 +223,18 @@ def test_validate_order_extra(t: TestRunner) -> None:
     )
     t.case("同 symbol 同 side 已持仓 · 拒绝",
            validate_order(std_order(), acc, STD_LIMITS),
-           False, "同向加仓")
+           False, "v1 不允许")
 
-    # 19. 同 symbol 反向持仓 → 通过（v1 规则只挡同向加仓，反向开仓暂未限制）
+    # 19. 同 symbol 反向持仓 → 也拒绝（Step 4 v2：v1 不允许同币种对冲）
     acc = AccountState(
         total_equity=Decimal("100000"),
         available_balance=Decimal("100000"),
         daily_realized_pnl=Decimal("0"),
         open_positions=(OpenPosition(symbol="BTC/USDT:USDT", side="short"),),
     )
-    # 注：standard order 是 long，已有 short → 反向，应通过
-    t.case("同 symbol 反向（short）持仓 · long 通过",
-           validate_order(std_order(), acc, STD_LIMITS), True)
+    t.case("同 symbol 反向（short）持仓 · long 也拒绝（v2 strict）",
+           validate_order(std_order(), acc, STD_LIMITS),
+           False, "v1 不允许")
 
     # 20. 不同 symbol 持仓 → 通过
     acc = AccountState(
@@ -247,18 +247,45 @@ def test_validate_order_extra(t: TestRunner) -> None:
            validate_order(std_order(), acc, STD_LIMITS), True)
 
     # 21. 持仓数 = max_open_trades → 拒绝
+    # 注：v2 后同 symbol 不能再开（Rule 9 strict），所以构造两个不同 symbol 的持仓凑数
     acc = AccountState(
         total_equity=Decimal("100000"),
         available_balance=Decimal("100000"),
         daily_realized_pnl=Decimal("0"),
         open_positions=(
             OpenPosition(symbol="ETH/USDT:USDT", side="long"),
-            OpenPosition(symbol="ETH/USDT:USDT", side="short"),
+            OpenPosition(symbol="SOL/USDT:USDT", side="long"),
         ),
     )
-    t.case("持仓数达上限 (2/2) · 拒绝",
+    t.case("持仓数达上限 (2/2 不同 symbol) · 拒绝",
            validate_order(std_order(), acc, STD_LIMITS),
            False, "持仓数")
+
+    # 21b. 多重违规：同时触发 Rule 9（同 symbol）+ Rule 10（持仓数）+ Rule 5（leverage）
+    # 验证 reasons 完整返回，没有"提前 return"导致漏报
+    acc = AccountState(
+        total_equity=Decimal("100000"),
+        available_balance=Decimal("100000"),
+        daily_realized_pnl=Decimal("0"),
+        open_positions=(
+            OpenPosition(symbol="BTC/USDT:USDT", side="short"),
+            OpenPosition(symbol="ETH/USDT:USDT", side="long"),
+        ),
+    )
+    bad_order = std_order(leverage=Decimal("8"))  # 杠杆超 5 + 已有 BTC 持仓 + 持仓数到顶
+    decision = validate_order(bad_order, acc, STD_LIMITS)
+    rules_hit = (
+        not decision.approved
+        and any("v1 不允许" in r for r in decision.reasons)        # Rule 9
+        and any("持仓数" in r for r in decision.reasons)           # Rule 10
+        and any("leverage" in r for r in decision.reasons)          # Rule 5
+    )
+    if rules_hit:
+        t.passed += 1
+        print(f"  ✅ 多重违规一次性返回 Rule 5+9+10 · {len(decision.reasons)} 条")
+    else:
+        t.failed.append(("多重违规 5+9+10", str(decision)))
+        print(f"  ❌ 多重违规未完整返回 · {decision}")
 
 
 def test_load_risk_limits(t: TestRunner) -> None:
